@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Laboratoř propojování osob &amp; Graf závislostí | České Petrovice</title>
+  <link rel="icon" type="image/svg+xml" href="assets/icons/ceske_petrovice_erb.svg">
+  <link rel="icon" type="image/png" sizes="64x64" href="assets/icons/favicon-64.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="min-h-screen flex flex-col bg-[#fdfaf3] text-slate-900">
+  <header class="sticky top-0 z-40 bg-[#f9f3e3]/95 backdrop-blur-md border-b border-amber-200 shadow-xs">
+    <div class="max-w-[1550px] mx-auto px-4 sm:px-6 py-3 flex flex-wrap items-center justify-between gap-3">
+      <div class="flex items-center gap-3">
+        <a href="index.html" class="w-10 h-11 bg-white rounded-xl p-1 border border-amber-300 shadow-xs flex items-center justify-center shrink-0">
+          <img src="assets/icons/ceske_petrovice_erb.svg" alt="Znak Českých Petrovic" class="w-full h-full object-contain">
+        </a>
+        <div>
+          <h1 class="text-lg sm:text-xl font-extrabold font-heading text-slate-900 leading-none">Laboratoř propojování osob</h1>
+          <p class="text-xs text-amber-900/80 font-medium">České Petrovice (Böhmisch Petersdorf) • Matriky 23-1 (1771–1784) &amp; Sčítání 1869–1921</p>
+        </div>
+      </div>
+
+      <nav class="flex flex-wrap items-center gap-1.5 bg-white/80 p-1 rounded-xl border border-amber-200">
+        <button id="tab-btn-identity" onclick="switchMainTab('identity')" class="cluster-tab-active px-3 py-1.5 rounded-lg text-xs font-bold bg-amber-800 text-white cursor-pointer">🧬 1. Identita (Clustery)</button>
+        <button id="tab-btn-review" onclick="switchMainTab('review')" class="px-3 py-1.5 rounded-lg text-xs font-bold text-slate-700 hover:bg-amber-50 cursor-pointer">🛠️ 2. Revize <span id="nav-badge-review" class="px-1.5 py-0.5 rounded-full bg-amber-100 text-amber-950 text-[10px]">0</span></button>
+        <button id="tab-btn-typology" onclick="switchMainTab('typology')" class="px-3 py-1.5 rounded-lg text-xs font-bold text-slate-700 hover:bg-amber-50 cursor-pointer">📊 3. Typologie &amp; Drah</button>
+        <button id="tab-btn-network" onclick="switchMainTab('network')" class="px-3 py-1.5 rounded-lg text-xs font-bold text-slate-700 hover:bg-amber-50 cursor-pointer">🕸️ 4. Graf závislostí</button>
+        <button id="tab-btn-timeline" onclick="switchMainTab('timeline')" class="px-3 py-1.5 rounded-lg text-xs font-bold text-slate-700 hover:bg-amber-50 cursor-pointer">📈 5. Časová osa domů</button>
+      </nav>
+
+      <div class="flex flex-wrap items-center gap-1.5">
+        <button onclick="exportClustersJson('clusters')" class="px-2.5 py-1.5 rounded-lg bg-white hover:bg-amber-50 border border-amber-300 text-xs font-bold cursor-pointer">💾 Export JSON</button>
+        <button onclick="resetClusteringState()" class="px-2.5 py-1.5 rounded-lg bg-white hover:bg-rose-50 border border-slate-300 text-xs font-semibold cursor-pointer">↺ Reset</button>
+        <a href="index.html" class="px-2.5 py-1.5 rounded-lg bg-white border border-amber-300 text-xs font-bold">🏠 Úvod</a>
+        <a href="mapa.html" class="px-2.5 py-1.5 rounded-lg bg-amber-900 text-white text-xs font-bold">🗺️ Mapa</a>
+        <a href="obyvatele.html" class="px-2.5 py-1.5 rounded-lg bg-amber-800 text-white text-xs font-bold">👥 Obyvatelé</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="max-w-[1550px] mx-auto w-full px-4 sm:px-6 py-6 space-y-6 flex-grow">
+    <section class="grid grid-cols-2 sm:grid-cols-5 gap-3">
+      <div class="p-3.5 bg-white rounded-xl border border-amber-200"><span class="text-[11px] font-bold text-amber-800 uppercase">Záznamy v korpusu</span><div id="kpi-records" class="text-xl font-extrabold font-heading mt-0.5">-</div></div>
+      <div class="p-3.5 bg-white rounded-xl border border-amber-200"><span class="text-[11px] font-bold text-amber-800 uppercase">Sjednocené identity</span><div id="kpi-clusters" class="text-xl font-extrabold font-heading mt-0.5">-</div></div>
+      <div class="p-3.5 bg-white rounded-xl border border-amber-200"><span class="text-[11px] font-bold text-amber-800 uppercase">Více-záznamové vazby</span><div id="kpi-multi" class="text-xl font-extrabold text-emerald-800 font-heading mt-0.5">-</div></div>
+      <div class="p-3.5 bg-white rounded-xl border border-amber-200"><span class="text-[11px] font-bold text-amber-800 uppercase">Kandidáti k revizi</span><div id="kpi-candidates" class="text-xl font-extrabold text-indigo-900 font-heading mt-0.5">-</div></div>
+      <div class="p-3.5 bg-white rounded-xl border border-amber-200"><span class="text-[11px] font-bold text-amber-800 uppercase">Graf (Uzly / Hrany)</span><div id="kpi-graph" class="text-xl font-extrabold text-slate-900 font-heading mt-0.5">-</div></div>
+    </section>
+
+    <section id="panel-identity" class="grid grid-cols-1 lg:grid-cols-12 gap-5 items-start">
+      <div class="lg:col-span-5 parchment-card p-4 rounded-2xl border border-amber-200 space-y-3">
+        <input type="text" oninput="setClusterSearch(this.value)" placeholder="Hledat jméno, příjmení nebo čp...." class="w-full px-3 py-2 rounded-xl border border-amber-300 text-xs bg-white">
+        <div class="flex flex-wrap gap-1.5 text-xs">
+          <button onclick="setClusterFilter('all')" class="px-2.5 py-1 rounded-lg bg-amber-800 text-white font-bold cursor-pointer">Vše</button>
+          <button onclick="setClusterFilter('verified')" class="px-2.5 py-1 rounded-lg bg-amber-50 border border-amber-300 font-bold cursor-pointer">⭐ Biografické</button>
+          <button onclick="setClusterFilter('multi')" class="px-2.5 py-1 rounded-lg bg-amber-50 border border-amber-300 font-bold cursor-pointer">🔗 Více záznamů</button>
+          <button onclick="setClusterFilter('parish')" class="px-2.5 py-1 rounded-lg bg-amber-50 border border-amber-300 font-bold cursor-pointer">📜 Matrika 1771</button>
+        </div>
+        <div id="cluster-list-container" class="space-y-1.5 max-h-[540px] overflow-y-auto pr-1"></div>
+      </div>
+      <div id="cluster-inspector-container" class="lg:col-span-7 parchment-card p-5 rounded-2xl border border-amber-200"></div>
+    </section>
+
+    <section id="panel-review" class="hidden space-y-4">
+      <div class="p-4 bg-amber-50 rounded-2xl border border-amber-200 text-xs">
+        <strong>Metodika revize (doc vs. prob):</strong> Níže jsou automaticky nalezení jmenovci napříč matrikou 23-1 (1771–1784) a sčítáními 1869–1921. Potvrďte skutečnou shodu osoby nebo označte mezigeneračního jmenovce (např. otce a syna).
+      </div>
+      <div id="review-pairs-container" class="grid grid-cols-1 lg:grid-cols-2 gap-4"></div>
+    </section>
+
+    <section id="panel-typology" class="hidden parchment-card p-5 rounded-2xl border border-amber-200 space-y-4">
+      <div class="flex flex-wrap items-center justify-between gap-2">
+        <h2 class="text-lg font-extrabold font-heading">Typologické rozložení osob &amp; rodů v čase (1771–1921)</h2>
+        <div id="typology-selected-box" class="text-xs text-slate-700 bg-amber-50 px-3 py-1.5 rounded-lg border border-amber-200">Klikněte na libovolný bod pro detail osoby.</div>
+      </div>
+      <div id="typology-legend" class="flex flex-wrap gap-2"></div>
+      <canvas id="typology-canvas" width="1100" height="440" class="w-full rounded-xl border border-amber-200 cursor-pointer"></canvas>
+    </section>
+
+    <section id="panel-network" class="hidden grid grid-cols-1 lg:grid-cols-12 gap-5 items-start">
+      <div class="lg:col-span-8 parchment-card p-4 rounded-2xl border border-amber-200 space-y-2">
+        <div class="flex flex-wrap items-center justify-between gap-2 text-xs">
+          <div class="flex flex-wrap gap-1.5">
+            <button onclick="focusClusterInNetwork('p_frantisek_barinka_1911')" class="px-2.5 py-1 rounded bg-rose-200 text-rose-950 border border-rose-400 font-bold cursor-pointer">🕯️ F. Bařinka (čp. 7)</button>
+            <button onclick="focusClusterInNetwork('house_cp25')" class="px-2.5 py-1 rounded bg-amber-100 text-amber-950 font-bold cursor-pointer">⛪ Fara čp. 25</button>
+            <button onclick="focusClusterInNetwork('house_cp160')" class="px-2.5 py-1 rounded bg-indigo-100 text-indigo-950 font-bold cursor-pointer">🛡️ Stráž čp. 160</button>
+            <button onclick="focusClusterInNetwork('clan_schroller')" class="px-2.5 py-1 rounded bg-purple-100 text-purple-950 font-bold cursor-pointer">🧬 Rod Schroller</button>
+          </div>
+          <button onclick="exportClustersJson('graph')" class="px-2.5 py-1 rounded bg-stone-800 text-white font-bold cursor-pointer">💾 Export grafu</button>
+        </div>
+        <canvas id="network-canvas" width="900" height="520" class="w-full rounded-xl cursor-pointer"></canvas>
+      </div>
+      <div id="network-inspector-box" class="lg:col-span-4 parchment-card p-5 rounded-2xl border border-amber-200"></div>
+    </section>
+
+    <section id="panel-timeline" class="hidden parchment-card p-5 rounded-2xl border border-amber-200 space-y-3">
+      <h2 class="text-lg font-extrabold font-heading">Časová osa dochovaných pramenů podle popisných čísel (1771–1921)</h2>
+      <p class="text-xs text-slate-600">Zobrazuje souvislost záznamů pro klíčová stavení od matriky 23-1 přes přečíslování 1805/1806, sčítání 1869 a 1910 až po kompletní přepis 1921.</p>
+      <canvas id="timeline-canvas" width="1100" height="500" class="w-full rounded-xl border border-amber-200"></canvas>
+    </section>
+  </main>
+
+  <script src="data/cluster_dataset.js"></script>
+  <script src="data/houses.js"></script>
+  <script src="data/people.js"></script>
+  <script src="cluster_app.js"></script>
+</body>
+</html>

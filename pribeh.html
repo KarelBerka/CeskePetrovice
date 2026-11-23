@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="cs" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Příběh obce České Petrovice (1511–2026) | Kronika &amp; Archivní sondy</title>
+  <link rel="icon" type="image/svg+xml" href="assets/icons/ceske_petrovice_erb.svg">
+  <link rel="icon" type="image/png" sizes="64x64" href="assets/icons/favicon-64.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="story" class="min-h-screen flex flex-col antialiased selection:bg-amber-800 selection:text-white">
+
+  <header class="bg-gradient-to-r from-amber-950 via-amber-900 to-stone-900 text-amber-50 shadow-lg border-b border-amber-800/60 sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 py-3">
+      <div class="flex items-center justify-between gap-3">
+        <a href="index.html" class="flex items-center gap-3 shrink-0">
+          <div class="w-10 h-11 bg-white/95 rounded-xl p-1 shadow-md border border-amber-300/70 flex items-center justify-center shrink-0">
+            <img src="assets/icons/ceske_petrovice_erb.svg" alt="Znak Českých Petrovic" class="w-full h-full object-contain">
+          </div>
+          <div>
+            <h1 class="text-lg sm:text-xl font-black tracking-tight font-heading text-amber-100 leading-tight" data-i18n="siteTitle">České Petrovice</h1>
+            <p class="text-[11px] sm:text-xs text-amber-200/80 font-medium hidden sm:block" data-i18n="siteSub">Böhmisch Petersdorf • Historie, Sčítání 1869–1921 &amp; Mapa</p>
+          </div>
+        </a>
+        <nav class="hidden lg:flex items-center gap-1.5">
+          <a href="index.html" class="px-3 py-1.5 text-xs sm:text-sm font-bold rounded-xl bg-amber-900/70 hover:bg-amber-800 text-amber-100 border border-amber-700/70">🏠 Úvod</a>
+          <a href="pribeh.html" class="px-3 py-1.5 text-xs sm:text-sm font-extrabold rounded-xl bg-amber-400 text-amber-950 shadow-xs">📖 Příběh</a>
+          <a href="mapa.html" class="px-3 py-1.5 text-xs sm:text-sm font-bold rounded-xl bg-amber-900/70 hover:bg-amber-800 text-amber-100 border border-amber-700/70">🗺️ Mapa &amp; Stavení</a>
+          <a href="obyvatele.html" class="px-3 py-1.5 text-xs sm:text-sm font-bold rounded-xl bg-amber-900/70 hover:bg-amber-800 text-amber-100 border border-amber-700/70">👥 Obyvatelé</a>
+          <a href="demografie.html" class="px-3 py-1.5 text-xs sm:text-sm font-bold rounded-xl bg-amber-900/70 hover:bg-amber-800 text-amber-100 border border-amber-700/70">📊 Demografie</a>
+          <a href="reference.html" class="px-3 py-1.5 text-xs sm:text-sm font-bold rounded-xl bg-amber-900/70 hover:bg-amber-800 text-amber-100 border border-amber-700/70">📚 Reference</a>
+          <a href="cluster.html" class="px-3 py-1.5 text-xs sm:text-sm font-bold rounded-xl bg-amber-900/70 hover:bg-amber-800 text-amber-100 border border-amber-700/70">🕸️ Clustery ↗</a>
+        </nav>
+        <div class="flex items-center gap-2">
+          <div class="flex items-center bg-stone-900/75 border border-amber-700/80 rounded-xl p-0.5">
+            <button type="button" onclick="setSiteLanguage('cs')" data-lang-btn="cs" class="px-2 py-1 text-[11px] font-extrabold rounded-lg cursor-pointer">CZ</button>
+            <button type="button" onclick="setSiteLanguage('en')" data-lang-btn="en" class="px-2 py-1 text-[11px] font-extrabold rounded-lg cursor-pointer">EN</button>
+            <button type="button" onclick="setSiteLanguage('de')" data-lang-btn="de" class="px-2 py-1 text-[11px] font-extrabold rounded-lg cursor-pointer">DE</button>
+          </div>
+          <button onclick="toggleMobileNavMenu()" class="lg:hidden px-2.5 py-1.5 text-xs font-extrabold rounded-xl bg-amber-800 text-amber-50 border border-amber-600 cursor-pointer">☰</button>
+        </div>
+      </div>
+      <div id="mobile-nav-drawer" class="hidden lg:hidden mt-3 pt-3 border-t border-amber-800 grid grid-cols-2 sm:grid-cols-3 gap-2 text-xs">
+        <a href="index.html" class="p-2 rounded-lg bg-amber-900/70 text-amber-100 font-bold">🏠 Úvod</a>
+        <a href="pribeh.html" class="p-2 rounded-lg bg-amber-400 text-amber-950 font-extrabold">📖 Příběh</a>
+        <a href="mapa.html" class="p-2 rounded-lg bg-amber-900/70 text-amber-100 font-bold">🗺️ Mapa &amp; Stavení</a>
+        <a href="obyvatele.html" class="p-2 rounded-lg bg-amber-900/70 text-amber-100 font-bold">👥 Obyvatelé</a>
+        <a href="demografie.html" class="p-2 rounded-lg bg-amber-900/70 text-amber-100 font-bold">📊 Demografie</a>
+        <a href="reference.html" class="p-2 rounded-lg bg-amber-900/70 text-amber-100 font-bold">📚 Reference</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="pribeh-section" class="max-w-7xl mx-auto w-full px-3 sm:px-6 lg:px-8 py-6 sm:py-8 space-y-8 flex-grow">
+    <section class="space-y-3">
+      <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-100 text-amber-950 border border-amber-300 text-xs font-bold">
+        <span>📖 Kronika a dějiny obce na pramenném základě [doc] / [ed] / [lit]</span>
+      </div>
+      <h2 class="text-2xl sm:text-4xl font-black font-heading text-slate-900">Příběh Českých Petrovic (1511–2026)</h2>
+      <p class="text-sm text-slate-700 max-w-3xl">Deset historických kapitol sledujících proměnu pohraničního údolí od sporů na česko-moravsko-kladském trojmezí po současnost.</p>
+      <div id="story-stats-grid" class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 pt-2"></div>
+    </section>
+
+    <section id="story-toc-container" class="parchment-card p-4 sm:p-5 rounded-2xl border border-amber-200"></section>
+    <section id="story-chapters-container" class="space-y-6"></section>
+
+    <section class="space-y-4 pt-2">
+      <h2 class="text-2xl font-extrabold font-heading text-slate-900">💡 Archivní zajímavosti &amp; detektivní objevy z pramenů</h2>
+      <div id="story-facts-container" class="grid grid-cols-1 md:grid-cols-2 gap-4"></div>
+    </section>
+
+    <section class="space-y-4 pt-2">
+      <h2 class="text-2xl font-extrabold font-heading text-slate-900">🔬 Tematické hloubkové sondy &amp; zdrojové studie</h2>
+      <div id="story-probes-container" class="grid grid-cols-1 md:grid-cols-3 gap-4"></div>
+    </section>
+  </main>
+
+  <div id="archive-viewer-modal" class="hidden fixed inset-0 z-50 archive-viewer-backdrop flex items-center justify-center p-3 sm:p-6">
+    <div class="bg-stone-900 text-amber-50 rounded-2xl max-w-5xl w-full border border-amber-700/60 shadow-2xl overflow-hidden flex flex-col">
+      <div class="px-4 py-3 bg-stone-950 border-b border-amber-800/50 flex flex-wrap items-center justify-between gap-2">
+        <div>
+          <h3 id="viewer-doc-title" class="text-sm sm:text-base font-extrabold font-heading text-amber-200">Archivní dokument</h3>
+          <p id="viewer-doc-source" class="text-[11px] text-amber-100/70"></p>
+        </div>
+        <div class="flex flex-wrap items-center gap-1.5 text-xs">
+          <button onclick="zoomArchiveScan(-0.2)" class="px-2 py-1 rounded bg-stone-800 font-bold cursor-pointer">➖</button>
+          <span id="viewer-zoom-label" class="px-2 font-mono">100 %</span>
+          <button onclick="zoomArchiveScan(0.2)" class="px-2 py-1 rounded bg-stone-800 font-bold cursor-pointer">➕</button>
+          <a id="viewer-archive-link" href="#" target="_blank" rel="noopener noreferrer" class="px-2.5 py-1 rounded bg-amber-800 text-white font-bold"><span id="viewer-archive-name">Archiv</span> ↗</a>
+          <a id="viewer-download-btn" href="#" download class="px-2.5 py-1 rounded bg-stone-800 font-bold">⬇ Uložit</a>
+          <button onclick="closeArchiveViewer()" class="px-2.5 py-1 rounded bg-rose-800 font-bold cursor-pointer">✕ Zavřít</button>
+        </div>
+      </div>
+      <div class="archive-scan-container p-4 bg-stone-950/60"><img id="viewer-scan-img" src="" alt="Archivní náhled" class="archive-scan-img rounded shadow-xl"></div>
+    </div>
+  </div>
+
+  <footer class="bg-stone-950 text-amber-100/80 border-t border-amber-900/50 py-5 text-xs">
+    <div class="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-2">
+      <span>© 2026 České Petrovice (Böhmisch Petersdorf) • Všechna fakta opatřena archivní citací • Google Antigravity</span>
+      <button onclick="openFeedbackIssue('Příběh obce')" class="underline hover:text-amber-300 cursor-pointer">🐛 Nahlásit podnět</button>
+    </div>
+  </footer>
+
+  <script src="data/story.js"></script>
+  <script src="data/people.js"></script>
+  <script src="data/census_registry.js"></script>
+  <script src="data/i18n.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

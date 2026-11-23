@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="cs" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Obyvatelé, Rejstřík 467 osob (1921) &amp; Rodové profily | České Petrovice</title>
+  <link rel="icon" type="image/svg+xml" href="assets/icons/ceske_petrovice_erb.svg">
+  <link rel="icon" type="image/png" sizes="64x64" href="assets/icons/favicon-64.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="inhabitants" class="min-h-screen flex flex-col antialiased selection:bg-amber-800 selection:text-white">
+
+  <header class="bg-gradient-to-r from-amber-950 via-amber-900 to-stone-900 text-amber-50 shadow-lg border-b border-amber-800/60 sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 py-3">
+      <div class="flex items-center justify-between gap-3">
+        <a href="index.html" class="flex items-center gap-3 shrink-0">
+          <div class="w-10 h-11 bg-white/95 rounded-xl p-1 shadow-md border border-amber-300/70 flex items-center justify-center shrink-0">
+            <img src="assets/icons/ceske_petrovice_erb.svg" alt="Znak Českých Petrovic" class="w-full h-full object-contain">
+          </div>
+          <div>
+            <h1 class="text-lg sm:text-xl font-black tracking-tight font-heading text-amber-100 leading-tight" data-i18n="siteTitle">České Petrovice</h1>
+            <p class="text-[11px] sm:text-xs text-amber-200/80 font-medium hidden sm:block" data-i18n="siteSub">Böhmisch Petersdorf • Historie, Sčítání 1869–1921 &amp; Mapa</p>
+          </div>
+        </a>
+        <nav class="hidden lg:flex items-center gap-1.5">
+          <a href="index.html" class="px-3 py-1.5 text-xs sm:text-sm font-bold rounded-xl bg-amber-900/70 hover:bg-amber-800 text-amber-100 border border-amber-700/70">🏠 Úvod</a>
+          <a href="pribeh.html" class="px-3 py-1.5 text-xs sm:text-sm font-bold rounded-xl bg-amber-900/70 hover:bg-amber-800 text-amber-100 border border-amber-700/70">📖 Příběh</a>
+          <a href="mapa.html" class="px-3 py-1.5 text-xs sm:text-sm font-bold rounded-xl bg-amber-900/70 hover:bg-amber-800 text-amber-100 border border-amber-700/70">🗺️ Mapa &amp; Stavení</a>
+          <a href="obyvatele.html" class="px-3 py-1.5 text-xs sm:text-sm font-extrabold rounded-xl bg-amber-400 text-amber-950 shadow-xs">👥 Obyvatelé</a>
+          <a href="demografie.html" class="px-3 py-1.5 text-xs sm:text-sm font-bold rounded-xl bg-amber-900/70 hover:bg-amber-800 text-amber-100 border border-amber-700/70">📊 Demografie</a>
+          <a href="reference.html" class="px-3 py-1.5 text-xs sm:text-sm font-bold rounded-xl bg-amber-900/70 hover:bg-amber-800 text-amber-100 border border-amber-700/70">📚 Reference</a>
+          <a href="cluster.html" class="px-3 py-1.5 text-xs sm:text-sm font-bold rounded-xl bg-amber-900/70 hover:bg-amber-800 text-amber-100 border border-amber-700/70">🕸️ Clustery ↗</a>
+        </nav>
+        <div class="flex items-center gap-2">
+          <div class="flex items-center bg-stone-900/75 border border-amber-700/80 rounded-xl p-0.5">
+            <button type="button" onclick="setSiteLanguage('cs')" data-lang-btn="cs" class="px-2 py-1 text-[11px] font-extrabold rounded-lg cursor-pointer">CZ</button>
+            <button type="button" onclick="setSiteLanguage('en')" data-lang-btn="en" class="px-2 py-1 text-[11px] font-extrabold rounded-lg cursor-pointer">EN</button>
+            <button type="button" onclick="setSiteLanguage('de')" data-lang-btn="de" class="px-2 py-1 text-[11px] font-extrabold rounded-lg cursor-pointer">DE</button>
+          </div>
+          <button onclick="toggleMobileNavMenu()" class="lg:hidden px-2.5 py-1.5 text-xs font-extrabold rounded-xl bg-amber-800 text-amber-50 border border-amber-600 cursor-pointer">☰</button>
+        </div>
+      </div>
+      <div id="mobile-nav-drawer" class="hidden lg:hidden mt-3 pt-3 border-t border-amber-800 grid grid-cols-2 sm:grid-cols-3 gap-2 text-xs">
+        <a href="index.html" class="p-2 rounded-lg bg-amber-900/70 text-amber-100 font-bold">🏠 Úvod</a>
+        <a href="pribeh.html" class="p-2 rounded-lg bg-amber-900/70 text-amber-100 font-bold">📖 Příběh</a>
+        <a href="mapa.html" class="p-2 rounded-lg bg-amber-900/70 text-amber-100 font-bold">🗺️ Mapa &amp; Stavení</a>
+        <a href="obyvatele.html" class="p-2 rounded-lg bg-amber-400 text-amber-950 font-extrabold">👥 Obyvatelé</a>
+        <a href="demografie.html" class="p-2 rounded-lg bg-amber-900/70 text-amber-100 font-bold">📊 Demografie</a>
+        <a href="reference.html" class="p-2 rounded-lg bg-amber-900/70 text-amber-100 font-bold">📚 Reference</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="obyvatele-section" class="max-w-7xl mx-auto w-full px-3 sm:px-6 lg:px-8 py-6 sm:py-8 space-y-6 flex-grow">
+    <section class="flex flex-wrap items-center justify-between gap-3">
+      <div>
+        <h2 class="text-2xl sm:text-3xl font-black font-heading text-slate-900">👥 Rejstřík obyvatel &amp; Rodové profily</h2>
+        <p class="text-xs sm:text-sm text-slate-600">Kompletní jmenný přepis sčítání lidu z 15. února 1921 (všech 467 přítomných osob) doplněný o výběrový vzorek z roku 1869 a životopisné studie.</p>
+      </div>
+      <div class="flex flex-wrap gap-1.5 text-xs">
+        <button data-inhab-tab-btn="registry" onclick="switchInhabitantsTab('registry')" class="px-3.5 py-2 rounded-xl bg-amber-800 text-white font-bold border border-amber-300 cursor-pointer">📋 Sčítací rejstřík (529)</button>
+        <button data-inhab-tab-btn="linked" onclick="switchInhabitantsTab('linked')" class="px-3.5 py-2 rounded-xl bg-white text-amber-950 font-bold border border-amber-300 cursor-pointer">🧬 Propojené identity</button>
+        <button data-inhab-tab-btn="profiles" onclick="switchInhabitantsTab('profiles')" class="px-3.5 py-2 rounded-xl bg-white text-amber-950 font-bold border border-amber-300 cursor-pointer">⭐ Biografické &amp; rodové profily</button>
+      </div>
+    </section>
+
+    <!-- Panel 1: Stránkovaný rejstřík -->
+    <section data-inhab-panel="registry" class="space-y-4">
+      <div class="parchment-card p-4 rounded-2xl border border-amber-200 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-2.5 text-xs">
+        <input type="text" oninput="currentRegSearch = this.value; currentRegistryPage = 1; renderRegistryTable();" placeholder="Hledat jméno, povolání, rodiště..." class="lg:col-span-2 px-3 py-2 rounded-xl border border-amber-300 bg-white">
+        <input id="reg-house-filter" type="text" oninput="currentRegHouse = this.value; currentRegistryPage = 1; renderRegistryTable();" placeholder="Čp. (např. 1, 7, 160)" class="px-3 py-2 rounded-xl border border-amber-300 bg-white">
+        <select onchange="currentRegYear = this.value; currentRegistryPage = 1; renderRegistryTable();" class="px-3 py-2 rounded-xl border border-amber-300 bg-white font-bold">
+          <option value="all">Všechny ročníky (1869 + 1921)</option>
+          <option value="1921">Pouze 1921 (467 osob)</option>
+          <option value="1869">Pouze 1869 vzorek (62 záp.)</option>
+        </select>
+        <select onchange="currentRegNat = this.value; currentRegistryPage = 1; renderRegistryTable();" class="px-3 py-2 rounded-xl border border-amber-300 bg-white font-bold">
+          <option value="all">Všechny národnosti</option>
+          <option value="de">Německá (392)</option>
+          <option value="cs">Česká (70)</option>
+        </select>
+      </div>
+
+      <div id="registry-pagination-bar"></div>
+
+      <div id="inhabitant-table-view" class="parchment-card rounded-2xl border border-amber-200 overflow-hidden">
+        <div class="overflow-x-auto">
+          <table class="w-full text-left border-collapse mobile-responsive-table">
+            <thead>
+              <tr class="bg-amber-100/90 text-amber-950 text-[11px] uppercase tracking-wider">
+                <th class="p-3 border-b border-amber-200">Jméno &amp; Kategorie</th>
+                <th class="p-3 border-b border-amber-200">Rok</th>
+                <th class="p-3 border-b border-amber-200">Čp.</th>
+                <th class="p-3 border-b border-amber-200">Postavení</th>
+                <th class="p-3 border-b border-amber-200">Narození &amp; Původ</th>
+                <th class="p-3 border-b border-amber-200">Povolání &amp; Závod</th>
+                <th class="p-3 border-b border-amber-200">Pramen</th>
+              </tr>
+            </thead>
+            <tbody id="registry-table-body"></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- Panel 2: Sjednocené osoby -->
+    <section data-inhab-panel="linked" class="hidden space-y-4">
+      <div class="p-4 bg-amber-50 rounded-2xl border border-amber-200 text-xs flex flex-wrap items-center justify-between gap-2">
+        <span><strong>Propojení napříč lety 1771–1921:</strong> Ukázka propojených identit a sledovaných osobností. Plná analýza všech 812 clusterů v <a href="cluster.html" class="underline font-bold text-amber-900">Laboratoři propojování osob →</a></span>
+      </div>
+      <div id="linked-people-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3.5"></div>
+    </section>
+
+    <!-- Panel 3: Kurátorované profily -->
+    <section data-inhab-panel="profiles" class="hidden space-y-4">
+      <div id="people-cards-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4"></div>
+    </section>
+  </main>
+
+  <!-- Person Detail Modal -->
+  <div id="person-detail-modal" class="hidden fixed inset-0 z-50 archive-viewer-backdrop flex items-center justify-center p-3 sm:p-6">
+    <div class="bg-[#fdfbf7] rounded-2xl max-w-3xl w-full border border-amber-300 shadow-2xl overflow-hidden flex flex-col max-h-[90vh]">
+      <div class="px-5 py-4 bg-gradient-to-r from-amber-950 to-stone-900 text-amber-50 flex items-start justify-between gap-3">
+        <div>
+          <div class="flex flex-wrap items-center gap-2 mb-1">
+            <span id="modal-person-badge"></span>
+            <span id="modal-person-lifespan" class="font-mono text-xs bg-amber-900/80 px-2 py-0.5 rounded"></span>
+          </div>
+          <h3 id="modal-person-name" class="text-xl font-black font-heading"></h3>
+          <p id="modal-person-role" class="text-xs text-amber-200/90 mt-0.5"></p>
+        </div>
+        <button onclick="closePersonModal()" class="px-3 py-1 rounded-lg bg-amber-800 hover:bg-amber-700 text-white text-xs font-bold cursor-pointer">✕ Zavřít</button>
+      </div>
+      <div class="p-5 overflow-y-auto space-y-4 text-xs sm:text-sm">
+        <div class="flex flex-wrap items-center justify-between gap-2 pb-2 border-b border-amber-200">
+          <strong class="text-amber-950">Biografický přehled</strong>
+          <a id="modal-person-house-link" href="mapa.html" class="px-3 py-1 rounded-lg bg-amber-800 hover:bg-amber-900 text-white text-xs font-bold"></a>
+        </div>
+        <p id="modal-person-bio" class="text-slate-800 leading-relaxed"></p>
+        <div id="modal-person-family" class="p-3 bg-amber-50/70 rounded-xl border border-amber-200 grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs"></div>
+        <div class="space-y-2">
+          <h4 class="text-xs font-extrabold uppercase tracking-wider text-amber-950">📜 Dolozitelné archivní záznamy</h4>
+          <div id="modal-person-events" class="space-y-2"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Archive Viewer Modal -->
+  <div id="archive-viewer-modal" class="hidden fixed inset-0 z-50 archive-viewer-backdrop flex items-center justify-center p-3 sm:p-6">
+    <div class="bg-stone-900 text-amber-50 rounded-2xl max-w-5xl w-full border border-amber-700/60 shadow-2xl overflow-hidden flex flex-col">
+      <div class="px-4 py-3 bg-stone-950 border-b border-amber-800/50 flex flex-wrap items-center justify-between gap-2">
+        <div>
+          <h3 id="viewer-doc-title" class="text-sm sm:text-base font-extrabold font-heading text-amber-200">Archivní dokument</h3>
+          <p id="viewer-doc-source" class="text-[11px] text-amber-100/70"></p>
+        </div>
+        <div class="flex flex-wrap items-center gap-1.5 text-xs">
+          <button onclick="zoomArchiveScan(-0.2)" class="px-2 py-1 rounded bg-stone-800 font-bold cursor-pointer">➖</button>
+          <span id="viewer-zoom-label" class="px-2 font-mono">100 %</span>
+          <button onclick="zoomArchiveScan(0.2)" class="px-2 py-1 rounded bg-stone-800 font-bold cursor-pointer">➕</button>
+          <a id="viewer-archive-link" href="#" target="_blank" rel="noopener noreferrer" class="px-2.5 py-1 rounded bg-amber-800 text-white font-bold"><span id="viewer-archive-name">Archiv</span> ↗</a>
+          <a id="viewer-download-btn" href="#" download class="px-2.5 py-1 rounded bg-stone-800 font-bold">⬇ Uložit</a>
+          <button onclick="closeArchiveViewer()" class="px-2.5 py-1 rounded bg-rose-800 font-bold cursor-pointer">✕ Zavřít</button>
+        </div>
+      </div>
+      <div class="archive-scan-container p-4 bg-stone-950/60"><img id="viewer-scan-img" src="" alt="Archivní náhled" class="archive-scan-img rounded shadow-xl"></div>
+    </div>
+  </div>
+
+  <footer class="bg-stone-950 text-amber-100/80 border-t border-amber-900/50 py-5 text-xs">
+    <div class="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-2">
+      <span>© 2026 České Petrovice • Ochrana soukromí GDPR (výhradně historická data nežijících osob)</span>
+      <button onclick="openFeedbackIssue('Obyvatelé & Rejstřík')" class="underline hover:text-amber-300 cursor-pointer">🐛 Nahlásit opravu přepisu</button>
+    </div>
+  </footer>
+
+  <script src="data/census_registry.js"></script>
+  <script src="data/census_links.js"></script>
+  <script src="data/people.js"></script>
+  <script src="data/houses.js"></script>
+  <script src="data/i18n.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

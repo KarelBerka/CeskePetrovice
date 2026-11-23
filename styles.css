@@ -1,0 +1,224 @@
+/* ==========================================================================
+   Vlastní typografie a pergamenový styl pro České Petrovice (Böhmisch Petersdorf)
+   ========================================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,800;1,400;1,600&display=swap');
+
+:root {
+  --bg-parchment: #fcf9f2;
+  --border-parchment: #e7dfcc;
+  --ink-primary: #1c1917;
+  --ink-secondary: #57534e;
+  --accent-amber: #92400e;
+}
+
+html, body {
+  overflow-x: hidden;
+  max-width: 100vw;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background-color: #fdfbf7;
+  color: var(--ink-primary);
+}
+
+.font-heading {
+  font-family: 'Cinzel', Georgia, serif;
+}
+
+.font-serif-body {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+.parchment-card {
+  background-color: #ffffff;
+  background-image: radial-gradient(#fcf8ed 1px, transparent 1px), radial-gradient(#faf5e4 1px, #ffffff 1px);
+  background-size: 40px 40px;
+  background-position: 0 0, 20px 20px;
+  border-color: var(--border-parchment);
+  box-shadow: 0 4px 15px -2px rgba(120, 53, 15, 0.05), 0 2px 6px -1px rgba(0, 0, 0, 0.03);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.parchment-card:hover {
+  box-shadow: 0 10px 25px -3px rgba(120, 53, 15, 0.08), 0 4px 10px -2px rgba(0, 0, 0, 0.04);
+}
+
+/* Značky domů a památek na mapě Leaflet */
+.custom-house-marker {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  pointer-events: none;
+}
+
+.house-marker-pill {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 26px;
+  height: 26px;
+  padding: 0 4px;
+  background-color: #78350f;
+  color: #ffffff;
+  font-weight: 800;
+  font-size: 10px;
+  line-height: 1;
+  border-radius: 9999px;
+  border: 2px solid #fef3c7;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.35);
+  pointer-events: auto;
+  cursor: pointer;
+  transition: transform 0.16s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.custom-house-marker.vanished .house-marker-pill {
+  background-color: #475569;
+  border-style: dashed;
+  border-color: #fde68a;
+  opacity: 0.9;
+}
+
+.custom-house-marker.evidencni .house-marker-pill {
+  background-color: #0f766e;
+  border-color: #ccfbf1;
+}
+
+.custom-house-marker.post1921 .house-marker-pill {
+  background-color: #3730a3;
+  border-color: #e0e7ff;
+}
+
+.custom-house-marker.heritage .house-marker-pill {
+  background-color: #b91c1c;
+  border-color: #fde047;
+  min-width: 30px;
+  height: 30px;
+  font-size: 13px;
+}
+
+.custom-house-marker:hover {
+  z-index: 1000 !important;
+}
+
+.custom-house-marker:hover .house-marker-pill,
+.custom-house-marker.selected .house-marker-pill {
+  transform: scale(1.24);
+  background-color: #b45309;
+  border-color: #ffffff;
+  box-shadow: 0 4px 14px rgba(180, 83, 9, 0.55);
+}
+
+/* Lightbox pro archivní skeny a mapy */
+.archive-viewer-backdrop {
+  background-color: rgba(15, 23, 42, 0.92);
+  backdrop-filter: blur(8px);
+}
+
+.archive-scan-container {
+  overflow: auto;
+  max-height: 74vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.archive-scan-img {
+  transition: transform 0.2s ease;
+  cursor: zoom-in;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Responzivní výška mapy */
+#map,
+#map-hist {
+  height: 390px !important;
+  z-index: 10;
+}
+
+@media (min-width: 640px) {
+  #map,
+  #map-hist {
+    height: 490px !important;
+  }
+}
+
+@media (min-width: 1024px) {
+  #map,
+  #map-hist {
+    height: 610px !important;
+  }
+}
+
+.cluster-tab-active {
+  background-color: #92400e !important;
+  color: #ffffff !important;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+@media (max-width: 639px) {
+  table.mobile-responsive-table {
+    display: block;
+    width: 100%;
+  }
+  table.mobile-responsive-table thead {
+    display: none;
+  }
+  table.mobile-responsive-table tbody {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    background-color: #fdfbf7;
+  }
+  table.mobile-responsive-table tbody tr {
+    display: block;
+    background-color: #ffffff;
+    border: 1px solid #fde68a;
+    border-radius: 12px;
+    padding: 10px 12px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 6px rgba(120, 53, 15, 0.06);
+  }
+  table.mobile-responsive-table tbody td {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 5px 0 !important;
+    border-bottom: 1px dashed #fef3c7;
+    text-align: right;
+    white-space: normal !important;
+  }
+  table.mobile-responsive-table tbody td:first-child {
+    display: block;
+    text-align: left;
+    border-bottom: 1px solid #fde68a;
+    padding-bottom: 8px !important;
+    margin-bottom: 4px;
+  }
+  table.mobile-responsive-table tbody td:last-child {
+    border-bottom: none;
+  }
+  table.mobile-responsive-table tbody td[data-label]::before {
+    content: attr(data-label);
+    font-weight: 700;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    color: #78350f;
+    text-align: left;
+    flex-shrink: 0;
+  }
+}

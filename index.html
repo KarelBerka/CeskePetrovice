@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="cs" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>České Petrovice (Böhmisch Petersdorf) – Historie, Sčítání 1869–1921 &amp; Mapa</title>
+  <link rel="icon" type="image/svg+xml" href="assets/icons/ceske_petrovice_erb.svg">
+  <link rel="icon" type="image/png" sizes="64x64" href="assets/icons/favicon-64.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="home" class="min-h-screen flex flex-col antialiased selection:bg-amber-800 selection:text-white">
+
+  <header class="bg-gradient-to-r from-amber-950 via-amber-900 to-stone-900 text-amber-50 shadow-lg border-b border-amber-800/60 sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 py-3">
+      <div class="flex items-center justify-between gap-3">
+        <a href="index.html" class="flex items-center gap-3 group shrink-0">
+          <div class="w-10 h-11 bg-white/95 rounded-xl p-1 shadow-md border border-amber-300/70 flex items-center justify-center shrink-0 group-hover:scale-105 transition-transform">
+            <img src="assets/icons/ceske_petrovice_erb.svg" alt="Znak obce České Petrovice" class="w-full h-full object-contain">
+          </div>
+          <div>
+            <h1 class="text-lg sm:text-xl font-black tracking-tight font-heading text-amber-100 leading-tight" data-i18n="siteTitle">České Petrovice</h1>
+            <p class="text-[11px] sm:text-xs text-amber-200/80 font-medium hidden sm:block" data-i18n="siteSub">Böhmisch Petersdorf • Historie, Sčítání 1869–1921 &amp; Mapa</p>
+          </div>
+        </a>
+
+        <nav aria-label="Hlavní navigace" class="hidden lg:flex items-center gap-1.5 flex-wrap">
+          <a href="index.html" class="px-3 py-1.5 text-xs sm:text-sm font-extrabold rounded-xl bg-amber-400 text-amber-950 shadow-xs flex items-center gap-1"><span>🏠</span><span data-i18n="navHome">Úvod</span></a>
+          <a href="pribeh.html" class="px-3 py-1.5 text-xs sm:text-sm font-bold rounded-xl bg-amber-900/70 hover:bg-amber-800 text-amber-100 border border-amber-700/70 flex items-center gap-1"><span>📖</span><span data-i18n="navStory">Příběh</span></a>
+          <a href="mapa.html" class="px-3 py-1.5 text-xs sm:text-sm font-bold rounded-xl bg-amber-900/70 hover:bg-amber-800 text-amber-100 border border-amber-700/70 flex items-center gap-1"><span>🗺️</span><span data-i18n="navMap">Mapa &amp; Stavení</span></a>
+          <a href="obyvatele.html" class="px-3 py-1.5 text-xs sm:text-sm font-bold rounded-xl bg-amber-900/70 hover:bg-amber-800 text-amber-100 border border-amber-700/70 flex items-center gap-1"><span>👥</span><span data-i18n="navPeople">Obyvatelé</span></a>
+          <a href="demografie.html" class="px-3 py-1.5 text-xs sm:text-sm font-bold rounded-xl bg-amber-900/70 hover:bg-amber-800 text-amber-100 border border-amber-700/70 flex items-center gap-1"><span>📊</span><span data-i18n="navDemography">Demografie</span></a>
+          <a href="reference.html" class="px-3 py-1.5 text-xs sm:text-sm font-bold rounded-xl bg-amber-900/70 hover:bg-amber-800 text-amber-100 border border-amber-700/70 flex items-center gap-1"><span>📚</span><span data-i18n="navReferences">Reference</span></a>
+          <a href="cluster.html" class="px-3 py-1.5 text-xs sm:text-sm font-bold rounded-xl bg-amber-900/70 hover:bg-amber-800 text-amber-100 border border-amber-700/70 flex items-center gap-1"><span>🕸️</span><span data-i18n="navCluster">Clustery</span> ↗</a>
+        </nav>
+
+        <div class="flex items-center gap-2 shrink-0">
+          <div class="flex items-center bg-stone-900/75 border border-amber-700/80 rounded-xl p-0.5">
+            <button type="button" onclick="setSiteLanguage('cs')" data-lang-btn="cs" class="px-2 py-1 text-[11px] font-extrabold rounded-lg cursor-pointer">CZ</button>
+            <button type="button" onclick="setSiteLanguage('en')" data-lang-btn="en" class="px-2 py-1 text-[11px] font-extrabold rounded-lg cursor-pointer">EN</button>
+            <button type="button" onclick="setSiteLanguage('de')" data-lang-btn="de" class="px-2 py-1 text-[11px] font-extrabold rounded-lg cursor-pointer">DE</button>
+          </div>
+          <button onclick="toggleMobileNavMenu()" class="lg:hidden px-2.5 py-1.5 text-xs font-extrabold rounded-xl bg-amber-800 text-amber-50 border border-amber-600 cursor-pointer">☰</button>
+        </div>
+      </div>
+
+      <div id="mobile-nav-drawer" class="hidden lg:hidden mt-3 pt-3 border-t border-amber-800 grid grid-cols-2 sm:grid-cols-3 gap-2 text-xs">
+        <a href="index.html" class="p-2 rounded-lg bg-amber-400 text-amber-950 font-extrabold">🏠 Úvod</a>
+        <a href="pribeh.html" class="p-2 rounded-lg bg-amber-900/70 text-amber-100 font-bold">📖 Příběh</a>
+        <a href="mapa.html" class="p-2 rounded-lg bg-amber-900/70 text-amber-100 font-bold">🗺️ Mapa &amp; Stavení</a>
+        <a href="obyvatele.html" class="p-2 rounded-lg bg-amber-900/70 text-amber-100 font-bold">👥 Obyvatelé</a>
+        <a href="demografie.html" class="p-2 rounded-lg bg-amber-900/70 text-amber-100 font-bold">📊 Demografie</a>
+        <a href="reference.html" class="p-2 rounded-lg bg-amber-900/70 text-amber-100 font-bold">📚 Reference</a>
+        <a href="cluster.html" class="p-2 rounded-lg bg-amber-900/70 text-amber-100 font-bold col-span-2 sm:col-span-1">🕸️ Clustery ↗</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="max-w-7xl mx-auto w-full px-3 sm:px-6 lg:px-8 py-6 sm:py-8 space-y-8 flex-grow">
+    <!-- Hero sekce -->
+    <section class="parchment-card p-6 sm:p-8 rounded-3xl border border-amber-200 grid grid-cols-1 lg:grid-cols-12 gap-6 items-center">
+      <div class="lg:col-span-8 space-y-4">
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-100 text-amber-950 border border-amber-300 text-xs font-extrabold">
+          <span>🏔️ Orlické hory • s. o. Králíky • p. o. Žamberk • ZÚJ 580066</span>
+        </div>
+        <h2 class="text-2xl sm:text-4xl font-black font-heading text-slate-900 leading-tight">
+          České Petrovice <span class="text-amber-800">(Böhmisch Petersdorf)</span>
+        </h2>
+        <p class="text-sm sm:text-base text-slate-700 leading-relaxed font-serif-body">
+          Digitalizovaná paměť horské pohraniční vsi na česko-moravsko-kladském pomezí od roku <strong>1591</strong> až po současnost. Portál spojuje kompletní přepis sčítání lidu z let <strong>1910 a 1921</strong> (všech <strong>467 obyvatel</strong>), nejstarší matriční zápisy (<strong>1771–1784</strong>), 170 zmapovaných objektů v RÚIAN, životní osud <strong>Františka Bařinky († 1945)</strong> i historické ortofotomapy 1953–2022.
+        </p>
+        <div class="flex flex-wrap gap-2.5 pt-1">
+          <a href="mapa.html" class="px-4 py-2.5 rounded-xl bg-amber-800 hover:bg-amber-900 text-white text-sm font-bold shadow-sm transition-all">🗺️ Otevřít mapu 170 stavení</a>
+          <a href="obyvatele.html" class="px-4 py-2.5 rounded-xl bg-stone-900 hover:bg-stone-800 text-amber-50 text-sm font-bold shadow-sm transition-all">👥 Prohledat rejstřík 467 obyvatel</a>
+          <a href="pribeh.html" class="px-4 py-2.5 rounded-xl bg-amber-100 hover:bg-amber-200 text-amber-950 border border-amber-300 text-sm font-bold transition-all">📖 Číst kroniku (I.–X.)</a>
+        </div>
+      </div>
+
+      <div class="lg:col-span-4 flex flex-col items-center justify-center p-5 bg-amber-50/70 rounded-2xl border border-amber-200 text-center space-y-2.5">
+        <img src="assets/icons/ceske_petrovice_erb.svg" alt="Znak obce České Petrovice – REKOS 5727" class="w-28 h-32 object-contain drop-shadow-sm">
+        <span class="px-2.5 py-0.5 rounded-full bg-white border border-amber-300 text-[11px] font-bold text-amber-950">Znak obce • REKOS č. 5727</span>
+        <p class="text-[11px] text-slate-600 leading-snug">Stříbrný meč sv. Pavla a dva klíče sv. Petra pod zlatou korunou (rozhodnutí PČR č. 52 z 25. 3. 2005).</p>
+      </div>
+    </section>
+
+    <!-- KPI Přehled -->
+    <section class="grid grid-cols-2 lg:grid-cols-4 gap-4">
+      <div class="parchment-card p-5 rounded-2xl border border-amber-200">
+        <div class="text-xs font-bold text-amber-800 uppercase">Zmapovaná stavení</div>
+        <div class="text-3xl font-black font-heading text-slate-900 mt-1">170</div>
+        <p class="text-xs text-slate-600 mt-1">105 stojících + 55 zaniklých čp. ≤ 160, 3 novější čp., 6 č.ev. a kostel sv. Petra a Pavla.</p>
+      </div>
+      <div class="parchment-card p-5 rounded-2xl border border-amber-200">
+        <div class="text-xs font-bold text-amber-800 uppercase">Sčítání 1921 (100%)</div>
+        <div class="text-3xl font-black font-heading text-emerald-800 mt-1">467</div>
+        <p class="text-xs text-slate-600 mt-1">Všech 143 archů (286 sn.): 392 něm., 70 čes., 5 ciz. + výběr r. 1869 a kompletní sumář 1910 (531 os.).</p>
+      </div>
+      <div class="parchment-card p-5 rounded-2xl border border-amber-200">
+        <div class="text-xs font-bold text-amber-800 uppercase">Archivní záběr</div>
+        <div class="text-3xl font-black font-heading text-indigo-950 mt-1">435+ let</div>
+        <p class="text-xs text-slate-600 mt-1">Od bartošovické matriky 1591 a zemských desek 1511 přes lokálii 1785 až po SLDB 2021 a RÚIAN 2026.</p>
+      </div>
+      <div class="parchment-card p-5 rounded-2xl border border-amber-200">
+        <div class="text-xs font-bold text-amber-800 uppercase">Sjednocené vazby</div>
+        <div class="text-3xl font-black font-heading text-rose-900 mt-1">812 osob</div>
+        <p class="text-xs text-slate-600 mt-1">Propojeno v grafu závislostí (1 288 uzlů, 2 488 hran) napříč matrikou 23-1 a sčítáním 1869–1921.</p>
+      </div>
+    </section>
+
+    <!-- Sekce Portálu -->
+    <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+      <a href="mapa.html" class="parchment-card p-5 rounded-2xl border border-amber-200 hover:border-amber-500 flex flex-col justify-between gap-2 group">
+        <div>
+          <span class="text-2xl">🗺️</span>
+          <h3 class="text-lg font-extrabold font-heading text-slate-900 group-hover:text-amber-800 mt-2">Interaktivní mapa &amp; Atlas</h3>
+          <p class="text-xs sm:text-sm text-slate-600 mt-1">170 bodů na ortofotu ČÚZK s živou historickou vrstvou CENIA 1953 (kalibrovanou na 3,7 cm), srovnávacím režimem Vedle sebe a atlasem map 1561–1938.</p>
+        </div>
+        <span class="text-xs font-bold text-amber-800">Vstoupit do mapy →</span>
+      </a>
+      <a href="obyvatele.html" class="parchment-card p-5 rounded-2xl border border-amber-200 hover:border-amber-500 flex flex-col justify-between gap-2 group">
+        <div>
+          <span class="text-2xl">👥</span>
+          <h3 class="text-lg font-extrabold font-heading text-slate-900 group-hover:text-amber-800 mt-2">Rejstřík obyvatel &amp; Rody</h3>
+          <p class="text-xs sm:text-sm text-slate-600 mt-1">Stránkovaný index 529 jmenných zápisů ze sčítání 1921 a 1869 a životopisy klíčových osobností vč. Františka Bařinky, J. Grubera a P. Kožíška.</p>
+        </div>
+        <span class="text-xs font-bold text-amber-800">Otevřít rejstřík →</span>
+      </a>
+      <a href="demografie.html" class="parchment-card p-5 rounded-2xl border border-amber-200 hover:border-amber-500 flex flex-col justify-between gap-2 group">
+        <div>
+          <span class="text-2xl">📊</span>
+          <h3 class="text-lg font-extrabold font-heading text-slate-900 group-hover:text-amber-800 mt-2">Historická demografie 1654–2026</h3>
+          <p class="text-xs sm:text-sm text-slate-600 mt-1">Dlouhodobá křivka populace, 3 vrstvy inkoustu ve sčítání 1910, věková pyramida 1921, dobytek PZ 1910 (127 koz, 272 skotu) a půdní bilance 629,83 ha.</p>
+        </div>
+        <span class="text-xs font-bold text-amber-800">Prozkoumat grafy →</span>
+      </a>
+    </section>
+
+    <!-- Aktuality výzkumu -->
+    <section id="aktuality-section" class="space-y-4">
+      <div class="flex flex-wrap items-center justify-between gap-3">
+        <div>
+          <h2 class="text-2xl font-extrabold font-heading text-slate-900">📰 Aktuality badatelského výzkumu</h2>
+          <p class="text-xs text-slate-600">Milníky archivního přepisu, digitalizace a ověření zdrojů.</p>
+        </div>
+        <div id="news-filters" class="flex flex-wrap gap-1.5"></div>
+      </div>
+      <div id="news-cards-grid" class="grid grid-cols-1 md:grid-cols-2 gap-4"></div>
+    </section>
+  </main>
+
+  <!-- Licence Modal -->
+  <div id="licence-modal" class="hidden fixed inset-0 z-50 archive-viewer-backdrop flex items-center justify-center p-4">
+    <div class="bg-white rounded-2xl max-w-lg w-full p-6 border border-amber-300 shadow-2xl space-y-3 text-xs sm:text-sm">
+      <div class="flex items-center justify-between border-b border-amber-200 pb-2">
+        <h3 class="text-base font-extrabold font-heading text-slate-900">⚖️ Licence, prameny &amp; ochrana dat</h3>
+        <button onclick="closeLicenceModal()" class="px-2.5 py-1 rounded bg-stone-100 hover:bg-stone-200 font-bold cursor-pointer">✕</button>
+      </div>
+      <p><strong>Zdrojový kód:</strong> MIT License (© 2026 Karel Berka). <strong>Databáze a texty:</strong> CC BY-SA 4.0.</p>
+      <p><strong>Primární prameny:</strong> SOA Hradec Králové (ARON – matriky a OÚ Žamberk sčítání 1869–1921), MZA Brno, MZK Brno, SVK HK a ČÚZK (RÚIAN / WMS) + CENIA (Ortofoto 1953, CC BY 4.0).</p>
+      <p class="text-slate-600"><strong>GDPR:</strong> Veřejný portál zpracovává výhradně historická data již nežijících osob. Výzkum a portál vznikly s pomocí nástroje <strong>Google Antigravity</strong>.</p>
+    </div>
+  </div>
+
+  <footer class="bg-stone-950 text-amber-100/80 border-t border-amber-900/50 py-6 text-xs">
+    <div class="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-3">
+      <div>© 2026 České Petrovice (Böhmisch Petersdorf) • Archivní paměť pohraniční obce • MIT &amp; CC BY-SA 4.0 • Vytvořeno s pomocí Google Antigravity</div>
+      <div class="flex flex-wrap gap-3">
+        <button onclick="openLicenceModal()" class="hover:text-amber-300 underline cursor-pointer">⚖️ Licence &amp; GDPR</button>
+        <button onclick="openFeedbackIssue()" class="hover:text-amber-300 underline cursor-pointer">🐛 Nahlásit opravu na GitHubu</button>
+        <a href="reference.html" class="hover:text-amber-300 underline">📚 Citace ČSN ISO 690</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="data/news.js"></script>
+  <script src="data/guide.js"></script>
+  <script src="data/i18n.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

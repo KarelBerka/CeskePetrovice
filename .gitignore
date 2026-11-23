@@ -1,0 +1,30 @@
+# OS & Editors
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs, Temp & Python
+__pycache__/
+*.pyc
+*.pyo
+*.log
+*.tmp
+*.bak
+tmp*/
+scratch/
+
+# Surové pracovní skeny, výřezy a soukromé podklady (nezapisovat do Gitu)
+pracovni/
+zdroje/
+vyrezy/
+Barinka/
+Soudni pre/pracovni/
+Soudni pre/zdroje/
+Soudni pre/vyrezy/
+Soudni pre/.cache_aron/
