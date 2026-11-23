@@ -155,7 +155,7 @@ const villageBoundariesData = {
       "lng": 16.59089
     },
     "adam_762": {
-      "label": "Vrch Adam (766 m / tvrz)",
+      "label": "Vrch Adam (762 m / tvrz)",
       "lat": 50.1128,
       "lng": 16.6075
     },

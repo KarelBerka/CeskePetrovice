@@ -19,7 +19,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 17805805, st. 1, 216 m²)"
     },
     "description": "Historické číslo popisné 1 v Českých Petrovicích (Böhmisch Petersdorf), sektor Západní díl (k Mladkovu). Objekt v RÚIAN 2026 evidován na stavební parcele st. 1 (zastavěná plocha 216 m²). Konkordance Repertoria 23-1 (1771–1806): přijalo nové čp. 1 po starém č. 1 (rod Schroller); staré č. 1 (1771–1784, rod Schroller) přečíslováno 1805/1806 na čp. 1.",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [
@@ -211,10 +211,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Schroller Antonius",
         "event": "přijalo nové čp. 1 po starém č. 1 (rod Schroller); staré č. 1 (1771–1784, rod Schroller) přečíslováno 1805/1806 na čp. 1. První zachycený zápis: 1775-01-17 – Schroller Antonius, dítě Maria Theresia (Rusticus).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1869",
@@ -232,7 +232,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -241,7 +241,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 1.",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1921_cp1_umlauf.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -356,7 +356,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 1 (ARON SOA HK, sn. 1)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "assets/archives/scitani_1921_cp1_umlauf.jpg",
         "scanTitle": "Sčítání 1921 – čp. 1 (Umlaufovi, sn. 1)",
         "inhabited": true,
@@ -464,7 +464,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 153702770, st. 316, 246 m²)"
     },
     "description": "Historické číslo popisné 2 v Českých Petrovicích (Böhmisch Petersdorf), sektor Západní díl (k Mladkovu). Objekt v RÚIAN 2026 evidován na stavební parcele st. 316 (zastavěná plocha 246 m²).",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [],
@@ -501,7 +501,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -510,7 +510,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 3.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -519,7 +519,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 2 (ARON SOA HK, sn. 3)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 2 (sn. 3)",
         "inhabited": true,
@@ -608,7 +608,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 17805813, st. 5, 192 m²)"
     },
     "description": "Historické číslo popisné 3 v Českých Petrovicích (Böhmisch Petersdorf), sektor Západní díl (k Mladkovu). Objekt v RÚIAN 2026 evidován na stavební parcele st. 5 (zastavěná plocha 192 m²). Konkordance Repertoria 23-1 (1771–1806): přijalo nové čp. 3 po starém č. 3 (rod Peinelt); staré č. 3 (1771–1784, rod Blümel) přečíslováno 1805/1806 na čp. 120; staré č. 3 (1771–1784, rod Peinelt) přečíslováno 1805/1806 na čp. 3.",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [
@@ -725,10 +725,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Blümel Josephus",
         "event": "přijalo nové čp. 3 po starém č. 3 (rod Peinelt); staré č. 3 (1771–1784, rod Blümel) přečíslováno 1805/1806 na čp. 120; staré č. 3 (1771–1784, rod Peinelt) přečíslováno 1805/1806 na čp. 3. První zachycený zápis: 1773-04-13 – Blümel Josephus, dítě Veronica Brigitta (textor).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -737,7 +737,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -746,7 +746,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 5.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -755,7 +755,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 3 (ARON SOA HK, sn. 5)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 3 (sn. 5)",
         "inhabited": true,
@@ -825,7 +825,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 17805821, st. 14, 306 m²)"
     },
     "description": "Historické číslo popisné 4 v Českých Petrovicích (Böhmisch Petersdorf), sektor Západní díl (k Mladkovu). Objekt v RÚIAN 2026 evidován na stavební parcele st. 14 (zastavěná plocha 306 m²). Konkordance Repertoria 23-1 (1771–1806): staré č. 4 (1771–1784, rod Vogel) přečíslováno 1805/1806 na čp. 23.",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [
@@ -909,10 +909,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Vogel Antonius",
         "event": "staré č. 4 (1771–1784, rod Vogel) přečíslováno 1805/1806 na čp. 23. První zachycený zápis: 1774-10-04 – Vogel Antonius, dítě Florianus Franciscus (telitextor).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -921,7 +921,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -930,7 +930,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 7.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -939,7 +939,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 4 (ARON SOA HK, sn. 7)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 4 (sn. 7)",
         "inhabited": true,
@@ -1028,7 +1028,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 17805830, st. 15, 128 m²)"
     },
     "description": "Historické číslo popisné 5 v Českých Petrovicích (Böhmisch Petersdorf), sektor Západní díl (k Mladkovu). Objekt v RÚIAN 2026 evidován na stavební parcele st. 15 (zastavěná plocha 128 m²). Konkordance Repertoria 23-1 (1771–1806): přijalo nové čp. 5 po starém č. 31 (rod Lux).",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [],
@@ -1079,10 +1079,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Lux Florianus",
         "event": "přijalo nové čp. 5 po starém č. 31 (rod Lux). První zachycený zápis: 1784-03-10 – Lux Florianus, dítě Florianus Josephus (obyvatel).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -1091,7 +1091,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -1100,7 +1100,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 9.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -1109,7 +1109,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 5 (ARON SOA HK, sn. 9)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 5 (sn. 9)",
         "inhabited": true,
@@ -1198,7 +1198,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 17805848, st. 212, 97 m²)"
     },
     "description": "Historické číslo popisné 6 v Českých Petrovicích (Böhmisch Petersdorf), sektor Západní díl (k Mladkovu). Objekt v RÚIAN 2026 evidován na stavební parcele st. 212 (zastavěná plocha 97 m²). Konkordance Repertoria 23-1 (1771–1806): staré č. 6 (1771–1784, rod Schmok) přečíslováno 1805/1806 na čp. 8.",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [
@@ -1338,10 +1338,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Schmok Franciscus",
         "event": "staré č. 6 (1771–1784, rod Schmok) přečíslováno 1805/1806 na čp. 8. První zachycený zápis: 1772-01-24 – Schmok Franciscus, dítě Franciscus Josephus (textor).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -1350,7 +1350,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -1359,7 +1359,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 11.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -1368,7 +1368,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 6 (ARON SOA HK, sn. 11)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 6 (sn. 11)",
         "inhabited": true,
@@ -1442,8 +1442,8 @@ const housesData = [
   {
     "id": "cp7",
     "number": "7",
-    "localName": "Usedlost čp. 7 (Koth / Bařinka)",
-    "type": "Usedlost / Rodinné stavení",
+    "localName": "Usedlost čp. 7 (Kothovi)",
+    "type": "Usedlost / Rodinné stavení (vazba F. Bařinky 1938–1939)",
     "isHeritage": false,
     "exists2026": true,
     "sector": "Západní díl (k Mladkovu)",
@@ -1457,7 +1457,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 17805856, st. 17, 148 m²)"
     },
     "description": "Historické číslo popisné 7 v Českých Petrovicích (Böhmisch Petersdorf), sektor Západní díl (k Mladkovu). Objekt v RÚIAN 2026 evidován na stavební parcele st. 17 (zastavěná plocha 148 m²). Konkordance Repertoria 23-1 (1771–1806): staré č. 7 (1771–1784, rod Hannig) přečíslováno 1805/1806 na čp. 9.",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [
@@ -1575,10 +1575,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Hanig Josephus",
         "event": "staré č. 7 (1771–1784, rod Hannig) přečíslováno 1805/1806 na čp. 9. První zachycený zápis: 1771-04-07 – Hanig Josephus, dítě Josephus Leopoldus (molitor).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1869",
@@ -1596,7 +1596,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -1605,7 +1605,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 13.",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1921_cp7_koth.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -1673,9 +1673,9 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 7 (ARON SOA HK, sn. 13)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "assets/archives/scitani_1921_cp7_koth.jpg",
-        "scanTitle": "Sčítání 1921 – čp. 7 (Kothovi a Bařinkovi, sn. 13)",
+        "scanTitle": "Sčítání 1921 – čp. 7 (Kothovi, sn. 13)",
         "inhabited": true,
         "householdsCount": 1,
         "isSample": false,
@@ -1726,12 +1726,12 @@ const housesData = [
     "documents": [
       {
         "type": "Matrika & Paměť",
-        "year": "1911–1945",
-        "title": "Dům rodin Koth a Bařinka (rodiště Františka Bařinky *5. 1. 1911)",
-        "description": "Zde žila rodina Kothova (křestní zápisy v matrice 23-6334) a narodil se československý finanční úředník a odbojář František Bařinka († 3. 5. 1945 na lodi Thielbek, pohřben v Sandby v Dánsku).",
-        "source": "SOA HK sign. 23-6334; Vojenská kmenová kniha; Památník Terezín / Sandby.",
+        "year": "1919–1945",
+        "title": "Rodina Kothova (sňatek 10. 6. 1919) a pobyty Františka Bařinky (1938–1939)",
+        "description": "Dům manželů Josefa Kotha a Emilie roz. Krauseové (sňatek v matrice 23-6334 dne 10. 6. 1919). V letech 1938–1939 měl s jejich dcerou Marthou vztah obchodní příručí František Bařinka (*5. 1. 1911 Valašské Klobouky – †3. 5. 1945 SS Thielbek, pohřben v dánském Sandby).",
+        "source": "SOA HK matrika O 23-6334 (10. 6. 1919); SOkA Zlín (Ohlašovací kniha Valašské Klobouky inv. č. 63, spis M 2/45); KZ Dachau & Neuengamme.",
         "scanFile": "assets/archives/matrika_23_6334_1919_koth.jpg",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/1f59fa32-e5b6-45ae-9230-e48356a6ed6f"
       }
     ]
   },
@@ -1753,7 +1753,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 17805864, st. 219, 173 m²)"
     },
     "description": "Historické číslo popisné 8 v Českých Petrovicích (Böhmisch Petersdorf), sektor Jádro u kostela a fary. Objekt v RÚIAN 2026 evidován na stavební parcele st. 219 (zastavěná plocha 173 m²). Konkordance Repertoria 23-1 (1771–1806): přijalo nové čp. 8 po starém č. 6 (rod Schmok); staré č. 8 (1771–1784, rod Lux) přečíslováno 1805/1806 na čp. 10.",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [
@@ -1909,10 +1909,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Lux Antonius",
         "event": "přijalo nové čp. 8 po starém č. 6 (rod Schmok); staré č. 8 (1771–1784, rod Lux) přečíslováno 1805/1806 na čp. 10. První zachycený zápis: 1780-08-14 – Lux Antonius, dítě Maria Anna (inquilinus).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -1921,7 +1921,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -1930,7 +1930,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 15.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -1939,7 +1939,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 8 (ARON SOA HK, sn. 15)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 8 (sn. 15)",
         "inhabited": false,
@@ -1970,7 +1970,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 17805872, st. 218, 174 m²)"
     },
     "description": "Historické číslo popisné 9 v Českých Petrovicích (Böhmisch Petersdorf), sektor Jádro u kostela a fary. Objekt v RÚIAN 2026 evidován na stavební parcele st. 218 (zastavěná plocha 174 m²). Konkordance Repertoria 23-1 (1771–1806): přijalo nové čp. 9 po starém č. 7 (rod Hannig); staré č. 9 (1771–1784, rod Scholtz) přečíslováno 1805/1806 na čp. 11.",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [
@@ -2116,10 +2116,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Scholtz Josephus",
         "event": "přijalo nové čp. 9 po starém č. 7 (rod Hannig); staré č. 9 (1771–1784, rod Scholtz) přečíslováno 1805/1806 na čp. 11. První zachycený zápis: 1775-08-04 – Scholtz Josephus, dítě Josephus Peregrinus (inquilinus).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -2128,7 +2128,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -2137,7 +2137,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 17.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -2146,7 +2146,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 9 (ARON SOA HK, sn. 17)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 9 (sn. 17)",
         "inhabited": true,
@@ -2254,7 +2254,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 26263734, st. 11/1, 59 m²)"
     },
     "description": "Historické číslo popisné 10 v Českých Petrovicích (Böhmisch Petersdorf), sektor Západní díl (k Mladkovu). Objekt v RÚIAN 2026 evidován na stavební parcele st. 11/1 (zastavěná plocha 59 m²). Konkordance Repertoria 23-1 (1771–1806): přijalo nové čp. 10 po starém č. 8 (rod Lux); staré č. 10 (1771–1784, rod Schroller) přečíslováno 1805/1806 na čp. 13.",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [
@@ -2333,10 +2333,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Schroller Antonius",
         "event": "přijalo nové čp. 10 po starém č. 8 (rod Lux); staré č. 10 (1771–1784, rod Schroller) přečíslováno 1805/1806 na čp. 13. První zachycený zápis: 1783-12-12 – Schroller Antonius, dítě Anna Maria Theresia (inquilinus).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -2345,7 +2345,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -2354,7 +2354,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 19.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -2363,7 +2363,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 10 (ARON SOA HK, sn. 19)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 10 (sn. 19)",
         "inhabited": true,
@@ -2433,7 +2433,7 @@ const housesData = [
       "source": "Orientační poloha interpolovaná z řady sousedních čp. v RÚIAN (stavení zaniklé po r. 1921)"
     },
     "description": "Historické číslo popisné 11 v Českých Petrovicích (Böhmisch Petersdorf), sektor Západní díl (k Mladkovu). Stavení zaniklo v průběhu 20. století (chybí v aktuální evidenci RÚIAN 2026; bod na mapě má orientační polohu). Konkordance Repertoria 23-1 (1771–1806): přijalo nové čp. 11 po starém č. 9 (rod Scholtz); staré č. 11 (1771–1784, rod Orban) přečíslováno 1805/1806 na čp. 18.",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [
@@ -2512,10 +2512,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Orban Josephus",
         "event": "přijalo nové čp. 11 po starém č. 9 (rod Scholtz); staré č. 11 (1771–1784, rod Orban) přečíslováno 1805/1806 na čp. 18. První zachycený zápis: 1773-10-24 – Orban Josephus, dítě Franciscus Antonius (Semirusticus).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -2524,7 +2524,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -2533,7 +2533,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 21.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -2542,7 +2542,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 11 (ARON SOA HK, sn. 21)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 11 (sn. 21)",
         "inhabited": true,
@@ -2650,7 +2650,7 @@ const housesData = [
       "source": "Orientační poloha interpolovaná z řady sousedních čp. v RÚIAN (stavení zaniklé po r. 1921)"
     },
     "description": "Historické číslo popisné 12 v Českých Petrovicích (Böhmisch Petersdorf), sektor Západní díl (k Mladkovu). Stavení zaniklo v průběhu 20. století (chybí v aktuální evidenci RÚIAN 2026; bod na mapě má orientační polohu). Konkordance Repertoria 23-1 (1771–1806): staré č. 12 (1771–1784, rod Schmok) přečíslováno 1805/1806 na čp. 17; staré č. 12 (1771–1784, rod Langer) přečíslováno 1805/1806 na čp. 22.",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [
@@ -2772,10 +2772,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Schmok Franciscus",
         "event": "staré č. 12 (1771–1784, rod Schmok) přečíslováno 1805/1806 na čp. 17; staré č. 12 (1771–1784, rod Langer) přečíslováno 1805/1806 na čp. 22. První zachycený zápis: 1775-11-06 – Schmok Franciscus, dítě Josephus Franciscus (obyvatel).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -2784,7 +2784,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -2793,7 +2793,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 23.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -2802,7 +2802,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 12 (ARON SOA HK, sn. 23)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 12 (sn. 23)",
         "inhabited": true,
@@ -2929,7 +2929,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 17805881, st. 8, 273 m²)"
     },
     "description": "Historické číslo popisné 13 v Českých Petrovicích (Böhmisch Petersdorf), sektor Západní díl (k Mladkovu). Objekt v RÚIAN 2026 evidován na stavební parcele st. 8 (zastavěná plocha 273 m²). Konkordance Repertoria 23-1 (1771–1806): přijalo nové čp. 13 po starém č. 10 (rod Schroller); staré č. 13 (1771–1784, rod Wagner) přečíslováno 1805/1806 na čp. 22.",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [
@@ -3008,10 +3008,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Schmok Antonius Florianus",
         "event": "přijalo nové čp. 13 po starém č. 10 (rod Schroller); staré č. 13 (1771–1784, rod Wagner) přečíslováno 1805/1806 na čp. 22. První zachycený zápis: 1774-10-04 – Schmok Antonius Florianus, dítě Franciscus Florianus (obyvatel).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -3020,7 +3020,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -3029,7 +3029,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 25.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -3038,7 +3038,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 13 (ARON SOA HK, sn. 25)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 13 (sn. 25)",
         "inhabited": false,
@@ -3069,7 +3069,7 @@ const housesData = [
       "source": "Orientační poloha interpolovaná z řady sousedních čp. v RÚIAN (stavení zaniklé po r. 1921)"
     },
     "description": "Historické číslo popisné 14 v Českých Petrovicích (Böhmisch Petersdorf), sektor Západní díl (k Mladkovu). Stavení zaniklo v průběhu 20. století (chybí v aktuální evidenci RÚIAN 2026; bod na mapě má orientační polohu). Konkordance Repertoria 23-1 (1771–1806): přijalo nové čp. 14 po starém č. 21 (rod Weller); staré č. 14 (1771–1784, rod Scholtz) přečíslováno 1805/1806 na čp. 21.",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [
@@ -3193,10 +3193,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Schultz Antonius",
         "event": "přijalo nové čp. 14 po starém č. 21 (rod Weller); staré č. 14 (1771–1784, rod Scholtz) přečíslováno 1805/1806 na čp. 21. První zachycený zápis: 1777-08-19 – Schultz Antonius, dítě Maria Anna (inquilinus).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -3205,7 +3205,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -3214,7 +3214,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 27.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -3223,7 +3223,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 14 (ARON SOA HK, sn. 27)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 14 (sn. 27)",
         "inhabited": true,
@@ -3274,7 +3274,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 17805899, st. 198/1, 201 m²)"
     },
     "description": "Historické číslo popisné 15 v Českých Petrovicích (Böhmisch Petersdorf), sektor Jádro u kostela a fary. Objekt v RÚIAN 2026 evidován na stavební parcele st. 198/1 (zastavěná plocha 201 m²). Konkordance Repertoria 23-1 (1771–1806): přijalo nové čp. 15 po starém č. 30 (rod Lux); staré č. 15 (1771–1784, rod Wagner) přečíslováno 1805/1806 na čp. None.",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [
@@ -3378,10 +3378,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Wagner Antonius",
         "event": "přijalo nové čp. 15 po starém č. 30 (rod Lux); staré č. 15 (1771–1784, rod Wagner) přečíslováno 1805/1806 na čp. None. První zachycený zápis: 1774-11-15 – Wagner Antonius, dítě Anna Maria (casarius).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -3390,7 +3390,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -3399,7 +3399,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 29.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -3408,7 +3408,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 15 (ARON SOA HK, sn. 29)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 15 (sn. 29)",
         "inhabited": true,
@@ -3592,7 +3592,7 @@ const housesData = [
       "source": "Orientační poloha interpolovaná z řady sousedních čp. v RÚIAN (stavení zaniklé po r. 1921)"
     },
     "description": "Historické číslo popisné 16 v Českých Petrovicích (Böhmisch Petersdorf), sektor Jádro u kostela a fary. Stavení zaniklo v průběhu 20. století (chybí v aktuální evidenci RÚIAN 2026; bod na mapě má orientační polohu). Konkordance Repertoria 23-1 (1771–1806): staré č. 16 (1771–1784, rod Wagner) přečíslováno 1805/1806 na čp. 18.",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [
@@ -3709,10 +3709,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Wagner Josephus",
         "event": "staré č. 16 (1771–1784, rod Wagner) přečíslováno 1805/1806 na čp. 18. První zachycený zápis: 1772-06-17 – Wagner Josephus, dítě Benedictus Barnabas (Ludimagister).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -3721,7 +3721,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -3730,7 +3730,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 31.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -3739,7 +3739,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 16 (ARON SOA HK, sn. 31)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 16 (sn. 31)",
         "inhabited": false,
@@ -3770,7 +3770,7 @@ const housesData = [
       "source": "Orientační poloha interpolovaná z řady sousedních čp. v RÚIAN (stavení zaniklé po r. 1921)"
     },
     "description": "Historické číslo popisné 17 v Českých Petrovicích (Böhmisch Petersdorf), sektor Jádro u kostela a fary. Stavení zaniklo v průběhu 20. století (chybí v aktuální evidenci RÚIAN 2026; bod na mapě má orientační polohu). Konkordance Repertoria 23-1 (1771–1806): přijalo nové čp. 17 po starém č. 12 (rod Schmok).",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [],
@@ -3877,10 +3877,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Schmok Franciscus",
         "event": "přijalo nové čp. 17 po starém č. 12 (rod Schmok). První zachycený zápis: 1775-11-06 – Schmok Franciscus, dítě Josephus Franciscus (obyvatel).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -3889,7 +3889,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -3898,7 +3898,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 33.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -3907,7 +3907,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 17 (ARON SOA HK, sn. 33)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 17 (sn. 33)",
         "inhabited": true,
@@ -4015,7 +4015,7 @@ const housesData = [
       "source": "Orientační poloha interpolovaná z řady sousedních čp. v RÚIAN (stavení zaniklé po r. 1921)"
     },
     "description": "Historické číslo popisné 18 v Českých Petrovicích (Böhmisch Petersdorf), sektor Jádro u kostela a fary. Stavení zaniklo v průběhu 20. století (chybí v aktuální evidenci RÚIAN 2026; bod na mapě má orientační polohu). Konkordance Repertoria 23-1 (1771–1806): přijalo nové čp. 18 po starém č. 11 (rod Orban); přijalo nové čp. 18 po starém č. 16 (rod Wagner).",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [],
@@ -4147,10 +4147,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Wagner Josephus",
         "event": "přijalo nové čp. 18 po starém č. 11 (rod Orban); přijalo nové čp. 18 po starém č. 16 (rod Wagner). První zachycený zápis: 1772-06-17 – Wagner Josephus, dítě Benedictus Barnabas (Ludimagister).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -4159,7 +4159,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -4168,7 +4168,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 35.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -4177,7 +4177,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 18 (ARON SOA HK, sn. 35)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 18 (sn. 35)",
         "inhabited": true,
@@ -4304,7 +4304,7 @@ const housesData = [
       "source": "Orientační poloha interpolovaná z řady sousedních čp. v RÚIAN (stavení zaniklé po r. 1921)"
     },
     "description": "Historické číslo popisné 19 v Českých Petrovicích (Böhmisch Petersdorf), sektor Jádro u kostela a fary. Stavení zaniklo v průběhu 20. století (chybí v aktuální evidenci RÚIAN 2026; bod na mapě má orientační polohu). Konkordance Repertoria 23-1 (1771–1806): přijalo nové čp. 19 po starém č. 112 (rod Kittner); staré č. 19 (1771–1784, rod Ezzel) přečíslováno 1805/1806 na čp. 112; staré č. 19 (1771–1784, rod Theresia) přečíslováno 1805/1806 na čp. 22; staré č. 19 (1771–1784, rod Patzel) přečíslováno 1805/1806 na čp. 23.",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [
@@ -4469,10 +4469,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Patzel Joannes",
         "event": "přijalo nové čp. 19 po starém č. 112 (rod Kittner); staré č. 19 (1771–1784, rod Ezzel) přečíslováno 1805/1806 na čp. 112; staré č. 19 (1771–1784, rod Theresia) přečíslováno 1805/1806 na čp. 22; staré č. 19 (1771–1784, rod Patzel) přečíslováno 1805/1806 na čp. 23. První zachycený zápis: 1771-12-29 – Patzel Joannes, dítě Paulus Casparus (miles ab inclyto Regimine Pallavicini (Comp. Com. de Lützau?)).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -4481,7 +4481,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -4490,7 +4490,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 37.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -4499,7 +4499,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 19 (ARON SOA HK, sn. 37)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 19 (sn. 37)",
         "inhabited": true,
@@ -4588,7 +4588,7 @@ const housesData = [
       "source": "Orientační poloha interpolovaná z řady sousedních čp. v RÚIAN (stavení zaniklé po r. 1921)"
     },
     "description": "Historické číslo popisné 20 v Českých Petrovicích (Böhmisch Petersdorf), sektor Jádro u kostela a fary. Stavení zaniklo v průběhu 20. století (chybí v aktuální evidenci RÚIAN 2026; bod na mapě má orientační polohu). Konkordance Repertoria 23-1 (1771–1806): přijalo nové čp. 20 po starém č. 34 (rod Langer); staré č. 20 (1771–1784, rod Theresia) přečíslováno 1805/1806 na čp. 34.",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [
@@ -4699,12 +4699,12 @@ const housesData = [
     "timeline": [
       {
         "year": "1771–1806",
-        "owner": "Kožíškovo Repertorium",
+        "owner": "Repertorium 23-1",
         "event": "přijalo nové čp. 20 po starém č. 34 (rod Langer); staré č. 20 (1771–1784, rod Theresia) přečíslováno 1805/1806 na čp. 34. První zachycený zápis: 1783-08-29 – Theresia N., dítě Maria Brigita (obyvatel).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -4713,7 +4713,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -4722,7 +4722,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 39.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -4731,7 +4731,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 20 (ARON SOA HK, sn. 39)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 20 (sn. 39)",
         "inhabited": false,
@@ -4762,7 +4762,7 @@ const housesData = [
       "source": "Orientační poloha interpolovaná z řady sousedních čp. v RÚIAN (stavení zaniklé po r. 1921)"
     },
     "description": "Historické číslo popisné 21 v Českých Petrovicích (Böhmisch Petersdorf), sektor Jádro u kostela a fary. Stavení zaniklo v průběhu 20. století (chybí v aktuální evidenci RÚIAN 2026; bod na mapě má orientační polohu). Konkordance Repertoria 23-1 (1771–1806): přijalo nové čp. 21 po starém č. 14 (rod Scholtz); staré č. 21 (1771–1784, rod Weller) přečíslováno 1805/1806 na čp. 14; staré č. 21 (1771–1784, rod Weller) přečíslováno 1805/1806 na čp. 25; staré č. 21 (1771–1784, rod Wagner) přečíslováno 1805/1806 na čp. 35.",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [
@@ -4904,10 +4904,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Weller Joannes Paulus",
         "event": "přijalo nové čp. 21 po starém č. 14 (rod Scholtz); staré č. 21 (1771–1784, rod Weller) přečíslováno 1805/1806 na čp. 14; staré č. 21 (1771–1784, rod Weller) přečíslováno 1805/1806 na čp. 25; staré č. 21 (1771–1784, rod Wagner) přečíslováno 1805/1806 na čp. 35. První zachycený zápis: 1771-04-17 – Weller Joannes Paulus, dítě Josephus Joachimus (Teloniarius Regius).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1869",
@@ -4925,7 +4925,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -4934,7 +4934,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 41.",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1921_cp21_schroller.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -5077,7 +5077,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 21 (ARON SOA HK, sn. 41)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "assets/archives/scitani_1921_cp21_schroller.jpg",
         "scanTitle": "Sčítání 1921 – čp. 21 (Schrollerovi, sn. 40)",
         "inhabited": true,
@@ -5166,7 +5166,7 @@ const housesData = [
       "source": "Orientační poloha interpolovaná z řady sousedních čp. v RÚIAN (stavení zaniklé po r. 1921)"
     },
     "description": "Historické číslo popisné 22 v Českých Petrovicích (Böhmisch Petersdorf), sektor Jádro u kostela a fary. Stavení zaniklo v průběhu 20. století (chybí v aktuální evidenci RÚIAN 2026; bod na mapě má orientační polohu). Konkordance Repertoria 23-1 (1771–1806): přijalo nové čp. 22 po starém č. 12 (rod Langer); přijalo nové čp. 22 po starém č. 13 (rod Wagner); přijalo nové čp. 22 po starém č. 19 (rod Theresia).",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [],
@@ -5258,10 +5258,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Schmok Antonius Florianus",
         "event": "přijalo nové čp. 22 po starém č. 12 (rod Langer); přijalo nové čp. 22 po starém č. 13 (rod Wagner); přijalo nové čp. 22 po starém č. 19 (rod Theresia). První zachycený zápis: 1774-10-04 – Schmok Antonius Florianus, dítě Franciscus Florianus (obyvatel).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -5270,7 +5270,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -5279,7 +5279,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 43.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -5288,7 +5288,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 22 (ARON SOA HK, sn. 43)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 22 (sn. 43)",
         "inhabited": true,
@@ -5377,7 +5377,7 @@ const housesData = [
       "source": "Orientační poloha interpolovaná z řady sousedních čp. v RÚIAN (stavení zaniklé po r. 1921)"
     },
     "description": "Historické číslo popisné 23 v Českých Petrovicích (Böhmisch Petersdorf), sektor Jádro u kostela a fary. Stavení zaniklo v průběhu 20. století (chybí v aktuální evidenci RÚIAN 2026; bod na mapě má orientační polohu). Konkordance Repertoria 23-1 (1771–1806): přijalo nové čp. 23 po starém č. 4 (rod Vogel); přijalo nové čp. 23 po starém č. 19 (rod Patzel); staré č. 23 (1771–1784, rod Langer) přečíslováno 1805/1806 na čp. 38.",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [
@@ -5527,10 +5527,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Langer Josephus",
         "event": "přijalo nové čp. 23 po starém č. 4 (rod Vogel); přijalo nové čp. 23 po starém č. 19 (rod Patzel); staré č. 23 (1771–1784, rod Langer) přečíslováno 1805/1806 na čp. 38. První zachycený zápis: 1775-08-27 – Langer Josephus, dítě Elisabetha Anna Maria Paulina (Casarius).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -5539,7 +5539,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -5548,7 +5548,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 45.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -5557,7 +5557,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 23 (ARON SOA HK, sn. 45)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 23 (sn. 45)",
         "inhabited": true,
@@ -5627,7 +5627,7 @@ const housesData = [
       "source": "Orientační poloha interpolovaná z řady sousedních čp. v RÚIAN (stavení zaniklé po r. 1921)"
     },
     "description": "Historické číslo popisné 24 v Českých Petrovicích (Böhmisch Petersdorf), sektor Jádro u kostela a fary. Stavení zaniklo v průběhu 20. století (chybí v aktuální evidenci RÚIAN 2026; bod na mapě má orientační polohu). Konkordance Repertoria 23-1 (1771–1806): přijalo nové čp. 24 po starém č. 39 (rod Blüml); staré č. 24 (1771–1784, rod Kittner) přečíslováno 1805/1806 na čp. 39.",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [
@@ -5773,10 +5773,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Kittner Romanus",
         "event": "přijalo nové čp. 24 po starém č. 39 (rod Blüml); staré č. 24 (1771–1784, rod Kittner) přečíslováno 1805/1806 na čp. 39. První zachycený zápis: 1773-02-03(?) – Kittner Romanus, dítě Peregrinus Josephus (inquilinus).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -5785,7 +5785,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -5794,7 +5794,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 47.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -5803,7 +5803,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 24 (ARON SOA HK, sn. 47)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 24 (sn. 47)",
         "inhabited": true,
@@ -5873,7 +5873,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 17805902, st. 54, 186 m²)"
     },
     "description": "Historické číslo popisné 25 v Českých Petrovicích (Böhmisch Petersdorf), sektor Jádro u kostela a fary. Objekt v RÚIAN 2026 evidován na stavební parcele st. 54 (zastavěná plocha 186 m²). Konkordance Repertoria 23-1 (1771–1806): přijalo nové čp. 25 po starém č. 21 (rod Weller); přijalo nové čp. 25 po starém č. 40 (rod Bayer); staré č. 25 (1771–1784, rod Langer) přečíslováno 1805/1806 na čp. 40.",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [
@@ -5965,12 +5965,12 @@ const housesData = [
     "timeline": [
       {
         "year": "1771–1806",
-        "owner": "Kožíškovo Repertorium",
+        "owner": "Repertorium 23-1",
         "event": "přijalo nové čp. 25 po starém č. 21 (rod Weller); přijalo nové čp. 25 po starém č. 40 (rod Bayer); staré č. 25 (1771–1784, rod Langer) přečíslováno 1805/1806 na čp. 40. První zachycený zápis: 1773-12-20 – Ludmilla filia defuncti Michaelis Oppel, dítě Anna Maria (filia def. Michaelis Oppel).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1869",
@@ -5988,7 +5988,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -5997,7 +5997,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 49.",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1921_cp25_fara.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -6104,9 +6104,9 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 25 (ARON SOA HK, sn. 49)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "assets/archives/scitani_1921_cp25_fara.jpg",
-        "scanTitle": "Sčítání 1921 – čp. 25 (Fara, P. Vrábel, sn. 48)",
+        "scanTitle": "Sčítání 1921 – čp. 25 (Fara, P. František Chládek, sn. 48)",
         "inhabited": true,
         "householdsCount": 1,
         "isSample": false,
@@ -6155,7 +6155,7 @@ const housesData = [
       "source": "Orientační poloha interpolovaná z řady sousedních čp. v RÚIAN (stavení zaniklé po r. 1921)"
     },
     "description": "Historické číslo popisné 26 v Českých Petrovicích (Böhmisch Petersdorf), sektor Jádro u kostela a fary. Stavení zaniklo v průběhu 20. století (chybí v aktuální evidenci RÚIAN 2026; bod na mapě má orientační polohu). Konkordance Repertoria 23-1 (1771–1806): staré č. 26 (1771–1784, rod Scholtz) přečíslováno 1805/1806 na čp. 37.",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [
@@ -6239,10 +6239,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Scholtz Josephus",
         "event": "staré č. 26 (1771–1784, rod Scholtz) přečíslováno 1805/1806 na čp. 37. První zachycený zápis: 1772-07-20 – Scholtz Josephus, dítě Josephus Franciscus (Lanio).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1869",
@@ -6260,7 +6260,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -6269,7 +6269,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 51.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -6337,7 +6337,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 26 (ARON SOA HK, sn. 51)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 26 (sn. 51)",
         "inhabited": true,
@@ -6445,7 +6445,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 17805911, st. 58, 257 m²)"
     },
     "description": "Historické číslo popisné 27 v Českých Petrovicích (Böhmisch Petersdorf), sektor Jádro u kostela a fary. Objekt v RÚIAN 2026 evidován na stavební parcele st. 58 (zastavěná plocha 257 m²).",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [],
@@ -6491,7 +6491,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       }
     ],
     "census": [
@@ -6668,7 +6668,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 17805929, st. 59, 215 m²)"
     },
     "description": "Historické číslo popisné 28 v Českých Petrovicích (Böhmisch Petersdorf), sektor Jádro u kostela a fary. Objekt v RÚIAN 2026 evidován na stavební parcele st. 59 (zastavěná plocha 215 m²). Konkordance Repertoria 23-1 (1771–1806): přijalo nové čp. 28 po starém č. 46 (rod Beüer).",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [],
@@ -6764,10 +6764,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Bayerlein Antonius",
         "event": "přijalo nové čp. 28 po starém č. 46 (rod Beüer). První zachycený zápis: 1774-04-02 – Bayerlein Antonius, dítě Anna Maria (telitextor).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -6776,7 +6776,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -6785,7 +6785,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 53.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -6794,7 +6794,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 28 (ARON SOA HK, sn. 53)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 28 (sn. 53)",
         "inhabited": true,
@@ -6883,7 +6883,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 17805937, st. 60, 144 m²)"
     },
     "description": "Historické číslo popisné 29 v Českých Petrovicích (Böhmisch Petersdorf), sektor Jádro u kostela a fary. Objekt v RÚIAN 2026 evidován na stavební parcele st. 60 (zastavěná plocha 144 m²).",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [],
@@ -6932,7 +6932,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -6941,7 +6941,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 55.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -6950,7 +6950,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 29 (ARON SOA HK, sn. 55)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 29 (sn. 55)",
         "inhabited": true,
@@ -7020,7 +7020,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 105297445, st. 305, 153 m²)"
     },
     "description": "Historické číslo popisné 30 v Českých Petrovicích (Böhmisch Petersdorf), sektor Jádro u kostela a fary. Objekt v RÚIAN 2026 evidován na stavební parcele st. 305 (zastavěná plocha 153 m²). Konkordance Repertoria 23-1 (1771–1806): staré č. 30 (1771–1784, rod Lux) přečíslováno 1805/1806 na čp. 15.",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [
@@ -7093,10 +7093,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Lux Josephus",
         "event": "staré č. 30 (1771–1784, rod Lux) přečíslováno 1805/1806 na čp. 15. První zachycený zápis: 1778-07-12 – Lux Josephus, dítě Franciscus Josephus (rusticus).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -7105,7 +7105,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -7114,7 +7114,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 57.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -7123,7 +7123,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 30 (ARON SOA HK, sn. 57)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 30 (sn. 57)",
         "inhabited": false,
@@ -7154,7 +7154,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 17805945, st. 62, 212 m²)"
     },
     "description": "Historické číslo popisné 31 v Českých Petrovicích (Böhmisch Petersdorf), sektor Jádro u kostela a fary. Objekt v RÚIAN 2026 evidován na stavební parcele st. 62 (zastavěná plocha 212 m²). Konkordance Repertoria 23-1 (1771–1806): staré č. 31 (1771–1784, rod Lux) přečíslováno 1805/1806 na čp. 5.",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [],
@@ -7205,10 +7205,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Repertorium 23-1",
         "event": "staré č. 31 (1771–1784, rod Lux) přečíslováno 1805/1806 na čp. 5",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -7217,7 +7217,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -7226,7 +7226,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 59.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -7235,7 +7235,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 31 (ARON SOA HK, sn. 59)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 31 (sn. 59)",
         "inhabited": true,
@@ -7305,7 +7305,7 @@ const housesData = [
       "source": "Orientační poloha interpolovaná z řady sousedních čp. v RÚIAN (stavení zaniklé po r. 1921)"
     },
     "description": "Historické číslo popisné 32 v Českých Petrovicích (Böhmisch Petersdorf), sektor Jádro u kostela a fary. Stavení zaniklo v průběhu 20. století (chybí v aktuální evidenci RÚIAN 2026; bod na mapě má orientační polohu).",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [],
@@ -7342,7 +7342,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       }
     ],
     "census": [],
@@ -7366,7 +7366,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 17805953, st. 66, 246 m²)"
     },
     "description": "Historické číslo popisné 33 v Českých Petrovicích (Böhmisch Petersdorf), sektor Jádro u kostela a fary. Objekt v RÚIAN 2026 evidován na stavební parcele st. 66 (zastavěná plocha 246 m²). Konkordance Repertoria 23-1 (1771–1806): staré č. 33 (1771–1784, rod Lux) přečíslováno 1805/1806 na čp. 49.",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [
@@ -7509,10 +7509,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Lux Florianus",
         "event": "staré č. 33 (1771–1784, rod Lux) přečíslováno 1805/1806 na čp. 49. První zachycený zápis: 1773-06-15 – Lux Florianus, dítě Joannes Josephus Vitus (rust.).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -7521,7 +7521,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -7530,7 +7530,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 61.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -7539,7 +7539,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 33 (ARON SOA HK, sn. 61)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 33 (sn. 61)",
         "inhabited": false,
@@ -7570,7 +7570,7 @@ const housesData = [
       "source": "Orientační poloha interpolovaná z řady sousedních čp. v RÚIAN (stavení zaniklé po r. 1921)"
     },
     "description": "Historické číslo popisné 34 v Českých Petrovicích (Böhmisch Petersdorf), sektor Jádro u kostela a fary. Stavení zaniklo v průběhu 20. století (chybí v aktuální evidenci RÚIAN 2026; bod na mapě má orientační polohu). Konkordance Repertoria 23-1 (1771–1806): přijalo nové čp. 34 po starém č. 20 (rod Theresia); staré č. 34 (1771–1784, rod Langer) přečíslováno 1805/1806 na čp. 20.",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [
@@ -7640,10 +7640,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Langer Josephus",
         "event": "přijalo nové čp. 34 po starém č. 20 (rod Theresia); staré č. 34 (1771–1784, rod Langer) přečíslováno 1805/1806 na čp. 20. První zachycený zápis: 1782-06-17 – Langer Josephus, dítě Laurentius (Casarius).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1869",
@@ -7661,7 +7661,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 63.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -7711,7 +7711,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 34 (ARON SOA HK, sn. 63)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 34 (sn. 63)",
         "inhabited": true,
@@ -7857,7 +7857,7 @@ const housesData = [
       "source": "Orientační poloha interpolovaná z řady sousedních čp. v RÚIAN (stavení zaniklé po r. 1921)"
     },
     "description": "Historické číslo popisné 35 v Českých Petrovicích (Böhmisch Petersdorf), sektor Jádro u kostela a fary. Stavení zaniklo v průběhu 20. století (chybí v aktuální evidenci RÚIAN 2026; bod na mapě má orientační polohu). Konkordance Repertoria 23-1 (1771–1806): přijalo nové čp. 35 po starém č. 21 (rod Wagner); přijalo nové čp. 35 po starém č. 50 (rod Adler); staré č. 35 (1771–1784, rod Langer) přečíslováno 1805/1806 na čp. 50.",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [
@@ -7974,10 +7974,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Langer Petrus",
         "event": "přijalo nové čp. 35 po starém č. 21 (rod Wagner); přijalo nové čp. 35 po starém č. 50 (rod Adler); staré č. 35 (1771–1784, rod Langer) přečíslováno 1805/1806 na čp. 50. První zachycený zápis: 1771-09-04 – Langer Petrus, dítě Maria Magdalena (Sutor).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -7986,7 +7986,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -7995,7 +7995,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 65.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -8004,7 +8004,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 35 (ARON SOA HK, sn. 65)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 35 (sn. 65)",
         "inhabited": true,
@@ -8097,8 +8097,8 @@ const housesData = [
   {
     "id": "cp36",
     "number": "36",
-    "localName": "Hostinec & usedlost čp. 36",
-    "type": "Hostinec / Usedlost (1910)",
+    "localName": "Státní kasárna finanční stráže čp. 36",
+    "type": "Státní kasárna finanční stráže",
     "isHeritage": false,
     "exists2026": true,
     "sector": "Jádro u kostela a fary",
@@ -8112,7 +8112,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 17805961, st. 234, 110 m²)"
     },
     "description": "Historické číslo popisné 36 v Českých Petrovicích (Böhmisch Petersdorf), sektor Jádro u kostela a fary. Objekt v RÚIAN 2026 evidován na stavební parcele st. 234 (zastavěná plocha 110 m²). Konkordance Repertoria 23-1 (1771–1806): staré č. 36 (1771–1784, rod Esler) přečíslováno 1805/1806 na čp. 102; staré č. 36 (1771–1784, rod Frimel) přečíslováno 1805/1806 na čp. 59.",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [
@@ -8234,10 +8234,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Frimel Josephus",
         "event": "staré č. 36 (1771–1784, rod Esler) přečíslováno 1805/1806 na čp. 102; staré č. 36 (1771–1784, rod Frimel) přečíslováno 1805/1806 na čp. 59. První zachycený zápis: 1773-10-03 – Frimel Josephus, dítě Maria Clara (obyvatel).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -8246,7 +8246,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -8255,7 +8255,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 67.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -8264,7 +8264,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 36 (ARON SOA HK, sn. 67)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 36 (sn. 67)",
         "inhabited": false,
@@ -8295,7 +8295,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 17805970, st. 235, 143 m²)"
     },
     "description": "Historické číslo popisné 37 v Českých Petrovicích (Böhmisch Petersdorf), sektor Jádro u kostela a fary. Objekt v RÚIAN 2026 evidován na stavební parcele st. 235 (zastavěná plocha 143 m²). Konkordance Repertoria 23-1 (1771–1806): přijalo nové čp. 37 po starém č. 26 (rod Scholtz).",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [],
@@ -8391,10 +8391,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Scholtz Josephus",
         "event": "přijalo nové čp. 37 po starém č. 26 (rod Scholtz). První zachycený zápis: 1772-07-20 – Scholtz Josephus, dítě Josephus Franciscus (Lanio).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -8403,7 +8403,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -8412,7 +8412,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 69.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -8421,7 +8421,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 37 (ARON SOA HK, sn. 69)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 37 (sn. 69)",
         "inhabited": true,
@@ -8548,7 +8548,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 17805988, st. 232, 119 m²)"
     },
     "description": "Historické číslo popisné 38 v Českých Petrovicích (Böhmisch Petersdorf), sektor Střední díl. Objekt v RÚIAN 2026 evidován na stavební parcele st. 232 (zastavěná plocha 119 m²). Konkordance Repertoria 23-1 (1771–1806): přijalo nové čp. 38 po starém č. 23 (rod Langer); staré č. 38 (1771–1784, rod Schmok) přečíslováno 1805/1806 na čp. 48; staré č. 38 (1771–1784, rod Wolf) přečíslováno 1805/1806 na čp. 55.",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [
@@ -8675,10 +8675,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Schmok Antonius",
         "event": "přijalo nové čp. 38 po starém č. 23 (rod Langer); staré č. 38 (1771–1784, rod Schmok) přečíslováno 1805/1806 na čp. 48; staré č. 38 (1771–1784, rod Wolf) přečíslováno 1805/1806 na čp. 55. První zachycený zápis: 1776-05-11 – Schmok Antonius, dítě Josephus (obyvatel).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -8687,7 +8687,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -8696,7 +8696,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 71.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -8705,7 +8705,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 38 (ARON SOA HK, sn. 71)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 38 (sn. 71)",
         "inhabited": true,
@@ -8813,7 +8813,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 17805996, st. 78, 91 m²)"
     },
     "description": "Historické číslo popisné 39 v Českých Petrovicích (Böhmisch Petersdorf), sektor Střední díl. Objekt v RÚIAN 2026 evidován na stavební parcele st. 78 (zastavěná plocha 91 m²). Konkordance Repertoria 23-1 (1771–1806): přijalo nové čp. 39 po starém č. 24 (rod Kittner); staré č. 39 (1771–1784, rod Blüml) přečíslováno 1805/1806 na čp. 24.",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [
@@ -8947,10 +8947,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Blümel Josephus",
         "event": "přijalo nové čp. 39 po starém č. 24 (rod Kittner); staré č. 39 (1771–1784, rod Blüml) přečíslováno 1805/1806 na čp. 24. První zachycený zápis: 1775-07-10 – Blümel Josephus, dítě Anna Brigitta (Casarius).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -8959,7 +8959,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -8968,7 +8968,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 73.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -8977,7 +8977,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 39 (ARON SOA HK, sn. 73)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 39 (sn. 73)",
         "inhabited": true,
@@ -9127,8 +9127,8 @@ const housesData = [
   {
     "id": "cp40",
     "number": "40",
-    "localName": "Usedlost / stará škola čp. 40 (st. čp. 25)",
-    "type": "Stavení / Historická usedlost",
+    "localName": "Kostelníkova chalupa čp. 40 (st. čp. 25)",
+    "type": "Chalupa / Kostelník (1921 Gustav Hensel)",
     "isHeritage": false,
     "exists2026": true,
     "sector": "Střední díl",
@@ -9142,7 +9142,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 17806003, st. 233, 111 m²)"
     },
     "description": "Historické číslo popisné 40 v Českých Petrovicích (Böhmisch Petersdorf), sektor Střední díl. Objekt v RÚIAN 2026 evidován na stavební parcele st. 233 (zastavěná plocha 111 m²). Konkordance Repertoria 23-1 (1771–1806): přijalo nové čp. 40 po starém č. 25 (rod Langer); přijalo nové čp. 40 po starém č. 57 (rod Crause); přijalo nové čp. 40 po starém č. 90 (rod Lux); staré č. 40 (1771–1784, rod Bayer) přečíslováno 1805/1806 na čp. 25; staré č. 40 (1771–1784, rod Herrmann) přečíslováno 1805/1806 na čp. 57.",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [
@@ -9311,10 +9311,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Bayer Antonius",
         "event": "přijalo nové čp. 40 po starém č. 25 (rod Langer); přijalo nové čp. 40 po starém č. 57 (rod Crause); přijalo nové čp. 40 po starém č. 90 (rod Lux); staré č. 40 (1771–1784, rod Bayer) přečíslováno 1805/1806 na čp. 25; staré č. 40 (1771–1784, rod Herrmann) přečíslováno 1805/1806 na čp. 57. První zachycený zápis: 1775-12-22 – Bayer Antonius, dítě Brigitta Theresia (inquil:).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -9323,7 +9323,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -9332,7 +9332,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 75.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -9341,7 +9341,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 40 (ARON SOA HK, sn. 75)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 40 (sn. 75)",
         "inhabited": true,
@@ -9411,7 +9411,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 17806011, st. 71, 174 m²)"
     },
     "description": "Historické číslo popisné 41 v Českých Petrovicích (Böhmisch Petersdorf), sektor Střední díl. Objekt v RÚIAN 2026 evidován na stavební parcele st. 71 (zastavěná plocha 174 m²). Konkordance Repertoria 23-1 (1771–1806): staré č. 41 (1771–1784, rod Schmok) přečíslováno 1805/1806 na čp. 59.",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [
@@ -9485,10 +9485,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Schmok Antonius",
         "event": "staré č. 41 (1771–1784, rod Schmok) přečíslováno 1805/1806 na čp. 59. První zachycený zápis: 1773-10-12 – Schmok Antonius, dítě Antonius (Casarius).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -9497,7 +9497,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -9506,7 +9506,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 77.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -9515,7 +9515,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 41 (ARON SOA HK, sn. 77)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 41 (sn. 77)",
         "inhabited": true,
@@ -9604,7 +9604,7 @@ const housesData = [
       "source": "Orientační poloha interpolovaná z řady sousedních čp. v RÚIAN (stavení zaniklé po r. 1921)"
     },
     "description": "Historické číslo popisné 42 v Českých Petrovicích (Böhmisch Petersdorf), sektor Střední díl. Stavení zaniklo v průběhu 20. století (chybí v aktuální evidenci RÚIAN 2026; bod na mapě má orientační polohu). Konkordance Repertoria 23-1 (1771–1806): staré č. 42 (1771–1784, rod Schmok) přečíslováno 1805/1806 na čp. 50; staré č. 42 (1771–1784, rod Anna) přečíslováno 1805/1806 na čp. 59.",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [
@@ -9679,12 +9679,12 @@ const housesData = [
     "timeline": [
       {
         "year": "1771–1806",
-        "owner": "Kožíškovo Repertorium",
+        "owner": "Repertorium 23-1",
         "event": "staré č. 42 (1771–1784, rod Schmok) přečíslováno 1805/1806 na čp. 50; staré č. 42 (1771–1784, rod Anna) přečíslováno 1805/1806 na čp. 59. První zachycený zápis: 1775-05-26 – Anna Maria superstis filia post + Josephum Peinelt, dítě Anna Maria (filia post + J. Peinelt).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -9693,7 +9693,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -9702,7 +9702,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 79.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -9711,7 +9711,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 42 (ARON SOA HK, sn. 79)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 42 (sn. 79)",
         "inhabited": true,
@@ -9857,7 +9857,7 @@ const housesData = [
       "source": "Orientační poloha interpolovaná z řady sousedních čp. v RÚIAN (stavení zaniklé po r. 1921)"
     },
     "description": "Historické číslo popisné 43 v Českých Petrovicích (Böhmisch Petersdorf), sektor Střední díl. Stavení zaniklo v průběhu 20. století (chybí v aktuální evidenci RÚIAN 2026; bod na mapě má orientační polohu). Konkordance Repertoria 23-1 (1771–1806): přijalo nové čp. 43 po starém č. 64 (rod Esler).",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [],
@@ -9930,10 +9930,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Esler Josephus",
         "event": "přijalo nové čp. 43 po starém č. 64 (rod Esler). První zachycený zápis: 1779-08-18 – Esler Josephus, dítě Peregrinus (Semirusticus).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -9942,7 +9942,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -9951,7 +9951,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 81.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -9960,7 +9960,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 43 (ARON SOA HK, sn. 81)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 43 (sn. 81)",
         "inhabited": true,
@@ -10049,7 +10049,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 17806020, st. 73/1, 292 m²)"
     },
     "description": "Historické číslo popisné 44 v Českých Petrovicích (Böhmisch Petersdorf), sektor Střední díl. Objekt v RÚIAN 2026 evidován na stavební parcele st. 73/1 (zastavěná plocha 292 m²). Konkordance Repertoria 23-1 (1771–1806): staré č. 44 (1771–1784, rod Matiegczek) přečíslováno 1805/1806 na čp. 61; staré č. 44 (1771–1784, rod Rex) přečíslováno 1805/1806 na čp. 88.",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [
@@ -10151,10 +10151,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Matisska Josephus",
         "event": "staré č. 44 (1771–1784, rod Matiegczek) přečíslováno 1805/1806 na čp. 61; staré č. 44 (1771–1784, rod Rex) přečíslováno 1805/1806 na čp. 88. První zachycený zápis: 1773-01-31 – Matisska Josephus, dítě Peregrinus (Magister Artis Teloniariae(?) [Textoriae?]).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1869",
@@ -10172,7 +10172,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -10181,7 +10181,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 83.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -10289,7 +10289,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 44 (ARON SOA HK, sn. 83)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 44 (sn. 83)",
         "inhabited": true,
@@ -10378,7 +10378,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 17806038, st. 73/2, 110 m²)"
     },
     "description": "Historické číslo popisné 45 v Českých Petrovicích (Böhmisch Petersdorf), sektor Střední díl. Objekt v RÚIAN 2026 evidován na stavební parcele st. 73/2 (zastavěná plocha 110 m²). Konkordance Repertoria 23-1 (1771–1806): staré č. 45 (1771–1784, rod Vidua) přečíslováno 1805/1806 na čp. 62.",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [
@@ -10431,10 +10431,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Pacha Petrus",
         "event": "staré č. 45 (1771–1784, rod Vidua) přečíslováno 1805/1806 na čp. 62. První zachycený zápis: 1774-01-13 – Pacha Petrus, dítě Josephus Franciscus (inquilinus).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1921",
@@ -10443,7 +10443,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 141.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -10452,7 +10452,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 45 (ARON SOA HK, sn. 141)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 45 (sn. 141)",
         "inhabited": true,
@@ -10541,7 +10541,7 @@ const housesData = [
       "source": "Orientační poloha interpolovaná z řady sousedních čp. v RÚIAN (stavení zaniklé po r. 1921)"
     },
     "description": "Historické číslo popisné 46 v Českých Petrovicích (Böhmisch Petersdorf), sektor Střední díl. Stavení zaniklo v průběhu 20. století (chybí v aktuální evidenci RÚIAN 2026; bod na mapě má orientační polohu). Konkordance Repertoria 23-1 (1771–1806): přijalo nové čp. 46 po starém č. 65 (rod Bony); staré č. 46 (1771–1784, rod Beüer) přečíslováno 1805/1806 na čp. 28.",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [
@@ -10654,10 +10654,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Bayerlein Antonius",
         "event": "přijalo nové čp. 46 po starém č. 65 (rod Bony); staré č. 46 (1771–1784, rod Beüer) přečíslováno 1805/1806 na čp. 28. První zachycený zápis: 1774-04-02 – Bayerlein Antonius, dítě Anna Maria (telitextor).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -10666,7 +10666,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -10675,7 +10675,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 85.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -10684,7 +10684,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 46 (ARON SOA HK, sn. 85)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 46 (sn. 85)",
         "inhabited": true,
@@ -10735,7 +10735,7 @@ const housesData = [
       "source": "Orientační poloha interpolovaná z řady sousedních čp. v RÚIAN (stavení zaniklé po r. 1921)"
     },
     "description": "Historické číslo popisné 47 v Českých Petrovicích (Böhmisch Petersdorf), sektor Střední díl. Stavení zaniklo v průběhu 20. století (chybí v aktuální evidenci RÚIAN 2026; bod na mapě má orientační polohu). Konkordance Repertoria 23-1 (1771–1806): staré č. 47 (1771–1784, rod Peinelt) přečíslováno 1805/1806 na čp. 66.",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [
@@ -10809,10 +10809,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Peinelt Josephus",
         "event": "staré č. 47 (1771–1784, rod Peinelt) přečíslováno 1805/1806 na čp. 66. První zachycený zápis: 1781-05-19(?) – Peinelt Josephus, dítě Joannes Josephus (casarius).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -10821,7 +10821,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -10830,7 +10830,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 87.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -10839,7 +10839,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 47 (ARON SOA HK, sn. 87)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 47 (sn. 87)",
         "inhabited": true,
@@ -10909,7 +10909,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 17806046, st. 217, 125 m²)"
     },
     "description": "Historické číslo popisné 48 v Českých Petrovicích (Böhmisch Petersdorf), sektor Střední díl. Objekt v RÚIAN 2026 evidován na stavební parcele st. 217 (zastavěná plocha 125 m²). Konkordance Repertoria 23-1 (1771–1806): přijalo nové čp. 48 po starém č. 38 (rod Schmok); přijalo nové čp. 48 po starém č. 67 (rod Adler).",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [],
@@ -11019,10 +11019,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Schmok Antonius",
         "event": "přijalo nové čp. 48 po starém č. 38 (rod Schmok); přijalo nové čp. 48 po starém č. 67 (rod Adler). První zachycený zápis: 1776-05-11 – Schmok Antonius, dítě Josephus (obyvatel).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -11031,7 +11031,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -11040,7 +11040,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 89.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -11049,7 +11049,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 48 (ARON SOA HK, sn. 89)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 48 (sn. 89)",
         "inhabited": true,
@@ -11138,7 +11138,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 17806054, st. 100, 241 m²)"
     },
     "description": "Historické číslo popisné 49 v Českých Petrovicích (Böhmisch Petersdorf), sektor Střední díl. Objekt v RÚIAN 2026 evidován na stavební parcele st. 100 (zastavěná plocha 241 m²). Konkordance Repertoria 23-1 (1771–1806): přijalo nové čp. 49 po starém č. 33 (rod Lux); staré č. 49 (1771–1784, rod Esler) přečíslováno 1805/1806 na čp. 99.",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [
@@ -11284,10 +11284,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Esler Franciscus",
         "event": "přijalo nové čp. 49 po starém č. 33 (rod Lux); staré č. 49 (1771–1784, rod Esler) přečíslováno 1805/1806 na čp. 99. První zachycený zápis: 1783-04-20 – Esler Franciscus, dítě Josephus Marcus (casarius).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -11296,7 +11296,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -11305,7 +11305,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 91.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -11314,7 +11314,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 49 (ARON SOA HK, sn. 91)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 49 (sn. 91)",
         "inhabited": true,
@@ -11384,7 +11384,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 17806062, st. 242, 114 m²)"
     },
     "description": "Historické číslo popisné 50 v Českých Petrovicích (Böhmisch Petersdorf), sektor Střední díl. Objekt v RÚIAN 2026 evidován na stavební parcele st. 242 (zastavěná plocha 114 m²). Konkordance Repertoria 23-1 (1771–1806): přijalo nové čp. 50 po starém č. 35 (rod Langer); přijalo nové čp. 50 po starém č. 42 (rod Schmok); staré č. 50 (1771–1784, rod Adler) přečíslováno 1805/1806 na čp. 35.",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [
@@ -11500,10 +11500,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Adler Petrus",
         "event": "přijalo nové čp. 50 po starém č. 35 (rod Langer); přijalo nové čp. 50 po starém č. 42 (rod Schmok); staré č. 50 (1771–1784, rod Adler) přečíslováno 1805/1806 na čp. 35. První zachycený zápis: 1772-01-12 – Adler Petrus, dítě Anna Maria Veronica (rusticus).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -11512,7 +11512,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       }
     ],
     "census": [],
@@ -11536,7 +11536,7 @@ const housesData = [
       "source": "Orientační poloha interpolovaná z řady sousedních čp. v RÚIAN (stavení zaniklé po r. 1921)"
     },
     "description": "Historické číslo popisné 51 v Českých Petrovicích (Böhmisch Petersdorf), sektor Střední díl. Stavení zaniklo v průběhu 20. století (chybí v aktuální evidenci RÚIAN 2026; bod na mapě má orientační polohu). Konkordance Repertoria 23-1 (1771–1806): staré č. 51 (1771–1784, rod Wagner) přečíslováno 1805/1806 na čp. 70.",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [
@@ -11631,10 +11631,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Wagner Georgius",
         "event": "staré č. 51 (1771–1784, rod Wagner) přečíslováno 1805/1806 na čp. 70. První zachycený zápis: 1774-02-19 – Wagner Georgius, dítě Josephus (Sartor).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -11643,7 +11643,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -11652,7 +11652,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 93.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -11661,7 +11661,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 51 (ARON SOA HK, sn. 93)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 51 (sn. 93)",
         "inhabited": true,
@@ -11750,7 +11750,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 17806071, st. 98, 162 m²)"
     },
     "description": "Historické číslo popisné 52 v Českých Petrovicích (Böhmisch Petersdorf), sektor Střední díl. Objekt v RÚIAN 2026 evidován na stavební parcele st. 98 (zastavěná plocha 162 m²).",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [],
@@ -11787,7 +11787,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -11796,7 +11796,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 95.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -11805,7 +11805,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 52 (ARON SOA HK, sn. 95)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 52 (sn. 95)",
         "inhabited": true,
@@ -11894,7 +11894,7 @@ const housesData = [
       "source": "Orientační poloha interpolovaná z řady sousedních čp. v RÚIAN (stavení zaniklé po r. 1921)"
     },
     "description": "Historické číslo popisné 53 v Českých Petrovicích (Böhmisch Petersdorf), sektor Střední díl. Stavení zaniklo v průběhu 20. století (chybí v aktuální evidenci RÚIAN 2026; bod na mapě má orientační polohu). Konkordance Repertoria 23-1 (1771–1806): staré č. 53 (1771–1784, rod Lux) přečíslováno 1805/1806 na čp. 72.",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [
@@ -12001,10 +12001,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Lux Franciscus",
         "event": "staré č. 53 (1771–1784, rod Lux) přečíslováno 1805/1806 na čp. 72. První zachycený zápis: 1775-03-12 – Lux Franciscus, dítě Ignatius Kilianus (inquilinus).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -12013,7 +12013,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -12022,7 +12022,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 97.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -12031,7 +12031,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 53 (ARON SOA HK, sn. 97)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 53 (sn. 97)",
         "inhabited": true,
@@ -12082,7 +12082,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 17806089, st. 104, 131 m²)"
     },
     "description": "Historické číslo popisné 54 v Českých Petrovicích (Böhmisch Petersdorf), sektor Střední díl. Objekt v RÚIAN 2026 evidován na stavební parcele st. 104 (zastavěná plocha 131 m²). Konkordance Repertoria 23-1 (1771–1806): přijalo nové čp. 54 po starém č. 97 (rod Theresia); staré č. 54 (1771–1784, rod Lux) přečíslováno 1805/1806 na čp. 74.",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [
@@ -12172,10 +12172,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Netuschil Franciscus",
         "event": "přijalo nové čp. 54 po starém č. 97 (rod Theresia); staré č. 54 (1771–1784, rod Lux) přečíslováno 1805/1806 na čp. 74. První zachycený zápis: 1775-09-12 – Netuschil Franciscus, dítě Anna Maria Appollonia (Sutor).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -12184,7 +12184,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -12193,7 +12193,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 99.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -12202,7 +12202,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 54 (ARON SOA HK, sn. 99)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 54 (sn. 99)",
         "inhabited": true,
@@ -12272,7 +12272,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 27514528, st. 272, 97 m²)"
     },
     "description": "Historické číslo popisné 55 v Českých Petrovicích (Böhmisch Petersdorf), sektor Střední díl. Objekt v RÚIAN 2026 evidován na stavební parcele st. 272 (zastavěná plocha 97 m²). Konkordance Repertoria 23-1 (1771–1806): přijalo nové čp. 55 po starém č. 38 (rod Wolf); přijalo nové čp. 55 po starém č. 82 (rod Adler).",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [],
@@ -12361,10 +12361,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Adler Antonius",
         "event": "přijalo nové čp. 55 po starém č. 38 (rod Wolf); přijalo nové čp. 55 po starém č. 82 (rod Adler). První zachycený zápis: 1776-11-24 – Adler Antonius, dítě Franciscus Carolus (inquilinus).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -12373,7 +12373,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -12382,7 +12382,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 101.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -12391,7 +12391,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 55 (ARON SOA HK, sn. 101)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 55 (sn. 101)",
         "inhabited": true,
@@ -12461,7 +12461,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 27543242, st. 273, 114 m²)"
     },
     "description": "Historické číslo popisné 56 v Českých Petrovicích (Böhmisch Petersdorf), sektor Střední díl. Objekt v RÚIAN 2026 evidován na stavební parcele st. 273 (zastavěná plocha 114 m²). Konkordance Repertoria 23-1 (1771–1806): přijalo nové čp. 56 po starém č. 94 (rod Steiner); staré č. 56 (1771–1784, rod Wagner) přečíslováno 1805/1806 na čp. 78.",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [
@@ -12573,10 +12573,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Wagner Josephus",
         "event": "přijalo nové čp. 56 po starém č. 94 (rod Steiner); staré č. 56 (1771–1784, rod Wagner) přečíslováno 1805/1806 na čp. 78. První zachycený zápis: 1778-09-01 – Wagner Josephus, dítě Anna Maria Theresia (rusticus).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -12585,7 +12585,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -12594,7 +12594,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 103.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -12603,7 +12603,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 56 (ARON SOA HK, sn. 103)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 56 (sn. 103)",
         "inhabited": true,
@@ -12654,7 +12654,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 17806097, , 200 m²)"
     },
     "description": "Historické číslo popisné 57 v Českých Petrovicích (Böhmisch Petersdorf), sektor Střední díl. Objekt v RÚIAN 2026 evidován na stavební parcele  (zastavěná plocha 200 m²). Konkordance Repertoria 23-1 (1771–1806): přijalo nové čp. 57 po starém č. 40 (rod Herrmann); přijalo nové čp. 57 po starém č. 77 (rod Adler); staré č. 57 (1771–1784, rod Crause) přečíslováno 1805/1806 na čp. 40.",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [
@@ -12782,10 +12782,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Crause Joannes",
         "event": "přijalo nové čp. 57 po starém č. 40 (rod Herrmann); přijalo nové čp. 57 po starém č. 77 (rod Adler); staré č. 57 (1771–1784, rod Crause) přečíslováno 1805/1806 na čp. 40. První zachycený zápis: 1775-12-21 – Crause Joannes, dítě Joannes Antonius Thaddæus (inquilini).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -12794,7 +12794,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -12803,7 +12803,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 105.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -12812,7 +12812,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 57 (ARON SOA HK, sn. 105)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 57 (sn. 105)",
         "inhabited": true,
@@ -12939,7 +12939,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 25826239, st. 259, 105 m²)"
     },
     "description": "Historické číslo popisné 58 v Českých Petrovicích (Böhmisch Petersdorf), sektor Střední díl. Objekt v RÚIAN 2026 evidován na stavební parcele st. 259 (zastavěná plocha 105 m²). Konkordance Repertoria 23-1 (1771–1806): přijalo nové čp. 58 po starém č. 78 (rod Esler); přijalo nové čp. 58 po starém č. 82 (rod Adler).",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [
@@ -13017,10 +13017,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Gottschlich Joannes",
         "event": "přijalo nové čp. 58 po starém č. 78 (rod Esler); přijalo nové čp. 58 po starém č. 82 (rod Adler). První zachycený zápis: 1777-11-30 – Gottschlich Joannes, dítě Joannes (inquilinus).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -13029,7 +13029,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -13038,7 +13038,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 107.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -13047,7 +13047,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 58 (ARON SOA HK, sn. 107)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 58 (sn. 107)",
         "inhabited": true,
@@ -13193,7 +13193,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 27019900, st. 112/1, 66 m²)"
     },
     "description": "Historické číslo popisné 59 v Českých Petrovicích (Böhmisch Petersdorf), sektor Střední díl. Objekt v RÚIAN 2026 evidován na stavební parcele st. 112/1 (zastavěná plocha 66 m²). Konkordance Repertoria 23-1 (1771–1806): přijalo nové čp. 59 po starém č. 36 (rod Frimel); přijalo nové čp. 59 po starém č. 41 (rod Schmok); přijalo nové čp. 59 po starém č. 42 (rod Anna); přijalo nové čp. 59 po starém č. 80 (rod Baüer); staré č. 59 (1771–1784, rod Netuschil) přečíslováno 1805/1806 na čp. 80.",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [
@@ -13417,10 +13417,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Pitsch Antonius",
         "event": "přijalo nové čp. 59 po starém č. 36 (rod Frimel); přijalo nové čp. 59 po starém č. 41 (rod Schmok); přijalo nové čp. 59 po starém č. 42 (rod Anna); přijalo nové čp. 59 po starém č. 80 (rod Baüer); staré č. 59 (1771–1784, rod Netuschil) přečíslováno 1805/1806 na čp. 80. První zachycený zápis: 1773-10-25 – Pitsch Antonius, dítě Joannes Franciscus (inquilinus).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -13429,7 +13429,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -13438,7 +13438,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 109.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -13447,7 +13447,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 59 (ARON SOA HK, sn. 109)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 59 (sn. 109)",
         "inhabited": true,
@@ -13517,7 +13517,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 27019926, st. 220, 85 m²)"
     },
     "description": "Historické číslo popisné 60 v Českých Petrovicích (Böhmisch Petersdorf), sektor Východní díl (k Čiháku). Objekt v RÚIAN 2026 evidován na stavební parcele st. 220 (zastavěná plocha 85 m²).",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [],
@@ -13566,7 +13566,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -13575,7 +13575,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 111.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -13584,7 +13584,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 60 (ARON SOA HK, sn. 111)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 60 (sn. 111)",
         "inhabited": true,
@@ -13654,7 +13654,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 17806101, st. 116, 153 m²)"
     },
     "description": "Historické číslo popisné 61 v Českých Petrovicích (Böhmisch Petersdorf), sektor Střední díl. Objekt v RÚIAN 2026 evidován na stavební parcele st. 116 (zastavěná plocha 153 m²). Konkordance Repertoria 23-1 (1771–1806): přijalo nové čp. 61 po starém č. 44 (rod Matiegczek); staré č. 61 (1771–1784, rod Herrmann) přečíslováno 1805/1806 na čp. 84.",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [
@@ -13778,10 +13778,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Herrmann Josephus",
         "event": "přijalo nové čp. 61 po starém č. 44 (rod Matiegczek); staré č. 61 (1771–1784, rod Herrmann) přečíslováno 1805/1806 na čp. 84. První zachycený zápis: 1781-04-30 – Herrmann Josephus, dítě Franciscus Josephus (semirusticus).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -13790,7 +13790,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -13799,7 +13799,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 113.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -13808,7 +13808,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 61 (ARON SOA HK, sn. 113)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 61 (sn. 113)",
         "inhabited": true,
@@ -13995,7 +13995,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 17806119, st. 243, 186 m²)"
     },
     "description": "Historické číslo popisné 62 v Českých Petrovicích (Böhmisch Petersdorf), sektor Východní díl (k Čiháku). Objekt v RÚIAN 2026 evidován na stavební parcele st. 243 (zastavěná plocha 186 m²). Konkordance Repertoria 23-1 (1771–1806): přijalo nové čp. 62 po starém č. 45 (rod Vidua); staré č. 62 (1771–1784, rod Pacha) přečíslováno 1805/1806 na čp. 85.",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [
@@ -14130,10 +14130,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Wogel [Vogel] Antonius",
         "event": "přijalo nové čp. 62 po starém č. 45 (rod Vidua); staré č. 62 (1771–1784, rod Pacha) přečíslováno 1805/1806 na čp. 85. První zachycený zápis: 1772-12-16 – Wogel [Vogel] Antonius, dítě Zuzanna Maria (Casarius).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -14142,7 +14142,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -14151,7 +14151,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 115.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -14160,7 +14160,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 62 (ARON SOA HK, sn. 115)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 62 (sn. 115)",
         "inhabited": true,
@@ -14249,7 +14249,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 17806127, st. 119, 134 m²)"
     },
     "description": "Historické číslo popisné 63 v Českých Petrovicích (Böhmisch Petersdorf), sektor Východní díl (k Čiháku). Objekt v RÚIAN 2026 evidován na stavební parcele st. 119 (zastavěná plocha 134 m²). Konkordance Repertoria 23-1 (1771–1806): staré č. 63 (1771–1784, rod Wagner) přečíslováno 1805/1806 na čp. 87.",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [
@@ -14300,10 +14300,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Wagner Antonius",
         "event": "staré č. 63 (1771–1784, rod Wagner) přečíslováno 1805/1806 na čp. 87. První zachycený zápis: 1771-11-20 – Wagner Antonius, dítě Maria (operarius).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -14312,7 +14312,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -14321,7 +14321,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 117.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -14330,7 +14330,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 63 (ARON SOA HK, sn. 117)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 63 (sn. 117)",
         "inhabited": true,
@@ -14457,7 +14457,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 17806135, st. 120, 149 m²)"
     },
     "description": "Historické číslo popisné 64 v Českých Petrovicích (Böhmisch Petersdorf), sektor Východní díl (k Čiháku). Objekt v RÚIAN 2026 evidován na stavební parcele st. 120 (zastavěná plocha 149 m²). Konkordance Repertoria 23-1 (1771–1806): staré č. 64 (1771–1784, rod Esler) přečíslováno 1805/1806 na čp. 43.",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [
@@ -14553,10 +14553,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Jobel(?) Josephus",
         "event": "staré č. 64 (1771–1784, rod Esler) přečíslováno 1805/1806 na čp. 43. První zachycený zápis: 1776-06-28 – Jobel(?) Josephus, dítě Catharina (inquilinus).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -14565,7 +14565,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -14574,7 +14574,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 119.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -14583,7 +14583,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 64 (ARON SOA HK, sn. 119)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 64 (sn. 119)",
         "inhabited": true,
@@ -14694,7 +14694,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 17806143, st. 125, 218 m²)"
     },
     "description": "Historické číslo popisné 65 v Českých Petrovicích (Böhmisch Petersdorf), sektor Východní díl (k Čiháku). Objekt v RÚIAN 2026 evidován na stavební parcele st. 125 (zastavěná plocha 218 m²). Konkordance Repertoria 23-1 (1771–1806): staré č. 65 (1771–1784, rod Bony) přečíslováno 1805/1806 na čp. 46; staré č. 65 (1771–1784, rod Kraus) přečíslováno 1805/1806 na čp. 90.",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [
@@ -14760,10 +14760,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Bony Georgius",
         "event": "staré č. 65 (1771–1784, rod Bony) přečíslováno 1805/1806 na čp. 46; staré č. 65 (1771–1784, rod Kraus) přečíslováno 1805/1806 na čp. 90. První zachycený zápis: 1772-09-15 – Bony Georgius, dítě Josephus (vinipola).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -14772,7 +14772,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -14781,7 +14781,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 121.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -14790,7 +14790,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 65 (ARON SOA HK, sn. 121)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 65 (sn. 121)",
         "inhabited": true,
@@ -14917,7 +14917,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 17806151, st. 127, 99 m²)"
     },
     "description": "Historické číslo popisné 66 v Českých Petrovicích (Böhmisch Petersdorf), sektor Východní díl (k Čiháku). Objekt v RÚIAN 2026 evidován na stavební parcele st. 127 (zastavěná plocha 99 m²). Konkordance Repertoria 23-1 (1771–1806): přijalo nové čp. 66 po starém č. 47 (rod Peinelt); staré č. 66 (1771–1784, rod Winnig) přečíslováno 1805/1806 na čp. 91.",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [
@@ -15018,10 +15018,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Winnig Michael",
         "event": "přijalo nové čp. 66 po starém č. 47 (rod Peinelt); staré č. 66 (1771–1784, rod Winnig) přečíslováno 1805/1806 na čp. 91. První zachycený zápis: 1780-09-26 – Winnig Michael, dítě Anna Maria Theresia (inquilinus).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -15030,7 +15030,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -15039,7 +15039,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 123.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -15048,7 +15048,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 66 (ARON SOA HK, sn. 123)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 66 (sn. 123)",
         "inhabited": true,
@@ -15103,8 +15103,8 @@ const housesData = [
   {
     "id": "cp67",
     "number": "67",
-    "localName": "Stavení čp. 67 (Hensel Josef)",
-    "type": "Usedlost / Rodinný dům",
+    "localName": "Hostinec & obchod čp. 67 (Hensel)",
+    "type": "Hostinec & obchod (J. Hensel)",
     "isHeritage": false,
     "exists2026": true,
     "sector": "Východní díl (k Čiháku)",
@@ -15118,7 +15118,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 17806160, st. 124, 163 m²)"
     },
     "description": "Historické číslo popisné 67 v Českých Petrovicích (Böhmisch Petersdorf), sektor Východní díl (k Čiháku). Objekt v RÚIAN 2026 evidován na stavební parcele st. 124 (zastavěná plocha 163 m²). Konkordance Repertoria 23-1 (1771–1806): staré č. 67 (1771–1784, rod Adler) přečíslováno 1805/1806 na čp. 48.",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [
@@ -15191,10 +15191,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Adler Casparus",
         "event": "staré č. 67 (1771–1784, rod Adler) přečíslováno 1805/1806 na čp. 48. První zachycený zápis: 1781-11-09 – Adler Casparus, dítě Josephus Franciscus (casarius).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1869",
@@ -15212,7 +15212,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -15221,7 +15221,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 125.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -15276,7 +15276,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 67 (ARON SOA HK, sn. 125)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 67 (sn. 125)",
         "inhabited": true,
@@ -15346,7 +15346,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 17806178, st. 123, 67 m²)"
     },
     "description": "Historické číslo popisné 68 v Českých Petrovicích (Böhmisch Petersdorf), sektor Východní díl (k Čiháku). Objekt v RÚIAN 2026 evidován na stavební parcele st. 123 (zastavěná plocha 67 m²). Konkordance Repertoria 23-1 (1771–1806): přijalo nové čp. 68 po starém č. 93 (rod Adler); staré č. 68 (1771–1784, rod Gottschlik) přečíslováno 1805/1806 na čp. 93.",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [
@@ -15469,10 +15469,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Gottschlich Joannes",
         "event": "přijalo nové čp. 68 po starém č. 93 (rod Adler); staré č. 68 (1771–1784, rod Gottschlik) přečíslováno 1805/1806 na čp. 93. První zachycený zápis: 1771-04-29 – Gottschlich Joannes, dítě Joannes Franciscus Adalbertus (Operarius).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -15481,7 +15481,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -15490,7 +15490,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 127.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -15499,7 +15499,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 68 (ARON SOA HK, sn. 127)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 68 (sn. 127)",
         "inhabited": true,
@@ -15588,7 +15588,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 17806186, st. 200/1, 479 m²)"
     },
     "description": "Historické číslo popisné 69 v Českých Petrovicích (Böhmisch Petersdorf), sektor Východní díl (k Čiháku). Objekt v RÚIAN 2026 evidován na stavební parcele st. 200/1 (zastavěná plocha 479 m²). Konkordance Repertoria 23-1 (1771–1806): přijalo nové čp. 69 po starém č. 87 (rod Esler); staré č. 69 (1771–1784, rod Peinelt) přečíslováno 1805/1806 na čp. 98.",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [
@@ -15700,10 +15700,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Postler Joannes",
         "event": "přijalo nové čp. 69 po starém č. 87 (rod Esler); staré č. 69 (1771–1784, rod Peinelt) přečíslováno 1805/1806 na čp. 98. První zachycený zápis: 1771-05-30 – Postler Joannes, dítě Maria Anna et Franciscus Antonius (Gemini) (Casarius).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -15712,7 +15712,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -15721,7 +15721,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 129.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -15730,7 +15730,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 69 (ARON SOA HK, sn. 129)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 69 (sn. 129)",
         "inhabited": false,
@@ -15761,7 +15761,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 17806194, st. 139, 156 m²)"
     },
     "description": "Historické číslo popisné 70 v Českých Petrovicích (Böhmisch Petersdorf), sektor Východní díl (k Čiháku). Objekt v RÚIAN 2026 evidován na stavební parcele st. 139 (zastavěná plocha 156 m²). Konkordance Repertoria 23-1 (1771–1806): přijalo nové čp. 70 po starém č. 51 (rod Wagner); staré č. 70 (1771–1784, rod Lux) přečíslováno 1805/1806 na čp. 95.",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [
@@ -15928,10 +15928,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Weber Antonius",
         "event": "přijalo nové čp. 70 po starém č. 51 (rod Wagner); staré č. 70 (1771–1784, rod Lux) přečíslováno 1805/1806 na čp. 95. První zachycený zápis: 1772-05-18 – Weber Antonius, dítě Josephus Casparus (Gregarius Miles ab Inclyto Regimine Pallavicini).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -15940,7 +15940,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -15949,7 +15949,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 131.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -15958,7 +15958,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 70 (ARON SOA HK, sn. 131)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 70 (sn. 131)",
         "inhabited": true,
@@ -16047,7 +16047,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 78242185, st. 293, 180 m²)"
     },
     "description": "Historické číslo popisné 71 v Českých Petrovicích (Böhmisch Petersdorf), sektor Východní díl (k Čiháku). Objekt v RÚIAN 2026 evidován na stavební parcele st. 293 (zastavěná plocha 180 m²). Konkordance Repertoria 23-1 (1771–1806): staré č. 71 (1771–1784, rod Kittner) přečíslováno 1805/1806 na čp. 96; staré č. 71 (1771–1784, rod Gerber) přečíslováno 1805/1806 na čp. 97.",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [
@@ -16158,10 +16158,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Gerber Antonius",
         "event": "staré č. 71 (1771–1784, rod Kittner) přečíslováno 1805/1806 na čp. 96; staré č. 71 (1771–1784, rod Gerber) přečíslováno 1805/1806 na čp. 97. První zachycený zápis: 1773-09-09 – Gerber Antonius, dítě Antonius Ignatius (miles Gregarius ab Inclyto Regimine Palavicini).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -16170,7 +16170,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -16179,7 +16179,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 133.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -16188,7 +16188,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 71 (ARON SOA HK, sn. 133)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 71 (sn. 133)",
         "inhabited": true,
@@ -16239,7 +16239,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 103035915, st. 304, 92 m²)"
     },
     "description": "Historické číslo popisné 72 v Českých Petrovicích (Böhmisch Petersdorf), sektor Východní díl (k Čiháku). Objekt v RÚIAN 2026 evidován na stavební parcele st. 304 (zastavěná plocha 92 m²). Konkordance Repertoria 23-1 (1771–1806): přijalo nové čp. 72 po starém č. 53 (rod Lux); staré č. 72 (1771–1784, rod Gerber) přečíslováno 1805/1806 na čp. 86.",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [
@@ -16351,10 +16351,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Gerber Antonius",
         "event": "přijalo nové čp. 72 po starém č. 53 (rod Lux); staré č. 72 (1771–1784, rod Gerber) přečíslováno 1805/1806 na čp. 86. První zachycený zápis: 1783-01-07 – Gerber Antonius, dítě Joannes Josephus (miles).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -16363,7 +16363,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -16372,7 +16372,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 135.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -16381,7 +16381,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 72 (ARON SOA HK, sn. 135)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 72 (sn. 135)",
         "inhabited": true,
@@ -16489,7 +16489,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 17806208, st. 253, 50 m²)"
     },
     "description": "Historické číslo popisné 73 v Českých Petrovicích (Böhmisch Petersdorf), sektor Východní díl (k Čiháku). Objekt v RÚIAN 2026 evidován na stavební parcele st. 253 (zastavěná plocha 50 m²).",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [],
@@ -16526,7 +16526,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -16535,7 +16535,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 137.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -16544,7 +16544,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 73 (ARON SOA HK, sn. 137)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 73 (sn. 137)",
         "inhabited": true,
@@ -16652,7 +16652,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 17806216, st. 141/1, 192 m²)"
     },
     "description": "Historické číslo popisné 74 v Českých Petrovicích (Böhmisch Petersdorf), sektor Východní díl (k Čiháku). Objekt v RÚIAN 2026 evidován na stavební parcele st. 141/1 (zastavěná plocha 192 m²). Konkordance Repertoria 23-1 (1771–1806): přijalo nové čp. 74 po starém č. 54 (rod Lux); staré č. 74 (1771–1784, rod Kittner) přečíslováno 1805/1806 na čp. 100.",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [
@@ -16790,10 +16790,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Küttner Joannes",
         "event": "přijalo nové čp. 74 po starém č. 54 (rod Lux); staré č. 74 (1771–1784, rod Kittner) přečíslováno 1805/1806 na čp. 100. První zachycený zápis: 1773-07-13 – Küttner Joannes, dítě Anna Maria Theresia (Semirusticus).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -16802,7 +16802,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -16811,7 +16811,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 139.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -16820,7 +16820,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 74 (ARON SOA HK, sn. 139)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 74 (sn. 139)",
         "inhabited": true,
@@ -17004,7 +17004,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 17806224, st. 201, 292 m²)"
     },
     "description": "Historické číslo popisné 75 v Českých Petrovicích (Böhmisch Petersdorf), sektor Východní díl (k Čiháku). Objekt v RÚIAN 2026 evidován na stavební parcele st. 201 (zastavěná plocha 292 m²). Konkordance Repertoria 23-1 (1771–1806): přijalo nové čp. 75 po starém č. 102 (rod Kalaus).",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [
@@ -17093,10 +17093,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Krause Joannes",
         "event": "přijalo nové čp. 75 po starém č. 102 (rod Kalaus). První zachycený zápis: 1778-11-27 – Krause Joannes, dítě Josephus Carolus (inquilinus).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -17105,7 +17105,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       }
     ],
     "census": [],
@@ -17129,7 +17129,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 17806232, st. 146, 226 m²)"
     },
     "description": "Historické číslo popisné 76 v Českých Petrovicích (Böhmisch Petersdorf), sektor Východní díl (k Čiháku). Objekt v RÚIAN 2026 evidován na stavební parcele st. 146 (zastavěná plocha 226 m²). Konkordance Repertoria 23-1 (1771–1806): staré č. 76 (1771–1784, rod Patzel) přečíslováno 1805/1806 na čp. 104.",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [
@@ -17246,10 +17246,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Scholtz Antonius",
         "event": "staré č. 76 (1771–1784, rod Patzel) přečíslováno 1805/1806 na čp. 104. První zachycený zápis: 1773-03-15 – Scholtz Antonius, dítě Anna Maria (Hortulanus).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -17258,7 +17258,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -17267,7 +17267,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 143.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -17276,7 +17276,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 76 (ARON SOA HK, sn. 143)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 76 (sn. 143)",
         "inhabited": true,
@@ -17365,7 +17365,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 17806241, st. 145/2, 102 m²)"
     },
     "description": "Historické číslo popisné 77 v Českých Petrovicích (Böhmisch Petersdorf), sektor Východní díl (k Čiháku). Objekt v RÚIAN 2026 evidován na stavební parcele st. 145/2 (zastavěná plocha 102 m²). Konkordance Repertoria 23-1 (1771–1806): staré č. 77 (1771–1784, rod Güttner) přečíslováno 1805/1806 na čp. 100; staré č. 77 (1771–1784, rod Krauss) přečíslováno 1805/1806 na čp. 105; staré č. 77 (1771–1784, rod Adler) přečíslováno 1805/1806 na čp. 57.",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [
@@ -17458,10 +17458,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Güttner Antonius",
         "event": "staré č. 77 (1771–1784, rod Güttner) přečíslováno 1805/1806 na čp. 100; staré č. 77 (1771–1784, rod Krauss) přečíslováno 1805/1806 na čp. 105; staré č. 77 (1771–1784, rod Adler) přečíslováno 1805/1806 na čp. 57. První zachycený zápis: 1771-05-12 – Güttner Antonius, dítě Anna Maria Elisabetha (semirusticus).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -17470,7 +17470,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -17479,7 +17479,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 145.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -17488,7 +17488,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 77 (ARON SOA HK, sn. 145)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 77 (sn. 145)",
         "inhabited": true,
@@ -17577,7 +17577,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 17806259, st. 166, 83 m²)"
     },
     "description": "Historické číslo popisné 78 v Českých Petrovicích (Böhmisch Petersdorf), sektor Východní díl (k Čiháku). Objekt v RÚIAN 2026 evidován na stavební parcele st. 166 (zastavěná plocha 83 m²). Konkordance Repertoria 23-1 (1771–1806): přijalo nové čp. 78 po starém č. 56 (rod Wagner); staré č. 78 (1771–1784, rod Esler) přečíslováno 1805/1806 na čp. 58.",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [
@@ -17690,10 +17690,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Esler Ignatius",
         "event": "přijalo nové čp. 78 po starém č. 56 (rod Wagner); staré č. 78 (1771–1784, rod Esler) přečíslováno 1805/1806 na čp. 58. První zachycený zápis: 1782-11-29 – Esler Ignatius, dítě Anna Maria Theresia (inquilini).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -17702,7 +17702,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -17711,7 +17711,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 147.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -17720,7 +17720,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 78 (ARON SOA HK, sn. 147)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 78 (sn. 147)",
         "inhabited": true,
@@ -17828,7 +17828,7 @@ const housesData = [
       "source": "Orientační poloha interpolovaná z řady sousedních čp. v RÚIAN (stavení zaniklé po r. 1921)"
     },
     "description": "Historické číslo popisné 79 v Českých Petrovicích (Böhmisch Petersdorf), sektor Východní díl (k Čiháku). Stavení zaniklo v průběhu 20. století (chybí v aktuální evidenci RÚIAN 2026; bod na mapě má orientační polohu). Konkordance Repertoria 23-1 (1771–1806): staré č. 79 (1771–1784, rod Beüer) přečíslováno 1805/1806 na čp. 127.",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [
@@ -17923,10 +17923,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Beyer Petrus",
         "event": "staré č. 79 (1771–1784, rod Beüer) přečíslováno 1805/1806 na čp. 127. První zachycený zápis: 1771-11-12 – Beyer Petrus, dítě Petrus (rusticus).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -17935,7 +17935,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       }
     ],
     "census": [],
@@ -17959,7 +17959,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 17806267, st. 164, 206 m²)"
     },
     "description": "Historické číslo popisné 80 v Českých Petrovicích (Böhmisch Petersdorf), sektor Východní díl (k Čiháku). Objekt v RÚIAN 2026 evidován na stavební parcele st. 164 (zastavěná plocha 206 m²). Konkordance Repertoria 23-1 (1771–1806): přijalo nové čp. 80 po starém č. 59 (rod Netuschil); staré č. 80 (1771–1784, rod Baüer) přečíslováno 1805/1806 na čp. 59.",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [
@@ -18093,10 +18093,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Lux Antonius",
         "event": "přijalo nové čp. 80 po starém č. 59 (rod Netuschil); staré č. 80 (1771–1784, rod Baüer) přečíslováno 1805/1806 na čp. 59. První zachycený zápis: 1777-08-28 – Lux Antonius, dítě Anna Maria (rusticus).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -18105,7 +18105,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -18114,7 +18114,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 149.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -18123,7 +18123,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 80 (ARON SOA HK, sn. 149)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 80 (sn. 149)",
         "inhabited": false,
@@ -18154,7 +18154,7 @@ const housesData = [
       "source": "Orientační poloha interpolovaná z řady sousedních čp. v RÚIAN (stavení zaniklé po r. 1921)"
     },
     "description": "Historické číslo popisné 81 v Českých Petrovicích (Böhmisch Petersdorf), sektor Východní díl (k Čiháku). Stavení zaniklo v průběhu 20. století (chybí v aktuální evidenci RÚIAN 2026; bod na mapě má orientační polohu). Konkordance Repertoria 23-1 (1771–1806): staré č. 81 (1771–1784, rod Adler) přečíslováno 1805/1806 na čp. 111.",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [
@@ -18205,10 +18205,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Adler Antonius",
         "event": "staré č. 81 (1771–1784, rod Adler) přečíslováno 1805/1806 na čp. 111. První zachycený zápis: 1774-09-25 – Adler Antonius, dítě Maria Anna (inquilinus).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -18217,7 +18217,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -18226,7 +18226,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 151.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -18235,7 +18235,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 81 (ARON SOA HK, sn. 151)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 81 (sn. 151)",
         "inhabited": true,
@@ -18286,7 +18286,7 @@ const housesData = [
       "source": "Orientační poloha interpolovaná z řady sousedních čp. v RÚIAN (stavení zaniklé po r. 1921)"
     },
     "description": "Historické číslo popisné 82 v Českých Petrovicích (Böhmisch Petersdorf), sektor Východní díl (k Čiháku). Stavení zaniklo v průběhu 20. století (chybí v aktuální evidenci RÚIAN 2026; bod na mapě má orientační polohu). Konkordance Repertoria 23-1 (1771–1806): přijalo nové čp. 82 po starém č. 111 (rod Esler); staré č. 82 (1771–1784, rod Theresia) přečíslováno 1805/1806 na čp. 111; staré č. 82 (1771–1784, rod Adler) přečíslováno 1805/1806 na čp. 55; staré č. 82 (1771–1784, rod Adler) přečíslováno 1805/1806 na čp. 58.",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [
@@ -18462,10 +18462,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Adler Antonius",
         "event": "přijalo nové čp. 82 po starém č. 111 (rod Esler); staré č. 82 (1771–1784, rod Theresia) přečíslováno 1805/1806 na čp. 111; staré č. 82 (1771–1784, rod Adler) přečíslováno 1805/1806 na čp. 55; staré č. 82 (1771–1784, rod Adler) přečíslováno 1805/1806 na čp. 58. První zachycený zápis: 1776-11-24 – Adler Antonius, dítě Franciscus Carolus (inquilinus).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -18474,7 +18474,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -18483,7 +18483,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 153.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -18492,7 +18492,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 82 (ARON SOA HK, sn. 153)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 82 (sn. 153)",
         "inhabited": false,
@@ -18508,8 +18508,8 @@ const housesData = [
   {
     "id": "cp83",
     "number": "83",
-    "localName": "Chalupa čp. 83 (Adler)",
-    "type": "Chalupa (civilní matriky)",
+    "localName": "Chalupa čp. 83 (Adlerovi – porodní asistentka)",
+    "type": "Chalupa (porodní asistentka F. Adlerová)",
     "isHeritage": false,
     "exists2026": true,
     "sector": "Východní díl (k Čiháku)",
@@ -18523,7 +18523,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 17806275, st. 149, 200 m²)"
     },
     "description": "Historické číslo popisné 83 v Českých Petrovicích (Böhmisch Petersdorf), sektor Východní díl (k Čiháku). Objekt v RÚIAN 2026 evidován na stavební parcele st. 149 (zastavěná plocha 200 m²). Konkordance Repertoria 23-1 (1771–1806): staré č. 83 (1771–1784, rod Lux) přečíslováno 1805/1806 na čp. 112.",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [
@@ -18585,10 +18585,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Langer Josephus",
         "event": "staré č. 83 (1771–1784, rod Lux) přečíslováno 1805/1806 na čp. 112. První zachycený zápis: 1773-03-30 – Langer Josephus, dítě Franciscus Josephus (Sutor).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -18597,7 +18597,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -18606,7 +18606,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 155.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -18615,7 +18615,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 83 (ARON SOA HK, sn. 155)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 83 (sn. 155)",
         "inhabited": true,
@@ -18763,12 +18763,12 @@ const housesData = [
     "documents": [
       {
         "type": "Civilní matrika",
-        "year": "1922–1928",
-        "title": "Civilní úmrtí / sňatek u OÚ Žamberk (Filomena Adlerová)",
-        "description": "Příklad obyvatel bez vyznání v pohraničí evidovaných civilními knihami OÚ Žamberk (sign. 6376, 8272).",
-        "source": "SOA HK, OÚ Žamberk, civilní matriky sign. 6376 a 8272.",
-        "scanFile": "assets/archives/civil_8272_petrovice.jpg",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/72d83ec6-aa33-4a91-b03a-d62f5a0ee62e"
+        "year": "1894–1924",
+        "title": "Filomena Adlerová – 7× doložená porodní asistentka v civilní matrice OÚ Žamberk",
+        "description": "Porodní asistentka Filomena Adlerová (*1. 8. 1877 Jedlina) z čp. 83 je 7× zapsána u porodů v okolní Jedlině a Klášterci v civilní matrice OÚ Žamberk sign. 6376 (83 sn., 1894–1924).",
+        "source": "SOA HK, OÚ Žamberk, civilní matrika sign. 6376 (83 sn.); Sčítání 1921 sn. 155.",
+        "scanFile": "assets/archives/civil_6376_petrovice.jpg",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/a863ff07-39ab-4fa9-806d-3f803a35b72d"
       }
     ]
   },
@@ -18790,7 +18790,7 @@ const housesData = [
       "source": "Orientační poloha interpolovaná z řady sousedních čp. v RÚIAN (stavení zaniklé po r. 1921)"
     },
     "description": "Historické číslo popisné 84 v Českých Petrovicích (Böhmisch Petersdorf), sektor Východní díl (k Čiháku). Stavení zaniklo v průběhu 20. století (chybí v aktuální evidenci RÚIAN 2026; bod na mapě má orientační polohu). Konkordance Repertoria 23-1 (1771–1806): přijalo nové čp. 84 po starém č. 61 (rod Herrmann); staré č. 84 (1771–1784, rod Vogel) přečíslováno 1805/1806 na čp. 113; staré č. 84 (1771–1784, rod Jobel(?)) přečíslováno 1805/1806 na čp. 88.",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [
@@ -18917,10 +18917,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Vogel Ignatius",
         "event": "přijalo nové čp. 84 po starém č. 61 (rod Herrmann); staré č. 84 (1771–1784, rod Vogel) přečíslováno 1805/1806 na čp. 113; staré č. 84 (1771–1784, rod Jobel(?)) přečíslováno 1805/1806 na čp. 88. První zachycený zápis: 1777-09-14 – Vogel Ignatius, dítě Josephus Ignatius (rusticus).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -18929,7 +18929,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -18938,7 +18938,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 157.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -18947,7 +18947,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 84 (ARON SOA HK, sn. 157)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 84 (sn. 157)",
         "inhabited": true,
@@ -19093,7 +19093,7 @@ const housesData = [
       "source": "Orientační poloha interpolovaná z řady sousedních čp. v RÚIAN (stavení zaniklé po r. 1921)"
     },
     "description": "Historické číslo popisné 85 v Českých Petrovicích (Böhmisch Petersdorf), sektor Východní díl (k Čiháku). Stavení zaniklo v průběhu 20. století (chybí v aktuální evidenci RÚIAN 2026; bod na mapě má orientační polohu). Konkordance Repertoria 23-1 (1771–1806): přijalo nové čp. 85 po starém č. 62 (rod Pacha); staré č. 85 (1771–1784, rod Langer) přečíslováno 1805/1806 na čp. 114.",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [
@@ -19194,10 +19194,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Langer Josephus",
         "event": "přijalo nové čp. 85 po starém č. 62 (rod Pacha); staré č. 85 (1771–1784, rod Langer) přečíslováno 1805/1806 na čp. 114. První zachycený zápis: 1776-04-10 – Langer Josephus, dítě Franciscus Ignatius (Sutor).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -19206,7 +19206,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       }
     ],
     "census": [],
@@ -19230,7 +19230,7 @@ const housesData = [
       "source": "Orientační poloha interpolovaná z řady sousedních čp. v RÚIAN (stavení zaniklé po r. 1921)"
     },
     "description": "Historické číslo popisné 86 v Českých Petrovicích (Böhmisch Petersdorf), sektor Východní díl (k Čiháku). Stavení zaniklo v průběhu 20. století (chybí v aktuální evidenci RÚIAN 2026; bod na mapě má orientační polohu). Konkordance Repertoria 23-1 (1771–1806): přijalo nové čp. 86 po starém č. 72 (rod Gerber); staré č. 86 (1771–1784, rod Langer) přečíslováno 1805/1806 na čp. 115.",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [
@@ -19343,10 +19343,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Langer Franciscus",
         "event": "přijalo nové čp. 86 po starém č. 72 (rod Gerber); staré č. 86 (1771–1784, rod Langer) přečíslováno 1805/1806 na čp. 115. První zachycený zápis: 1775-03-12 – Langer Franciscus, dítě Clara Dorothea Anna (Sutor).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -19355,7 +19355,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -19364,7 +19364,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 159.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -19373,7 +19373,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 86 (ARON SOA HK, sn. 159)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 86 (sn. 159)",
         "inhabited": true,
@@ -19500,7 +19500,7 @@ const housesData = [
       "source": "Orientační poloha interpolovaná z řady sousedních čp. v RÚIAN (stavení zaniklé po r. 1921)"
     },
     "description": "Historické číslo popisné 87 v Českých Petrovicích (Böhmisch Petersdorf), sektor Východní díl (k Čiháku). Stavení zaniklo v průběhu 20. století (chybí v aktuální evidenci RÚIAN 2026; bod na mapě má orientační polohu). Konkordance Repertoria 23-1 (1771–1806): přijalo nové čp. 87 po starém č. 63 (rod Wagner); staré č. 87 (1771–1784, rod Esler) přečíslováno 1805/1806 na čp. 69.",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [
@@ -19601,10 +19601,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Esler Florianus",
         "event": "přijalo nové čp. 87 po starém č. 63 (rod Wagner); staré č. 87 (1771–1784, rod Esler) přečíslováno 1805/1806 na čp. 69. První zachycený zápis: 1776-08-20 – Esler Florianus, dítě Mariana (casarius).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -19613,7 +19613,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -19622,7 +19622,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 161.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -19631,7 +19631,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 87 (ARON SOA HK, sn. 161)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 87 (sn. 161)",
         "inhabited": true,
@@ -19701,7 +19701,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 17806283, st. 152, 312 m²)"
     },
     "description": "Historické číslo popisné 88 v Českých Petrovicích (Böhmisch Petersdorf), sektor Hřeben / Adam & hranice. Objekt v RÚIAN 2026 evidován na stavební parcele st. 152 (zastavěná plocha 312 m²). Konkordance Repertoria 23-1 (1771–1806): přijalo nové čp. 88 po starém č. 44 (rod Rex); přijalo nové čp. 88 po starém č. 84 (rod Jobel(?)); staré č. 88 (1771–1784, rod Hofmann) přečíslováno 1805/1806 na čp. 117; staré č. 88 (1771–1784, rod Lux) přečíslováno 1805/1806 na čp. 119.",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [
@@ -19843,10 +19843,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Hoffmann Petrus",
         "event": "přijalo nové čp. 88 po starém č. 44 (rod Rex); přijalo nové čp. 88 po starém č. 84 (rod Jobel(?)); staré č. 88 (1771–1784, rod Hofmann) přečíslováno 1805/1806 na čp. 117; staré č. 88 (1771–1784, rod Lux) přečíslováno 1805/1806 na čp. 119. První zachycený zápis: 1776-10-29 – Hoffmann Petrus, dítě Petrus Paulus (inquilinus).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1869",
@@ -19864,7 +19864,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -19873,7 +19873,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 163.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -19999,7 +19999,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 88 (ARON SOA HK, sn. 163)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 88 (sn. 163)",
         "inhabited": true,
@@ -20126,7 +20126,7 @@ const housesData = [
       "source": "Orientační poloha interpolovaná z řady sousedních čp. v RÚIAN (stavení zaniklé po r. 1921)"
     },
     "description": "Historické číslo popisné 89 v Českých Petrovicích (Böhmisch Petersdorf), sektor Hřeben / Adam & hranice. Stavení zaniklo v průběhu 20. století (chybí v aktuální evidenci RÚIAN 2026; bod na mapě má orientační polohu). Konkordance Repertoria 23-1 (1771–1806): přijalo nové čp. 89 po starém č. 117 (rod Beüer); staré č. 89 (1771–1784, rod Lux) přečíslováno 1805/1806 na čp. 117.",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [
@@ -20283,10 +20283,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Lux Josephus",
         "event": "přijalo nové čp. 89 po starém č. 117 (rod Beüer); staré č. 89 (1771–1784, rod Lux) přečíslováno 1805/1806 na čp. 117. První zachycený zápis: 1777-01-23 – Lux Josephus, dítě Josephus Franciscus (Textor).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -20295,7 +20295,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -20304,7 +20304,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 165.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -20313,7 +20313,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 89 (ARON SOA HK, sn. 165)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 89 (sn. 165)",
         "inhabited": true,
@@ -20402,7 +20402,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 17806291, st. 154, 138 m²)"
     },
     "description": "Historické číslo popisné 90 v Českých Petrovicích (Böhmisch Petersdorf), sektor Hřeben / Adam & hranice. Objekt v RÚIAN 2026 evidován na stavební parcele st. 154 (zastavěná plocha 138 m²). Konkordance Repertoria 23-1 (1771–1806): přijalo nové čp. 90 po starém č. 65 (rod Kraus); staré č. 90 (1771–1784, rod Peinelt) přečíslováno 1805/1806 na čp. 120; staré č. 90 (1771–1784, rod Lux) přečíslováno 1805/1806 na čp. 40.",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [
@@ -20496,10 +20496,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Peinelt Simon",
         "event": "přijalo nové čp. 90 po starém č. 65 (rod Kraus); staré č. 90 (1771–1784, rod Peinelt) přečíslováno 1805/1806 na čp. 120; staré č. 90 (1771–1784, rod Lux) přečíslováno 1805/1806 na čp. 40. První zachycený zápis: 1775-02-02 – Peinelt Simon, dítě Josephus Ignatius (Sartor).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -20508,7 +20508,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -20517,7 +20517,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 167.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -20526,7 +20526,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 90 (ARON SOA HK, sn. 167)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 90 (sn. 167)",
         "inhabited": true,
@@ -20653,7 +20653,7 @@ const housesData = [
       "source": "Orientační poloha interpolovaná z řady sousedních čp. v RÚIAN (stavení zaniklé po r. 1921)"
     },
     "description": "Historické číslo popisné 91 v Českých Petrovicích (Böhmisch Petersdorf), sektor Hřeben / Adam & hranice. Stavení zaniklo v průběhu 20. století (chybí v aktuální evidenci RÚIAN 2026; bod na mapě má orientační polohu). Konkordance Repertoria 23-1 (1771–1806): přijalo nové čp. 91 po starém č. 66 (rod Winnig).",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [],
@@ -20726,10 +20726,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Winnig Michael",
         "event": "přijalo nové čp. 91 po starém č. 66 (rod Winnig). První zachycený zápis: 1780-09-26 – Winnig Michael, dítě Anna Maria Theresia (inquilinus).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -20738,7 +20738,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -20747,7 +20747,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 169.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -20756,7 +20756,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 91 (ARON SOA HK, sn. 169)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 91 (sn. 169)",
         "inhabited": true,
@@ -20864,7 +20864,7 @@ const housesData = [
       "source": "Orientační poloha interpolovaná z řady sousedních čp. v RÚIAN (stavení zaniklé po r. 1921)"
     },
     "description": "Historické číslo popisné 92 v Českých Petrovicích (Böhmisch Petersdorf), sektor Hřeben / Adam & hranice. Stavení zaniklo v průběhu 20. století (chybí v aktuální evidenci RÚIAN 2026; bod na mapě má orientační polohu).",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [],
@@ -20901,7 +20901,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -20910,7 +20910,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 171.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -20919,7 +20919,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 92 (ARON SOA HK, sn. 171)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 92 (sn. 171)",
         "inhabited": true,
@@ -20989,7 +20989,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 17806305, st. 181, 95 m²)"
     },
     "description": "Historické číslo popisné 93 v Českých Petrovicích (Böhmisch Petersdorf), sektor Hřeben / Adam & hranice. Objekt v RÚIAN 2026 evidován na stavební parcele st. 181 (zastavěná plocha 95 m²). Konkordance Repertoria 23-1 (1771–1806): přijalo nové čp. 93 po starém č. 68 (rod Gottschlik); staré č. 93 (1771–1784, rod Adler) přečíslováno 1805/1806 na čp. 68.",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [
@@ -21135,10 +21135,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Adler Casparus",
         "event": "přijalo nové čp. 93 po starém č. 68 (rod Gottschlik); staré č. 93 (1771–1784, rod Adler) přečíslováno 1805/1806 na čp. 68. První zachycený zápis: 1771-04-14 – Adler Casparus, dítě Joannes Paulus (Rusticus).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1869",
@@ -21156,7 +21156,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -21165,7 +21165,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 173.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -21251,7 +21251,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 93 (ARON SOA HK, sn. 173)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 93 (sn. 173)",
         "inhabited": true,
@@ -21378,7 +21378,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 106225880, st. 301, 135 m²)"
     },
     "description": "Historické číslo popisné 94 v Českých Petrovicích (Böhmisch Petersdorf), sektor Hřeben / Adam & hranice. Objekt v RÚIAN 2026 evidován na stavební parcele st. 301 (zastavěná plocha 135 m²). Konkordance Repertoria 23-1 (1771–1806): staré č. 94 (1771–1784, rod Steiner) přečíslováno 1805/1806 na čp. 56.",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [
@@ -21429,10 +21429,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Langer Josephus",
         "event": "staré č. 94 (1771–1784, rod Steiner) přečíslováno 1805/1806 na čp. 56. První zachycený zápis: 1780-08-15 – Langer Josephus, dítě Antonius Josephus (inquilinus).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1869",
@@ -21450,7 +21450,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -21459,7 +21459,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 175.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -21620,7 +21620,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 94 (ARON SOA HK, sn. 175)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 94 (sn. 175)",
         "inhabited": true,
@@ -21747,7 +21747,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 54009626, st. 291, 148 m²)"
     },
     "description": "Historické číslo popisné 95 v Českých Petrovicích (Böhmisch Petersdorf), sektor Hřeben / Adam & hranice. Objekt v RÚIAN 2026 evidován na stavební parcele st. 291 (zastavěná plocha 148 m²). Konkordance Repertoria 23-1 (1771–1806): přijalo nové čp. 95 po starém č. 70 (rod Lux); staré č. 95 (1771–1784, rod Wagner) přečíslováno 1805/1806 na čp. 124.",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [
@@ -21892,10 +21892,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Wagner Josephus",
         "event": "přijalo nové čp. 95 po starém č. 70 (rod Lux); staré č. 95 (1771–1784, rod Wagner) přečíslováno 1805/1806 na čp. 124. První zachycený zápis: 1778-09-09 – Wagner Josephus, dítě Anna Maria (casarius).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -21904,7 +21904,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       }
     ],
     "census": [],
@@ -21928,7 +21928,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 17806313, st. 193, 492 m²)"
     },
     "description": "Historické číslo popisné 96 v Českých Petrovicích (Böhmisch Petersdorf), sektor Hřeben / Adam & hranice. Objekt v RÚIAN 2026 evidován na stavební parcele st. 193 (zastavěná plocha 492 m²). Konkordance Repertoria 23-1 (1771–1806): přijalo nové čp. 96 po starém č. 71 (rod Kittner).",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [],
@@ -22013,10 +22013,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Kittner Florianus",
         "event": "přijalo nové čp. 96 po starém č. 71 (rod Kittner). První zachycený zápis: 1775-04-24 – Kittner Florianus, dítě Anna Brigitta (Semirusticus).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -22025,7 +22025,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       }
     ],
     "census": [],
@@ -22049,7 +22049,7 @@ const housesData = [
       "source": "Orientační poloha interpolovaná z řady sousedních čp. v RÚIAN (stavení zaniklé po r. 1921)"
     },
     "description": "Historické číslo popisné 97 v Českých Petrovicích (Böhmisch Petersdorf), sektor Hřeben / Adam & hranice. Stavení zaniklo v průběhu 20. století (chybí v aktuální evidenci RÚIAN 2026; bod na mapě má orientační polohu). Konkordance Repertoria 23-1 (1771–1806): přijalo nové čp. 97 po starém č. 71 (rod Gerber); staré č. 97 (1771–1784, rod Theresia) přečíslováno 1805/1806 na čp. 54.",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [
@@ -22150,10 +22150,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Steiner Kilianus",
         "event": "přijalo nové čp. 97 po starém č. 71 (rod Gerber); staré č. 97 (1771–1784, rod Theresia) přečíslováno 1805/1806 na čp. 54. První zachycený zápis: 1771-09-08 – Steiner Kilianus, dítě Ignatius (Casarius).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -22162,7 +22162,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -22171,7 +22171,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 177.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -22180,7 +22180,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 97 (ARON SOA HK, sn. 177)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 97 (sn. 177)",
         "inhabited": true,
@@ -22269,7 +22269,7 @@ const housesData = [
       "source": "Orientační poloha interpolovaná z řady sousedních čp. v RÚIAN (stavení zaniklé po r. 1921)"
     },
     "description": "Historické číslo popisné 98 v Českých Petrovicích (Böhmisch Petersdorf), sektor Hřeben / Adam & hranice. Stavení zaniklo v průběhu 20. století (chybí v aktuální evidenci RÚIAN 2026; bod na mapě má orientační polohu). Konkordance Repertoria 23-1 (1771–1806): přijalo nové čp. 98 po starém č. 69 (rod Peinelt); staré č. 98 (1771–1784, rod Knauer) přečíslováno 1805/1806 na čp. 128.",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [
@@ -22382,10 +22382,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Knauer Joannes",
         "event": "přijalo nové čp. 98 po starém č. 69 (rod Peinelt); staré č. 98 (1771–1784, rod Knauer) přečíslováno 1805/1806 na čp. 128. První zachycený zápis: 1771-11-25 – Knauer Joannes, dítě Maria Catharina (operarius).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -22394,7 +22394,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -22403,7 +22403,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 179.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -22412,7 +22412,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 98 (ARON SOA HK, sn. 179)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 98 (sn. 179)",
         "inhabited": true,
@@ -22520,7 +22520,7 @@ const housesData = [
       "source": "Orientační poloha interpolovaná z řady sousedních čp. v RÚIAN (stavení zaniklé po r. 1921)"
     },
     "description": "Historické číslo popisné 99 v Českých Petrovicích (Böhmisch Petersdorf), sektor Hřeben / Adam & hranice. Stavení zaniklo v průběhu 20. století (chybí v aktuální evidenci RÚIAN 2026; bod na mapě má orientační polohu). Konkordance Repertoria 23-1 (1771–1806): přijalo nové čp. 99 po starém č. 49 (rod Esler).",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [],
@@ -22571,10 +22571,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Esler Franciscus",
         "event": "přijalo nové čp. 99 po starém č. 49 (rod Esler). První zachycený zápis: 1783-04-20 – Esler Franciscus, dítě Josephus Marcus (casarius).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -22583,7 +22583,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -22592,7 +22592,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 181.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -22601,7 +22601,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 99 (ARON SOA HK, sn. 181)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 99 (sn. 181)",
         "inhabited": true,
@@ -22728,7 +22728,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 17806321, st. 188, 224 m²)"
     },
     "description": "Historické číslo popisné 100 v Českých Petrovicích (Böhmisch Petersdorf), sektor Hřeben / Adam & hranice. Objekt v RÚIAN 2026 evidován na stavební parcele st. 188 (zastavěná plocha 224 m²). Konkordance Repertoria 23-1 (1771–1806): přijalo nové čp. 100 po starém č. 74 (rod Kittner); přijalo nové čp. 100 po starém č. 77 (rod Güttner).",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [],
@@ -22827,10 +22827,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Güttner Antonius",
         "event": "přijalo nové čp. 100 po starém č. 74 (rod Kittner); přijalo nové čp. 100 po starém č. 77 (rod Güttner). První zachycený zápis: 1771-05-12 – Güttner Antonius, dítě Anna Maria Elisabetha (semirusticus).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -22839,7 +22839,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -22848,7 +22848,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 183.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -22857,7 +22857,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 100 (ARON SOA HK, sn. 183)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 100 (sn. 183)",
         "inhabited": true,
@@ -22965,7 +22965,7 @@ const housesData = [
       "source": "Orientační poloha interpolovaná z řady sousedních čp. v RÚIAN (stavení zaniklé po r. 1921)"
     },
     "description": "Historické číslo popisné 101 v Českých Petrovicích (Böhmisch Petersdorf), sektor Hřeben / Adam & hranice. Stavení zaniklo v průběhu 20. století (chybí v aktuální evidenci RÚIAN 2026; bod na mapě má orientační polohu).",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [],
@@ -23002,7 +23002,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -23011,7 +23011,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 185.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -23020,7 +23020,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 101 (ARON SOA HK, sn. 185)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 101 (sn. 185)",
         "inhabited": true,
@@ -23071,7 +23071,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 17806330, st. 177, 216 m²)"
     },
     "description": "Historické číslo popisné 102 v Českých Petrovicích (Böhmisch Petersdorf), sektor Hřeben / Adam & hranice. Objekt v RÚIAN 2026 evidován na stavební parcele st. 177 (zastavěná plocha 216 m²). Konkordance Repertoria 23-1 (1771–1806): přijalo nové čp. 102 po starém č. 36 (rod Esler); staré č. 102 (1771–1784, rod Kalaus) přečíslováno 1805/1806 na čp. 75.",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [
@@ -23172,10 +23172,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Calaus Andreas",
         "event": "přijalo nové čp. 102 po starém č. 36 (rod Esler); staré č. 102 (1771–1784, rod Kalaus) přečíslováno 1805/1806 na čp. 75. První zachycený zápis: 1775-09-24 – Calaus Andreas, dítě Maria Anna (inquilinus).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -23184,7 +23184,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -23193,7 +23193,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 187.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -23202,7 +23202,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 102 (ARON SOA HK, sn. 187)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 102 (sn. 187)",
         "inhabited": true,
@@ -23272,7 +23272,7 @@ const housesData = [
       "source": "Orientační poloha interpolovaná z řady sousedních čp. v RÚIAN (stavení zaniklé po r. 1921)"
     },
     "description": "Historické číslo popisné 103 v Českých Petrovicích (Böhmisch Petersdorf), sektor Hřeben / Adam & hranice. Stavení zaniklo v průběhu 20. století (chybí v aktuální evidenci RÚIAN 2026; bod na mapě má orientační polohu). Konkordance Repertoria 23-1 (1771–1806): staré č. 103 (1771–1784, rod Pacha) přečíslováno 1805/1806 na čp. 132.",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [
@@ -23345,10 +23345,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Pacha Franciscus",
         "event": "staré č. 103 (1771–1784, rod Pacha) přečíslováno 1805/1806 na čp. 132. První zachycený zápis: 1778-08-18 – Pacha Franciscus, dítě Antonius Franciscus (casarius).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -23357,7 +23357,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -23366,7 +23366,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 189.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -23375,7 +23375,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 103 (ARON SOA HK, sn. 189)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 103 (sn. 189)",
         "inhabited": true,
@@ -23426,7 +23426,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 17806348, st. 202, 319 m²)"
     },
     "description": "Historické číslo popisné 104 v Českých Petrovicích (Böhmisch Petersdorf), sektor Hřeben / Adam & hranice. Objekt v RÚIAN 2026 evidován na stavební parcele st. 202 (zastavěná plocha 319 m²). Konkordance Repertoria 23-1 (1771–1806): přijalo nové čp. 104 po starém č. 76 (rod Patzel); staré č. 104 (1771–1784, rod Pacha) přečíslováno 1805/1806 na čp. 139.",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [
@@ -23560,10 +23560,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Pacha Josephus",
         "event": "přijalo nové čp. 104 po starém č. 76 (rod Patzel); staré č. 104 (1771–1784, rod Pacha) přečíslováno 1805/1806 na čp. 139. První zachycený zápis: 1773-01-31 – Pacha Josephus, dítě Maria Elisabetha (Rusticus).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -23572,7 +23572,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -23581,7 +23581,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 191.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -23590,7 +23590,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 104 (ARON SOA HK, sn. 191)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 104 (sn. 191)",
         "inhabited": true,
@@ -23660,7 +23660,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 27514536, st. 271, 97 m²)"
     },
     "description": "Historické číslo popisné 105 v Českých Petrovicích (Böhmisch Petersdorf), sektor Hřeben / Adam & hranice. Objekt v RÚIAN 2026 evidován na stavební parcele st. 271 (zastavěná plocha 97 m²). Konkordance Repertoria 23-1 (1771–1806): přijalo nové čp. 105 po starém č. 77 (rod Krauss); staré č. 105 (1771–1784, rod Schroller) přečíslováno 1805/1806 na čp. 134.",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [
@@ -23750,10 +23750,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Schroller Franciscus",
         "event": "přijalo nové čp. 105 po starém č. 77 (rod Krauss); staré č. 105 (1771–1784, rod Schroller) přečíslováno 1805/1806 na čp. 134. První zachycený zápis: 1772-07-10 – Schroller Franciscus, dítě Peregrinus (Operarius).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -23762,7 +23762,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -23771,7 +23771,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 193.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -23780,7 +23780,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 105 (ARON SOA HK, sn. 193)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 105 (sn. 193)",
         "inhabited": true,
@@ -23831,7 +23831,7 @@ const housesData = [
       "source": "Orientační poloha interpolovaná z řady sousedních čp. v RÚIAN (stavení zaniklé po r. 1921)"
     },
     "description": "Historické číslo popisné 106 v Českých Petrovicích (Böhmisch Petersdorf), sektor Hřeben / Adam & hranice. Stavení zaniklo v průběhu 20. století (chybí v aktuální evidenci RÚIAN 2026; bod na mapě má orientační polohu). Konkordance Repertoria 23-1 (1771–1806): staré č. 106 (1771–1784, rod Urban) přečíslováno 1805/1806 na čp. 135.",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [
@@ -23893,10 +23893,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Urban Joannes",
         "event": "staré č. 106 (1771–1784, rod Urban) přečíslováno 1805/1806 na čp. 135. První zachycený zápis: 1776-04-02 – Urban Joannes, dítě Elisabetha Brigitta (hortulanus).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -23905,7 +23905,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       }
     ],
     "census": [],
@@ -23929,7 +23929,7 @@ const housesData = [
       "source": "Orientační poloha interpolovaná z řady sousedních čp. v RÚIAN (stavení zaniklé po r. 1921)"
     },
     "description": "Historické číslo popisné 107 v Českých Petrovicích (Böhmisch Petersdorf), sektor Hřeben / Adam & hranice. Stavení zaniklo v průběhu 20. století (chybí v aktuální evidenci RÚIAN 2026; bod na mapě má orientační polohu). Konkordance Repertoria 23-1 (1771–1806): staré č. 107 (1771–1784, rod Folkmer) přečíslováno 1805/1806 na čp. 128.",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [
@@ -24024,10 +24024,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Wagner Joannes Georgius",
         "event": "staré č. 107 (1771–1784, rod Folkmer) přečíslováno 1805/1806 na čp. 128. První zachycený zápis: 1771-09-02 – Wagner Joannes Georgius, dítě Andreas Antonius (Sartor).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -24036,7 +24036,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -24045,7 +24045,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 195.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -24054,7 +24054,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 107 (ARON SOA HK, sn. 195)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 107 (sn. 195)",
         "inhabited": true,
@@ -24181,7 +24181,7 @@ const housesData = [
       "source": "Orientační poloha interpolovaná z řady sousedních čp. v RÚIAN (stavení zaniklé po r. 1921)"
     },
     "description": "Historické číslo popisné 108 v Českých Petrovicích (Böhmisch Petersdorf), sektor Východní díl (k Čiháku). Stavení zaniklo v průběhu 20. století (chybí v aktuální evidenci RÚIAN 2026; bod na mapě má orientační polohu). Konkordance Repertoria 23-1 (1771–1806): staré č. 108 (1771–1784, rod Lux) přečíslováno 1805/1806 na čp. 141.",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [
@@ -24254,10 +24254,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Lux Josephus",
         "event": "staré č. 108 (1771–1784, rod Lux) přečíslováno 1805/1806 na čp. 141. První zachycený zápis: 1777-11-09 – Lux Josephus, dítě Anna Maria (casarius).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -24266,7 +24266,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -24275,7 +24275,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 197.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -24284,7 +24284,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 108 (ARON SOA HK, sn. 197)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 108 (sn. 197)",
         "inhabited": true,
@@ -24354,7 +24354,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 17806356, st. 161, 119 m²)"
     },
     "description": "Historické číslo popisné 109 v Českých Petrovicích (Böhmisch Petersdorf), sektor Východní díl (k Čiháku). Objekt v RÚIAN 2026 evidován na stavební parcele st. 161 (zastavěná plocha 119 m²). Konkordance Repertoria 23-1 (1771–1806): staré č. 109 (1771–1784, rod Wagner) přečíslováno 1805/1806 na čp. 142.",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [
@@ -24449,10 +24449,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Wagner Antonius",
         "event": "staré č. 109 (1771–1784, rod Wagner) přečíslováno 1805/1806 na čp. 142. První zachycený zápis: 1775-10-02 – Wagner Antonius, dítě Anna Maria (inq.).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -24461,7 +24461,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       }
     ],
     "census": [],
@@ -24485,7 +24485,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 51709368, st. 289, 106 m²)"
     },
     "description": "Historické číslo popisné 110 v Českých Petrovicích (Böhmisch Petersdorf), sektor Východní díl (k Čiháku). Objekt v RÚIAN 2026 evidován na stavební parcele st. 289 (zastavěná plocha 106 m²). Konkordance Repertoria 23-1 (1771–1806): staré č. 110 (1771–1784, rod Scholtz) přečíslováno 1805/1806 na čp. 143.",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [
@@ -24591,10 +24591,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Schultz/Scholtz Franciscus",
         "event": "staré č. 110 (1771–1784, rod Scholtz) přečíslováno 1805/1806 na čp. 143. První zachycený zápis: 1771-10-11 – Schultz/Scholtz Franciscus, dítě Maria Anna (pistor & textor).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -24603,7 +24603,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -24612,7 +24612,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 199.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -24621,7 +24621,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 110 (ARON SOA HK, sn. 199)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 110 (sn. 199)",
         "inhabited": false,
@@ -24652,7 +24652,7 @@ const housesData = [
       "source": "Orientační poloha interpolovaná z řady sousedních čp. v RÚIAN (stavení zaniklé po r. 1921)"
     },
     "description": "Historické číslo popisné 111 v Českých Petrovicích (Böhmisch Petersdorf), sektor Východní díl (k Čiháku). Stavení zaniklo v průběhu 20. století (chybí v aktuální evidenci RÚIAN 2026; bod na mapě má orientační polohu). Konkordance Repertoria 23-1 (1771–1806): přijalo nové čp. 111 po starém č. 81 (rod Adler); přijalo nové čp. 111 po starém č. 82 (rod Theresia); staré č. 111 (1771–1784, rod Esler) přečíslováno 1805/1806 na čp. 82.",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [
@@ -24801,10 +24801,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Rex Antonius",
         "event": "přijalo nové čp. 111 po starém č. 81 (rod Adler); přijalo nové čp. 111 po starém č. 82 (rod Theresia); staré č. 111 (1771–1784, rod Esler) přečíslováno 1805/1806 na čp. 82. První zachycený zápis: 1771-08-17 – Rex Antonius, dítě Antonius Franciscus (operarius).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -24813,7 +24813,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -24822,7 +24822,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 201.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -24831,7 +24831,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 111 (ARON SOA HK, sn. 201)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 111 (sn. 201)",
         "inhabited": true,
@@ -24958,7 +24958,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 17806364, st. 216, 212 m²)"
     },
     "description": "Historické číslo popisné 112 v Českých Petrovicích (Böhmisch Petersdorf), sektor Východní díl (k Čiháku). Objekt v RÚIAN 2026 evidován na stavební parcele st. 216 (zastavěná plocha 212 m²). Konkordance Repertoria 23-1 (1771–1806): přijalo nové čp. 112 po starém č. 19 (rod Ezzel); přijalo nové čp. 112 po starém č. 83 (rod Lux); staré č. 112 (1771–1784, rod Kittner) přečíslováno 1805/1806 na čp. 19.",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [
@@ -25119,10 +25119,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Kittner Casparus",
         "event": "přijalo nové čp. 112 po starém č. 19 (rod Ezzel); přijalo nové čp. 112 po starém č. 83 (rod Lux); staré č. 112 (1771–1784, rod Kittner) přečíslováno 1805/1806 na čp. 19. První zachycený zápis: 1775-07-28 – Kittner Casparus, dítě Joannes Josephus (obyvatel).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1869",
@@ -25140,7 +25140,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -25149,7 +25149,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 203.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -25257,7 +25257,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 112 (ARON SOA HK, sn. 203)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 112 (sn. 203)",
         "inhabited": true,
@@ -25365,7 +25365,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 25826247, st. 135, 113 m²)"
     },
     "description": "Historické číslo popisné 113 v Českých Petrovicích (Böhmisch Petersdorf), sektor Východní díl (k Čiháku). Objekt v RÚIAN 2026 evidován na stavební parcele st. 135 (zastavěná plocha 113 m²). Konkordance Repertoria 23-1 (1771–1806): přijalo nové čp. 113 po starém č. 84 (rod Vogel); staré č. 113 (1771–1784, rod Schön) přečíslováno 1805/1806 na čp. 147.",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [
@@ -25477,10 +25477,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Schön Joannes Georgius",
         "event": "přijalo nové čp. 113 po starém č. 84 (rod Vogel); staré č. 113 (1771–1784, rod Schön) přečíslováno 1805/1806 na čp. 147. První zachycený zápis: 1775-01-18 – Schön Joannes Georgius, dítě Josephus (obyvatel).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -25489,7 +25489,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -25498,7 +25498,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 205.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -25507,7 +25507,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 113 (ARON SOA HK, sn. 205)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 113 (sn. 205)",
         "inhabited": true,
@@ -25634,7 +25634,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 17806372, st. 136, 118 m²)"
     },
     "description": "Historické číslo popisné 114 v Českých Petrovicích (Böhmisch Petersdorf), sektor Východní díl (k Čiháku). Objekt v RÚIAN 2026 evidován na stavební parcele st. 136 (zastavěná plocha 118 m²). Konkordance Repertoria 23-1 (1771–1806): přijalo nové čp. 114 po starém č. 85 (rod Langer); staré č. 114 (1771–1784, rod Langer) přečíslováno 1805/1806 na čp. 148.",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [
@@ -25735,10 +25735,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Langer Antonius",
         "event": "přijalo nové čp. 114 po starém č. 85 (rod Langer); staré č. 114 (1771–1784, rod Langer) přečíslováno 1805/1806 na čp. 148. První zachycený zápis: 1774-09-17 – Langer Antonius, dítě Josephus Franciscus (Hortulanus).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -25747,7 +25747,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -25756,7 +25756,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 207.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -25765,7 +25765,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 114 (ARON SOA HK, sn. 207)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 114 (sn. 207)",
         "inhabited": true,
@@ -25835,7 +25835,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 79444954, st. 296, 150 m²)"
     },
     "description": "Historické číslo popisné 115 v Českých Petrovicích (Böhmisch Petersdorf), sektor Východní díl (k Čiháku). Objekt v RÚIAN 2026 evidován na stavební parcele st. 296 (zastavěná plocha 150 m²). Konkordance Repertoria 23-1 (1771–1806): přijalo nové čp. 115 po starém č. 86 (rod Langer); staré č. 115 (1771–1784, rod Pacha) přečíslováno 1805/1806 na čp. 145.",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [
@@ -25992,10 +25992,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Pacha Franciscus",
         "event": "přijalo nové čp. 115 po starém č. 86 (rod Langer); staré č. 115 (1771–1784, rod Pacha) přečíslováno 1805/1806 na čp. 145. První zachycený zápis: 1777-11-18 – Pacha Franciscus, dítě Franciscus (rusticus).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -26004,7 +26004,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -26013,7 +26013,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 209.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -26022,7 +26022,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 115 (ARON SOA HK, sn. 209)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 115 (sn. 209)",
         "inhabited": true,
@@ -26130,7 +26130,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 17806381, st. 131, 285 m²)"
     },
     "description": "Historické číslo popisné 116 v Českých Petrovicích (Böhmisch Petersdorf), sektor Východní díl (k Čiháku). Objekt v RÚIAN 2026 evidován na stavební parcele st. 131 (zastavěná plocha 285 m²).",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [],
@@ -26167,7 +26167,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -26176,7 +26176,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 211.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -26185,7 +26185,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 116 (ARON SOA HK, sn. 211)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 116 (sn. 211)",
         "inhabited": false,
@@ -26216,7 +26216,7 @@ const housesData = [
       "source": "Orientační poloha interpolovaná z řady sousedních čp. v RÚIAN (stavení zaniklé po r. 1921)"
     },
     "description": "Historické číslo popisné 117 v Českých Petrovicích (Böhmisch Petersdorf), sektor Východní díl (k Čiháku). Stavení zaniklo v průběhu 20. století (chybí v aktuální evidenci RÚIAN 2026; bod na mapě má orientační polohu). Konkordance Repertoria 23-1 (1771–1806): přijalo nové čp. 117 po starém č. 88 (rod Hofmann); přijalo nové čp. 117 po starém č. 89 (rod Lux); staré č. 117 (1771–1784, rod Beüer) přečíslováno 1805/1806 na čp. 89.",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [
@@ -26431,10 +26431,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Bayer Michael",
         "event": "přijalo nové čp. 117 po starém č. 88 (rod Hofmann); přijalo nové čp. 117 po starém č. 89 (rod Lux); staré č. 117 (1771–1784, rod Beüer) přečíslováno 1805/1806 na čp. 89. První zachycený zápis: 1774-07-14 – Bayer Michael, dítě Theresia Margareta (Semirusticus).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -26443,7 +26443,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       }
     ],
     "census": [],
@@ -26467,7 +26467,7 @@ const housesData = [
       "source": "Orientační poloha interpolovaná z řady sousedních čp. v RÚIAN (stavení zaniklé po r. 1921)"
     },
     "description": "Historické číslo popisné 118 v Českých Petrovicích (Böhmisch Petersdorf), sektor Východní díl (k Čiháku). Stavení zaniklo v průběhu 20. století (chybí v aktuální evidenci RÚIAN 2026; bod na mapě má orientační polohu).",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [],
@@ -26504,7 +26504,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -26513,7 +26513,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 213.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -26522,7 +26522,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 118 (ARON SOA HK, sn. 213)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 118 (sn. 213)",
         "inhabited": true,
@@ -26611,7 +26611,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 17806399, st. 128, 194 m²)"
     },
     "description": "Historické číslo popisné 119 v Českých Petrovicích (Böhmisch Petersdorf), sektor Východní díl (k Čiháku). Objekt v RÚIAN 2026 evidován na stavební parcele st. 128 (zastavěná plocha 194 m²). Konkordance Repertoria 23-1 (1771–1806): přijalo nové čp. 119 po starém č. 88 (rod Lux); staré č. 119 (1771–1784, rod Scholtz) přečíslováno 1805/1806 na čp. 152.",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [
@@ -26701,10 +26701,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Scholtz Antonius",
         "event": "přijalo nové čp. 119 po starém č. 88 (rod Lux); staré č. 119 (1771–1784, rod Scholtz) přečíslováno 1805/1806 na čp. 152. První zachycený zápis: 1771-07-29 – Scholtz Antonius, dítě Maria Elisabetha (Pistor et Molitor).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -26713,7 +26713,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -26722,7 +26722,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 215.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -26731,7 +26731,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 119 (ARON SOA HK, sn. 215)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 119 (sn. 215)",
         "inhabited": true,
@@ -26915,7 +26915,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 102361576, st. 303, 48 m²)"
     },
     "description": "Historické číslo popisné 120 v Českých Petrovicích (Böhmisch Petersdorf), sektor Střední díl. Objekt v RÚIAN 2026 evidován na stavební parcele st. 303 (zastavěná plocha 48 m²). Konkordance Repertoria 23-1 (1771–1806): přijalo nové čp. 120 po starém č. 3 (rod Blümel); přijalo nové čp. 120 po starém č. 90 (rod Peinelt).",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [],
@@ -26981,10 +26981,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Blümel Josephus",
         "event": "přijalo nové čp. 120 po starém č. 3 (rod Blümel); přijalo nové čp. 120 po starém č. 90 (rod Peinelt). První zachycený zápis: 1773-04-13 – Blümel Josephus, dítě Veronica Brigitta (textor).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -26993,7 +26993,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -27002,7 +27002,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 217.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -27011,7 +27011,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 120 (ARON SOA HK, sn. 217)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 120 (sn. 217)",
         "inhabited": true,
@@ -27081,7 +27081,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 120965054, st. 309, 299 m²)"
     },
     "description": "Historické číslo popisné 121 v Českých Petrovicích (Böhmisch Petersdorf), sektor Střední díl. Objekt v RÚIAN 2026 evidován na stavební parcele st. 309 (zastavěná plocha 299 m²).",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [],
@@ -27118,7 +27118,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -27127,7 +27127,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 219.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -27136,7 +27136,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 121 (ARON SOA HK, sn. 219)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 121 (sn. 219)",
         "inhabited": true,
@@ -27282,7 +27282,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 80380972, st. 275, 103 m²)"
     },
     "description": "Historické číslo popisné 122 v Českých Petrovicích (Böhmisch Petersdorf), sektor Střední díl. Objekt v RÚIAN 2026 evidován na stavební parcele st. 275 (zastavěná plocha 103 m²).",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [],
@@ -27331,7 +27331,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -27340,7 +27340,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 221.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -27349,7 +27349,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 122 (ARON SOA HK, sn. 221)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 122 (sn. 221)",
         "inhabited": true,
@@ -27514,7 +27514,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 17806411, st. 236, 98 m²)"
     },
     "description": "Historické číslo popisné 123 v Českých Petrovicích (Böhmisch Petersdorf), sektor Střední díl. Objekt v RÚIAN 2026 evidován na stavební parcele st. 236 (zastavěná plocha 98 m²).",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [],
@@ -27551,7 +27551,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       }
     ],
     "census": [],
@@ -27575,7 +27575,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 17806429, st. 237, 95 m²)"
     },
     "description": "Historické číslo popisné 124 v Českých Petrovicích (Böhmisch Petersdorf), sektor Střední díl. Objekt v RÚIAN 2026 evidován na stavební parcele st. 237 (zastavěná plocha 95 m²). Konkordance Repertoria 23-1 (1771–1806): přijalo nové čp. 124 po starém č. 95 (rod Wagner).",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [],
@@ -27648,10 +27648,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Wagner Josephus",
         "event": "přijalo nové čp. 124 po starém č. 95 (rod Wagner). První zachycený zápis: 1778-09-09 – Wagner Josephus, dítě Anna Maria (casarius).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -27660,7 +27660,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -27669,7 +27669,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 223.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -27678,7 +27678,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 124 (ARON SOA HK, sn. 223)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 124 (sn. 223)",
         "inhabited": true,
@@ -27786,7 +27786,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 17806437, st. 238, 101 m²)"
     },
     "description": "Historické číslo popisné 125 v Českých Petrovicích (Böhmisch Petersdorf), sektor Střední díl. Objekt v RÚIAN 2026 evidován na stavební parcele st. 238 (zastavěná plocha 101 m²).",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [],
@@ -27823,7 +27823,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -27832,7 +27832,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 225.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -27841,7 +27841,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 125 (ARON SOA HK, sn. 225)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 125 (sn. 225)",
         "inhabited": true,
@@ -27911,7 +27911,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 17806445, st. 239, 100 m²)"
     },
     "description": "Historické číslo popisné 126 v Českých Petrovicích (Böhmisch Petersdorf), sektor Střední díl. Objekt v RÚIAN 2026 evidován na stavební parcele st. 239 (zastavěná plocha 100 m²).",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [],
@@ -27948,7 +27948,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -27957,7 +27957,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 227.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -27966,7 +27966,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 126 (ARON SOA HK, sn. 227)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 126 (sn. 227)",
         "inhabited": true,
@@ -28017,7 +28017,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 17806453, st. 240, 96 m²)"
     },
     "description": "Historické číslo popisné 127 v Českých Petrovicích (Böhmisch Petersdorf), sektor Střední díl. Objekt v RÚIAN 2026 evidován na stavební parcele st. 240 (zastavěná plocha 96 m²). Konkordance Repertoria 23-1 (1771–1806): přijalo nové čp. 127 po starém č. 79 (rod Beüer).",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [],
@@ -28112,10 +28112,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Beyer Petrus",
         "event": "přijalo nové čp. 127 po starém č. 79 (rod Beüer). První zachycený zápis: 1771-11-12 – Beyer Petrus, dítě Petrus (rusticus).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -28124,7 +28124,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       }
     ],
     "census": [],
@@ -28148,7 +28148,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 17806461, st. 241, 96 m²)"
     },
     "description": "Historické číslo popisné 128 v Českých Petrovicích (Böhmisch Petersdorf), sektor Střední díl. Objekt v RÚIAN 2026 evidován na stavební parcele st. 241 (zastavěná plocha 96 m²). Konkordance Repertoria 23-1 (1771–1806): přijalo nové čp. 128 po starém č. 98 (rod Knauer); přijalo nové čp. 128 po starém č. 107 (rod Folkmer).",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [],
@@ -28280,10 +28280,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Wagner Joannes Georgius",
         "event": "přijalo nové čp. 128 po starém č. 98 (rod Knauer); přijalo nové čp. 128 po starém č. 107 (rod Folkmer). První zachycený zápis: 1771-09-02 – Wagner Joannes Georgius, dítě Andreas Antonius (Sartor).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -28292,7 +28292,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -28301,7 +28301,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 229.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -28310,7 +28310,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 128 (ARON SOA HK, sn. 229)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 128 (sn. 229)",
         "inhabited": true,
@@ -28418,7 +28418,7 @@ const housesData = [
       "source": "Orientační poloha interpolovaná z řady sousedních čp. v RÚIAN (stavení zaniklé po r. 1921)"
     },
     "description": "Historické číslo popisné 129 v Českých Petrovicích (Böhmisch Petersdorf), sektor Střední díl. Stavení zaniklo v průběhu 20. století (chybí v aktuální evidenci RÚIAN 2026; bod na mapě má orientační polohu).",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [],
@@ -28455,7 +28455,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -28464,7 +28464,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 231.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -28473,7 +28473,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 129 (ARON SOA HK, sn. 231)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 129 (sn. 231)",
         "inhabited": true,
@@ -28562,7 +28562,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 17806470, st. 87, 298 m²)"
     },
     "description": "Historické číslo popisné 130 v Českých Petrovicích (Böhmisch Petersdorf), sektor Střední díl. Objekt v RÚIAN 2026 evidován na stavební parcele st. 87 (zastavěná plocha 298 m²).",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [],
@@ -28608,7 +28608,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -28617,7 +28617,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 233.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -28671,7 +28671,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 130 (ARON SOA HK, sn. 233)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 130 (sn. 233)",
         "inhabited": true,
@@ -28874,7 +28874,7 @@ const housesData = [
       "source": "Orientační poloha interpolovaná z řady sousedních čp. v RÚIAN (stavení zaniklé po r. 1921)"
     },
     "description": "Historické číslo popisné 131 v Českých Petrovicích (Böhmisch Petersdorf), sektor Střední díl. Stavení zaniklo v průběhu 20. století (chybí v aktuální evidenci RÚIAN 2026; bod na mapě má orientační polohu).",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [],
@@ -28911,7 +28911,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -28920,7 +28920,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 235.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -28929,7 +28929,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 131 (ARON SOA HK, sn. 235)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 131 (sn. 235)",
         "inhabited": true,
@@ -28999,7 +28999,7 @@ const housesData = [
       "source": "Orientační poloha interpolovaná z řady sousedních čp. v RÚIAN (stavení zaniklé po r. 1921)"
     },
     "description": "Historické číslo popisné 132 v Českých Petrovicích (Böhmisch Petersdorf), sektor Střední díl. Stavení zaniklo v průběhu 20. století (chybí v aktuální evidenci RÚIAN 2026; bod na mapě má orientační polohu). Konkordance Repertoria 23-1 (1771–1806): přijalo nové čp. 132 po starém č. 103 (rod Pacha).",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [],
@@ -29072,10 +29072,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Pacha Franciscus",
         "event": "přijalo nové čp. 132 po starém č. 103 (rod Pacha). První zachycený zápis: 1778-08-18 – Pacha Franciscus, dítě Antonius Franciscus (casarius).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -29084,7 +29084,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       }
     ],
     "census": [],
@@ -29108,7 +29108,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 17806488, st. 81, 190 m²)"
     },
     "description": "Historické číslo popisné 133 v Českých Petrovicích (Böhmisch Petersdorf), sektor Střední díl. Objekt v RÚIAN 2026 evidován na stavební parcele st. 81 (zastavěná plocha 190 m²).",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [],
@@ -29145,7 +29145,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -29154,7 +29154,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 237.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -29163,7 +29163,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 133 (ARON SOA HK, sn. 237)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 133 (sn. 237)",
         "inhabited": true,
@@ -29271,7 +29271,7 @@ const housesData = [
       "source": "Orientační poloha interpolovaná z řady sousedních čp. v RÚIAN (stavení zaniklé po r. 1921)"
     },
     "description": "Historické číslo popisné 134 v Českých Petrovicích (Böhmisch Petersdorf), sektor Střední díl. Stavení zaniklo v průběhu 20. století (chybí v aktuální evidenci RÚIAN 2026; bod na mapě má orientační polohu). Konkordance Repertoria 23-1 (1771–1806): přijalo nové čp. 134 po starém č. 105 (rod Schroller).",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [],
@@ -29344,10 +29344,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Schroller Franciscus",
         "event": "přijalo nové čp. 134 po starém č. 105 (rod Schroller). První zachycený zápis: 1772-07-10 – Schroller Franciscus, dítě Peregrinus (Operarius).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -29356,7 +29356,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       }
     ],
     "census": [],
@@ -29380,7 +29380,7 @@ const housesData = [
       "source": "Orientační poloha interpolovaná z řady sousedních čp. v RÚIAN (stavení zaniklé po r. 1921)"
     },
     "description": "Historické číslo popisné 135 v Českých Petrovicích (Böhmisch Petersdorf), sektor Střední díl. Stavení zaniklo v průběhu 20. století (chybí v aktuální evidenci RÚIAN 2026; bod na mapě má orientační polohu). Konkordance Repertoria 23-1 (1771–1806): přijalo nové čp. 135 po starém č. 106 (rod Urban).",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [],
@@ -29442,10 +29442,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Urban Joannes",
         "event": "přijalo nové čp. 135 po starém č. 106 (rod Urban). První zachycený zápis: 1776-04-02 – Urban Joannes, dítě Elisabetha Brigitta (hortulanus).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -29454,7 +29454,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -29463,7 +29463,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 239.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -29472,7 +29472,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 135 (ARON SOA HK, sn. 239)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 135 (sn. 239)",
         "inhabited": true,
@@ -29618,7 +29618,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 17806496, st. 80, 108 m²)"
     },
     "description": "Historické číslo popisné 136 v Českých Petrovicích (Böhmisch Petersdorf), sektor Střední díl. Objekt v RÚIAN 2026 evidován na stavební parcele st. 80 (zastavěná plocha 108 m²).",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [],
@@ -29655,7 +29655,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -29664,7 +29664,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 241.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -29673,7 +29673,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 136 (ARON SOA HK, sn. 241)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 136 (sn. 241)",
         "inhabited": true,
@@ -29762,7 +29762,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 26568021, st. 262, 327 m²)"
     },
     "description": "Historické číslo popisné 137 v Českých Petrovicích (Böhmisch Petersdorf), sektor Střední díl. Objekt v RÚIAN 2026 evidován na stavební parcele st. 262 (zastavěná plocha 327 m²).",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [],
@@ -29799,7 +29799,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       }
     ],
     "census": [],
@@ -29823,7 +29823,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 17806500, st. 199, 212 m²)"
     },
     "description": "Historické číslo popisné 138 v Českých Petrovicích (Böhmisch Petersdorf), sektor Střední díl. Objekt v RÚIAN 2026 evidován na stavební parcele st. 199 (zastavěná plocha 212 m²).",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [],
@@ -29860,7 +29860,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -29869,7 +29869,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 243.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -29878,7 +29878,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 138 (ARON SOA HK, sn. 243)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 138 (sn. 243)",
         "inhabited": true,
@@ -30043,7 +30043,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 17806518, st. 34, 128 m²)"
     },
     "description": "Historické číslo popisné 139 v Českých Petrovicích (Böhmisch Petersdorf), sektor Jádro u kostela a fary. Objekt v RÚIAN 2026 evidován na stavební parcele st. 34 (zastavěná plocha 128 m²). Konkordance Repertoria 23-1 (1771–1806): přijalo nové čp. 139 po starém č. 104 (rod Pacha).",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [],
@@ -30106,10 +30106,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Pacha Josephus",
         "event": "přijalo nové čp. 139 po starém č. 104 (rod Pacha). První zachycený zápis: 1773-01-31 – Pacha Josephus, dítě Maria Elisabetha (Rusticus).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -30118,7 +30118,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -30127,7 +30127,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 245.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -30136,7 +30136,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 139 (ARON SOA HK, sn. 245)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 139 (sn. 245)",
         "inhabited": true,
@@ -30187,7 +30187,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 17806526, st. 33, 71 m²)"
     },
     "description": "Historické číslo popisné 140 v Českých Petrovicích (Böhmisch Petersdorf), sektor Jádro u kostela a fary. Objekt v RÚIAN 2026 evidován na stavební parcele st. 33 (zastavěná plocha 71 m²).",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [],
@@ -30236,7 +30236,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -30245,7 +30245,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 247.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -30254,7 +30254,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 140 (ARON SOA HK, sn. 247)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 140 (sn. 247)",
         "inhabited": true,
@@ -30324,7 +30324,7 @@ const housesData = [
       "source": "Orientační poloha interpolovaná z řady sousedních čp. v RÚIAN (stavení zaniklé po r. 1921)"
     },
     "description": "Historické číslo popisné 141 v Českých Petrovicích (Böhmisch Petersdorf), sektor Jádro u kostela a fary. Stavení zaniklo v průběhu 20. století (chybí v aktuální evidenci RÚIAN 2026; bod na mapě má orientační polohu). Konkordance Repertoria 23-1 (1771–1806): přijalo nové čp. 141 po starém č. 108 (rod Lux).",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [],
@@ -30409,10 +30409,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Lux Josephus",
         "event": "přijalo nové čp. 141 po starém č. 108 (rod Lux). První zachycený zápis: 1777-11-09 – Lux Josephus, dítě Anna Maria (casarius).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -30421,7 +30421,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -30430,7 +30430,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 249.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -30439,7 +30439,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 141 (ARON SOA HK, sn. 249)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 141 (sn. 249)",
         "inhabited": true,
@@ -30585,7 +30585,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 17806534, st. 38/1, 64 m²)"
     },
     "description": "Historické číslo popisné 142 v Českých Petrovicích (Böhmisch Petersdorf), sektor Jádro u kostela a fary. Objekt v RÚIAN 2026 evidován na stavební parcele st. 38/1 (zastavěná plocha 64 m²). Konkordance Repertoria 23-1 (1771–1806): přijalo nové čp. 142 po starém č. 109 (rod Wagner).",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [],
@@ -30680,10 +30680,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Wagner Antonius",
         "event": "přijalo nové čp. 142 po starém č. 109 (rod Wagner). První zachycený zápis: 1775-10-02 – Wagner Antonius, dítě Anna Maria (inq.).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -30692,7 +30692,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -30701,7 +30701,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 251.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -30710,7 +30710,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 142 (ARON SOA HK, sn. 251)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 142 (sn. 251)",
         "inhabited": true,
@@ -30799,7 +30799,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 17806542, st. 39, 116 m²)"
     },
     "description": "Historické číslo popisné 143 v Českých Petrovicích (Böhmisch Petersdorf), sektor Jádro u kostela a fary. Objekt v RÚIAN 2026 evidován na stavební parcele st. 39 (zastavěná plocha 116 m²). Konkordance Repertoria 23-1 (1771–1806): přijalo nové čp. 143 po starém č. 110 (rod Scholtz).",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [],
@@ -30905,10 +30905,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Schultz/Scholtz Franciscus",
         "event": "přijalo nové čp. 143 po starém č. 110 (rod Scholtz). První zachycený zápis: 1771-10-11 – Schultz/Scholtz Franciscus, dítě Maria Anna (pistor & textor).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -30917,7 +30917,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -30926,7 +30926,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 253.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -30935,7 +30935,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 143 (ARON SOA HK, sn. 253)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 143 (sn. 253)",
         "inhabited": true,
@@ -31005,7 +31005,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 17806551, st. 41, 142 m²)"
     },
     "description": "Historické číslo popisné 144 v Českých Petrovicích (Böhmisch Petersdorf), sektor Jádro u kostela a fary. Objekt v RÚIAN 2026 evidován na stavební parcele st. 41 (zastavěná plocha 142 m²).",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [],
@@ -31042,7 +31042,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -31051,7 +31051,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 255.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -31060,7 +31060,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 144 (ARON SOA HK, sn. 255)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 144 (sn. 255)",
         "inhabited": true,
@@ -31153,8 +31153,8 @@ const housesData = [
   {
     "id": "cp145",
     "number": "145",
-    "localName": "Stavení čp. 145 (Voksa Josef)",
-    "type": "Usedlost / Rodinný dům",
+    "localName": "Usedlost čp. 145 (Effenberger / Voksa)",
+    "type": "Usedlost (český starousedlík J. Voksa)",
     "isHeritage": false,
     "exists2026": true,
     "sector": "Jádro u kostela a fary",
@@ -31168,7 +31168,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 17806569, st. 29, 331 m²)"
     },
     "description": "Historické číslo popisné 145 v Českých Petrovicích (Böhmisch Petersdorf), sektor Jádro u kostela a fary. Objekt v RÚIAN 2026 evidován na stavební parcele st. 29 (zastavěná plocha 331 m²). Konkordance Repertoria 23-1 (1771–1806): přijalo nové čp. 145 po starém č. 115 (rod Pacha).",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [],
@@ -31263,10 +31263,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Pacha Franciscus",
         "event": "přijalo nové čp. 145 po starém č. 115 (rod Pacha). První zachycený zápis: 1777-11-18 – Pacha Franciscus, dítě Franciscus (rusticus).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1869",
@@ -31284,7 +31284,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -31293,7 +31293,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 257.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -31383,7 +31383,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 145 (ARON SOA HK, sn. 257)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 145 (sn. 257)",
         "inhabited": true,
@@ -31529,7 +31529,7 @@ const housesData = [
       "source": "Orientační poloha interpolovaná z řady sousedních čp. v RÚIAN (stavení zaniklé po r. 1921)"
     },
     "description": "Historické číslo popisné 146 v Českých Petrovicích (Böhmisch Petersdorf), sektor Jádro u kostela a fary. Stavení zaniklo v průběhu 20. století (chybí v aktuální evidenci RÚIAN 2026; bod na mapě má orientační polohu).",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [],
@@ -31578,7 +31578,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -31587,7 +31587,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 259.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -31596,7 +31596,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 146 (ARON SOA HK, sn. 259)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 146 (sn. 259)",
         "inhabited": true,
@@ -31685,7 +31685,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 17806577, st. 42, 97 m²)"
     },
     "description": "Historické číslo popisné 147 v Českých Petrovicích (Böhmisch Petersdorf), sektor Jádro u kostela a fary. Objekt v RÚIAN 2026 evidován na stavební parcele st. 42 (zastavěná plocha 97 m²). Konkordance Repertoria 23-1 (1771–1806): přijalo nové čp. 147 po starém č. 113 (rod Schön).",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [],
@@ -31736,10 +31736,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Schön Joannes Georgius",
         "event": "přijalo nové čp. 147 po starém č. 113 (rod Schön). První zachycený zápis: 1775-01-18 – Schön Joannes Georgius, dítě Josephus (obyvatel).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -31748,7 +31748,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -31757,7 +31757,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 261.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -31766,7 +31766,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 147 (ARON SOA HK, sn. 261)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 147 (sn. 261)",
         "inhabited": true,
@@ -31874,7 +31874,7 @@ const housesData = [
       "source": "Orientační poloha interpolovaná z řady sousedních čp. v RÚIAN (stavení zaniklé po r. 1921)"
     },
     "description": "Historické číslo popisné 148 v Českých Petrovicích (Böhmisch Petersdorf), sektor Západní díl (k Mladkovu). Stavení zaniklo v průběhu 20. století (chybí v aktuální evidenci RÚIAN 2026; bod na mapě má orientační polohu). Konkordance Repertoria 23-1 (1771–1806): přijalo nové čp. 148 po starém č. 114 (rod Langer).",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [],
@@ -31958,10 +31958,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Langer Antonius",
         "event": "přijalo nové čp. 148 po starém č. 114 (rod Langer). První zachycený zápis: 1774-09-17 – Langer Antonius, dítě Josephus Franciscus (Hortulanus).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1910",
@@ -31970,7 +31970,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       }
     ],
     "census": [],
@@ -31994,7 +31994,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 17806585, st. 20, 215 m²)"
     },
     "description": "Historické číslo popisné 149 v Českých Petrovicích (Böhmisch Petersdorf), sektor Západní díl (k Mladkovu). Objekt v RÚIAN 2026 evidován na stavební parcele st. 20 (zastavěná plocha 215 m²).",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [],
@@ -32043,7 +32043,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -32052,7 +32052,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 263.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -32061,7 +32061,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 149 (ARON SOA HK, sn. 263)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 149 (sn. 263)",
         "inhabited": true,
@@ -32150,7 +32150,7 @@ const housesData = [
       "source": "Orientační poloha interpolovaná z řady sousedních čp. v RÚIAN (stavení zaniklé po r. 1921)"
     },
     "description": "Historické číslo popisné 150 v Českých Petrovicích (Böhmisch Petersdorf), sektor Západní díl (k Mladkovu). Stavení zaniklo v průběhu 20. století (chybí v aktuální evidenci RÚIAN 2026; bod na mapě má orientační polohu).",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [],
@@ -32187,7 +32187,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -32196,7 +32196,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 265.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -32205,7 +32205,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 150 (ARON SOA HK, sn. 265)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 150 (sn. 265)",
         "inhabited": false,
@@ -32236,7 +32236,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 30044766, st. 23, 72 m²)"
     },
     "description": "Historické číslo popisné 151 v Českých Petrovicích (Böhmisch Petersdorf), sektor Západní díl (k Mladkovu). Objekt v RÚIAN 2026 evidován na stavební parcele st. 23 (zastavěná plocha 72 m²).",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [],
@@ -32273,7 +32273,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -32282,7 +32282,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 267.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -32291,7 +32291,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 151 (ARON SOA HK, sn. 267)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 151 (sn. 267)",
         "inhabited": true,
@@ -32342,7 +32342,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 17806593, st. 19, 145 m²)"
     },
     "description": "Historické číslo popisné 152 v Českých Petrovicích (Böhmisch Petersdorf), sektor Západní díl (k Mladkovu). Objekt v RÚIAN 2026 evidován na stavební parcele st. 19 (zastavěná plocha 145 m²). Konkordance Repertoria 23-1 (1771–1806): přijalo nové čp. 152 po starém č. 119 (rod Scholtz).",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [],
@@ -32415,10 +32415,10 @@ const housesData = [
         "year": "1771–1806",
         "owner": "Scholtz Antonius",
         "event": "přijalo nové čp. 152 po starém č. 119 (rod Scholtz). První zachycený zápis: 1771-07-29 – Scholtz Antonius, dítě Maria Elisabetha (Pistor et Molitor).",
-        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium 1805/1806.",
+        "source": "SOA Hradec Králové, Sbírka matrik Východočeského kraje, sign. 23-1 (1770–1784) & Repertorium (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_repertorium_s35.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       },
       {
         "year": "1869",
@@ -32436,7 +32436,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -32445,7 +32445,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 269.",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1921_cp152_mlyn.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -32495,7 +32495,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 152 (ARON SOA HK, sn. 269)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "assets/archives/scitani_1921_cp152_mlyn.jpg",
         "scanTitle": "Sčítání 1921 – čp. 152 (Scholzův vodní mlýn, sn. 269)",
         "inhabited": true,
@@ -32641,7 +32641,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 17806607, st. 183, 150 m²)"
     },
     "description": "Historické číslo popisné 153 v Českých Petrovicích (Böhmisch Petersdorf), sektor Hřeben / Adam & hranice. Objekt v RÚIAN 2026 evidován na stavební parcele st. 183 (zastavěná plocha 150 m²).",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [],
@@ -32678,7 +32678,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -32687,7 +32687,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 271.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -32696,7 +32696,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 153 (ARON SOA HK, sn. 271)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 153 (sn. 271)",
         "inhabited": true,
@@ -32766,7 +32766,7 @@ const housesData = [
       "source": "Orientační poloha interpolovaná z řady sousedních čp. v RÚIAN (stavení zaniklé po r. 1921)"
     },
     "description": "Historické číslo popisné 154 v Českých Petrovicích (Böhmisch Petersdorf), sektor Východní díl (k Čiháku). Stavení zaniklo v průběhu 20. století (chybí v aktuální evidenci RÚIAN 2026; bod na mapě má orientační polohu).",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [],
@@ -32803,7 +32803,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -32812,7 +32812,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 273.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -32821,7 +32821,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 154 (ARON SOA HK, sn. 273)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 154 (sn. 273)",
         "inhabited": true,
@@ -32910,7 +32910,7 @@ const housesData = [
       "source": "Orientační poloha interpolovaná z řady sousedních čp. v RÚIAN (stavení zaniklé po r. 1921)"
     },
     "description": "Historické číslo popisné 155 v Českých Petrovicích (Böhmisch Petersdorf), sektor Střední díl. Stavení zaniklo v průběhu 20. století (chybí v aktuální evidenci RÚIAN 2026; bod na mapě má orientační polohu).",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [],
@@ -32947,7 +32947,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -32956,7 +32956,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 275.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -32965,7 +32965,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 155 (ARON SOA HK, sn. 275)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 155 (sn. 275)",
         "inhabited": true,
@@ -33111,7 +33111,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 17806615, st. 206, 195 m²)"
     },
     "description": "Historické číslo popisné 156 v Českých Petrovicích (Böhmisch Petersdorf), sektor Jádro u kostela a fary. Objekt v RÚIAN 2026 evidován na stavební parcele st. 206 (zastavěná plocha 195 m²).",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [],
@@ -33157,7 +33157,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -33166,7 +33166,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 277.",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1921_cp156_hostinec.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -33310,7 +33310,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 156 (ARON SOA HK, sn. 277)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "assets/archives/scitani_1921_cp156_hostinec.jpg",
         "scanTitle": "Sčítání 1921 – čp. 156 (Hostinec Pacha, sn. 277)",
         "inhabited": true,
@@ -33456,7 +33456,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 17806623, st. 172, 146 m²)"
     },
     "description": "Historické číslo popisné 157 v Českých Petrovicích (Böhmisch Petersdorf), sektor Východní díl (k Čiháku). Objekt v RÚIAN 2026 evidován na stavební parcele st. 172 (zastavěná plocha 146 m²).",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [],
@@ -33493,7 +33493,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -33502,7 +33502,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 279.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -33511,7 +33511,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 157 (ARON SOA HK, sn. 279)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 157 (sn. 279)",
         "inhabited": true,
@@ -33657,7 +33657,7 @@ const housesData = [
       "source": "Orientační poloha interpolovaná z řady sousedních čp. v RÚIAN (stavení zaniklé po r. 1921)"
     },
     "description": "Historické číslo popisné 158 v Českých Petrovicích (Böhmisch Petersdorf), sektor Východní díl (k Čiháku). Stavení zaniklo v průběhu 20. století (chybí v aktuální evidenci RÚIAN 2026; bod na mapě má orientační polohu).",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [],
@@ -33694,7 +33694,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -33703,7 +33703,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 281.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -33712,7 +33712,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 158 (ARON SOA HK, sn. 281)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 158 (sn. 281)",
         "inhabited": true,
@@ -33763,7 +33763,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 26254417, st. 210, 149 m²)"
     },
     "description": "Historické číslo popisné 159 v Českých Petrovicích (Böhmisch Petersdorf), sektor Střední díl. Objekt v RÚIAN 2026 evidován na stavební parcele st. 210 (zastavěná plocha 149 m²).",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [],
@@ -33800,7 +33800,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s02.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -33809,7 +33809,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 283.",
         "sourceType": "verified",
         "scanFile": "",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -33818,7 +33818,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 159 (ARON SOA HK, sn. 283)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "",
         "scanTitle": "Sčítání 1921 – čp. 159 (sn. 283)",
         "inhabited": true,
@@ -33869,7 +33869,7 @@ const housesData = [
       "source": "ČÚZK RÚIAN (SO 17806631, st. 61/2, 201 m²)"
     },
     "description": "Historické číslo popisné 160 v Českých Petrovicích (Böhmisch Petersdorf), sektor Jádro u kostela a fary. Objekt v RÚIAN 2026 evidován na stavební parcele st. 61/2 (zastavěná plocha 201 m²).",
-    "statusStableCadastre": "Stabilní katastr 1840 (č. k. 622702) — grafický otisk není v ÚAZK online stažen; historická výměra k.ú. 629,83 ha.",
+    "statusStableCadastre": "K. ú. 622702 České Petrovice (RÚIAN 2026: 629,83 ha / 1 777 parcel; 1921/1949: 627 ha). Grafické otisky Stabilního katastru 1840 (ÚAZK) vyžadují badatelské stažení.",
     "cadastreSource": "ČÚZK RÚIAN 2026 & Stabilní katastr 1840 (k.ú. 622702 České Petrovice).",
     "earliest1771": {
       "alteEntries": [],
@@ -33918,7 +33918,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání 1910 (Přehled obyvatelstva & Přehled zvířectva).",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1910_po_s10.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/72e89763-f325-44f2-aa13-1c4166d34487"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/01a84c3a-5bb8-407e-965f-59ab75ff1a6e"
       },
       {
         "year": "1921",
@@ -33927,7 +33927,7 @@ const housesData = [
         "source": "SOkA Ústí nad Orlicí, OÚ Žamberk – Sčítání lidu 1921, sn. 285.",
         "sourceType": "verified",
         "scanFile": "assets/archives/scitani_1921_cp160_straz.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e"
       }
     ],
     "census": [
@@ -33936,7 +33936,7 @@ const housesData = [
         "date": "15. 2. 1921",
         "archiveSource": "SOkA Ústí nad Orlicí (OÚ Žamberk, s. o. Králíky)",
         "source": "Sčítání lidu 1921, České Petrovice čp. 160 (ARON SOA HK, sn. 285)",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6",
+        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/f60944b0-189c-4af2-a4c9-705055a84f4e",
         "scanFile": "assets/archives/scitani_1921_cp160_straz.jpg",
         "scanTitle": "Sčítání 1921 – čp. 160 (Finanční stráž & učitel Gruber, sn. 285)",
         "inhabited": true,
@@ -34086,10 +34086,10 @@ const housesData = [
         "type": "Menšinová škola & Stráž",
         "year": "1920–1923",
         "title": "Česká menšinová škola, Finanční stráž & František Šlesinger",
-        "description": "V čp. 160 sídlilo v roce 1921 6 Čechů (5 členů Pohraniční finanční stráže vč. vrchního strážmistra F. Šlesingera a učitel Josef Gruber, sčítací komisař). Dobový tisk Naše menšiny (1923) popisuje boj o umístění české školy.",
-        "source": "Naše menšiny, 1923, s. 84–85; Sčítání 1921 sn. 285.",
+        "description": "V čp. 160 bydlelo v únoru 1921 v 6 bytech 7 osob: německá majitelka Emilie Kalousová a 6 Čechů — 4 příslušníci finanční stráže (vrchní strážmistr František Šlesinger, Josef Pavel, Rudolf Štehover, Bohuslav Prchlík), manželka Marie Pavlová a učitel I. tř. Josef Gruber (sčítací komisař). Dobový tisk Naše menšiny (30. 5. 1923, s. 84–85) popisuje případ přeložení F. Šlesingra a spor o českou menšinovou školu.",
+        "source": "Naše menšiny, 30. 5. 1923, s. 84–85; Sčítání 1921 sn. 285.",
         "scanFile": "assets/archives/tisk_1923_nase_mensiny_p84.jpg",
-        "originalUrl": "https://aron.vychodoceskearchivy.cz/apu/aa9e7810-4b4e-4bb6-841e-fd736ff21fa6"
+        "originalUrl": "https://kramerius.svkhk.cz/view/uuid:58aaa454-85cf-11e4-a5ec-00155d010f03"
       }
     ]
   },
@@ -34325,10 +34325,10 @@ const housesData = [
     "type": "Kulturní památka (sakrální architektura)",
     "isHeritage": true,
     "exists2026": true,
-    "uskpNumber": "1000146326_0001",
-    "npuDirectUrl": "https://pamatkovykatalog.cz/kostel-sv-petra-a-pavla-18704008",
-    "heritageDescription": "Barokní farní kostel sv. Petra a Pavla z let 1732–1734, postavený při proměně původní kaple v samostatnou duchovní správu (lokálie 1785).",
-    "heritageSource": "NPÚ Památkový katalog – ÚSKP 1000146326_0001",
+    "uskpNumber": "1000146326_0001 (rejstř. č. ÚSKP 34598/6-4044)",
+    "npuDirectUrl": "https://www.pamatkovykatalog.cz/kostel-sv-petra-a-pavla-1000146326_0001",
+    "heritageDescription": "Barokní farní kostel sv. Petra a Pavla dostavěný místními obyvateli r. 1734 (dle Sommera 1836; filiální kostel sv. Petra a Pavla uveden již v matrice Nekoř 109-1 r. 1705). Samostatná lokálie zřízena v květnu 1784, farnost r. 1857.",
+    "heritageSource": "NPÚ Památkový katalog – kat. č. 1000146326_0001 (ÚSKP 34598/6-4044)",
     "sector": "Jádro u kostela a fary",
     "location": {
       "lat": 50.12256,
@@ -34336,41 +34336,41 @@ const housesData = [
       "precision": "historic_church",
       "cadastralParcel": "st. 57",
       "areaM2": null,
-      "source": "Stavební parcela st. 57 v jádru obce mezi farou čp. 25 a školou čp. 27; ÚSKP 1000146326_0001"
+      "source": "Stavební parcela st. 57 v jádru obce mezi farou čp. 25 a školou čp. 27; ÚSKP 34598/6-4044"
     },
-    "description": "Ústřední sakrální dominanta Českých Petrovic postavená v letech 1732–1734 (první matriční doklad z r. 1734 v matrice Nekoř 109-1). Roku 1785 povýšena na samostatnou lokálii a později farnost.",
+    "description": "Ústřední sakrální dominanta Českých Petrovic doložená již na titulním listu matriky Nekoř 109-1 r. 1705 ('filiales Ecclesias: Sanctorum Aplorum Petri, & Pauli Petersdorffii') a v nynější barokní podobě vystavěná obyvateli v l. 1732–1734. Od května 1784 samostatná lokálie a od r. 1857 farnost.",
     "statusStableCadastre": "Zděný farní kostel sv. Petra a Pavla v centru jádra obce na st. p. 57.",
-    "cadastreSource": "NPÚ ÚSKP 1000146326_0001 & matrika 109-1 (1734).",
+    "cadastreSource": "NPÚ ÚSKP 34598/6-4044 (1000146326_0001) & matrika Nekoř 109-1 (1705).",
     "timeline": [
       {
-        "year": "1732–1734",
-        "owner": "Panství Žamberk / místní obec",
-        "event": "Stavba barokního kostela sv. Petra a Pavla; nejstarší dochovaný křestní zápis 'in Novo Exstructo Sacello Petersdorf' zaznamenán roku 1734 v matrice Nekoř 109-1.",
-        "source": "SOA HK, matrika sign. 109-1 (1734); NPÚ Památkový katalog 1000146326_0001.",
+        "year": "1705 / 1734",
+        "owner": "Panství Kyšperk / místní obec",
+        "event": "Titulní list matriky Nekoř 109-1 (1705) uvádí filiální kostel sv. Petra a Pavla v Petrovicích; podle Sommera (1836) stávající chrám postavili obyvatelé r. 1734.",
+        "source": "SOA HK, matrika sign. 109-1 (1705); J. G. Sommer (1836); NPÚ Památkový katalog 1000146326_0001.",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_109_1_1734_petersdorf.jpg",
-        "archiveUrl": "https://pamatkovykatalog.cz/kostel-sv-petra-a-pavla-18704008"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/fd865aa0-64b3-40ab-b855-2d914eb6e360"
       },
       {
-        "year": "1785",
-        "owner": "Lokálie České Petrovice (P. Josef Kožíšek)",
-        "event": "Zřízení samostatné lokálie pod patronátem žamberského panství; vedení farních knih přešlo z Nekoře přímo do Českých Petrovic (23-1 až 23-5).",
-        "source": "SOA HK, farní úřad České Petrovice; Repertorium 23-1.",
+        "year": "5/1784 (1857)",
+        "owner": "Lokálie České Petrovice (od 5/1784; farnost 1857)",
+        "event": "Zřízení samostatné josefínské lokálie v květnu 1784 pod patronátem velkostatku Kyšperk (Letohrad); samostatná duchovní správa vedla matriky 23-2 až 23-8990 (po křestní knize 23-1 od r. 1770).",
+        "source": "SOA HK, farní úřad České Petrovice; Repertorium 23-1 (F. L. Kožischek?).",
         "sourceType": "verified",
         "scanFile": "assets/archives/matrika_23_1_1770_s05.jpg",
-        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/f276e7f7-f682-47d6-b386-0ccdf304c92a"
+        "archiveUrl": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c"
       }
     ],
     "census": [],
     "documents": [
       {
         "type": "Kulturní památka",
-        "year": "1734",
-        "title": "Záznam nově zbudované kaple v Petrovicích (1734)",
-        "description": "Zápis v matrice farnosti Nekoř (109-1) zachycuje nově vystavěnou petrovickou svatyni.",
-        "source": "SOA HK, sign. 109-1; NPÚ ÚSKP 1000146326_0001.",
+        "year": "1705 / 1734",
+        "title": "Farnost Nekoř (109-1) a barokní kostel sv. Petra a Pavla",
+        "description": "Matrika Nekoř 109-1 (1705–1753) zachycuje petrovické křty před zřízením lokálie (5/1784); chrám je chráněn pod rejstř. č. ÚSKP 34598/6-4044.",
+        "source": "SOA HK, sign. 109-1; NPÚ ÚSKP 34598/6-4044 (1000146326_0001).",
         "scanFile": "assets/archives/matrika_109_1_1734_petersdorf.jpg",
-        "originalUrl": "https://pamatkovykatalog.cz/kostel-sv-petra-a-pavla-18704008"
+        "originalUrl": "https://www.pamatkovykatalog.cz/kostel-sv-petra-a-pavla-1000146326_0001"
       }
     ]
   }

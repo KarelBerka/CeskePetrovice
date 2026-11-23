@@ -11,6 +11,24 @@ const newsCategories = [
 
 const newsData = [
   {
+    id: "news_2026_11_23_audit",
+    date: "2026-11-23",
+    category: "analysis",
+    badge: "Revize pramenů",
+    badgeEn: "Source Audit",
+    badgeDe: "Quellenrevision",
+    title: "Hloubková kontrola pramenů: oprava demografické řady (882 r. 1880), půdy RÚIAN a přímých odkazů ARON/MZK/NPÚ",
+    titleEn: "Forensic Source Audit: Corrected Population Peak (882 in 1880), RÚIAN Land Use & Direct Archive Links",
+    titleDe: "Tiefenprüfung der Quellen: Korrektur der Zeitreihe (Max. 882 im Jahr 1880), RÚIAN-Flächen & direkte Archivlinks",
+    summary: "Provedena křížová kontrola všech údajů proti primárním studiím: sjednocena řada ČSÚ 1654–2026 (max. 882 obyv. r. 1880), doplněna přesná struktura půdy RÚIAN 2026 (629,83 ha), opravena biografie F. Bařinky (*1911 Valašské Klobouky), správní příslušnost k panství Kyšperk, vyvrácena cholera 1866 a opraveny všechny přímé UUID odkazy do ARON, MZK Kramerius a NPÚ.",
+    summaryEn: "Cross-checked every portal claim against primary studies: unified the 1654–2026 demographic series (882 peak in 1880), applied exact RÚIAN 2026 land-use breakdown (629.83 ha), corrected František Bařinka's birthplace (*1911 Valašské Klobouky) and Kyšperk estate history, removed unverified 1866 cholera claims, and linked direct verified ARON, MZK and NPÚ URLs.",
+    summaryDe: "Alle Portalangaben gegen die Primärstudien geprüft: korrigierte Bevölkerungsreihe 1654–2026 (Max. 882 im Jahr 1880), exakte RÚIAN-Flächenstatistik 2026 (629,83 ha), präzisierte Biografie von F. Bařinka (*1911 Valašské Klobouky) sowie direkte ARON-, MZK- und NPÚ-Permalinks.",
+    links: [
+      { label: "Demografie 1654–2026", labelEn: "Demography 1654–2026", labelDe: "Demografie 1654–2026", href: "demografie.html" },
+      { label: "Katalog pramenů", labelEn: "Source Catalog", labelDe: "Quellenkatalog", href: "reference.html" }
+    ]
+  },
+  {
     id: "news_2026_11_23_launch",
     date: "2026-11-23",
     category: "feature",
@@ -38,9 +56,9 @@ const newsData = [
     title: "Sloučeny všechny 4 úseky sčítání 1921 (143 archů, všech 467 přítomných obyvatel #1–#467)",
     titleEn: "Merged all 4 slices of the 1921 census (143 house sheets, all 467 present inhabitants #1–#467)",
     titleDe: "Alle 4 Teile der Volkszählung 1921 zusammengeführt (143 Bögen, alle 467 Einwohner #1–#467)",
-    summary: "Byly sjednoceny úseky snímků 1–286 včetně doplnění chybějících záznamů z čp. 122, 130, 133 a 156 a jediné popsané rubové strany (sn. 114 čp. 61). Výsledek překonává chybně tištěný součet 462 v Lexikonu 1924.",
-    summaryEn: "Unified scans 1–286 including previously omitted entries in No. 122, 130, 133, 156 and back continuation scan 114 (No. 61), achieving 100% match with the 467 original sheets.",
-    summaryDe: "Scans 1–286 vollständig vereint inkl. Rückseite Scan 114 (Nr. 61) – 100 % Übereinstimmung aller 467 Originaleinträge.",
+    summary: "Byly sjednoceny úseky snímků 1–286 včetně doplnění chybějících záznamů z čp. 122, 130, 133 a 156 a jediné popsané rubové strany (sn. 114 čp. 61). Přepis 143 archů se 100 % shoduje s tištěným součtem 467 v Lexikonu 1924 (a opravuje OCR zkreslení 142 domů a 10 Čechoslováků).",
+    summaryEn: "Unified scans 1–286 including previously omitted entries in No. 122, 130, 133, 156 and back continuation scan 114 (No. 61), achieving 100% match with the 467 total printed in Lexikon 1924 (fixing OCR misreads).",
+    summaryDe: "Scans 1–286 vollständig vereint inkl. Rückseite Scan 114 (Nr. 61) – 100 % Übereinstimmung mit den 467 im Ortslexikon 1924 gedruckten Einwohnern.",
     links: [
       { label: "Vyhledat v sčítání 1921", labelEn: "Search 1921 Census", labelDe: "Zählung 1921 durchsuchen", href: "obyvatele.html" },
       { label: "Clustery & vazby", labelEn: "Clusters & Links", labelDe: "Cluster & Beziehungen", href: "cluster.html" }
@@ -70,12 +88,12 @@ const newsData = [
     badge: "Trojmezí & F. Bařinka",
     badgeEn: "Tri-Border & WW2 Memory",
     badgeDe: "Dreiländereck & Zeitgeschichte",
-    title: "Začleněny soudní pře 16. století (MZA Brno) a biografie Františka Bařinky (1911–1945, čp. 7)",
+    title: "Začleněny soudní pře 16. století (MZA Brno) a biografie Františka Bařinky (1911–1945, vazba na čp. 7)",
     titleEn: "Integrated 16th-century border lawsuits (MZA Brno) and biography of František Bařinka (1911–1945)",
     titleDe: "Grenzprozesse des 16. Jh. (MZA Brünn) & Biografie František Bařinka (1911–1945) integriert",
-    summary: "Historie obce byla prohloubena o prameny ze zemských desek olomouckých (1511, 1531) a o pečlivě ověřený životopis českopetrovického rodáka z čp. 7, oběti potopení vězeňské lodi SS Thielbek.",
-    summaryEn: "Expanded the chronological scope with 1511/1531 Moravian Land Table charters and the verified WWII biography of native František Bařinka (House No. 7).",
-    summaryDe: "Erweiterung um Einträge der Landtafel Olmütz (1511, 1531) sowie die dokumentierte Biografie von František Bařinka aus Nr. 7.",
+    summary: "Historie obce byla prohloubena o prameny z olomouckých zemských desek (1511, 1531) a o archivně ověřený životopis Františka Bařinky (*1911 Valašské Klobouky, v l. 1938–1939 spojeného s čp. 7), oběti potopení vězeňské lodi Thielbek.",
+    summaryEn: "Expanded historical scope with 1511/1531 Moravian Land Table charters and the verified WWII biography of František Bařinka (*1911 Valašské Klobouky, 1938–1939 connection to House No. 7), who died aboard SS Thielbek.",
+    summaryDe: "Erweiterung um Einträge der Landtafel Olmütz (1511, 1531) sowie die dokumentierte Biografie von František Bařinka (*1911 Valašské Klobouky, Verbindung zu Nr. 7 1938–1939).",
     links: [
       { label: "Příběh obce", labelEn: "Village Story", labelDe: "Ortsgeschichte", href: "pribeh.html" },
       { label: "Katalog pramenů", labelEn: "Source Catalog", labelDe: "Quellenkatalog", href: "reference.html" }

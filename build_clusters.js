@@ -229,6 +229,13 @@ function main() {
   for (const p of people) {
     const validIds = (p.linkedCensusIds || []).filter(id => recById.has(id));
     for (let i = 1; i < validIds.length; i++) {
+      const ra = recById.get(validIds[0]);
+      const rb = recById.get(validIds[i]);
+      if (!ra || !rb) continue;
+      // Pojistka: nikdy neslučovat různé osoby ze stejného sčítacího roku a stejného domu (např. manžele/děti)
+      if (ra.year === rb.year && ra.houseId === rb.houseId && ra.canonicalGiven !== rb.canonicalGiven) {
+        continue;
+      }
       union(validIds[0], validIds[i]);
     }
   }

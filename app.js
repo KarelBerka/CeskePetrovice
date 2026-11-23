@@ -103,7 +103,7 @@ function resolveArchivePortalInfo(sourceInfo = "", url = "") {
     return { url, label: "🔗 Otevřít digitální pramen" };
   }
   if (low.includes("mza")) return { url: "https://www.mza.cz/aron/", label: "🏛️ MZA Brno – ARON" };
-  if (low.includes("npú") || low.includes("úskp")) return { url: "https://pamatkovykatalog.cz/kostel-sv-petra-a-pavla-18704008", label: "🏛️ Památkový katalog NPÚ" };
+  if (low.includes("npú") || low.includes("úskp")) return { url: "https://www.pamatkovykatalog.cz/kostel-sv-petra-a-pavla-1000146326_0001", label: "🏛️ Památkový katalog NPÚ" };
   if (low.includes("kramerius") || low.includes("menšin") || low.includes("sokol")) return { url: "https://kramerius.svkhk.cz/", label: "📖 SVK HK Kramerius" };
   return { url: "https://aron.vychodoceskearchivy.cz/", label: "🏛️ SOA HK / SOkA ÚO (ARON)" };
 }
@@ -1387,19 +1387,23 @@ function selectDemographyYearIdx(idx) {
 function renderDemographyLongTermSvg() {
   const box = document.getElementById("demo-longterm-chart-box");
   if (!box || typeof demographyData === "undefined") return;
-  const series = demographyData.populationSeries;
-  const idx = selectedDemographyPointIdx !== null ? selectedDemographyPointIdx : 8; // výchozí 1921
-  const sel = series[idx] || series[0];
+  const allSeries = demographyData.populationSeries;
+  const chartSeries = allSeries.filter(r => r.pop != null);
+  const idx = selectedDemographyPointIdx !== null
+    ? selectedDemographyPointIdx
+    : Math.max(0, chartSeries.findIndex(r => r.year === 1921));
+  const sel = chartSeries[idx] || chartSeries[0];
+  const preRow = allSeries.find(r => r.year === 1654);
 
   const W = 860, H = 330, padL = 52, padR = 46, padT = 28, padB = 42;
   const plotW = W - padL - padR, plotH = H - padT - padB;
-  const minY = 1650, maxY = 2030, maxPop = 720, maxH = 170;
+  const minY = 1830, maxY = 2030, maxPop = 950, maxH = 180;
   const xOf = yr => +(padL + ((yr - minY) / (maxY - minY)) * plotW).toFixed(1);
   const yPop = v => +(padT + plotH - (v / maxPop) * plotH).toFixed(1);
   const yHouse = v => +(padT + plotH - (v / maxH) * plotH).toFixed(1);
 
-  const popPts = series.map((r, i) => [xOf(r.numYear), yPop(r.pop), i, r]);
-  const housePts = series.filter(r => r.houses != null).map((r, i) => [xOf(r.numYear), yHouse(r.houses), i, r]);
+  const popPts = chartSeries.map((r, i) => [xOf(r.numYear), yPop(r.pop), i, r]);
+  const housePts = chartSeries.filter(r => r.houses != null).map((r, i) => [xOf(r.numYear), yHouse(r.houses), i, r]);
   const popPath = popPts.map((p, i) => `${i === 0 ? "M" : "L"}${p[0]},${p[1]}`).join(" ");
   const housePath = housePts.map((p, i) => `${i === 0 ? "M" : "L"}${p[0]},${p[1]}`).join(" ");
 
@@ -1414,14 +1418,14 @@ function renderDemographyLongTermSvg() {
       <span class="italic text-slate-700">${escHtml(sel.note)}</span>
     </div>
     <svg viewBox="0 0 ${W} ${H}" class="w-full h-auto bg-white rounded-xl border border-amber-200">
-      ${[0, 200, 400, 600].map(v => `<line x1="${padL}" y1="${yPop(v)}" x2="${W - padR}" y2="${yPop(v)}" stroke="#f1f5f9" /><text x="${padL - 8}" y="${yPop(v) + 4}" text-anchor="end" font-size="11" fill="#64748b">${v}</text>`).join("")}
-      ${[1700, 1785, 1850, 1890, 1921, 1950, 1991, 2021].map(yr => `<line x1="${xOf(yr)}" y1="${padT}" x2="${xOf(yr)}" y2="${padT + plotH}" stroke="#f8fafc" /><text x="${xOf(yr)}" y="${H - 14}" text-anchor="middle" font-size="11" fill="#64748b">${yr}</text>`).join("")}
+      ${[0, 200, 400, 600, 800].map(v => `<line x1="${padL}" y1="${yPop(v)}" x2="${W - padR}" y2="${yPop(v)}" stroke="#f1f5f9" /><text x="${padL - 8}" y="${yPop(v) + 4}" text-anchor="end" font-size="11" fill="#64748b">${v}</text>`).join("")}
+      ${[1836, 1869, 1880, 1900, 1921, 1950, 1980, 2001, 2026].map(yr => `<line x1="${xOf(yr)}" y1="${padT}" x2="${xOf(yr)}" y2="${padT + plotH}" stroke="#f8fafc" /><text x="${xOf(yr)}" y="${H - 14}" text-anchor="middle" font-size="11" fill="#64748b">${yr}</text>`).join("")}
       <path d="${popPath}" fill="none" stroke="#1e3a8a" stroke-width="3" />
       <path d="${housePath}" fill="none" stroke="#be123c" stroke-width="2.2" stroke-dasharray="5 3" />
       ${popPts.map(([px, py, i, r]) => `<g class="cursor-pointer" onclick="selectDemographyYearIdx(${i})"><circle cx="${px}" cy="${py}" r="${i === idx ? 7 : 4.5}" fill="${i === idx ? "#f59e0b" : "#1e3a8a"}" stroke="#fff" stroke-width="1.5" /><title>${r.year}: ${r.pop} obyv.</title></g>`).join("")}
       ${housePts.map(([hx, hy, , r]) => `<circle cx="${hx}" cy="${hy}" r="3.5" fill="#be123c"><title>${r.year}: ${r.houses} domů</title></circle>`).join("")}
     </svg>
-    <p class="text-[11px] text-slate-500 mt-1.5">💡 Modrá čára = počet obyvatel (klikněte na libovolný bod); červená přerušovaná = počet domů (1785–2021).</p>
+    <p class="text-[11px] text-slate-600 mt-2">💡 Modrá čára = počet obyvatel (1836–2026, maximum <strong>882</strong> v r. 1880); červená přerušovaná = doložený počet domů (1836–1921). ${preRow ? `<strong>Předkatastrální základ (${preRow.year}, Berní rula):</strong> ${escHtml(preRow.housesText)} — ${escHtml(preRow.note)}` : ""}</p>
   `;
 }
 
@@ -1529,9 +1533,9 @@ function renderDemographySection() {
   if (kpi) {
     kpi.innerHTML = `
       <div class="p-4 rounded-xl bg-white border border-amber-200">
-        <span class="text-xs font-bold text-amber-900 uppercase">Maximum osídlení (1890)</span>
-        <div class="text-2xl font-extrabold text-amber-950 mt-0.5">666 obyvatel</div>
-        <p class="text-xs text-slate-600 mt-1">147 domů v době vrcholu ručního tkalcovství.</p>
+        <span class="text-xs font-bold text-amber-900 uppercase">Maximum osídlení (1880)</span>
+        <div class="text-2xl font-extrabold text-amber-950 mt-0.5">882 obyvatel</div>
+        <p class="text-xs text-slate-600 mt-1">1869: 869 • 1880: 882 • 1890: 876 (157 domů).</p>
       </div>
       <div class="p-4 rounded-xl bg-white border border-amber-200">
         <span class="text-xs font-bold text-amber-900 uppercase">Sčítání 1910 (PO/PZ)</span>
@@ -1544,9 +1548,9 @@ function renderDemographySection() {
         <p class="text-xs text-slate-600 mt-1">143 archů • 392 DE (83,9 %) / 70 CS (15,0 %) / 5 ciz.</p>
       </div>
       <div class="p-4 rounded-xl bg-white border border-amber-200">
-        <span class="text-xs font-bold text-amber-900 uppercase">Stabilní katastr 1840</span>
+        <span class="text-xs font-bold text-amber-900 uppercase">Katastr k. ú. 622702 (RÚIAN 2026)</span>
         <div class="text-2xl font-extrabold text-slate-900 mt-0.5">629,83 ha</div>
-        <p class="text-xs text-slate-600 mt-1">1 777 parcel • 42,2 % orná, 32,1 % les, 21,5 % louky.</p>
+        <p class="text-xs text-slate-600 mt-1">1 777 parcel • 37,7 % louky/TTP, 27,9 % les, 24,6 % orná.</p>
       </div>
     `;
   }
@@ -1579,27 +1583,30 @@ function renderDemographySection() {
   const landBox = document.getElementById("demo-land-livestock-box");
   if (landBox) {
     const lv = demographyData.livestock1910;
+    const landRows = demographyData.landUseRuian2026 || [];
     landBox.innerHTML = `
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-5">
         <div class="p-4 bg-white rounded-xl border border-amber-200 space-y-2.5">
-          <h4 class="text-sm font-extrabold font-heading text-amber-950">📐 Půdní bilance 1840 (629,83 ha / 1 777 parcel)</h4>
-          ${demographyData.landUse1840.map(u => `
+          <h4 class="text-sm font-extrabold font-heading text-amber-950">📐 Struktura půdy k. ú. 622702 (RÚIAN 2026: 629,83 ha / 1 777 parcel)</h4>
+          ${landRows.map(u => `
             <div class="space-y-1 text-xs">
-              <div class="flex justify-between font-bold"><span>${escHtml(u.label)}</span><span>${u.ha} ha (${u.pct} %)</span></div>
+              <div class="flex justify-between font-bold"><span>${escHtml(u.label)}</span><span>${u.ha} ha (${u.pct} % · ${u.parcels} p.)</span></div>
               <div class="w-full h-3 bg-stone-100 rounded-full overflow-hidden"><div class="h-full rounded-full" style="width:${u.pct}%;background:${u.color}"></div></div>
             </div>
           `).join("")}
+          ${demographyData.landUseNote ? `<p class="text-[11px] text-slate-600 pt-1 italic">${escHtml(demographyData.landUseNote)}</p>` : ""}
         </div>
         <div class="p-4 bg-white rounded-xl border border-amber-200 space-y-2.5">
           <h4 class="text-sm font-extrabold font-heading text-amber-950">🐄 Hospodářské zvířectvo 31. 12. 1910 (PZ)</h4>
           <div class="grid grid-cols-2 sm:grid-cols-3 gap-2 text-xs">
             <div class="p-2.5 rounded-lg bg-amber-50 border border-amber-200"><span class="text-slate-500 block">Skot celkem</span><strong class="text-lg">${lv.cattle.total}</strong> (${lv.cattle.cows} krav)</div>
             <div class="p-2.5 rounded-lg bg-emerald-50 border border-emerald-200"><span class="text-slate-500 block">Kozy</span><strong class="text-lg">${lv.goats.total}</strong></div>
-            <div class="p-2.5 rounded-lg bg-rose-50 border border-rose-200"><span class="text-slate-500 block">Prasata</span><strong class="text-lg">${lv.pigs.total}</strong></div>
+            <div class="p-2.5 rounded-lg bg-rose-50 border border-rose-200"><span class="text-slate-500 block">Prasata</span><strong class="text-lg">${lv.pigs.total}</strong>${lv.pigs.actualTotal ? ` (skut. ${lv.pigs.actualTotal})` : ""}</div>
             <div class="p-2.5 rounded-lg bg-sky-50 border border-sky-200"><span class="text-slate-500 block">Koně</span><strong class="text-lg">${lv.horses.total}</strong></div>
-            <div class="p-2.5 rounded-lg bg-yellow-50 border border-yellow-200"><span class="text-slate-500 block">Drůbež</span><strong class="text-lg">${lv.poultry.total}</strong></div>
+            <div class="p-2.5 rounded-lg bg-yellow-50 border border-yellow-200"><span class="text-slate-500 block">Drůbež</span><strong class="text-lg">${lv.poultry.total}</strong>${lv.poultry.actualTotal ? ` (skut. ${lv.poultry.actualTotal})` : ""}</div>
             <div class="p-2.5 rounded-lg bg-stone-100 border border-stone-200"><span class="text-slate-500 block">Včelstva</span><strong class="text-lg">${lv.beehives.total}</strong></div>
           </div>
+          ${lv.note ? `<p class="text-[11px] text-slate-600 pt-1 italic">${escHtml(lv.note)}</p>` : ""}
         </div>
       </div>
     `;
