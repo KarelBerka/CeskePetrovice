@@ -11,6 +11,24 @@ const newsCategories = [
 
 const newsData = [
   {
+    id: "news_2026_11_24_matrika_109_2",
+    date: "2026-11-24",
+    category: "census",
+    badge: "Matrika 109-2 (1753–1784)",
+    badgeEn: "Register 109-2 (1753–1784)",
+    badgeDe: "Matrik 109-2 (1753–1784)",
+    title: "Kompletní přepis nekořské matriky 109-2 (397 křtů 1753–1769): přesný předěl přechodu do vlastní knihy 23-1",
+    titleEn: "Complete Transcription of Nekoř Register 109-2 (397 Baptisms 1753–1769): Exact Cutoff Before Register 23-1",
+    titleDe: "Volltranskription der Nekoržer Matrik 109-2 (397 Taufen 1753–1769): Nahtloser Übergang zum Taufbuch 23-1",
+    summary: "Přímým čtením všech 130 aktivních snímků nekořské matriky 109-2 přibylo do webového korpusu 397 ověřených křtů (celkem již 921 záznamů). Zápisy pro České Petrovice končí přesně 28. 12. 1769 na sn. 134, kdežto v lednu 1770 již též kaplan P. Andreas Güntner otevírá samostatnou petrovickou knihu 23-1; doloženy rody Wagner (53×), Lux (39×), Esler (36×), Schroller (27×), Esterházyho (1764) i Colloredův pluk (1769).",
+    summaryEn: "Completed extraction of all 130 active scans in Nekoř register 109-2, adding 397 verified baptisms (921 cumulative pre-1784 entries). Proves České Petrovice entries end precisely on 28 Dec 1769 (scan 134) as Chaplain P. Andreas Güntner launches standalone register 23-1 in 1770.",
+    summaryDe: "Alle 130 aktiven Scans der Nekoržer Matrik 109-2 ausgewertet (397 verifizierte Taufen, insgesamt nun 921 Einträge). Belegt das exakte Ende am 28. 12. 1769 (Scan 134) vor Beginn der eigenen Petersdorfer Matrik 23-1 im Jahr 1770.",
+    links: [
+      { label: "Otevřít Matriky 1591–1784", labelEn: "Open Parish Registers", labelDe: "Matriken öffnen", href: "obyvatele.html#parish" },
+      { label: "Kronika: kap. III.", labelEn: "Chronicle Ch. III", labelDe: "Chronik Kap. III", href: "pribeh.html" }
+    ]
+  },
+  {
     id: "news_2026_11_24_matrika_83_1",
     date: "2026-11-24",
     category: "census",

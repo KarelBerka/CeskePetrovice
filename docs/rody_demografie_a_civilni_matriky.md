@@ -69,21 +69,25 @@ Z kombinace farních matrik `23-1`, `23-5`, `23-8990`, indexu `23-3317` a diecé
 - **Rozsah a struktura `[doc]`:** Z celkem `114` snímků bylo `28` snímků (`1646–1651/1653/1659`) prokazatelně vyloučeno a zbývajících `86` aktivních snímků vyneslo **`334` ověřených zápisů (`[doc]`)**: `216` křtů `N` (`1653–1671`, počínaje `27. 4. 1653` na [sn. 22](file:///e:/Dropbox/Antigravity/Ceske_Petrovice/zdroje/matrika_83_1_petersdorf.jpg)), `71` oddavkových zápisů `O` (`1652–1671`, od `14. 1. 1652` na `sn. 75`) a `47` pohřbů `Z` (`1662–1671`, od `28. 1. 1662` na `sn. 104`).
 - **Kostel před r. 1734, škola a krize `1669–1671`:** Doloženo `18` sňatků (*w kosteli petrowskym*, již od `5. 4. 1655`) a `34` pohřbů (*prži Chramie Pani petrowskim* / *prži Kostele gegich*, od `12. 1. 1663`), kantor *Johannes Preceptor* (`1653`) a rektor *Matěj/Matis Langer* (`1657–†4. 4. 1669`), rychtář *Adam Wagner* (`1655–1668`) a prudký nárůst pohřbů v letech `1669–1671` (`37` úmrtí).
 
-| Kmenový rod (varianty) | Doloženo v `2-8336` (`1591–1624`) | Doloženo v `83-1` (`1652–1671`) | Křty otců v `sign. 23-1` (`1771–1784`, `n=324`) | Vlastnictví domů ve sčítání `1921` | Poznámka ke kontinuitě `[doc]` |
-|---|---:|---:|---:|---:|---|
-| **Lux** | **`5`×** *(od `1598`)* | **`24`×** | **`38–39`** | **`14` domů** (`10` Lux + `4` Luxová) | Nejpočetnější petrovický rod napříč 330 lety dějin |
-| **Wagner** | **`6`×** *(šoltys `1611`)* | **`31`×** *(rychtář `1655–68`)* | **`29–30`** | **`4` domy** | Učitelská, šenkýřská a rychtářská linie |
-| **Scholtz / Scholz** | **`2+`×** *(švec `1619`)* | **`14`×** *(mlynář `1665`)* | **`24`** | **`7` domů** | Mlynářská (`čp. 152`, staré `119`) a selská (`čp. 88`) |
-| **Langer** | nepřímo / varianty | **`21`×** *(rektor `1657–69`)* | **`21`** | rodinné pokračování / příbuzní | Četně v jádru obce v `17.–19.` st. |
-| **Schmok / Šmok** | — | — *(až v `109-1`/`23-1`)* | **`20`** | `2+` domy (`Schmok`, `Šmok`) | Výrazný tkalcovský a rolnický rod (`čp. 12, 39, 118`) |
-| **Kittner / Küttner** | — | **`2`×** *(od `1665`)* | **`16`** (`12+4`) | `1+` | Doloženo i v civilní matrice `6376` (`1922`) |
-| **Esler / Exler** | — | **`41`×** *(od `1654`)* | **`15`** | **`2` domy** (`čp. 111` aj.) | Nejčetnější rod lukavické matriky `83-1` (`Eßler / Efler`) |
-| **Pacha / Pácha** | — | **`2`×** *(od `1656`)* | **`14`** | **`4` domy** (+ `Pachová`) | Hostinec `čp. 156`, statky `čp. 107, 159` |
-| **Adler** | **`18`×** *(od `1591/94`)* | **`22`×** | **`12`** | **`3` domy** | Nejdéle souvisle doložený rod v obci (`1594–1942`) |
-| **Schroller** | **`1+`×** *(od `1597`)* | **`18`×** *(Sroller/Fröhler)* | **`9`** | **`7` domů** | Původně `čp. 1`, též civilní sňatek `čp. 17` (`1923`) |
-| **Vogel / Peinelt** | **`4`×** *Vogel (`1594`)* | **`1`×** *Vogel* / **`2`×** *Peinelt* | **`9` / `9`** | `Vogel čp. 113` (`2` koně `1910`) | Starousedlé půllány a domkaři |
-| **Herman / Urban / Weber** | *Weber* **`11`×** (`1592`) | *Herman* **`19`×**, *Urban* **`17`×**, *Weber* **`11`×** | `2` / `1` | `Urban 3×`, `Herman 1×` | Hluboká bělohorská a pobělohorská vrstva (`Wrba`, `Wabr`, `Hirman`) |
-| **Umlauf / Beier / Hensel** | *Beier* (`1611`) | *Baier* **`3`×**, *Hensel* **`1`×** (`1671`) | `≤7` | `Umlauf čp. 1`, `Baier 5×`, `Hensel 4×` | Selské a hostinské elity `19.–20.` st.; od přelomu `19./20.` st. doplněno českými rody (**Voksa** `čp. 145`, **Hubálek** `čp. 129`, **Černohous** `čp. 157`) |
+### Nekořská křestní matrika před osamostatněním (`sign. 109-2`, `1753–1784`)
+- **Rozsah a přelom `1769/1770` `[doc]`:** Z `205` snímků nekořské knihy `109-2` byly přímým čtením vyloučeny `s001–s004` a `s135–s205` (`1770–1784`, bez Petrovic; *Petrovalda in Silesia* `s167` = Petřvald), zatímco všech `130` aktivních snímků (`s005–s134`, `12. 10. 1753 – 28. 12. 1769`) přineslo **`397` ověřených křtů** ([matrika_109_2_petersdorf.jpg](file:///e:/Dropbox/Antigravity/Ceske_Petrovice/zdroje/matrika_109_2_petersdorf.jpg)). Plynulou návaznost na `sign. 23-1` (`1770–1784`) osobně zprostředkoval kaplan *P. Andreas Güntner*.
+- **Nejčetnější rody (`n=397` v `109-2`):** *Wagner* (`53`), *Lux* (`39`), *Exler/Esler* (`36`), *Schroller* (`27`), *Langer* (`22`), *Scholtz/Scholz* (`15`), *Adler* (`12`), *Beier/Baier* (`12`), *Peinelt* (`11+`), *Pacha* (`11+`), *Steiner* (`10`), *Schmok/Šmok* (`9`), *Schön* (`8`), *Kittner/Küttner* (`8`), *Reinelt* (`7+`), *Svoboda* (`7`), *Urban* (`6`), *Pleva* (`5`), *Vogel* (`5`).
+
+| Kmenový rod (varianty) | Doloženo v `2-8336` (`1591–1624`) | `83-1` (`1652–1671`) | `109-2` (`1753–1769`) | Křty otců v `23-1` (`1771–1784`, `n=324`) | Vlastnictví domů `1921` | Poznámka ke kontinuitě `[doc]` |
+|---|---:|---:|---:|---:|---:|---|
+| **Wagner** | **`6`×** *(šoltys `1611`)* | **`31`×** | **`53`×** *(rektor `1767`)* | **`29`** | **`4` domy** | Nejsilnější kumulativní linie (`90` zápisů před r. `1770`) |
+| **Esler / Exler** | — | **`41`×** | **`36`×** | **`15`** | **`2` domy** (`čp. 111` aj.) | Stabilní horalský rod od r. `1654` (`77` před r. `1770`) |
+| **Lux** | **`5`×** *(od `1598`)* | **`24`×** | **`39`×** *(rychtář `1760–69`)* | **`38`** | **`14` domů** (`10+4`) | Nejpočetnější rod `1771–1921` (`68` před r. `1770`) |
+| **Adler** | **`18`×** *(od `1591/94`)* | **`22`×** | **`12`×** | **`12`** | **`3` domy** | Nejdéle souvisle doložený rod (`1594–1942`) |
+| **Schroller** | **`1+`×** *(od `1597`)* | **`18`×** | **`27`×** | **`9`** | **`7` domů** | Původně `čp. 1`, též civilní sňatek `čp. 17` (`1923`) |
+| **Langer** | nepřímo / varianty | **`21`×** *(rektor `1657–69`)* | **`22`×** | **`21`** | rodinné pokračování | Četně v jádru obce v `17.–19.` st. |
+| **Scholtz / Scholz** | **`2+`×** *(švec `1619`)* | **`14`×** *(mlynář `1665`)* | **`15`×** | **`25`** | **`7` domů** | Mlynářská (`čp. 152`, staré `119`) a selská (`čp. 88`) |
+| **Schmok / Šmok** | — | — | **`9`×** | **`20`** | `2+` domy (`Schmok`, `Šmok`) | Výrazný tkalcovský a rolnický rod (`čp. 12, 39, 118`) |
+| **Kittner / Küttner** | — | **`2`×** *(od `1665`)* | **`8`×** | **`16`** (`12+4`) | `1+` | Doloženo i v civilní matrice `6376` (`1922`) |
+| **Pacha / Pácha** | — | **`2`×** *(od `1656`)* | **`11+`×** | **`14`** | **`4` domy** (+ `Pachová`) | Hostinec `čp. 156`, statky `čp. 107, 159` |
+| **Vogel / Peinelt** | **`4`×** *Vogel (`1594`)* | **`1`×** *Vogel* / **`2`×** *Peinelt* | **`5`× / `11+`×** | **`9` / `9`** | `Vogel čp. 113` (`2` koně `1910`) | Starousedlé půllány a domkaři |
+| **Herman / Urban / Weber** | *Weber* **`11`×** (`1592`) | **`19`× / `17`× / `11`×** | **`5`× / `6`× / `1`×** | `2` / `1` | `Urban 3×`, `Herman 1×` | Hluboká bělohorská a pobělohorská vrstva (`Wrba`, `Wabr`, `Hirman`) |
+| **Umlauf / Beier / Hensel** | *Beier* (`1611`) | *Baier* **`3`×**, *Hensel* **`1`×** (`1671`) | *Beier* **`12`×** | `≤7` | `Umlauf čp. 1`, `Baier 5×`, `Hensel 4×` | Selské a hostinské elity `19.–20.` st.; od přelomu `19./20.` st. doplněno českými rody (**Voksa** `čp. 145`, **Hubálek** `čp. 129`, **Černohous** `čp. 157`) |
 
 ---
 

@@ -67,14 +67,15 @@ const storyData = {
       title: "Barokní kostel (1734), samostatná lokálie (5/1784) a Repertorium 23-1",
       image: "assets/archives/matrika_109_1_1734_petersdorf.jpg",
       imageCaption: "Matrika Nekoř sign. 109-1 (1705–1753), kde je petrovický filiální kostel sv. Petra a Pavla uveden již na titulním listu r. 1705 [doc].",
-      secondaryImage: "assets/archives/matrika_23_1_repertorium_s35.jpg",
-      secondaryImageCaption: "Repertorium křtů a konkordance starých a nových čísel popisných v matrice 23-1 (F. L. Kožischek?, sn. 35).",
-      summary: "V letech 1705–1784 byla ves přifařena pod Nekoř; nynější kostel sv. Petra a Pavla dostavěli obyvatelé r. 1734 a od května 1784 vznikla samostatná lokálie [doc][ed].",
+      secondaryImage: "assets/archives/matrika_109_2_petersdorf.jpg",
+      secondaryImageCaption: "Závěrečná dvoustrana Českých Petrovic v nekořské matrice 109-2 (sn. 134, 28. 12. 1769 vs. leden 1770) – přechod pod vlastní křestní knihu 23-1.",
+      summary: "V letech 1705–1784 byla ves přifařena pod Nekoř (109-2 přinesla 397 křtů 1753–1769); nynější kostel sv. Petra a Pavla dostavěli obyvatelé r. 1734 a od května 1784 vznikla lokálie [doc][ed].",
       paragraphs: [
-        "Od října 1705 do dubna 1784 patřily České Petrovice pod farnost Nekoř (sign. 109-1 až 109-15); již titulní list matriky 109-1 z roku 1705 výslovně uvádí filiální chrám ‚Sanctorum Aplorum Petri, & Pauli Petersdorffii‘ [doc]. Nynější barokní kostel sv. Petra a Pavla (ÚSKP rejstř. č. 34598/6-4044, kat. č. 1000146326_0001) byl podle Sommerovy topografie (1836) vystavěn místními obyvateli roku 1734 [ed]. Vlastní křestní matrika sign. 23-1 se vedla již od roku 1770.",
+        "Od října 1705 do dubna 1784 patřily České Petrovice pod farnost Nekoř (sign. 109-1 až 109-15); již titulní list matriky 109-1 z roku 1705 výslovně uvádí filiální chrám ‚Sanctorum Aplorum Petri, & Pauli Petersdorffii‘ [doc]. Nynější barokní kostel sv. Petra a Pavla (ÚSKP rejstř. č. 34598/6-4044, kat. č. 1000146326_0001) byl podle Sommerovy topografie (1836) vystavěn místními obyvateli roku 1734 na místě staršího chrámu doloženého od r. 1655 [ed]. Úplný přepis matriky 109-2 (397 pokřtěných dětí v letech 1753–1769) ukázal, že petrovické křty v Nekoři přesně končí 28. 12. 1769 (sn. 134) a od r. 1770 již běží samostatná křestní matrika sign. 23-1 za účasti téhož kaplana P. Andreae Güntnera [doc].",
         "V rámci josefínských reforem byla v květnu 1784 zřízena samostatná lokálie České Petrovice pod patronátem velkostatku Kyšperk (povýšená roku 1857 na samostatnou farnost). Zdejší duchovní správce P. Franz Leo Kožischek(?) doplnil v matrice 23-1 klíčové abecední Repertorium převádějící stará domovní čísla na nová po přečíslování 1805/1806, které na sn. 28 matriky zemřelých 23-5 přesně datoval lokalista P. Joseph Ullrich [doc]."
       ],
       links: [
+        { label: "Matriční rejstřík 1591–1784", action: "openParishTab" },
         { label: "Kostel na mapě (st. p. 57)", action: "openHouse_kostel_sv_petra_a_pavla" },
         { label: "Profily duchovních", action: "openPeopleSection" }
       ]

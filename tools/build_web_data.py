@@ -1491,8 +1491,13 @@ def build_references() -> dict:
     }
 
 
-def write_js(path: Path, header: str, decl: str, obj) -> None:
-    content = header.rstrip() + "\n\n" + f"const {decl} = " + json.dumps(obj, ensure_ascii=False, indent=2) + ";\n"
+def write_js(path: Path, header: str, decl: str, obj, compact: bool = False) -> None:
+    dumped = (
+        json.dumps(obj, ensure_ascii=False, separators=(",", ":"))
+        if compact
+        else json.dumps(obj, ensure_ascii=False, indent=2)
+    )
+    content = header.rstrip() + "\n\n" + f"const {decl} = " + dumped + ";\n"
     path.write_text(content, encoding="utf-8")
     print(f"Wrote {path.relative_to(ROOT)} ({path.stat().st_size / 1024:.1f} KB)")
 
@@ -1528,6 +1533,7 @@ def main() -> None:
         "// Automaticky generováno skriptem tools/build_web_data.py – Předfarní matriky Českých Petrovic (1591–1784)",
         "parishRegistersData",
         parish,
+        compact=len(parish.get("entries") or []) > 800,
     )
 
 

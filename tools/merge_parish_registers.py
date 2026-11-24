@@ -29,6 +29,7 @@ PROOF_SCAN_BY_KEY: dict[tuple[str, int], str] = {
     ("83-1", 22): "assets/archives/matrika_83_1_petersdorf.jpg",
     ("83-2", 6): "assets/archives/matrika_83_2_petersdorf.jpg",
     ("109-1", 115): "assets/archives/matrika_109_1_1734_petersdorf.jpg",
+    ("109-1", 121): "assets/archives/matrika_109_1_1734_petersdorf.jpg",
     ("109-2", 134): "assets/archives/matrika_109_2_petersdorf.jpg",
 }
 
@@ -96,6 +97,24 @@ CANONICAL_FAMILY_ALIASES = {
     "pacha": "Pacha / Pácha",
     "sacha": "Pacha / Pácha (?Sacha)",
     "peinelt": "Peinelt",
+    "reinelt": "Reinelt",
+    "frimel": "Frimmel / Frimel",
+    "friml": "Frimmel / Frimel",
+    "fremel": "Frimmel / Frimel",
+    "frimmel": "Frimmel / Frimel",
+    "svoboda": "Svoboda / Swoboda",
+    "swoboda": "Svoboda / Swoboda",
+    "nahlik": "Náhlík / Nahlik",
+    "kunes": "Kuneš / Kunesch",
+    "kunesch": "Kuneš / Kunesch",
+    "steiner": "Steiner",
+    "stegnar": "Steiner",
+    "pleva": "Pleva",
+    "plewa": "Pleva",
+    "pescha": "Pešcha / Pescha",
+    "brozek": "Brožek",
+    "folkmer": "Folkmer / Volkmer",
+    "volker": "Folkmer / Volkmer",
     "schmolk": "Schmok / Šmok",
     "schmok": "Schmok / Šmok",
     "schmock": "Schmok / Šmok",
@@ -142,14 +161,25 @@ CANONICAL_FAMILY_ALIASES = {
 
 
 def canon_family(raw_surname: str) -> str:
-    k = norm_key(raw_surname)
-    if not k:
+    cleaned = re.sub(r"\(\?\)|\[[^\]]*\]|\?", " ", raw_surname or "").strip()
+    if not cleaned:
         return ""
-    if k in CANONICAL_FAMILY_ALIASES:
-        return CANONICAL_FAMILY_ALIASES[k]
-    k_base = re.sub(r"(owa|ova|in|inn|e|en|n|s)$", "", k)
-    if k_base in CANONICAL_FAMILY_ALIASES:
-        return CANONICAL_FAMILY_ALIASES[k_base]
+    tokens = [t.strip() for t in re.split(r"[/,;]+", cleaned) if t.strip()]
+    mapped = []
+    for tok in tokens:
+        k = norm_key(tok)
+        if not k:
+            continue
+        if k in CANONICAL_FAMILY_ALIASES:
+            mapped.append(CANONICAL_FAMILY_ALIASES[k])
+        else:
+            k_base = re.sub(r"(owa|ova|in|inn|e|en|n|s)$", "", k)
+            mapped.append(CANONICAL_FAMILY_ALIASES.get(k_base, tok))
+    if not mapped:
+        return ""
+    uniq = list(dict.fromkeys(mapped))
+    if len(uniq) == 1:
+        return uniq[0]
     return raw_surname.strip()
 
 
