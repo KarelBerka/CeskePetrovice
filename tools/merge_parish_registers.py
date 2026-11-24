@@ -90,11 +90,22 @@ CANONICAL_FAMILY_ALIASES = {
     "hoffmann": "Hoffmann",
     "hofman": "Hoffmann",
     "kittner": "Kittner / Küttner",
+    "kitner": "Kittner / Küttner",
     "kythner": "Kittner / Küttner",
     "kytner": "Kittner / Küttner",
+    "kytnar": "Kittner / Küttner",
     "kuttner": "Kittner / Küttner",
     "kuettner": "Kittner / Küttner",
     "khitner": "Kittner / Küttner",
+    "khitners": "Kittner / Küttner",
+    "rkitner": "Kittner / Küttner",
+    "rittner": "Kittner / Küttner",
+    "rytner": "Kittner / Küttner",
+    "rytnar": "Kittner / Küttner",
+    "ritnar": "Kittner / Küttner",
+    "ryttnar": "Kittner / Küttner",
+    "litnar": "Kittner / Küttner",
+    "litner": "Kittner / Küttner",
     "gittner": "Kittner / Küttner",
     "guttner": "Kittner / Küttner",
     "langer": "Langer",
@@ -112,6 +123,7 @@ CANONICAL_FAMILY_ALIASES = {
     "pesche": "Peschke / Pesche",
     "besche": "Peschke / Pesche",
     "pescke": "Peschke / Pesche",
+    "peska": "Peschke / Pesche",
     "klaper": "Klaper / Kloper",
     "kloper": "Klaper / Kloper",
     "reinelt": "Reinelt",
@@ -159,6 +171,9 @@ CANONICAL_FAMILY_ALIASES = {
     "schmidt": "Schmid / Schmidt",
     "smit": "Schmid / Schmidt",
     "smide": "Schmid / Schmidt",
+    "schindler": "Schindler",
+    "sindler": "Schindler",
+    "ssindler": "Schindler",
     "stepan": "Štěpán / Štěpánek",
     "stiepan": "Štěpán / Štěpánek",
     "sstiepan": "Štěpán / Štěpánek",
@@ -173,6 +188,7 @@ CANONICAL_FAMILY_ALIASES = {
     "hein": "Hein / Heine",
     "heine": "Hein / Heine",
     "eppel": "Öppel / Eppel",
+    "epl": "Öppel / Eppel",
     "oppel": "Öppel / Eppel",
     "oeppel": "Öppel / Eppel",
     "prause": "Prause",
@@ -190,11 +206,17 @@ CANONICAL_FAMILY_ALIASES = {
     "umlaufova": "Umlauf",
     "vogel": "Vogel",
     "fogel": "Vogel",
+    "fogl": "Vogel",
+    "fugl": "Vogel",
+    "wogl": "Vogel",
     "vogelova": "Vogel",
     "wagner": "Wagner",
     "wagener": "Wagner",
     "wagnerova": "Wagner",
     "weber": "Weber",
+    "wawer": "Weber",
+    "wabr": "Weber",
+    "wawr": "Weber",
 }
 
 
@@ -258,7 +280,7 @@ def compute_surname_continuity(entries: list[dict[str, Any]]) -> list[dict[str, 
 
     for e in entries:
         raw_s = (e.get("surname_norm") or "").strip()
-        if not raw_s or raw_s in ("-", "?", "[…]"):
+        if not raw_s or raw_s.lower() in ("-", "?", "[…]", "neznámé", "[bez příjmení]", "bez příjmení"):
             continue
         cf = canon_family(raw_s)
         if not cf:

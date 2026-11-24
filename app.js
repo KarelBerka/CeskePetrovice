@@ -1417,7 +1417,7 @@ function renderParishPaginationBar(total) {
   const bar = document.getElementById("parish-pagination-bar");
   if (!bar) return;
   if (total === 0) {
-    bar.innerHTML = `<div class="p-3 bg-amber-50/80 rounded-xl border border-amber-200 text-xs text-slate-600">Žádné předfarní záznamy neodpovídají filtru (nebo vytěžení prvního svazku 2-8336 právě probíhá).</div>`;
+    bar.innerHTML = `<div class="p-3 bg-amber-50/80 rounded-xl border border-amber-200 text-xs text-slate-600">Žádné předfarní záznamy neodpovídají zvolenému filtru.</div>`;
     return;
   }
   const eff = parishPageSize > 0 ? parishPageSize : total;

@@ -31,6 +31,7 @@ ARCHIVE_SOURCES = [
     ("zdroje/matrika_2_8336_1601.jpg", "matrika_2_8336_1601.jpg"),
     ("zdroje/matrika_2_8336_behm_petersdorff.jpg", "matrika_2_8336_behm_petersdorff.jpg"),
     ("zdroje/matrika_83_1_petersdorf.jpg", "matrika_83_1_petersdorf.jpg"),
+    ("zdroje/matrika_83_2_petersdorf.jpg", "matrika_83_2_petersdorf.jpg"),
     ("zdroje/matrika_109_1_1734_petersdorf.jpg", "matrika_109_1_1734_petersdorf.jpg"),
     ("zdroje/matrika_109_2_petersdorf.jpg", "matrika_109_2_petersdorf.jpg"),
     ("zdroje/matrika_23_1_1770_s05.jpg", "matrika_23_1_1770_s05.jpg"),

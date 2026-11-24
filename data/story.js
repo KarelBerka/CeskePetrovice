@@ -43,15 +43,15 @@ const storyData = {
       era: "1591–1705",
       category: "Nejstarší rody",
       badge: "Bartošovice & Lukavice",
-      title: "Nejstarší matriční doklady Petersdorfu (1591–1624) a Berní rula 1654",
+      title: "Nejstarší matriční doklady Petersdorfu (1591–1702) a Berní rula 1654",
       image: "assets/archives/matrika_2_8336_1596.jpg",
       imageCaption: "Matrika farnosti Bartošovice v Orlických horách, sign. 2-8336 (1591–1624): 153 ověřených zápisů 'p./P.' (od r. 1594) + 37 sporných vč. r. 1591 'Pitzßdorff'.",
-      secondaryImage: "assets/archives/matrika_2_8336_behm_petersdorff.jpg",
-      secondaryImageCaption: "Křest dcery faráře Tobie Egenhoffera 'Pfarhern zum Behmisch Pettersdorff' ze dne 12. 4. 1621 za účasti rychtáře v Petrovicích (sign. 2-8336, sn. 89).",
-      summary: "Kompletní přepis bartošovické matriky 2-8336 (190 záznamů) a lukavické 83-1 (334 záznamů) přináší celkem 524 předfarních zápisů a posouvá doklad místního kostela i školy do let 1653–1655 [doc][lit].",
+      secondaryImage: "assets/archives/matrika_83_2_petersdorf.jpg",
+      secondaryImageCaption: "Lukavická matrika sign. 83-2 (sn. 6, 7. 2. 1672): německý sňatek dcery Eliase Khitnera 'Von Bihnisch pettirsdorff' pod nekořským kostelem i oddavky v petrovickém chrámu (1673).",
+      summary: "Kompletní přepis bartošovické matriky 2-8336 (190 záznamů) a obou lukavických knih 83-1 (334 záznamů) a 83-2 (839 záznamů) přináší celkem 1 363 nejstarších zápisů před r. 1705 a přes 150 dokladů místního chrámu i školy dávno před r. 1734 [doc][lit].",
       paragraphs: [
         "Nejstarší dochované matriční zápisy pocházejí z bartošovické matriky sign. 2-8336 (1591–1624): kompletní přepis všech 97 snímků přinesl 153 ověřených zápisů [doc] (86 Z, 58 N, 9 O) a 37 sporných (vč. 27 úmrtí 1591–1593 pod hlavičkou 'Pitzßdorff'). Již roku 1594 v pohřbech (sn. 7) a roku 1597 ve křtech (sn. 28 hned před zápisem B. 1. Batzdorf) se spolehlivě odděluje značka p./P. (Petersdorf), později výslovně psaná 'Vom Behmischen Pittersdorff' (1616, 1620) a 'zum Behmisch Pettersdorff' (1621) s předbělohorským ženatým farářem Tobiasem Egenhofferem (1621–1622) [doc].",
-        "Navazující lukavická matrika sign. 83-1 (1646–1671, komplet 114 snímků) přidala 334 ověřených česky psaných zápisů ('Zpetrowicz': 216 N od r. 1653, 71 O od r. 1652, 47 Z od r. 1662) a přinesla zásadní objev: již od 5. 4. 1655 (18 sňatků 'w kosteli petrowskym') a 12. 1. 1663 (34 pohřbů 'prži Chramie Pani petrowskim') v obci stál starší chrám — téměř 80 let před dostavbou nynějšího barokního kostela r. 1734! Současně potvrzuje první kantory a rektory (Johannes Preceptor 1653, rektor Matěj/Matis Langer 1657–†1669), rychtáře Adama Wagnera (1655–1668) i výrazné rody Esler (41×), Wagner (31×), Lux (24×), Adler (22×), Langer (21×) a vlnu úmrtí 1669–1671 (37 osob) v době popisované Berní rulou (1654, cca 56–57 usedlíků [lit])."
+        "Navazující lukavické matriky sign. 83-1 (1646–1671, 114 snímků -> 334 zápisů: 216 N, 71 O, 47 Z) a sign. 83-2 (1672–1702, komplet 281 snímků -> 839 zápisů: 454 N, 129 O, 256 Z) přidaly celkem 1 173 česky i latinsky psaných záznamů ('Zpetrowicz / de Petrowicz / Von Bihnisch pettirsdorff') a přinesly zásadní objev: v nepřetržitém sledu více než 150 zápisů z let 1655–1702 stál v obci starší chrám (83-1: 18 O od 5. 4. 1655 + 34 Z od 12. 1. 1663; 83-2: 34 O + 64 Z 'w Kostele Petrowskym / Wchramů paně Petrowskem') téměř 80 let před stavbou r. 1734! Současně potvrzují kantory (Johannes Preceptor 1653, rektor Matis Langer 1657–†1669, kantor Joannes Georgius Wagner přebírající zápis 11. 3. 1702), rychtáře Adama Wagnera (†3. 4. 1672), hrobaře Michala Eßlera (†23. 2. 1672), mlynáře (Hanyk, Šolc, Hendrych 1686) i demografické vlny 1669–1672, 1685–1687 a 1692–1696 v epoše po Berní rule (1654, cca 56–57 usedlíků [lit])."
       ],
       links: [
         { label: "Matriční rejstřík 1591–1784", action: "openParishTab" },
@@ -240,11 +240,11 @@ const storyData = {
     {
       id: "fact_1655_83_1_kostel",
       icon: "⛪",
-      tag: "Matrika 83-1 (1646–1671)",
-      title: "Kostel i rektor v Petrovicích doloženi již 79 let před stavbou r. 1734",
-      text: "Lukavická matrika 83-1 (334 vytěžených zápisů 'Zpetrowicz') odhalila 18 sňatků 'w kosteli petrowskym' již od 5. 4. 1655 (vč. 5 párů najednou v lednu 1658) a 34 pohřbů 'prži Chramie Pani petrowskim' od 12. 1. 1663, jakož i kantory a rektory (Johannes Preceptor 1653, Matěj/Matis Langer 1657–†4. 4. 1669).",
+      tag: "Matriky 83-1 & 83-2 (1646–1702)",
+      title: "Kostel i rektor v Petrovicích doloženi ve více než 150 zápisech již před r. 1734",
+      text: "Obě kompletně vytěžené lukavické matriky 83-1 (334 záznamů) a 83-2 (839 záznamů) přinesly 52 sňatků 'w kosteli petrowskym / Wchramů paně Petrowskem' (již od 5. 4. 1655) a 98 pohřbů 'prži Chramie Pani petrowskim' (1663–1702), jakož i rektory a kantory (Johannes Preceptor 1653, Matis Langer 1657–†1669, Joannes Georgius Wagner od 11. 3. 1702).",
       action: "openParishTab",
-      actionLabel: "Prohlédnout zápisy 83-1"
+      actionLabel: "Prohlédnout 2 659 zápisů"
     },
     {
       id: "fact_1805_renum",

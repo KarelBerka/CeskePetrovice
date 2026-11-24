@@ -11,6 +11,24 @@ const newsCategories = [
 
 const newsData = [
   {
+    id: "news_2026_11_24_matriky_1591_1784_komplet",
+    date: "2026-11-24",
+    category: "census",
+    badge: "Matriky 1591–1784 (5/5 svazků)",
+    badgeEn: "Registers 1591–1784 (5/5 Complete)",
+    badgeDe: "Matriken 1591–1784 (5/5 Komplett)",
+    title: "Kompletní vytěžení všech 5 předfarních matrik (1591–1784): 2 659 záznamů napříč 910 skeny a 114 rody!",
+    titleEn: "All 5 Pre-Parish Registers Completed (1591–1784): 2,659 Records Across 910 Scans & 114 Lineages",
+    titleDe: "Alle 5 Vor-Pfarr-Matriken abgeschlossen (1591–1784): 2.659 Einträge auf 910 Scans & 114 Familienlinien",
+    summary: "Závěrečným přepisem celé druhé lukavické matriky 83-2 (1672–1702, 281 skenů -> 839 záznamů: 454 N, 129 O, 256 Z) je dokončeno všech 910 skenů nejstarších pomezních knih 2-8336, 83-1, 83-2, 109-1 a 109-2. Webový korpus nyní čítá 2 659 záznamů (2 026 N, 211 O, 422 Z; 114 rodových linií v čele s rody Wagner 250×, Lux 232×, Esler 222×, Adler 141×, Schroller 127×, Scholtz 117×) a přes 150 dokladů staršího chrámu před r. 1734.",
+    summaryEn: "Finishing the second Lukavice register 83-2 (1672–1702, 281 scans, 839 verified entries: 454 baptisms, 129 marriages, 256 burials) completes all 910 scans across all 5 earliest parish volumes (2-8336, 83-1, 83-2, 109-1, 109-2): 2,659 cumulative records spanning 114 family lineages (Wagner 250, Lux 232, Esler 222, Adler 141) and 150+ pre-1734 church records.",
+    summaryDe: "Mit dem Abschluss der zweiten Lukawitzer Matrik 83-2 (1672–1702, 281 Scans -> 839 gesicherte Einträge) sind alle 910 Scans der 5 ältesten Bücher (2-8336, 83-1, 83-2, 109-1, 109-2) komplett erfasst: 2.659 Einträge über 114 Familienlinien sowie über 150 Belege der Vorgängerkirche vor 1734.",
+    links: [
+      { label: "Otevřít Matriky 1591–1784", labelEn: "Open Parish Registers", labelDe: "Matriken öffnen", href: "obyvatele.html#parish" },
+      { label: "Kronika: kap. II.–III.", labelEn: "Chronicle Ch. II–III", labelDe: "Chronik Kap. II–III", href: "pribeh.html" }
+    ]
+  },
+  {
     id: "news_2026_11_24_matrika_109_1",
     date: "2026-11-24",
     category: "census",
