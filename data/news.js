@@ -11,6 +11,24 @@ const newsCategories = [
 
 const newsData = [
   {
+    id: "news_2026_11_24_matrika_109_1",
+    date: "2026-11-24",
+    category: "census",
+    badge: "Matrika 109-1 (1705–1753)",
+    badgeEn: "Register 109-1 (1705–1753)",
+    badgeDe: "Matrik 109-1 (1705–1753)",
+    title: "Kompletní vytěžení nekořské matriky 109-1 (899 křtů 1705–1753): celníci, kostelník, kantoři i rody Lux a Wagner",
+    titleEn: "Complete Extraction of Nekoř Register 109-1 (899 Baptisms 1705–1753): Customs Officers, Sacristan & Schoolmasters",
+    titleDe: "Volltranskription der Nekoržer Matrik 109-1 (899 Taufen 1705–1753): Zöllner, Küster & Kantoren",
+    summary: "Přímým čtením všech 213 snímků nejstarší nekořské matriky 109-1 přibylo 899 ověřených křtů z Českých Petrovic (kumulativně již 1 820 záznamů napříč 92 rodovými liniemi). Pramen dokládá české zápisy od 10. 12. 1705 ('wsse z czeských Petrowicz'), křty přímo 'in Ecclesia SS. Petri et Pauli' (1726), kováře a kostelníka Josepha Schrollera (Aedituus 1735), posloupnost celníků (J. Scholtz, A. Seiffert, F. Schoker), kantory A. Ruprechta a J. Wagnera i nejsilnější rody Lux (99×), Wagner (94×), Esler (61×) a Schroller (46×).",
+    summaryEn: "Completed transcription of all 213 scans in the earliest Nekoř baptism register 109-1 (899 verified entries, raising the pre-1784 web corpus to 1,820 records across 92 lineages). Documents Czech entries starting 10 Dec 1705, baptisms in Petersdorf Church (1726), sacristan Josephus Schroller (1735), customs officers (Scholtz, Seiffert, Schoker), and schoolmasters (Ruprecht, Katzer, Wagner).",
+    summaryDe: "Alle 213 Scans der ältesten Nekoržer Matrik 109-1 vollständig erfasst (899 verifizierte Taufen; insgesamt nun 1.820 Einträge vor 1784). Belegt tschechische Einträge ab 10. 12. 1705, Taufen in der Petersdorfer Kirche (1726), Zöllner (Scholtz, Seiffert, Schoker), Küster J. Schroller (1735) und Lehrer (Ruprecht, Wagner).",
+    links: [
+      { label: "Otevřít Matriky 1591–1784", labelEn: "Open Parish Registers", labelDe: "Matriken öffnen", href: "obyvatele.html#parish" },
+      { label: "Kronika: kap. III.", labelEn: "Chronicle Ch. III", labelDe: "Chronik Kap. III", href: "pribeh.html" }
+    ]
+  },
+  {
     id: "news_2026_11_24_matrika_109_2",
     date: "2026-11-24",
     category: "census",
