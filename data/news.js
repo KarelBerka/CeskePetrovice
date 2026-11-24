@@ -11,6 +11,24 @@ const newsCategories = [
 
 const newsData = [
   {
+    id: "news_2026_11_24_matrika_83_1",
+    date: "2026-11-24",
+    category: "census",
+    badge: "Matrika 83-1 (1646–1671)",
+    badgeEn: "Register 83-1 (1646–1671)",
+    badgeDe: "Matrik 83-1 (1646–1671)",
+    title: "Vytěženo 334 zápisů z lukavické matriky 83-1 (1646–1671): předchůdce kostela již r. 1655 a škola od r. 1653",
+    titleEn: "334 Records Extracted from Lukavice Register 83-1 (1646–1671): Pre-1734 Church & School Confirmed from 1653–1655",
+    titleDe: "334 Einträge aus der Lukawitzer Matrik 83-1 (1646–1671): Vorgängerkirche 1655 & Schule ab 1653 belegt",
+    summary: "Kompletním zpracováním všech 114 snímků nejstarší lukavické matriky 83-1 přibylo do webového rejstříku 334 ověřených záznamů (216 N, 71 O, 47 Z). Pramen překvapivě dokládá 18 sňatků 'w kosteli petrowskym' (od 5. 4. 1655) a 34 pohřbů 'prži Chramie Pani petrowskim' (1663–1671) téměř 80 let před stavbou barokního kostela r. 1734, první učitele/rektory (Johannes Preceptor 1653, Matis Langer 1657–†1669), rychtáře Adama Wagnera i vlnu úmrtí 1669–1671 (37 osob).",
+    summaryEn: "Completed extraction of all 114 scans of Lukavice register 83-1 (334 verified records: 216 baptisms, 71 marriages, 47 burials), bringing total pre-1784 entries to 524. Documents 18 marriages (from 1655) and 34 burials (1663–1671) at the older Petersdorf church nearly 80 years before 1734, schoolmasters from 1653–1669, and the 1669–1671 mortality wave.",
+    summaryDe: "Vollständige Auswertung der Lukawitzer Matrik 83-1 (114 Scans, 334 gesicherte Einträge: 216 Taufen, 71 Trauungen, 47 Begräbnisse; gesamt nun 524 Einträge vor 1784). Belegt 18 Trauungen 'w kosteli petrowskym' ab 1655, 34 Begräbnisse ab 1663 sowie Schulrektoren ab 1653.",
+    links: [
+      { label: "Otevřít Matriky 1591–1784", labelEn: "Open Parish Registers", labelDe: "Matriken öffnen", href: "obyvatele.html#parish" },
+      { label: "Kronika: kap. III.", labelEn: "Chronicle Ch. III", labelDe: "Chronik Kap. III", href: "pribeh.html" }
+    ]
+  },
+  {
     id: "news_2026_11_24_matrika_2_8336",
     date: "2026-11-24",
     category: "census",
