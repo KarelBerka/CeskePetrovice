@@ -120,6 +120,11 @@ const referencesData = {
             "note": "Sloučený datový korpus pro jednotlivá popisná čísla"
           },
           {
+            "title": "Předfarní matriky Českých Petrovic (1591–1784)",
+            "url": "data/matriky_1591_1784.json",
+            "note": "153 ověřených zápisů z matrik Bartošovice, Lukavice & Nekoř"
+          },
+          {
             "title": "Nálezy ze soudních pří 16. století (MZA ARON)",
             "url": "Soudni pre/data/mza_nalezy.json",
             "note": "50 ověřených archivních záznamů"
@@ -143,9 +148,9 @@ const referencesData = {
       "institutionEn": "State Regional Archives in Hradec Králové (ARON)",
       "institutionDe": "Staatliches Gebietsarchiv Königgrätz (ARON)",
       "signature": "Bartošovice 2-8336 (1591–1624, sporné 1591 / jisté 1596–1597); Lukavice 83-1, 83-2 (1646–1702); Nekoř 109-1..15 (10.1705–4.1784); České Petrovice 23-1..23-8990 & index 23-3317 (1770–1942)",
-      "description": "Kompletní 18svazková posloupnost dochovaných farních matrik pokrývající území Českých Petrovic (panství Kyšperk) od prvních dokladů v bartošovické matrice po rok 1942 (vlastní lokálie od 5/1784, farnost od 1857).",
-      "descriptionEn": "Complete 18-volume succession of surviving parish registers covering České Petrovice from 1591/1596 (Bartošovice 2-8336) to 1942 (23-8990).",
-      "descriptionDe": "Vollständige 18-bändige Matrikenfolge von 1591/1596 (Bartošovice 2-8336) bis 1942.",
+      "description": "Kompletní 18svazková posloupnost dochovaných farních matrik pokrývající území Českých Petrovic (panství Kyšperk) od prvních dokladů v bartošovické matrice po rok 1942 (vlastní lokálie od 5/1784, farnost od 1857). Vytěženo předfarních zápisů (1591–1784): 153 ověřených zápisů (2-8336).",
+      "descriptionEn": "Complete 18-volume succession of surviving parish registers covering České Petrovice from 1591/1596 (Bartošovice 2-8336) to 1942 (23-8990). Verified pre-1784 entries: 153.",
+      "descriptionDe": "Vollständige 18-bändige Matrikenfolge von 1591/1596 (Bartošovice 2-8336) bis 1942. Verifizierte Einträge vor 1784: 153.",
       "url": "https://aron.vychodoceskearchivy.cz/apu/1fe9c209-25bf-47d8-99b3-22adea3d960c",
       "citationIso690": "STÁTNÍ OBLASTNÍ ARCHIV V HRADCI KRÁLOVÉ. Sbírka matrik Východočeského kraje: Farní úřad České Petrovice (sign. 23-1 až 23-8990, index 23-3317), Nekoř (109-1..15), Lukavice (83-1..2) a Bartošovice (2-8336), 1591–1942 [online]. ARON SOA HK."
     },

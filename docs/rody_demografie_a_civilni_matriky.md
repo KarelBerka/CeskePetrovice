@@ -1,6 +1,6 @@
 # Rody, demografické krize a civilní matriky Českých Petrovic (1591–1942)
 
-> **Epistemický rámec:** Tato studie shrnuje systematickou analýzu okresních civilních matrik Okresního úřadu Žamberk (`sign. 6376` a `sign. 8272`) `[doc]`, farních úmrtních matrik Českých Petrovic (`sign. 23-5` a `sign. 23-8990`) `[doc]`, kombinovaného farního indexu NOZ (`sign. 23-3317`) `[doc]` a nejstarší matriky pokřtěných (`sign. 23-1`) `[doc]` v návaznosti na klášterecké (`1591–1601`) a orličské (`1734`) prameny. Veškeré konkrétní údaje pocházejí z přímého vizuálního čtení archiválií SOA Hradec Králové (Zámrsk).
+> **Epistemický rámec:** Tato studie shrnuje systematickou analýzu okresních civilních matrik Okresního úřadu Žamberk (`sign. 6376` a `sign. 8272`) `[doc]`, farních úmrtních matrik Českých Petrovic (`sign. 23-5` a `sign. 23-8990`) `[doc]`, kombinovaného farního indexu NOZ (`sign. 23-3317`) `[doc]`, nejstarší samostatné matriky pokřtěných (`sign. 23-1`) `[doc]` i kompletně vytěžené nejstarší pomezní matriky Bartošovice v Orlických horách (`sign. 2-8336`, `1591–1624`) `[doc]` v návaznosti na nekořské prameny (`sign. 109-1`, `109-2`). Veškeré konkrétní údaje pocházejí z přímého vizuálního čtení archiválií SOA Hradec Králové (Zámrsk).
 
 ---
 
@@ -59,22 +59,26 @@ Z kombinace farních matrik `23-1`, `23-5`, `23-8990`, indexu `23-3317` a diecé
 
 ## 4. Kontinuita hlavních petrovických rodů (`1591–1921`)
 
-Porovnáním nejstarších krstů z Klášterce nad Orlicí ([1591–1601](file:///e:/Dropbox/Antigravity/Ceske_Petrovice/zdroje/matrika_2_8336_1591_s04.jpg)), Orliček ([1734](file:///e:/Dropbox/Antigravity/Ceske_Petrovice/zdroje/matrika_109_1_1734_petersdorf.jpg)), první samostatné petrovické matriky pokřtěných ([sign. 23-1](file:///e:/Dropbox/Antigravity/Ceske_Petrovice/zdroje/matrika_23_1_1771_cp.jpg), `324` křtů `1771–1784`), rejstříku `sign. 23-3317` a držby domů ve sčítání `1921` ([domy_1771_1921.json](file:///e:/Dropbox/Antigravity/Ceske_Petrovice/data/domy_1771_1921.json)) lze přesně změřit dlouhodobou rodovou stabilitu `[doc]`:
+Úplným přepisem nejstarší pomezní matriky farnosti Bartošovice v Orlických horách (`sign. 2-8336`, `1591–1624`, všech `97` skenů: **`153` jednoznačných `[doc]` + `37` sporných** zápisů pro České Petrovice; vč. výslovného *„Vom Behmischen Pittersdorff“* `1616/1620` a faráře *Tobie Egenhoffera* `1621–1622` na [sn. 89](file:///e:/Dropbox/Antigravity/Ceske_Petrovice/zdroje/matrika_2_8336_behm_petersdorff.jpg)), v návaznosti na Nekoř ([sign. 109-1](file:///e:/Dropbox/Antigravity/Ceske_Petrovice/zdroje/matrika_109_1_1734_petersdorf.jpg)), první samostatnou petrovickou matriku pokřtěných ([sign. 23-1](file:///e:/Dropbox/Antigravity/Ceske_Petrovice/zdroje/matrika_23_1_1771_cp.jpg), `324` křtů `1771–1784`), rejstřík `sign. 23-3317` a držbu domů ve sčítání `1921` ([domy_1771_1921.json](file:///e:/Dropbox/Antigravity/Ceske_Petrovice/data/domy_1771_1921.json)) lze exaktně doložit více než třísetletou rodovou stabilitu `[doc]`:
 
-| Kmenový rod (varianty) | Doloženo před r. `1771` | Křty otců v `sign. 23-1` (`1771–1784`, `n=324`) | Vlastnictví domů ve sčítání `1921` | Poznámka ke kontinuitě `[doc]` |
-|---|---|---:|---:|---|
-| **Lux** | `1596/1601` (*Lux*, Klášterec) | **`39`** | **`14` domů** (`10` Lux + `4` Luxová) | Nejpočetnější petrovický rod napříč celými dějinami |
-| **Wagner** | `1734` (Orličky) | **`30`** | **`3` domy** (+ podnájmy) | Učitelská, šenkýřská a rolnická linie |
-| **Scholtz / Scholz** | `1591/1601` (Klášterec) | **`23`** | **`5` domů** | Mlynářská (`čp. 152`, staré `119`) a selská (`čp. 88`) |
-| **Langer** | `1734` | **`21`** | rodinné pokračování / příbuzní | Četně v jádru obce v `18.–19.` st. |
-| **Schmok / Šmok** | `1734` (*Schmock*) | **`20`** | `2+` domy (`Schmok`, `Šmok`) | Výrazný tkalcovský a rolnický rod (`čp. 12, 39, 118`) |
-| **Kittner / Küttner** | `17./18. st.` | **`16`** (`12+4`) | `1+` | Doloženo i v civilní matrice `6376` (`1922`) |
-| **Esler / Exler** | `17./18. st.` | **`15`** | `1+` (`čp. 111`) | Starousedlý horský rod |
-| **Pacha / Pácha** | `1734` (*Pacha*) | **`14`** | **`4` domy** (+ `Pachová`) | Hostinec `čp. 156`, statky `čp. 107, 159` |
-| **Adler** | `17./18. st.` | **`12`** | **`3` domy** | Rodinný statek i zednický dům `čp. 83` (do `1942`) |
-| **Schroller** | `1734` | **`9`** | **`6` domů** | Původně `čp. 1`, též civilní sňatek `čp. 17` (`1923`) |
-| **Vogel / Peinelt** | `1734` | **`9` / `9`** | `Vogel čp. 113` (`2` koně `1910`) | Starousedlé půllány a domkaři |
-| **Umlauf / Beier / Hensel** | `1734–1800` | `≤7` | `Umlauf čp. 1`, `Baier 5×`, `Hensel 4×` | Selské a hostinské elity `19.–20.` století; od přelomu `19./20.` st. doplněno českými rody (**Voksa** `čp. 145`, **Hubálek** `čp. 129`, **Černohous** `čp. 157`) |
+### Nejstarší předbělohorská vrstva (`sign. 2-8336`, Bartošovice v O. h. `1591–1624`)
+- **Rozsah a struktura `[doc]`:** `58+2` křtů `N` (`1597–1598`, `1611–1613`, letní řada `1619` a `1620–1622`), `9+2` sňatků `O` (`1611–1620`) a `86+33` pohřbů `Z` (`1594–1603`, `1611–1612` + `27` sporných `1591–1593 Pitzßdorff` na `s004–s005`); oproti tomu výskyt *„Vom Deutschen Pittersdorff ... Im Goldensteinischen gelegen“* (`19. 1. 1618`, `s018_right`) byl vyloučen jako homonymum (Petrovičky na Kolštejnsku).
+- **Nejpočetnější rody v `2-8336`:** **Adler** (`18` zápisů, nejst. `1591` sporné / `1594` jisté), **Blümel** (`14`, `1592/1594`), **Weber** (`11`, `1592/1594`), **Vogt** (`11`, vč. rychtáře *Simona Vogta* `1598–1599`), **Hoffmann** (`9`, `1597`), **Ludwig** (`8`, `1593/1595`), **Schmid/Schmidt** (`7`, vč. mlynáře `1596`), **Wagner** (`6`, vč. šoltyse *Mertena Wagnera* `1611–1612`), **Wachsmann** (`6`, `1597`), **Lux** (`5`, od `1598` *Lorentz*, *Lortz*, *Matz*), **Vogel** (`4`, `1594`), **Orbe/Orben** (`5`), **Prause** (`4`), **Scholtz** (`2+`) a **Schroller** (`1+`, *Cristoff* `1597`).
+
+| Kmenový rod (varianty) | Doloženo v `2-8336` (`1591–1624`) | Další doklady před r. `1771` (`109-1`) | Křty otců v `sign. 23-1` (`1771–1784`, `n=324`) | Vlastnictví domů ve sčítání `1921` | Poznámka ke kontinuitě `[doc]` |
+|---|---:|---|---:|---:|---|
+| **Lux** | **`5`×** *(od `1598`)* | Nekoř `1734–1736` | **`38–39`** | **`14` domů** (`10` Lux + `4` Luxová) | Nejpočetnější petrovický rod napříč 330 lety dějin |
+| **Wagner** | **`6`×** *(rychtář `1611`)* | Nekoř `1734–1736` | **`29–30`** | **`4` domy** | Učitelská, šenkýřská a rychtářská linie |
+| **Scholtz / Scholz** | **`2+`×** *(švec `1619`)* | celník `1735` | **`23`** | **`5` domů** | Mlynářská (`čp. 152`, staré `119`) a selská (`čp. 88`) |
+| **Langer** | nepřímo / varianty | `109-1` (`1735`) | **`21`** | rodinné pokračování / příbuzní | Četně v jádru obce v `18.–19.` st. |
+| **Schmok / Šmok** | — | `109-1` (*Schmock*) | **`20`** | `2+` domy (`Schmok`, `Šmok`) | Výrazný tkalcovský a rolnický rod (`čp. 12, 39, 118`) |
+| **Kittner / Küttner** | — | `17./18. st.` | **`16`** (`12+4`) | `1+` | Doloženo i v civilní matrice `6376` (`1922`) |
+| **Esler / Exler** | — | `17./18. st.` | **`15`** | `1+` (`čp. 111`) | Starousedlý horský rod |
+| **Pacha / Pácha** | — | `109-1` (*Pacha*) | **`14`** | **`4` domy** (+ `Pachová`) | Hostinec `čp. 156`, statky `čp. 107, 159` |
+| **Adler** | **`18`×** *(od `1591/94`)* | `109-1` (`1744/45`) | **`12`** | **`3` domy** | Nejdéle souvisle doložený rod v obci (`1594–1942`) |
+| **Schroller** | **`1+`×** *(od `1597`)* | `109-1` (`1735`) | **`9`** | **`6` domů** | Původně `čp. 1`, též civilní sňatek `čp. 17` (`1923`) |
+| **Vogel / Peinelt** | **`4`×** *Vogel (`1594`)* | `109-1` (`1735`) | **`9` / `9`** | `Vogel čp. 113` (`2` koně `1910`) | Starousedlé půllány a domkaři |
+| **Umlauf / Beier / Hensel** | — *(Beier/Fidler `1611`)* | `1734–1800` | `≤7` | `Umlauf čp. 1`, `Baier 5×`, `Hensel 4×` | Selské a hostinské elity `19.–20.` století; od přelomu `19./20.` st. doplněno českými rody (**Voksa** `čp. 145`, **Hubálek** `čp. 129`, **Černohous** `čp. 157`) |
 
 ---
 

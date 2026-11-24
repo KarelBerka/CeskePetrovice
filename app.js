@@ -34,6 +34,12 @@ let currentRegYear = "all";
 let currentRegNat = "all";
 let currentRegCat = "all";
 let currentRegHouse = "";
+let currentParishSearch = "";
+let currentParishVol = "all";
+let currentParishType = "all";
+let showDisputedParish = true;
+let currentParishPage = 1;
+let parishPageSize = 50;
 
 let currentDemographyTab = "dlouhodoby";
 let selectedDemographyPointIdx = null;
@@ -370,6 +376,7 @@ function handleStoryAction(act) {
   else if (act === "openDemographySection") window.location.href = "demografie.html";
   else if (act === "openReferencesSection") window.location.href = "reference.html";
   else if (act === "openGuideTab") window.location.href = "reference.html#pruvodce";
+  else if (act === "openParishTab") window.location.href = "obyvatele.html#parish";
   else if (act === "openClusterLink") window.location.href = "cluster.html";
   else if (act.startsWith("openHouse_")) {
     const hid = act.replace("openHouse_", "");
@@ -1346,6 +1353,173 @@ function renderPeopleProfiles() {
   `).join("");
 }
 
+function getFilteredParishRegisters() {
+  if (typeof parishRegistersData === "undefined" || !Array.isArray(parishRegistersData.entries)) return [];
+  const q = normSearch(currentParishSearch);
+  return parishRegistersData.entries.filter(e => {
+    if (currentParishVol !== "all" && String(e.sign) !== String(currentParishVol)) return false;
+    if (currentParishType !== "all" && String(e.record_type) !== String(currentParishType)) return false;
+    if (!showDisputedParish && e.epistemic === "doc_disputed") return false;
+    if (!q) return true;
+    const blob = normSearch([
+      e.sign, e.parish, e.record_type, e.year, e.date_raw, e.village_tag,
+      e.subject, e.father, e.mother, e.surname_norm, e.house_number,
+      e.godparents_or_witnesses, e.transcription, e.notes
+    ].join(" "));
+    return blob.includes(q);
+  });
+}
+
+function renderParishVolumesSummary() {
+  const box = document.getElementById("parish-volumes-summary");
+  if (!box || typeof parishRegistersData === "undefined") return;
+  const vols = parishRegistersData.volumes || [];
+  const statusMap = {
+    completed: { label: "100 % vytěženo", cls: "bg-emerald-100 text-emerald-950 border-emerald-300" },
+    in_progress: { label: "Rozpracováno", cls: "bg-amber-100 text-amber-950 border-amber-300" },
+    t0_mapped: { label: "T0 zmapováno", cls: "bg-sky-100 text-sky-950 border-sky-300" },
+    t0_mapping: { label: "T0 mapování", cls: "bg-slate-100 text-slate-700 border-slate-300" }
+  };
+  box.innerHTML = vols.map(v => {
+    const st = statusMap[v.status] || statusMap.t0_mapping;
+    return `
+      <div class="parchment-card p-3.5 rounded-xl border border-amber-200 flex flex-col justify-between gap-2 text-xs">
+        <div>
+          <div class="flex items-center justify-between gap-1">
+            <span class="font-mono font-extrabold text-amber-950">sign. ${escHtml(v.sign)}</span>
+            <span class="px-1.5 py-0.5 rounded border text-[10px] font-bold ${st.cls}">${escHtml(st.label)}</span>
+          </div>
+          <div class="font-bold text-slate-900 mt-1">${escHtml(v.parish_short)} (${escHtml(v.dates)})</div>
+          <div class="text-[11px] text-slate-600 mt-0.5">${v.total_scans} skenů • ${(v.types || []).join("/")}</div>
+          <div class="text-[11px] font-bold text-emerald-900 mt-1">${v.verified_count || 0} ověřených zápisů${v.disputed_count ? ` (+${v.disputed_count} sporných)` : ""}</div>
+        </div>
+        <div class="pt-2 border-t border-amber-100 flex items-center justify-between gap-1.5 text-[11px]">
+          ${v.proof_scan ? `<button type="button" onclick="openArchiveViewer('${escHtml(v.proof_scan)}', 'Matrika ${escHtml(v.sign)} (${escHtml(v.parish_short)})', '${escHtml(v.proof_caption || v.notes)}', '', '${escHtml(v.permalink || "")}')" class="px-2 py-1 rounded bg-amber-800 hover:bg-amber-900 text-white font-bold cursor-pointer">📜 Ukázka</button>` : `<span class="text-slate-400">Bez náhledu</span>`}
+          <a href="${escHtml(v.permalink)}" target="_blank" rel="noopener noreferrer" class="underline font-bold text-amber-900 hover:text-amber-700">ARON ↗</a>
+        </div>
+      </div>
+    `;
+  }).join("");
+}
+
+function setParishPage(page) {
+  currentParishPage = Math.max(1, Number(page) || 1);
+  renderParishRegistersTable();
+}
+
+function setParishPageSize(sz) {
+  parishPageSize = Number(sz);
+  currentParishPage = 1;
+  renderParishRegistersTable();
+}
+
+function renderParishPaginationBar(total) {
+  const bar = document.getElementById("parish-pagination-bar");
+  if (!bar) return;
+  if (total === 0) {
+    bar.innerHTML = `<div class="p-3 bg-amber-50/80 rounded-xl border border-amber-200 text-xs text-slate-600">Žádné předfarní záznamy neodpovídají filtru (nebo vytěžení prvního svazku 2-8336 právě probíhá).</div>`;
+    return;
+  }
+  const eff = parishPageSize > 0 ? parishPageSize : total;
+  const totalPages = Math.max(1, Math.ceil(total / eff));
+  if (currentParishPage > totalPages) currentParishPage = totalPages;
+  const startIdx = (currentParishPage - 1) * eff + 1;
+  const endIdx = Math.min(total, currentParishPage * eff);
+  const pageBtns = [];
+  if (totalPages > 1) {
+    const pages = [...new Set([1, totalPages, currentParishPage - 1, currentParishPage, currentParishPage + 1])]
+      .filter(p => p >= 1 && p <= totalPages).sort((a, b) => a - b);
+    let prev = 0;
+    pages.forEach(p => {
+      if (prev && p - prev > 1) pageBtns.push(`<span class="px-1 text-slate-400">…</span>`);
+      const act = p === currentParishPage;
+      pageBtns.push(`<button type="button" onclick="setParishPage(${p})" class="px-2.5 py-1 rounded-lg border text-xs font-bold cursor-pointer ${act ? "bg-amber-800 text-white border-amber-900" : "bg-white hover:bg-amber-100 text-slate-700 border-amber-200"}">${p}</button>`);
+      prev = p;
+    });
+  }
+  bar.innerHTML = `
+    <div class="flex flex-col md:flex-row md:items-center justify-between gap-2 p-3 bg-amber-50/80 rounded-xl border border-amber-200 text-xs">
+      <div>Zobrazeno <strong>${startIdx}–${endIdx}</strong> z <strong>${total}</strong> matričních zápisů (${currentParishPage}/${totalPages})</div>
+      <div class="flex flex-wrap items-center gap-2">
+        <div class="flex items-center gap-1">
+          <span class="text-[11px] text-slate-500 font-bold">Na stránku:</span>
+          ${[50, 100, 0].map(sz => `<button type="button" onclick="setParishPageSize(${sz})" class="px-2 py-1 rounded-lg border text-[11px] font-bold cursor-pointer ${parishPageSize === sz ? "bg-amber-800 text-white border-amber-900" : "bg-white hover:bg-amber-100 border-amber-200"}">${sz === 0 ? "Vše" : sz}</button>`).join("")}
+        </div>
+        ${totalPages > 1 ? `
+          <div class="flex items-center gap-1">
+            <button type="button" onclick="setParishPage(${currentParishPage - 1})" ${currentParishPage <= 1 ? "disabled" : ""} class="px-2.5 py-1 rounded-lg border bg-white disabled:opacity-40 cursor-pointer font-bold">← Předchozí</button>
+            ${pageBtns.join("")}
+            <button type="button" onclick="setParishPage(${currentParishPage + 1})" ${currentParishPage >= totalPages ? "disabled" : ""} class="px-2.5 py-1 rounded-lg border bg-white disabled:opacity-40 cursor-pointer font-bold">Další →</button>
+          </div>
+        ` : ""}
+      </div>
+    </div>
+  `;
+}
+
+function renderParishRegistersTable() {
+  const tbody = document.getElementById("parish-table-body");
+  if (!tbody) return;
+  const filtered = getFilteredParishRegisters();
+  const eff = parishPageSize > 0 ? parishPageSize : Math.max(1, filtered.length);
+  const totalPages = Math.max(1, Math.ceil(filtered.length / eff));
+  if (currentParishPage > totalPages) currentParishPage = totalPages;
+  const start = (currentParishPage - 1) * eff;
+  const slice = parishPageSize > 0 ? filtered.slice(start, start + eff) : filtered;
+  renderParishPaginationBar(filtered.length);
+
+  if (!slice.length) {
+    tbody.innerHTML = `<tr><td colspan="5" class="p-6 text-center text-sm text-slate-500">Žádný matriční záznam nevyhovuje aktuálnímu filtru.</td></tr>`;
+    return;
+  }
+
+  const typeBadges = {
+    N: { label: "N (Křest)", cls: "bg-emerald-100 text-emerald-950 border-emerald-300" },
+    O: { label: "O (Sňatek)", cls: "bg-amber-100 text-amber-950 border-amber-300" },
+    Z: { label: "Z (Úmrtí)", cls: "bg-stone-200 text-stone-900 border-stone-300" }
+  };
+
+  tbody.innerHTML = slice.map(e => {
+    const tb = typeBadges[e.record_type] || { label: e.record_type || "?", cls: "bg-slate-100 text-slate-800 border-slate-300" };
+    const isDisputed = e.epistemic === "doc_disputed";
+    const parents = [e.father, e.mother].filter(Boolean).join(" & ");
+    const witnesses = e.godparents_or_witnesses ? `<div class="text-[11px] text-slate-500 mt-0.5">Kmotři/svědci: ${escHtml(e.godparents_or_witnesses)}</div>` : "";
+    const houseBadge = e.house_number ? `<span class="ml-1 px-1.5 py-0.5 rounded bg-amber-100 text-amber-950 font-mono text-[10px] border border-amber-300">${escHtml(e.house_number)}</span>` : "";
+    return `
+      <tr class="border-b border-amber-100 hover:bg-amber-50/50 transition-colors text-xs ${isDisputed ? "bg-rose-50/40" : ""}">
+        <td data-label="Datum & Typ" class="p-2.5 align-top">
+          <div class="font-bold text-slate-900">${escHtml(e.date_raw || String(e.year || ""))}</div>
+          <div class="mt-1 flex flex-wrap gap-1">
+            <span class="px-1.5 py-0.5 rounded text-[10px] font-bold border ${tb.cls}">${escHtml(tb.label)}</span>
+            <span class="px-1.5 py-0.5 rounded text-[10px] font-bold border ${isDisputed ? "bg-rose-100 text-rose-950 border-rose-300" : "bg-sky-50 text-sky-900 border-sky-200"}">${isDisputed ? "sporné [doc]" : "[doc]"}</span>
+          </div>
+        </td>
+        <td data-label="Osoba / Rod" class="p-2.5 align-top">
+          <div class="font-extrabold text-amber-950">${escHtml(e.subject || e.surname_norm || "-")}${houseBadge}</div>
+          ${e.surname_norm ? `<div class="text-[11px] text-slate-500">Rod: <strong>${escHtml(e.surname_norm)}</strong></div>` : ""}
+        </td>
+        <td data-label="Rodiče / Partneři" class="p-2.5 align-top text-slate-700">
+          ${parents ? escHtml(parents) : `<span class="text-slate-400">–</span>`}
+          ${witnesses}
+        </td>
+        <td data-label="Značka & Přepis" class="p-2.5 align-top text-slate-700">
+          <div class="text-[11px] font-mono text-amber-900">${escHtml(e.village_tag || "Petersdorf")}</div>
+          <div class="italic text-slate-800 mt-0.5">${escHtml(e.transcription || "")}</div>
+          ${e.notes ? `<div class="text-[11px] text-slate-500 mt-0.5">${escHtml(e.notes)}</div>` : ""}
+        </td>
+        <td data-label="Matrika & Sken" class="p-2.5 align-top whitespace-nowrap">
+          <div class="font-mono font-bold text-slate-800">${escHtml(e.sign)} • sn. ${escHtml(e.scan)}</div>
+          ${e.folio ? `<div class="text-[11px] text-slate-500">${escHtml(e.folio)}</div>` : ""}
+          <div class="mt-1 flex flex-wrap gap-1">
+            ${e.scan_file ? `<button type="button" onclick="openArchiveViewer('${escHtml(e.scan_file)}', '${escHtml(e.sign)} • sn. ${escHtml(e.scan)}', '${escHtml(e.subject || e.date_raw)}', '', '${escHtml(e.aron_url || "")}')" class="px-2 py-0.5 rounded bg-amber-800 hover:bg-amber-900 text-white font-bold cursor-pointer">📜</button>` : ""}
+            ${e.aron_url ? `<a href="${escHtml(e.aron_url)}" target="_blank" rel="noopener noreferrer" class="px-2 py-0.5 rounded border border-amber-300 bg-white text-amber-900 font-bold hover:bg-amber-100">ARON ↗</a>` : ""}
+          </div>
+        </td>
+      </tr>
+    `;
+  }).join("");
+}
+
 function initInhabitantsPage() {
   const params = new URLSearchParams(window.location.search);
   const hq = params.get("house");
@@ -1357,7 +1531,12 @@ function initInhabitantsPage() {
   renderRegistryTable();
   renderLinkedPeopleSection();
   renderPeopleProfiles();
-  if (window.location.hash.startsWith("#person=")) {
+  renderParishVolumesSummary();
+  renderParishRegistersTable();
+  const tabParam = params.get("tab");
+  if (window.location.hash === "#parish" || tabParam === "parish") {
+    switchInhabitantsTab("parish");
+  } else if (window.location.hash.startsWith("#person=")) {
     openPersonModal(decodeURIComponent(window.location.hash.slice(8)));
   }
 }

@@ -11,6 +11,25 @@ const newsCategories = [
 
 const newsData = [
   {
+    id: "news_2026_11_24_matrika_2_8336",
+    date: "2026-11-24",
+    category: "census",
+    badge: "Matriky 1591–1624",
+    badgeEn: "Registers 1591–1624",
+    badgeDe: "Matriken 1591–1624",
+    title: "Kompletní přepis nejstarší matriky Bartošovice 2-8336 (1591–1624): 153 ověřených + 37 sporných zápisů a nová záložka Matriky",
+    titleEn: "Complete Transcription of the Oldest Parish Register 2-8336 (1591–1624): 153 Verified & 37 Disputed Entries",
+    titleDe: "Volltranskription der ältesten Matrik 2-8336 (1591–1624): 153 gesicherte & 37 fragliche Einträge",
+    summary: "Byla dokončena T0 mapa všech 5 předfarních matrik (1591–1784, 910 snímků) a kompletně přečten nejstarší svazek sign. 2-8336 (97 snímků). Odhaleno přesné rozlišení p. (Petersdorf) vs. B. (Batzdorf) již od r. 1594/1597, rychtáři, horní i dolní mlynáři (1596–1621), výslovný název 'Behmisch Pettersdorff' (1616–1621) i předbělohorský farář Tobias Egenhoffer přímo v obci.",
+    summaryEn: "Completed T0 structural mapping across all 5 pre-1784 registers (910 scans) and full paleographic transcription of Bartošovice sign. 2-8336 (1591–1624: 153 verified + 37 disputed records), establishing the 'p.' vs 'B.' boundary from 1594/1597, mayors, millers (1596–1621), and pastor Tobias Egenhoffer 'zum Behmisch Pettersdorff' (1621–1622).",
+    summaryDe: "T0-Strukturkartierung aller 5 älteren Matriken (1591–1784, 910 Scans) abgeschlossen und ältestes Kirchenbuch Sign. 2-8336 (97 Scans) vollständig transkribiert: 153 gesicherte und 37 strittige Einträge inkl. Dorfschulzen, Müllern (1596–1621), 'Behmisch Pettersdorff' (1616–1621) sowie Pfarrer Tobias Egenhoffer (1621–1622).",
+    links: [
+      { label: "Matriky 1591–1784", labelEn: "Registers 1591–1784", labelDe: "Matriken 1591–1784", href: "obyvatele.html#parish" },
+      { label: "Kronika: kap. II.", labelEn: "Chronicle Ch. II", labelDe: "Chronik Kap. II", href: "pribeh.html" },
+      { label: "Stáhnout korpus JSON", labelEn: "Download JSON Corpus", labelDe: "JSON-Korpus", href: "reference.html#prace" }
+    ]
+  },
+  {
     id: "news_2026_11_23_audit",
     date: "2026-11-23",
     category: "analysis",

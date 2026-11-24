@@ -1202,9 +1202,24 @@ def build_boundaries(ku_rings: list[list[float]], is_approx: bool, church_coords
     }
 
 
+def build_parish_registers() -> dict:
+    path = ROOT / "data" / "matriky_1591_1784.json"
+    if not path.exists():
+        return {"metadata": {}, "volumes": [], "surname_continuity": [], "entries": []}
+    return load_json("data/matriky_1591_1784.json")
+
+
 def build_references() -> dict:
     src = load_json("data/archival_sources.json")
     mza = load_json("Soudni pre/data/mza_nalezy.json")
+    parish = build_parish_registers()
+    parish_meta = parish.get("metadata") or {}
+    parish_verified = int(parish_meta.get("total_verified_entries") or 0)
+    parish_completed = parish_meta.get("completed_volumes") or []
+    parish_note_addon = (
+        f" Vytěženo předfarních zápisů (1591–1784): {parish_verified} ověřených zápisů ({', '.join(parish_completed)})."
+        if parish_completed else ""
+    )
 
     items = [
         {
@@ -1221,9 +1236,9 @@ def build_references() -> dict:
             "institutionEn": "State Regional Archives in Hradec Králové (ARON)",
             "institutionDe": "Staatliches Gebietsarchiv Königgrätz (ARON)",
             "signature": "Bartošovice 2-8336 (1591–1624, sporné 1591 / jisté 1596–1597); Lukavice 83-1, 83-2 (1646–1702); Nekoř 109-1..15 (10.1705–4.1784); České Petrovice 23-1..23-8990 & index 23-3317 (1770–1942)",
-            "description": "Kompletní 18svazková posloupnost dochovaných farních matrik pokrývající území Českých Petrovic (panství Kyšperk) od prvních dokladů v bartošovické matrice po rok 1942 (vlastní lokálie od 5/1784, farnost od 1857).",
-            "descriptionEn": "Complete 18-volume succession of surviving parish registers covering České Petrovice from 1591/1596 (Bartošovice 2-8336) to 1942 (23-8990).",
-            "descriptionDe": "Vollständige 18-bändige Matrikenfolge von 1591/1596 (Bartošovice 2-8336) bis 1942.",
+            "description": "Kompletní 18svazková posloupnost dochovaných farních matrik pokrývající území Českých Petrovic (panství Kyšperk) od prvních dokladů v bartošovické matrice po rok 1942 (vlastní lokálie od 5/1784, farnost od 1857)." + parish_note_addon,
+            "descriptionEn": f"Complete 18-volume succession of surviving parish registers covering České Petrovice from 1591/1596 (Bartošovice 2-8336) to 1942 (23-8990). Verified pre-1784 entries: {parish_verified}.",
+            "descriptionDe": f"Vollständige 18-bändige Matrikenfolge von 1591/1596 (Bartošovice 2-8336) bis 1942. Verifizierte Einträge vor 1784: {parish_verified}.",
             "url": ARON_M23_1_URL,
             "citationIso690": "STÁTNÍ OBLASTNÍ ARCHIV V HRADCI KRÁLOVÉ. Sbírka matrik Východočeského kraje: Farní úřad České Petrovice (sign. 23-1 až 23-8990, index 23-3317), Nekoř (109-1..15), Lukavice (83-1..2) a Bartošovice (2-8336), 1591–1942 [online]. ARON SOA HK.",
         },
@@ -1458,6 +1473,7 @@ def build_references() -> dict:
                     "items": [
                         {"title": "Katalog archivních pramenů a demografických řad", "url": "data/archival_sources.json", "note": f"{len(src['aron_parish_registers'])} matrik + {len(src['aron_censuses'])} sčítání + 20 nedigi fondů"},
                         {"title": "Konsolidovaná databáze domů čp. 1–160 (1771–1921)", "url": "data/domy_1771_1921.json", "note": "Sloučený datový korpus pro jednotlivá popisná čísla"},
+                        {"title": "Předfarní matriky Českých Petrovic (1591–1784)", "url": "data/matriky_1591_1784.json", "note": f"{parish_verified} ověřených zápisů z matrik Bartošovice, Lukavice & Nekoř"},
                         {"title": "Nálezy ze soudních pří 16. století (MZA ARON)", "url": "Soudni pre/data/mza_nalezy.json", "note": f"{len(mza.get('mza_records_verified_in_aron', []))} ověřených archivních záznamů"},
                     ],
                 },
@@ -1487,6 +1503,7 @@ def main() -> None:
     houses = build_houses(c21_by_cp, church_coords)
     boundaries = build_boundaries(ku_rings, is_approx, church_coords)
     refs = build_references()
+    parish = build_parish_registers()
 
     write_js(
         ROOT / "data" / "houses.js",
@@ -1505,6 +1522,12 @@ def main() -> None:
         "// Automaticky generováno skriptem tools/build_web_data.py – Katalog pramenů a citací ČSN ISO 690",
         "referencesData",
         refs,
+    )
+    write_js(
+        ROOT / "data" / "parish_registers.js",
+        "// Automaticky generováno skriptem tools/build_web_data.py – Předfarní matriky Českých Petrovic (1591–1784)",
+        "parishRegistersData",
+        parish,
     )
 
 

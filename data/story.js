@@ -8,7 +8,7 @@ const storyData = {
   title: "Příběh Českých Petrovic (1511–2026)",
   subtitle: "Hraniční ves na česko-moravsko-kladském pomezí od nejstarších zemských sporů a bartošovických matrik přes éru tkalců a meziválečných menšin až po osudy roku 1945.",
   stats: [
-    { label: "První matriční doklad", value: "1596/1597", detail: "Bartošovice 2-8336 (r. 1591 sporné Pitzßdorff)" },
+    { label: "První matriční doklad", value: "1594 / 1597", detail: "Bartošovice 2-8336 (153 + 37 zápisů; sporné 1591 Pitzßdorff)" },
     { label: "Kostel & samostatná lokálie", value: "1734 / 1784", detail: "Kostel sv. Petra a Pavla (lokálie 5/1784, fara 1857)" },
     { label: "Maximum obyvatel (1880)", value: "882 obyv.", detail: "1869: 869 • 1880: 882 • 1890: 876 (157 domů)" },
     { label: "Rekordní sběr 1910 (PO/PZ)", value: "531 obyv.", detail: "487 něm., 41 čes., 3 ciz. • 272 skotu" },
@@ -43,17 +43,18 @@ const storyData = {
       era: "1591–1705",
       category: "Nejstarší rody",
       badge: "Bartošovice & Lukavice",
-      title: "Nejstarší matriční doklady Petersdorfu (1591/1596) a Berní rula 1654",
-      image: "assets/archives/matrika_2_8336_1591_s04.jpg",
-      imageCaption: "Matrika farnosti Bartošovice v Orlických horách, sign. 2-8336 (snímek 4, rok 1591 – sporné Pitzßdorff; nesporné Petersdorf od 1596/1597).",
-      secondaryImage: "assets/archives/matrika_2_8336_1601.jpg",
-      secondaryImageCaption: "Křestní záznamy vsi Petersdorf na přelomu 16. a 17. století (sign. 2-8336).",
-      summary: "Od 90. let 16. století jsou obyvatelé Petersdorfu na panství Kyšperk zachyceni v matrice Bartošovic (1591–1624) a po třicetileté válce v Lukavici (1646–1702) a Berní rule (1654) [doc][lit].",
+      title: "Nejstarší matriční doklady Petersdorfu (1591–1624) a Berní rula 1654",
+      image: "assets/archives/matrika_2_8336_1596.jpg",
+      imageCaption: "Matrika farnosti Bartošovice v Orlických horách, sign. 2-8336 (1591–1624): 153 ověřených zápisů 'p./P.' (od r. 1594) + 37 sporných vč. r. 1591 'Pitzßdorff'.",
+      secondaryImage: "assets/archives/matrika_2_8336_behm_petersdorff.jpg",
+      secondaryImageCaption: "Křest dcery faráře Tobie Egenhoffera 'Pfarhern zum Behmisch Pettersdorff' ze dne 12. 4. 1621 za účasti rychtáře v Petrovicích (sign. 2-8336, sn. 89).",
+      summary: "Kompletní přepis všech 97 snímků bartošovické matriky (2-8336) vynesl 153 jistých a 37 sporných záznamů pro Petersdorf od r. 1591/1594 včetně prvních rychtářů, mlynářů a faráře T. Egenhoffera [doc][lit].",
       paragraphs: [
-        "Nejstarší dochované matriční zápisy pocházejí z bartošovické matriky sign. 2-8336 (1591–1624): zatímco záznam z roku 1591 (sn. 4, Pitzßdorff) je paleograficky nejistý, nesporné zkratky p./P. (Petersdorf) a zápisy petrovických rodin začínají v letech 1596–1597 [doc]. V tomto období ještě obec neměla vlastní farnost a podléhala jako součást panství Kyšperk (Geiersberg) okolním duchovním správám (Bartošovice 1591–1624, Lukavice sign. 83-1 a 83-2 pro léta 1646–1702, celkově do října 1705).",
-        "Podle Berní ruly (1654, [lit]) žilo v obci přibližně 56–57 usedlých hospodářů (18 sedláků, 9 malorolníků a 29–30 chalupníků). Navazující katastry (Tereziánský 1713–1757, Josefský 1785) a farní knihy zachycují dlouhověké místní rody jako Lux (1596/1601), Scholtz/Scholz (1591/1601), Schroller, Wagner, Langer, Šmok, Pacha či Adler."
+        "Nejstarší dochované matriční zápisy pocházejí z bartošovické matriky sign. 2-8336 (1591–1624): kompletní přepis všech 97 snímků přinesl 153 ověřených zápisů [doc] (86 Z, 58 N, 9 O) a 37 sporných (vč. 27 úmrtí 1591–1593 pod hlavičkou 'Pitzßdorff'). Již roku 1594 v pohřbech (sn. 7, fol. 2v) a roku 1597 ve křtech (sn. 28 hned před zápisem B. 1. Batzdorf) se spolehlivě odděluje značka p./P. (Petersdorf), později výslovně psaná 'Vom Behmischen Pittersdorff' (1616, 1620) a 'zum Behmisch Pettersdorff' (1621) oproti vyloučenému kolštejnskému homonymu 'Deutschen Pittersdorff' (1618).",
+        "Zápisy dokládají nejen zakladatelské rody (Adler 18×, Blümel 14×, Weber 11×, Vogt 11×, Hoffmann 9×, Ludwig 8×, Schmid/Schmidt 7×, Wagner 6×, Wachsmann 6×, Lux 5× od r. 1598, Vogel 4×, Schroller), ale i mlynáře (1596 Hanß Schmid, 1597/98 Hanß Christen nidr möller, 1619–20 ober Möller Matz Schilen, 1620–21 Tätzel), rychtáře (Simon Vogt 1598, Merten Wagner 1611) a v dubnu 1621–červnu 1622 i předbělohorského ženatého faráře přímo v obci (Tobias Egenhoffer). Navazuje Berní rula (1654, cca 56–57 usedlíků [lit]) a lukavické matriky 83-1 a 83-2 (1646–1702)."
       ],
       links: [
+        { label: "Matriční rejstřík 1591–1784", action: "openParishTab" },
         { label: "Katalog 18 matrik", action: "openGuideTab" }
       ]
     },
@@ -226,6 +227,15 @@ const storyData = {
     }
   ],
   funFacts: [
+    {
+      id: "fact_1591_2_8336",
+      icon: "📜",
+      tag: "Matrika 2-8336 (1591–1624)",
+      title: "Předbělohorský farář v Petrovicích a rozlišení p. vs. B. již od r. 1594/1597",
+      text: "Kompletní přepis všech 97 snímků bartošovické matriky 2-8336 přinesl 153 ověřených a 37 sporných petrovických zápisů: od r. 1594 (Z) a 1597 (N, hned před B. 1. Batzdorf) jsou důsledně odlišovány České Petrovice ('p./P.') i výslovným 'Vom Behmischen Pittersdorff' (1616, 1620), a v letech 1621–1622 zde působil ženatý farář Tobias Egenhoffer ('Pfarher zum Behmisch Pettersdorff').",
+      action: "openParishTab",
+      actionLabel: "Otevřít matriční rejstřík"
+    },
     {
       id: "fact_1805_renum",
       icon: "🔢",

@@ -1,7 +1,7 @@
 // Automaticky generováno skriptem build_clusters.js – Sjednocené osoby České Petrovice
 const censusLinksData = {
   "version": "v2",
-  "generatedAt": "2026-11-23T17:50:12.990Z",
+  "generatedAt": "2026-11-24T07:45:18.242Z",
   "stats": {
     "linkedPeopleCount": 11,
     "linkedRecordsCount": 11,

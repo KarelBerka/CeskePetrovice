@@ -63,6 +63,7 @@
         <button data-inhab-tab-btn="registry" onclick="switchInhabitantsTab('registry')" class="px-3.5 py-2 rounded-xl bg-amber-800 text-white font-bold border border-amber-300 cursor-pointer">📋 Sčítací rejstřík (529)</button>
         <button data-inhab-tab-btn="linked" onclick="switchInhabitantsTab('linked')" class="px-3.5 py-2 rounded-xl bg-white text-amber-950 font-bold border border-amber-300 cursor-pointer">🧬 Propojené identity</button>
         <button data-inhab-tab-btn="profiles" onclick="switchInhabitantsTab('profiles')" class="px-3.5 py-2 rounded-xl bg-white text-amber-950 font-bold border border-amber-300 cursor-pointer">⭐ Biografické &amp; rodové profily</button>
+        <button data-inhab-tab-btn="parish" onclick="switchInhabitantsTab('parish')" class="px-3.5 py-2 rounded-xl bg-white text-amber-950 font-bold border border-amber-300 cursor-pointer">📜 Matriky 1591–1784</button>
       </div>
     </section>
 
@@ -116,6 +117,57 @@
     <!-- Panel 3: Kurátorované profily -->
     <section data-inhab-panel="profiles" class="hidden space-y-4">
       <div id="people-cards-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4"></div>
+    </section>
+
+    <!-- Panel 4: Předfarní matriky 1591–1784 -->
+    <section data-inhab-panel="parish" class="hidden space-y-4">
+      <div class="p-4 bg-amber-50/90 rounded-2xl border border-amber-200 text-xs space-y-1.5">
+        <div class="font-extrabold text-amber-950">📜 Nejstarší předfarní matriky Českých Petrovic (Bartošovice 2-8336 • Lukavice 83-1, 83-2 • Nekoř 109-1, 109-2)</div>
+        <p class="text-slate-700 leading-relaxed">Přímá vizuální čtení <code>[doc]</code> nejstarších dochovaných záznamů z období před zřízením samostatné lokálie (5/1784). Přísně odlišeno od okolních vsí (Batzdorf, Freiwalde, Marienthal, Orlička, Lukavice, Nekoř, Německé Petrovice); sporná hlavička r. 1591 (<em>„Pitzßdorff“</em>) je vyznačena odděleně jako <code>[sporné]</code>.</p>
+      </div>
+
+      <div id="parish-volumes-summary" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-3"></div>
+
+      <div class="parchment-card p-4 rounded-2xl border border-amber-200 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-2.5 text-xs items-center">
+        <input type="text" oninput="currentParishSearch = this.value; currentParishPage = 1; renderParishRegistersTable();" placeholder="Hledat jméno, příjmení, kmotry, přepis..." class="lg:col-span-2 px-3 py-2 rounded-xl border border-amber-300 bg-white">
+        <select onchange="currentParishVol = this.value; currentParishPage = 1; renderParishRegistersTable();" class="px-3 py-2 rounded-xl border border-amber-300 bg-white font-bold">
+          <option value="all">Všechny svazky (1591–1784)</option>
+          <option value="2-8336">Bartošovice 2-8336 (1591–1624)</option>
+          <option value="83-1">Lukavice 83-1 (1646–1671)</option>
+          <option value="83-2">Lukavice 83-2 (1672–1702)</option>
+          <option value="109-1">Nekoř 109-1 (1705–1753)</option>
+          <option value="109-2">Nekoř 109-2 (1753–1784)</option>
+        </select>
+        <select onchange="currentParishType = this.value; currentParishPage = 1; renderParishRegistersTable();" class="px-3 py-2 rounded-xl border border-amber-300 bg-white font-bold">
+          <option value="all">Všechny typy (N / O / Z)</option>
+          <option value="N">Narození / Křty (N)</option>
+          <option value="O">Oddaní / Sňatky (O)</option>
+          <option value="Z">Zemřelí / Pohřby (Z)</option>
+        </select>
+        <label class="inline-flex items-center gap-2 px-3 py-2 rounded-xl border border-amber-200 bg-amber-50/70 cursor-pointer font-semibold text-amber-950">
+          <input type="checkbox" checked onchange="showDisputedParish = this.checked; currentParishPage = 1; renderParishRegistersTable();" class="accent-amber-800">
+          <span>Zahrnout sporné 1591 (Pitzßdorff)</span>
+        </label>
+      </div>
+
+      <div id="parish-pagination-bar"></div>
+
+      <div class="parchment-card rounded-2xl border border-amber-200 overflow-hidden">
+        <div class="overflow-x-auto">
+          <table class="w-full text-left border-collapse mobile-responsive-table">
+            <thead>
+              <tr class="bg-amber-100/90 text-amber-950 text-[11px] uppercase tracking-wider">
+                <th class="p-3 border-b border-amber-200">Datum &amp; Typ</th>
+                <th class="p-3 border-b border-amber-200">Osoba / Rod</th>
+                <th class="p-3 border-b border-amber-200">Rodiče / Partneři</th>
+                <th class="p-3 border-b border-amber-200">Značka obce &amp; Přepis [doc]</th>
+                <th class="p-3 border-b border-amber-200">Matrika &amp; Sken</th>
+              </tr>
+            </thead>
+            <tbody id="parish-table-body"></tbody>
+          </table>
+        </div>
+      </div>
     </section>
   </main>
 
@@ -180,6 +232,7 @@
   <script src="data/census_links.js"></script>
   <script src="data/people.js"></script>
   <script src="data/houses.js"></script>
+  <script src="data/parish_registers.js"></script>
   <script src="data/i18n.js"></script>
   <script src="app.js"></script>
 </body>

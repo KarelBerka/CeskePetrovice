@@ -1,6 +1,6 @@
 // Automaticky generováno skriptem build_clusters.js – Laboratoř propojování osob České Petrovice
 const clusterDataset = {
-  "generatedAt": "2026-11-23T17:50:12.989Z",
+  "generatedAt": "2026-11-24T07:45:18.242Z",
   "municipality": "České Petrovice (Böhmisch Petersdorf)",
   "stats": {
     "totalRecords": 832,

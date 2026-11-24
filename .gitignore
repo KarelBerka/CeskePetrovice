@@ -20,6 +20,7 @@ tmp*/
 scratch/
 
 # Surové pracovní skeny, výřezy a soukromé podklady (nezapisovat do Gitu)
+originaly/
 pracovni/
 zdroje/
 vyrezy/
