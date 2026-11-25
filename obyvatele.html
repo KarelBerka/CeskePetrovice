@@ -108,10 +108,20 @@
 
     <!-- Panel 2: Sjednocené osoby -->
     <section data-inhab-panel="linked" class="hidden space-y-4">
-      <div class="p-4 bg-amber-50 rounded-2xl border border-amber-200 text-xs flex flex-wrap items-center justify-between gap-2">
-        <span><strong>Propojení napříč lety 1771–1921:</strong> Ověřené profily obyvatel a propojené záznamy. Plná analýza všech 832 osobních identit a 322 kandidátních shod v <a href="cluster.html" class="underline font-bold text-amber-900">Laboratoři propojování osob →</a></span>
+      <div id="linked-people-summary" class="p-4 bg-amber-50 rounded-2xl border border-amber-200 text-xs flex flex-wrap items-center justify-between gap-2">
+        <span><strong>Propojení napříč lety 1591–1921:</strong> Načítám přehled sjednocených identit…</span>
+      </div>
+      <div class="parchment-card p-3.5 rounded-2xl border border-amber-200 grid grid-cols-1 sm:grid-cols-3 gap-2.5 text-xs items-center">
+        <input id="linked-search-input" type="text" oninput="currentLinkedSearch = this.value; currentLinkedLimit = 60; renderLinkedPeopleSection();" placeholder="Hledat jméno, manželský pár, dítě, čp. nebo signaturu..." class="sm:col-span-2 px-3 py-2 rounded-xl border border-amber-300 bg-white">
+        <select id="linked-filter-select" onchange="currentLinkedFilter = this.value; currentLinkedLimit = 60; renderLinkedPeopleSection();" class="px-3 py-2 rounded-xl border border-amber-300 bg-white font-bold">
+          <option value="all">Všechny sjednocené identity</option>
+          <option value="bridges">🌉 Mosty přes více knih / pramenů</option>
+          <option value="withcp">🏡 S přiřazeným čp. (1771–1921)</option>
+          <option value="verified">⭐ Biografické profily (11)</option>
+        </select>
       </div>
       <div id="linked-people-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3.5"></div>
+      <div id="linked-people-pagination" class="flex justify-center pt-1"></div>
     </section>
 
     <!-- Panel 3: Kurátorované profily -->
@@ -129,8 +139,8 @@
       <div id="parish-volumes-summary" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-3"></div>
 
       <div class="parchment-card p-4 rounded-2xl border border-amber-200 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-2.5 text-xs items-center">
-        <input type="text" oninput="currentParishSearch = this.value; currentParishPage = 1; renderParishRegistersTable();" placeholder="Hledat jméno, příjmení, kmotry, přepis..." class="lg:col-span-2 px-3 py-2 rounded-xl border border-amber-300 bg-white">
-        <select onchange="currentParishVol = this.value; currentParishPage = 1; renderParishRegistersTable();" class="px-3 py-2 rounded-xl border border-amber-300 bg-white font-bold">
+        <input id="parish-search-input" type="text" oninput="currentParishSearch = this.value; currentParishPage = 1; renderParishRegistersTable();" placeholder="Hledat jméno, příjmení, kmotry, přepis..." class="lg:col-span-2 px-3 py-2 rounded-xl border border-amber-300 bg-white">
+        <select id="parish-vol-select" onchange="currentParishVol = this.value; currentParishPage = 1; renderParishRegistersTable();" class="px-3 py-2 rounded-xl border border-amber-300 bg-white font-bold">
           <option value="all">Všechny svazky (1591–1784)</option>
           <option value="2-8336">Bartošovice 2-8336 (1591–1624)</option>
           <option value="83-1">Lukavice 83-1 (1646–1671)</option>

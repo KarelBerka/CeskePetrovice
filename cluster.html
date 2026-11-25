@@ -19,7 +19,7 @@
         </a>
         <div>
           <h1 class="text-lg sm:text-xl font-extrabold font-heading text-slate-900 leading-none">Laboratoř propojování osob</h1>
-          <p class="text-xs text-amber-900/80 font-medium">České Petrovice (Böhmisch Petersdorf) • Matriky 23-1 (1771–1784) &amp; Sčítání 1869–1921</p>
+          <p class="text-xs text-amber-900/80 font-medium">České Petrovice (Böhmisch Petersdorf) • Matriky 1591–1784 (6 knih) &amp; Sčítání 1869–1921</p>
         </div>
       </div>
 
@@ -54,11 +54,13 @@
       <div class="lg:col-span-5 parchment-card p-4 rounded-2xl border border-amber-200 space-y-3">
         <input type="text" oninput="setClusterSearch(this.value)" placeholder="Hledat jméno, příjmení nebo čp...." class="w-full px-3 py-2 rounded-xl border border-amber-300 text-xs bg-white">
         <div class="flex flex-wrap gap-1.5 text-xs">
-          <button onclick="setClusterFilter('all')" class="px-2.5 py-1 rounded-lg bg-amber-800 text-white font-bold cursor-pointer">Vše</button>
-          <button onclick="setClusterFilter('verified')" class="px-2.5 py-1 rounded-lg bg-amber-50 border border-amber-300 font-bold cursor-pointer">⭐ Biografické</button>
-          <button onclick="setClusterFilter('multi')" class="px-2.5 py-1 rounded-lg bg-amber-50 border border-amber-300 font-bold cursor-pointer">🔗 Více záznamů</button>
-          <button onclick="setClusterFilter('parish')" class="px-2.5 py-1 rounded-lg bg-amber-50 border border-amber-300 font-bold cursor-pointer">📜 Matrika 1771</button>
+          <button data-cluster-filter-btn="all" onclick="setClusterFilter('all')" class="px-2.5 py-1 rounded-lg bg-amber-800 text-white font-bold cursor-pointer">Vše</button>
+          <button data-cluster-filter-btn="verified" onclick="setClusterFilter('verified')" class="px-2.5 py-1 rounded-lg bg-amber-50 border border-amber-300 font-bold cursor-pointer">⭐ Biografické</button>
+          <button data-cluster-filter-btn="multi" onclick="setClusterFilter('multi')" class="px-2.5 py-1 rounded-lg bg-amber-50 border border-amber-300 font-bold cursor-pointer">🔗 Více záznamů</button>
+          <button data-cluster-filter-btn="bridges" onclick="setClusterFilter('bridges')" class="px-2.5 py-1 rounded-lg bg-amber-50 border border-amber-300 font-bold cursor-pointer">🌉 Mosty přes knihy</button>
+          <button data-cluster-filter-btn="parish" onclick="setClusterFilter('parish')" class="px-2.5 py-1 rounded-lg bg-amber-50 border border-amber-300 font-bold cursor-pointer">📜 Matriky 1591–1784</button>
         </div>
+        <div id="cluster-list-count" class="text-[11px] font-bold text-slate-600"></div>
         <div id="cluster-list-container" class="space-y-1.5 max-h-[540px] overflow-y-auto pr-1"></div>
       </div>
       <div id="cluster-inspector-container" class="lg:col-span-7 parchment-card p-5 rounded-2xl border border-amber-200"></div>
@@ -66,14 +68,14 @@
 
     <section id="panel-review" class="hidden space-y-4">
       <div class="p-4 bg-amber-50 rounded-2xl border border-amber-200 text-xs">
-        <strong>Metodika revize (doc vs. prob):</strong> Níže jsou automaticky nalezení jmenovci napříč matrikou 23-1 (1771–1784) a sčítáními 1869–1921. Potvrďte skutečnou shodu osoby nebo označte mezigeneračního jmenovce (např. otce a syna).
+        <strong>Metodika revize (doc vs. prob):</strong> Níže jsou automaticky nalezení kandidátní jmenovci napříč matrikami (1591–1784) a sčítáními (1869–1921). Potvrďte skutečnou shodu osoby, případně rozlište možný 2. sňatek od mezigeneračního jmenovce (otec / syn).
       </div>
       <div id="review-pairs-container" class="grid grid-cols-1 lg:grid-cols-2 gap-4"></div>
     </section>
 
     <section id="panel-typology" class="hidden parchment-card p-5 rounded-2xl border border-amber-200 space-y-4">
       <div class="flex flex-wrap items-center justify-between gap-2">
-        <h2 class="text-lg font-extrabold font-heading">Typologické rozložení osob &amp; rodů v čase (1771–1921)</h2>
+        <h2 class="text-lg font-extrabold font-heading">Typologické rozložení osob &amp; rodů v čase (1591–1921)</h2>
         <div id="typology-selected-box" class="text-xs text-slate-700 bg-amber-50 px-3 py-1.5 rounded-lg border border-amber-200">Klikněte na libovolný bod pro detail osoby.</div>
       </div>
       <div id="typology-legend" class="flex flex-wrap gap-2"></div>

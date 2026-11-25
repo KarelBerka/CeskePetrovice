@@ -242,9 +242,63 @@ const storyData = {
       icon: "⛪",
       tag: "Matriky 83-1 & 83-2 (1646–1702)",
       title: "Kostel i rektor v Petrovicích doloženi ve více než 150 zápisech již před r. 1734",
-      text: "Obě kompletně vytěžené lukavické matriky 83-1 (334 záznamů) a 83-2 (839 záznamů) přinesly 52 sňatků 'w kosteli petrowskym / Wchramů paně Petrowskem' (již od 5. 4. 1655) a 98 pohřbů 'prži Chramie Pani petrowskim' (1663–1702), jakož i rektory a kantory (Johannes Preceptor 1653, Matis Langer 1657–†1669, Joannes Georgius Wagner od 11. 3. 1702).",
+      text: "Obě kompletně vytěžené lukavické matriky 83-1 (334 záznamů) a 83-2 (839 záznamů) přinesly 52 sňatků 'w kosteli petrowskym / Wchramů paně Petrowskem' (již od 5. 4. 1655, vč. 5 párů v lednu 1658 a 19 přespolních svateb v 83-2) a 98 pohřbů 'prži Chramie Pani petrowskim' (1663–1702), i rané dětské úmrtí faráře Thomase Prauseho v r. 1602 (2-8336 sn. 11).",
       action: "openParishTab",
       actionLabel: "Prohlédnout 2 659 zápisů"
+    },
+    {
+      id: "fact_vojaci_pluky_1666_1769",
+      icon: "⚔️",
+      tag: "Vojáci & pluky (1666–1769)",
+      title: "Od brněnského vysloužilce po pluky Esterházyho a Colloreda",
+      text: "Voják Rupert Feralii(?) oženil r. 1666 v petrovickém kostele a r. 1678 již křtí dítě jako Rupert Oferal (83-1 sn. 93 → 83-2 sn. 85). Dne 30. 3. 1672 zemřel náhle brněnský 'Soldat Odankowany' Jan Antonín (83-2 sn. 221) a v l. 1764 a 1769 přibývají v 109-2 křty rodin od pluků Esterházyho (poručík bez dopsaného jména dcery, sn. 88) a Josefa Colloreda (sn. 133).",
+      action: "openParishQuery_pluk",
+      actionLabel: "Zápisy pluků v rejstříku"
+    },
+    {
+      id: "fact_celnici_tri_solcove",
+      icon: "🛂",
+      tag: "Celníci & 3 Josefové Šolcové",
+      title: "Linie královských celníků (1728–1771) a tři jmenovci na jedné vsi",
+      text: "Matrika 109-1 odhalila celníky J. Scholtze (1728–†1734, sn. 121), A. Seifferta (1736–38) a D. F. Schokera (1743–54) ještě před Wellerem z čp. 21 (1771), kantory vč. J. G. Wagnera (11. 3. 1702 převzal zápis 83-2) i hrobaře M. Eßlera (†1672). Tři současníky jménem Josephus Scholtz farář důsledně rozlišoval jako celníka (Teloniarius), pekaře (Pistor) a dolního mlynáře (in büsenmühl).",
+      action: "openParishQuery_Teloniar",
+      actionLabel: "Zápisy celníků (30×)"
+    },
+    {
+      id: "fact_knez_svedkem_krt_na_cestach",
+      icon: "🕯️",
+      tag: "Lidské kuriozity (1662–1769)",
+      title: "Kněz sám sobě svědkem, nouzové křty bábou i 'per oblivionem'",
+      text: "Dne 20. 2. 1760 (109-2 sn. 52) zapsal kaplan P. Ondřej Güntner sám sebe za 1. svědka u křtu, jenž sám konal. Jiné děti křtili františkán na kolektě (1733), kaplan z kladského Rosenthalu (1739), farář v Králíkách (1662) i porodní bába (1671, 1696 Lybuczka). Korpus obsahuje též 52 zápisů dvojčat, 19 nemanželských dětí ('z Nepoctiwého Lůze') či omluvu 'per oblivionem tardius inscriptus' (1750).",
+      action: "openParishQuery_baby",
+      actionLabel: "Nouzové křty v rejstříku"
+    },
+    {
+      id: "fact_lit_dat_1939_1944",
+      icon: "✏️",
+      tag: "Tužkové přípisy 1939–1944",
+      title: "Stín 2. světové války na barokních listech: 21 stop po Ahnenpassu",
+      text: "Na okrajích křtů v matrikách 109-1 a 109-2 (1743–1766) se dochovalo 21 poznámek typu 'lit. dat 3/3 941', 'lit dat 27/9 942', 'dupl 24/2 943' či 'T 6/1944'. Potomci ze Sudet tehdy hromadně vyřizovali opisy křestních listů 6–7 generací zpět pro úřední doklad původu.",
+      action: "openParishQuery_lit. dat",
+      actionLabel: "Ukázat přípisy lit. dat"
+    },
+    {
+      id: "fact_pretekla_83_2_listek_168",
+      icon: "🔎",
+      tag: "Archivní detektivky",
+      title: "Přeteklá kniha 83-2 a ztracený lístek s168 datovaný podle 281 dnů",
+      text: "V matrice 83-2 se křty 9. 10. 1699 zaplnily a přetekly až za pohřby ('vide pag. 527.'), takže úmrtí z února–prosince 1702 v ní chybí. V 109-1 se zase mezi 26. 12. 1744 a 1. 1. 1745 našel nepaginovaný lístek (sn. 168) bez roku a měsíce — datum 27. 12. 1744 potvrdil i odstup 281 dnů k dalšímu dítěti téhož páru (4. 10. 1745).",
+      action: "openParishQuery_lístek",
+      actionLabel: "Otevřít lístek s168"
+    },
+    {
+      id: "fact_jazyky_a_kytner_rytner",
+      icon: "🔤",
+      tag: "Tři jazyky & záhada K/R",
+      title: "Němčina, čeština, latina a kurzivní K maskované za 'Rittner'",
+      text: "Matriky střídají němčinu ('Zum Behmisch Pettersdorff' 1621; 'Von Bihnisch pettirsdorff' 1672 na sn. 6 knihy 83-2), češtinu (vč. 8letého návratu češtiny v 109-2 v l. 1755–1763) i latinu. Makro-výřezy 83-2 (s061, s118) navíc prokázaly, že zdánliví 'Rittnerové' v kurzivě jsou ve skutečnosti linií Kittner / Küttner ('Kytner').",
+      action: "openParishQuery_Kytner",
+      actionLabel: "Rod Kittner / Kytner (28×)"
     },
     {
       id: "fact_1805_renum",
@@ -301,6 +355,24 @@ const storyData = {
       actionLabel: "Otevřít čp. 61"
     },
     {
+      id: "fact_wwi_porodnost_vdovy",
+      icon: "⚔️",
+      tag: "Jizvy 1. sv. války (1921)",
+      title: "Válečný propad porodnosti o polovinu (−49,4 %) a 41 vdov proti 14 vdovcům",
+      text: "V letech 1915–1918 klesl počet dochovaných ročníků narození na 4,25 dětí ročně oproti 8,4 před válkou (r. 1916 jen 2 děti!). V bojové generaci 30–44 let zbylo pouze 67,4 mužů na 100 žen (u Němců jen 61,5) a ženu v čele domácnosti mělo 36 ze 130 obydlených domů.",
+      action: "openDemographySonda",
+      actionLabel: "Demografická sonda"
+    },
+    {
+      id: "fact_vek_cs_de_migrace",
+      icon: "🧭",
+      tag: "Generační & migrační zlom",
+      title: "O 11 let mladší česká menšina (26 vs. 37 let) a 66,3 % nepřítomných za hranicemi",
+      text: "V r. 1921 dělil obě národnosti 11letý věkový medián (Češi 26 vs. Němci 37 let) a čeština se mezi roky 1910 a 1921 rozšířila z 11 na 26 domů. V r. 1910 zase mířilo 61 z 92 nepřítomných domovských příslušníků (66,3 %) až mimo Předlitavsko.",
+      action: "openDemographySonda",
+      actionLabel: "Migrace & generace"
+    },
+    {
       id: "fact_barinka_sandby",
       icon: "⚓",
       tag: "Lübecká zátoka 1945",
@@ -320,6 +392,38 @@ const storyData = {
     }
   ],
   deepDives: [
+    {
+      id: "probe_sonda_kuriozity_1591_1784",
+      title: "Archivní zajímavosti, vojáci, celníci a stopy Ahnenpassu (1591–1944)",
+      era: "1591–1944",
+      summary: "Šest mikrohistorických kapitol z 2 659 záznamů: předbělohorský farář Egenhoffer, kostel od r. 1655, vojenské pluky, 3 Josefové Šolcové, 21 tužkových přípisů lit. dat (1939–1944) i záhada K/R.",
+      href: "docs/sonda_predfarni_matriky_1591_1784.md",
+      linkLabel: "🔬 Otevřít celou sondu (.md)"
+    },
+    {
+      id: "probe_sonda_demografie_scitani",
+      title: "Demografická sonda ze sčítání lidu (1869–1921)",
+      era: "1869–1921",
+      summary: "Válečný propad porodnosti (−49,4 %), kráter bojové generace 30–44 let, 11letý rozdíl Čechů a Němců (26 vs. 37 let), Hilfsausweis 1910, majetková pyramida 137 domů i 330letá kontinuita rodů.",
+      href: "demografie.html#sonda",
+      linkLabel: "📊 Otevřít demografickou sondu"
+    },
+    {
+      id: "probe_matriky_1591_1784",
+      title: "Kompletní rejstřík 5 předfarních matrik (2 659 zápisů & 114 rodů)",
+      era: "1591–1784",
+      summary: "Plně prohledatelná databáze všech 910 skenů matrik Bartošovice (2-8336), Lukavice (83-1, 83-2) a Nekoř (109-1, 109-2) s přímými odkazy na ARON a náhledy.",
+      href: "obyvatele.html#parish",
+      linkLabel: "📜 Otevřít matriční rejstřík"
+    },
+    {
+      id: "probe_rody_kontinuita",
+      title: "Kontinuita rodů, epidemie a církevní správa (1591–1942)",
+      era: "1591–1942",
+      summary: "Analýza nejstarších selsko-tkalcovských linií napříč 5 předfarními knihami, knihou 23-1 a sčítáním 1921 vč. epidemií 1806 a 1918 i civilních matrik.",
+      href: "docs/rody_demografie_a_civilni_matriky.md",
+      linkLabel: "📄 Otevřít rodovou studii (.md)"
+    },
     {
       id: "probe_trojmezi",
       title: "Trojmezí Čech, Moravy a Kladska v 16. století (MZA Brno)",

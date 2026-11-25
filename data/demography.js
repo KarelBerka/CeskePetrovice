@@ -88,5 +88,148 @@ const demographyData = {
     { period: "1866 (negativní nález!)", event: "Prusko-rakouská válka – NULOVÁ cholera i padlí (matrika 23-8990)", detail: "Přímé čtení matriky 23-8990 vyvrací domněnku o válečné epidemii: v celém r. 1866 jen 13 úmrtí, mezi 4. 7. a 10. 11. 1866 žádný zápis, 0 obětí cholery i bojů [doc]." },
     { period: "1918", event: "Španělská chřipka na sklonku 1. sv. války (matrika 23-8990)", detail: "Podzimní vlna španělské chřipky (19 úmrtí za rok, mj. mlynář Pius Scholz na čp. 152) [doc]." },
     { period: "1939–1945", event: "2. světová válka & oběti mimo obec", detail: "Civilní a válečné ztráty mimo farní matriku (končí r. 1942), včetně politického vězně Františka Bařinky († 3. 5. 1945 na SS Thielbek) [doc]." }
-  ]
+  ],
+
+  // Hloubková demografická sonda ze sčítacích operátů 1869, 1910 (PO/Hilfsausweis/PZ) a 1921 (143 archů, 467 osob) [doc]
+  censusProbe: {
+    studyHref: "docs/sonda_demografie_scitani_1869_1921.md",
+    kpis: [
+      { label: "Propad porodnosti 1915–1918", value: "−49,4 %", detail: "4,25 dětí/rok (1916 jen 2) vs. 8,4/rok před válkou [doc]" },
+      { label: "Bojová generace 30–44 let", value: "67,4 M / 100 Ž", detail: "31 M vs. 46 Ž celkem • Němci jen 24 M vs. 39 Ž (61,5) [doc]" },
+      { label: "Věkový rozdíl CS vs. DE (1921)", value: "26 vs. 37 let", detail: "Medián Čechů o 11 let nižší (průměr 31,1 vs. 36,6 let) [doc]" },
+      { label: "Odliv za hranice (1910)", value: "66,3 % (61 z 92)", detail: "Hilfsausweis: 61 nepřítomných mimo Předlitavsko [doc]" }
+    ],
+    wwiNatality: {
+      preAvg: 8.4,
+      warAvg: 4.25,
+      postAvg: 8.5,
+      years: [
+        { year: 1910, count: 8, phase: "pre" },
+        { year: 1911, count: 9, phase: "pre" },
+        { year: 1912, count: 8, phase: "pre" },
+        { year: 1913, count: 12, phase: "pre" },
+        { year: 1914, count: 5, phase: "pre" },
+        { year: 1915, count: 7, phase: "war" },
+        { year: 1916, count: 2, phase: "war" },
+        { year: 1917, count: 5, phase: "war" },
+        { year: 1918, count: 3, phase: "war" },
+        { year: 1919, count: 8, phase: "post" },
+        { year: 1920, count: 9, phase: "post" }
+      ],
+      feb1921Note: "Do rozhodného dne 15. 2. 1921 se téhož dne 11. 2. 1921 narodily hned dvě dívky: Marie Elsnerová (čp. 61, jediný popsaný rub úseku s073–s144) a Bohumila Krümmelová (čp. 64) [doc]."
+    },
+    sexCohorts1921: [
+      { label: "0–14 let (děti)", m: 58, f: 55, ratio: "105,5", note: "Silné ročníky 1907 (16) a 1913 (12) vyrovnaly válečný propad." },
+      { label: "15–19 let (dorost)", m: 12, f: 15, ratio: "80,0", note: "Odchod chlapců na učení a práci mimo obec." },
+      { label: "20–29 let (mladší dosp.)", m: 32, f: 29, ratio: "110,3", note: "Češi 6 M : 3 Ž (příliv finanční stráže a učitele), Němci vyrovnaně 26 : 26." },
+      { label: "30–44 let (jádro 1. sv. v.)", m: 31, f: 46, ratio: "67,4", note: "Nejsilnější válečný kráter: Němci jen 24 M : 39 Ž (61,5), věk 30–34 přesně 1 : 2 (8 : 16)." },
+      { label: "45–59 let (střední věk)", m: 49, f: 54, ratio: "90,7", note: "Páteř hospodářství na statcích a v chalupách." },
+      { label: "60+ let (senioři)", m: 33, f: 44, ratio: "75,0", note: "Vyšší dožití žen a vdovy na výměncích (čp. 9, 11, 88, 103)." }
+    ],
+    widowhoodAndHeads: {
+      widows: 41,
+      widowers: 14,
+      femaleHeadHouses: 36,
+      widowHeadHouses: 29,
+      inhabitedHouses: 130,
+      oldest: [
+        { name: "Josef Skroboč (?)", cp: "34", birth: "22. 6. 1833", age: 87, role: "výměnkář, ovdovělý (DE)" },
+        { name: "Anna Svobodová", cp: "103", birth: "26. 6. 1833", age: 87, role: "výměnkářka, vdova (DE)" },
+        { name: "František Urner", cp: "144", birth: "23. 6. 1834", age: 86, role: "ex-tkadlec 1914 → chudeník (DE)" },
+        { name: "Marie Schreiberová", cp: "9", birth: "25. 10. 1834", age: 86, role: "vdova, polní pomocnice (DE)" }
+      ],
+      youngest: [
+        { name: "Marie Elsnerová", cp: "61", birth: "11. 2. 1921", role: "4 dny před sčítáním (rub archu s114)" },
+        { name: "Bohumila Krümmelová", cp: "64", birth: "11. 2. 1921", role: "4 dny před sčítáním (byt 1 v nájmu)" }
+      ]
+    },
+    generationalGapAndFaith: {
+      deMean: 36.6,
+      deMedian: 37.0,
+      csMean: 31.1,
+      csMedian: 26.0,
+      csHouses1910: 11,
+      csPure1910: 5,
+      csMixed1910: 6,
+      csHouses1921: 26,
+      csPure1921: 11,
+      csMixed1921: 15,
+      csMigrants1918_21: 16,
+      deMigrants1918_21: 9,
+      faith1910: "531 / 531 (100,0 %) římskokatolických",
+      faith1921: "460 řím.-kat. (98,5 %) · 3 evang. (čp. 34, 118, 160) · 4 bez vyzn. (čp. 160)"
+    },
+    livestockTiers1910: [
+      { tier: "1. Sedláci s koňským potahem", houses: 23, pct: 16.8, color: "#92400e", note: "Všech 25 koní (čp. 113 a 116 po 2); největší stáda skotu: čp. 88 (15), čp. 69 a 76 (12), čp. 112 (10)." },
+      { tier: "2. Malorolníci se skotem (bez koní)", houses: 32, pct: 23.4, color: "#059669", note: "Celkem 55 chovatelů skotu (40,1 % domů, 272 ks); čp. 44 mělo 14 ks skotu bez koně." },
+      { tier: "3. Domkáři & tkalci jen s kozami", houses: 55, pct: 40.1, color: "#d97706", note: "‚Kráva chudých‘ (127 koz v 68 domech) – přesně stejně domů jako všichni chovatelé skotu!" },
+      { tier: "4. Jen drůbež, prasata či včely", houses: 15, pct: 10.9, color: "#64748b", note: "Drobný samozásobitelský chov; na čp. 77 zapsán jediný včelař v obci (3 úly)." },
+      { tier: "5. Zcela bez zvířectva", houses: 12, pct: 8.8, color: "#cbd5e1", note: "Fara (čp. 25), škola (čp. 27), kasárna (čp. 36) a bezzemci / podnájemníci." }
+    ],
+    weavingShift1914_21: {
+      with1914Data: 169,
+      from1914: 20,
+      stayed: 12,
+      left: 8,
+      examples: [
+        "čp. 92 Antonín Prause: 1914 tovární tkadlec → 1921 nádeník v zemědělství",
+        "čp. 135 Josef Vacek: 1914 tkalcovství po domácku → 1921 pomocník v zemědělství",
+        "čp. 146 Julius Schroller: 1914 tkalcovství → 1921 lesní dělník",
+        "čp. 160 Rudolf Štehover: 1914 textilní podmistr → 1921 strážmistr finanční stráže",
+        "čp. 144 František Urner: 1914 samostatný tkadlec → 1921 chudeník (86 let)"
+      ]
+    },
+    migration1910Hilfsausweis: [
+      { label: "Okres Žamberk (jiné obce)", permanent: 9, temporary: 6, total: 15, pct: 16.3, color: "#64748b" },
+      { label: "Jiné okresy Království českého", permanent: 5, temporary: 1, total: 6, pct: 6.5, color: "#0284c7" },
+      { label: "Jiné země Předlitavska (Vídeň, Morava…)", permanent: 9, temporary: 1, total: 10, pct: 10.9, color: "#0d9488" },
+      { label: "Mimo Předlitavsko / cizina (Kladsko, Německo)", permanent: 51, temporary: 10, total: 61, pct: 66.3, color: "#b91c1c" }
+    ],
+    birthplaces1921: [
+      { label: "České Petrovice (rodáci)", total: 166, de: 147, cs: 19, pct: 62.4 },
+      { label: "Okolní Orlicko, Žamberecko & Králicko", total: 70, de: 45, cs: 25, pct: 26.3 },
+      { label: "Pruské Kladsko, Slezsko & Německo", total: 21, de: 17, cs: 4, pct: 7.9 },
+      { label: "Vnitrozemí Čech a Moravy", total: 8, de: 3, cs: 5, pct: 3.0 },
+      { label: "Rakousko (Vídeň)", total: 1, de: 1, cs: 0, pct: 0.4 }
+    ],
+    foreigners1921Note: "Všech 5 cizozemců (Německá republika): čp. 17 E. Kristenová, čp. 34 H. Oertelová, čp. 45 A. Schmied (Rothfloss) a 2 schovanci Wachsmannovi z Mezilesí v čp. 122 [doc].",
+    houseTurnover: {
+      density: [
+        { year: "1890", avgPerHouse: "5,58", note: "876 obyv. / 157 domů [ed]" },
+        { year: "1910", avgPerHouse: "3,88", note: "531 obyv. / 137 obydl. domů (3,30/dom.) [doc]" },
+        { year: "1921", avgPerHouse: "3,59", note: "467 obyv. / 130 obydl. domů (3,22/dom.) [doc]" }
+      ],
+      singlePersonHouses1910: 7,
+      singlePersonHouses1921: 19,
+      emptied: ["13", "20", "30", "33", "36", "69", "82", "110", "116"],
+      reoccupied: ["56", "103", "114", "119"],
+      bothEmpty: ["8", "80", "150"],
+      panel15: {
+        houses: 15,
+        pop1869: 77,
+        pop1910: 64,
+        pop1921: 65,
+        cattle1869: 36,
+        cattle1910: 63,
+        note: "Na 15 souvisle sledovaných staveních ze vzorku 1869 se populace po r. 1910 ustálila (64 → 65), zatímco stavy skotu vzrostly o +75 % (36 → 63 ks; např. čp. 88: 3 → 15 ks, čp. 44: 10 → 14) [doc]."
+      },
+      highlights: [
+        "čp. 69 → čp. 74: Statek Albína Luxe v čp. 69 (9 osob r. 1910) se do r. 1921 vyprázdnil (0) po přesunu rodiny do čp. 74 (3 → 8 osob).",
+        "čp. 36 → čp. 160: Státní kasárna finanční stráže čp. 36 (4 Čechy r. 1910) r. 1921 prázdná (0); stráž i sčítací komisař J. Gruber nově v nájmu čp. 160 (4 → 7).",
+        "čp. 119: Neobydlený dům z r. 1910 zaznamenal největší skok obce (0 → 8 osob, rodina Adolfa Jauše)."
+      ]
+    },
+    topSurnames1921: [
+      { surname: "Lux", people: 43, houses: 14, earliestYear: 1598, pre1784Count: 232, parishQuery: "Lux" },
+      { surname: "Schroller", people: 20, houses: 6, earliestYear: 1597, pre1784Count: 127, parishQuery: "Schroller" },
+      { surname: "Scholz", people: 14, houses: 5, earliestYear: 1601, pre1784Count: 117, parishQuery: "Scholtz" },
+      { surname: "Schreiber", people: 13, houses: 4, earliestYear: null, pre1784Count: 0, parishQuery: null },
+      { surname: "Pacha", people: 13, houses: 4, earliestYear: 1654, pre1784Count: 49, parishQuery: "Pacha" },
+      { surname: "Adler", people: 11, houses: 4, earliestYear: 1591, pre1784Count: 141, parishQuery: "Adler" },
+      { surname: "Wagner", people: 9, houses: 4, earliestYear: 1593, pre1784Count: 250, parishQuery: "Wagner" },
+      { surname: "Baier", people: 9, houses: 4, earliestYear: 1660, pre1784Count: 41, parishQuery: "Beier" },
+      { surname: "Urban", people: 9, houses: 4, earliestYear: 1653, pre1784Count: 88, parishQuery: "Urban" },
+      { surname: "Šmok", people: 9, houses: 2, earliestYear: 1706, pre1784Count: 52, parishQuery: "Schmok" }
+    ]
+  }
 };

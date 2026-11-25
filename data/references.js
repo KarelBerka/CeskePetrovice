@@ -75,9 +75,19 @@ const referencesData = {
             "note": "Vč. třívrstvé revize sčítání 1910 a úpravy Lexikonu 1924"
           },
           {
+            "title": "Demografická sonda ze sčítání lidu (1869–1921)",
+            "url": "docs/sonda_demografie_scitani_1869_1921.md",
+            "note": "Válečný propad porodnosti (−49,4 %), deficit mužů, 11letý rozdíl CS/DE, Hilfsausweis 1910 a pyramida 137 domů"
+          },
+          {
             "title": "Rody, demografie a civilní matriky (1591–1942)",
             "url": "docs/rody_demografie_a_civilni_matriky.md",
-            "note": "12 hlavních rodů, přečíslování 1805/1806 a krize úmrtnosti"
+            "note": "114 rodových linií napříč 5 předfarními knihami, přečíslování 1805/1806 a krize úmrtnosti"
+          },
+          {
+            "title": "Badatelská sonda: kuriozity, vojáci, celníci a přípisy lit. dat (1591–1944)",
+            "url": "docs/sonda_predfarni_matriky_1591_1784.md",
+            "note": "6 mikrohistorických kapitol z 2 659 předfarních zápisů"
           },
           {
             "title": "Místopis a historie všech 160 domů (čp. 1–160)",

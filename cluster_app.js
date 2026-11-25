@@ -73,8 +73,53 @@ function initClusterApp() {
   if (typeof clusterDataset === 'undefined') return;
   loadLocalState();
 
-  clState.recordsById = new Map((clusterDataset.records || []).map(r => [r.id, r]));
-  clState.clusters = (clusterDataset.identityClusters || []).map(c => ({ ...c, recordIds: [...(c.recordIds || [])] }));
+  const meta = clusterDataset.meta || {};
+  const aronBySign = meta.aronUrlsBySign || {};
+  const archMap = meta.archetypes || {};
+  const badgeMap = meta.badgeByKey || {};
+
+  clState.recordsById = new Map((clusterDataset.records || []).map(r => {
+    const hydrated = {
+      ...r,
+      recordKind: r.recordKind || 'parish',
+      houseNumber: r.houseNumber || '',
+      relation: r.relation || '-',
+      occupation: r.occupation || '-',
+      birthDate: r.birthDate || '-',
+      birthPlace: r.birthPlace || '',
+      scanFile: r.scanFile || '',
+      aronUrl: r.aronUrl || aronBySign[r.parishSign] || ''
+    };
+    return [hydrated.id, hydrated];
+  }));
+
+  clState.clusters = (clusterDataset.identityClusters || []).map(c => {
+    const recIds = [...(c.recordIds || [])];
+    const arch = archMap[c.archetypeKey] || {};
+    const sourcesUsed = c.sourcesUsed || [];
+    return {
+      ...c,
+      recordIds: recIds,
+      recordCount: c.recordCount ?? recIds.length,
+      censusCount: c.censusCount || 0,
+      parishCount: c.parishCount || 0,
+      minYear: c.minYear || 0,
+      maxYear: c.maxYear || 0,
+      spanYears: c.spanYears ?? ((c.maxYear || 0) - (c.minYear || 0)),
+      sourcesUsed,
+      volumesCount: c.volumesCount ?? sourcesUsed.length,
+      isVerifiedProfile: Boolean(c.isVerifiedProfile),
+      isCrossVolumeBridge: Boolean(c.isCrossVolumeBridge),
+      housesVisited: c.housesVisited || (c.primaryHouseId ? [c.primaryHouseId] : []),
+      variantNames: c.variantNames || [c.canonicalName],
+      childrenNames: c.childrenNames || [],
+      matchReasons: c.matchReasons || [],
+      archetypeLabel: c.archetypeLabel || arch.label || 'Obyvatel obce',
+      archetypeColor: c.archetypeColor || arch.color || '#78350f',
+      categoryBadgeClass: c.categoryBadgeClass || badgeMap[c.categoryKey] || badgeMap.ostatni || 'bg-amber-100 text-amber-950 border-amber-300'
+    };
+  });
+
   clState.candidatePairs = [...(clusterDataset.candidatePairs || [])];
   clState.migrationFlows = [...(clusterDataset.migrationFlows || [])];
   clState.kinshipEdges = [...(clusterDataset.kinshipEdges || [])];
@@ -151,6 +196,14 @@ function handleHashNavigation() {
 // ---------------------------------------------------------------------------
 function setClusterFilter(mode) {
   clState.filterMode = mode || 'all';
+  document.querySelectorAll('[data-cluster-filter-btn]').forEach(btn => {
+    const act = btn.dataset.clusterFilterBtn === clState.filterMode;
+    btn.classList.toggle('bg-amber-800', act);
+    btn.classList.toggle('text-white', act);
+    btn.classList.toggle('bg-amber-50', !act);
+    btn.classList.toggle('border', !act);
+    btn.classList.toggle('border-amber-300', !act);
+  });
   renderIdentityTab();
 }
 
@@ -167,29 +220,36 @@ function selectCluster(id) {
 function renderIdentityTab() {
   const listEl = document.getElementById('cluster-list-container');
   const inspEl = document.getElementById('cluster-inspector-container');
+  const cntEl = document.getElementById('cluster-list-count');
   if (!listEl || !inspEl) return;
 
   const q = normStr(clState.searchQuery);
   const filtered = clState.clusters.filter(c => {
     if (clState.filterMode === 'verified' && !c.isVerifiedProfile) return false;
     if (clState.filterMode === 'multi' && c.recordCount < 2) return false;
+    if (clState.filterMode === 'bridges' && !c.isCrossVolumeBridge) return false;
     if (clState.filterMode === 'parish' && c.parishCount < 1) return false;
     if (!q) return true;
-    return normStr(`${c.canonicalName} ${c.primaryHouseNumber} ${c.role} ${(c.variantNames || []).join(' ')}`).includes(q);
+    return normStr(`${c.canonicalName} ${c.primaryHouseNumber} ${c.role} ${(c.sourcesUsed || []).join(' ')} ${(c.childrenNames || []).join(' ')} ${(c.variantNames || []).join(' ')}`).includes(q);
   });
 
-  const shown = filtered.slice(0, 120);
+  const shown = filtered.slice(0, 150);
+  if (cntEl) {
+    cntEl.textContent = `Zobrazeno ${shown.length} z ${filtered.length} identit`;
+  }
   listEl.innerHTML = shown.map(c => {
     const act = c.id === clState.selectedClusterId;
+    const srcText = (c.sourcesUsed || []).join(', ');
     return `
       <button type="button" onclick="selectCluster('${esc(c.id)}')"
         class="w-full text-left p-3 rounded-xl border transition-all cursor-pointer flex items-center justify-between gap-2 ${act ? 'bg-amber-800 text-white border-amber-950 shadow-xs' : 'bg-white hover:bg-amber-50 text-slate-800 border-amber-200'}">
         <div class="min-w-0">
           <div class="flex items-center gap-1.5">
             ${c.isVerifiedProfile ? '<span title="Ověřený biografický profil">⭐</span>' : ''}
+            ${c.isCrossVolumeBridge ? '<span title="Most přes více pramenů / matrik">🌉</span>' : ''}
             <span class="text-xs font-extrabold truncate">${esc(c.canonicalName)}</span>
           </div>
-          <div class="text-[11px] truncate ${act ? 'text-amber-200' : 'text-slate-500'}">čp. ${esc(c.primaryHouseNumber || '-')} • ${esc(c.lifeSpan)}</div>
+          <div class="text-[11px] truncate ${act ? 'text-amber-200' : 'text-slate-500'}">${c.primaryHouseNumber ? `čp. ${esc(c.primaryHouseNumber)}` : esc(srcText || '-')} • ${esc(c.lifeSpan)}</div>
         </div>
         <span class="px-2 py-0.5 rounded-full text-[10px] font-bold shrink-0 ${act ? 'bg-amber-950 text-amber-100' : 'bg-amber-100 text-amber-950'}">${c.recordCount}×</span>
       </button>
@@ -210,6 +270,7 @@ function renderIdentityTab() {
           <div class="flex flex-wrap items-center gap-2 mb-1">
             <span class="px-2.5 py-0.5 rounded-full text-[11px] font-bold border ${sel.categoryBadgeClass || 'bg-amber-100 text-amber-950 border-amber-300'}">${sel.categoryIcon || '🧬'} ${esc(sel.categoryLabel)}</span>
             <span class="px-2 py-0.5 rounded bg-stone-100 font-mono text-[11px] font-bold">${esc(sel.lifeSpan)}</span>
+            ${(sel.sourcesUsed || []).map(src => `<span class="px-2 py-0.5 rounded bg-amber-50 border border-amber-300 font-mono text-[10px] font-bold text-amber-950">${esc(src)}</span>`).join('')}
           </div>
           <h3 class="text-xl font-extrabold font-heading text-slate-900">${esc(sel.canonicalName)}</h3>
           <p class="text-xs text-amber-900 font-semibold">${esc(sel.role || '-')}</p>
@@ -223,23 +284,34 @@ function renderIdentityTab() {
       <div class="grid grid-cols-2 sm:grid-cols-4 gap-2 text-xs">
         <div class="p-2.5 rounded-xl bg-amber-50 border border-amber-200"><span class="text-slate-500 block">Záznamů celkem</span><strong class="text-base">${sel.recordCount}</strong></div>
         <div class="p-2.5 rounded-xl bg-sky-50 border border-sky-200"><span class="text-slate-500 block">Sčítání / Matrika</span><strong class="text-base">${sel.censusCount} / ${sel.parishCount}</strong></div>
-        <div class="p-2.5 rounded-xl bg-emerald-50 border border-emerald-200"><span class="text-slate-500 block">Domovská čp.</span><strong class="text-base">${esc((sel.housesVisited || []).map(x => x.replace('cp', '')).join(', ') || '-')}</strong></div>
+        <div class="p-2.5 rounded-xl bg-emerald-50 border border-emerald-200"><span class="text-slate-500 block">Domovská čp.</span><strong class="text-base">${esc((sel.housesVisited || []).map(x => x.replace('cp', '')).join(', ') || 'před 1770')}</strong></div>
         <div class="p-2.5 rounded-xl bg-stone-100 border border-stone-200"><span class="text-slate-500 block">Archetyp</span><strong class="text-[11px]">${esc(sel.archetypeLabel)}</strong></div>
       </div>
+
+      ${(sel.matchReasons && sel.matchReasons.length) || (sel.childrenNames && sel.childrenNames.length) ? `
+        <div class="p-3 rounded-xl bg-amber-50/70 border border-amber-200 text-xs space-y-1">
+          ${sel.matchReasons && sel.matchReasons.length ? `<div><strong>🔗 Kritéria shody [doc]:</strong> ${sel.matchReasons.map(esc).join(' • ')}</div>` : ''}
+          ${sel.childrenNames && sel.childrenNames.length ? `<div><strong>👶 Děti v matrikách:</strong> ${sel.childrenNames.map(esc).join(', ')}</div>` : ''}
+        </div>
+      ` : ''}
 
       <div class="space-y-2.5">
         <h4 class="text-xs font-extrabold uppercase tracking-wider text-amber-950">📜 Připojené archivní záznamy (${recs.length})</h4>
         ${recs.map(r => `
           <div class="p-3 bg-white rounded-xl border border-amber-200 flex flex-col sm:flex-row sm:items-center justify-between gap-2 text-xs">
             <div>
-              <div class="flex items-center gap-2">
+              <div class="flex flex-wrap items-center gap-2">
                 <span class="px-2 py-0.5 rounded bg-amber-100 text-amber-950 font-mono font-bold">${r.year}</span>
                 <strong class="text-slate-900">${esc(r.sourceTypeLabel)}</strong>
-                <span class="text-slate-500">čp. ${esc(r.houseNumber)}</span>
+                ${r.houseNumber ? `<span class="text-slate-500">čp. ${esc(r.houseNumber)}</span>` : ''}
+                ${r.scan ? `<span class="font-mono text-[10px] text-slate-500">${esc(r.parishSign)} • sn. ${r.scan}</span>` : ''}
               </div>
-              <p class="mt-1 text-slate-700"><strong>${esc(r.fullName)}</strong> • ${esc(r.relation)} • ${esc(r.occupation)}${r.birthPlace ? ` • Nar.: ${esc(r.birthDate)} (${esc(r.birthPlace)})` : ''}</p>
+              <p class="mt-1 text-slate-700"><strong>${esc(r.fullName)}</strong>${r.relation && r.relation !== '-' ? ` • ${esc(r.relation)}` : ''}${r.occupation && r.occupation !== '-' ? ` • ${esc(r.occupation)}` : ''}${r.birthPlace ? ` • Nar.: ${esc(r.birthDate)} (${esc(r.birthPlace)})` : ` • Datace: ${esc(r.birthDate)}`}</p>
             </div>
-            ${r.scanFile ? `<span class="px-2 py-1 rounded bg-amber-50 border border-amber-200 text-[10px] font-mono text-amber-900 shrink-0">${esc(r.scanFile.split('/').pop())}</span>` : ''}
+            <div class="flex flex-wrap items-center gap-1.5 shrink-0">
+              ${r.aronUrl ? `<a href="${esc(r.aronUrl)}" target="_blank" rel="noopener noreferrer" class="px-2 py-1 rounded bg-white hover:bg-amber-100 border border-amber-300 text-[10px] font-bold text-amber-900">ARON ↗</a>` : ''}
+              ${r.scanFile ? `<span class="px-2 py-1 rounded bg-amber-50 border border-amber-200 text-[10px] font-mono text-amber-900">${esc(r.scanFile.split('/').pop())}</span>` : ''}
+            </div>
           </div>
         `).join('')}
       </div>
@@ -323,13 +395,13 @@ function drawTypologyCanvas() {
 
   ctx.fillStyle = '#57534e';
   ctx.font = 'bold 12px Plus Jakarta Sans, sans-serif';
-  ctx.fillText('Historická éra prvního zachycení (1771 → 1921)', W / 2 - 140, H - 18);
+  ctx.fillText('Historická éra prvního zachycení (1591 → 1921)', W / 2 - 145, H - 18);
   ctx.fillText('Počet záznamů / životní rozpětí', 16, 24);
 
   const legendMap = new Map();
   clState.typologyPoints = [];
   clState.clusters.forEach((c, idx) => {
-    const xRatio = Math.max(0, Math.min(1, (c.minYear - 1770) / 155));
+    const xRatio = Math.max(0, Math.min(1, (c.minYear - 1590) / 335));
     const jitterX = ((idx * 37) % 19 - 9) * 1.4;
     const jitterY = ((idx * 53) % 23 - 11) * 2.1;
     const x = 70 + xRatio * (W - 140) + jitterX;

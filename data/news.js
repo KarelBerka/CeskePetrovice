@@ -11,6 +11,63 @@ const newsCategories = [
 
 const newsData = [
   {
+    id: "news_2026_11_25_sjednoceni_osob_1591_1921",
+    date: "2026-11-25",
+    category: "feature",
+    badge: "Propojení osob (1591–1921)",
+    badgeEn: "Identity Linking (1591–1921)",
+    badgeDe: "Personenverknüpfung (1591–1921)",
+    title: "Napojení všech 5 předfarních matrik do Laboratoře osob: ze 11 na 476 sjednocených identit a 90 meziknižních mostů!",
+    titleEn: "All 5 Pre-Parish Registers Connected to Identity Linking: Jumped from 11 to 476 Linked Identities & 90 Cross-Volume Bridges",
+    titleDe: "Alle 5 Vor-Pfarr-Matriken im Verknüpfungs-Labor: Anstieg von 11 auf 476 verknüpfte Identitäten & 90 Buch-Brücken",
+    summary: "Propojovací engine (build_clusters.js) nyní integruje všech 2 622 ověřených zápisů předfarních matrik 1591–1784 (2-8336, 83-1, 83-2, 109-1, 109-2), knihu 23-1 (1771–1784) i sčítání 1869 a 1921 (celkem 3 454 záznamů -> 2 323 clusterů, 3 059 uzlů / 3 578 hran grafu). Počet sjednocených identit vzrostl na 476 (465 vícezáznamových clusterů + 11 profilů): včetně 90 meziknižních mostů, 27 rodin napojených z nekořských matrik až na konkrétní čp. v r. 1771–1784, 49 řetězců sňatek -> křty dětí a plného oddělení tří současníků jménem Josef Šolc (celník, pekař, mlynář).",
+    summaryEn: "The entity-linking engine (build_clusters.js) now unites 2,622 verified pre-parish register records (1591–1784 across 2-8336, 83-1, 83-2, 109-1, 109-2), register 23-1 (1771–1784) and censuses 1869–1921 (3,454 records -> 2,323 clusters, 3,059 nodes / 3,578 graph edges). Linked identities jumped from 11 to 476 (465 multi-record clusters + 11 profiles), including 90 cross-volume bridges, 27 families linked from Nekoř into exact 1771–1784 house numbers, 49 marriage-to-baptism chains, and strict occupational guards.",
+    summaryDe: "Die Verknüpfungs-Engine (build_clusters.js) verbindet nun alle 2.622 gesicherten Vor-Pfarr-Einträge (1591–1784 aus 2-8336, 83-1, 83-2, 109-1, 109-2), Matrik 23-1 (1771–1784) sowie die Zählungen 1869–1921 (3.454 Einträge -> 2.323 Cluster). Die Zahl der verknüpften Identitäten stieg von 11 auf 476 (darunter 90 Übergänge über mehrere Bücher, 27 Hausnummern-Brücken 109-2 -> 23-1, 49 Heirats-Tauf-Ketten sowie saubere Trennung der drei namensgleichen Josef Scholz).",
+    links: [
+      { label: "Laboratoř propojování osob", labelEn: "Identity Lab", labelDe: "Personen-Labor", href: "cluster.html" },
+      { label: "Propojené identity (476)", labelEn: "Linked Identities (476)", labelDe: "Verknüpfte Identitäten (476)", href: "obyvatele.html#linked" },
+      { label: "Matriky 1591–1784", labelEn: "Parish Registers", labelDe: "Matriken 1591–1784", href: "obyvatele.html#parish" }
+    ]
+  },
+  {
+    id: "news_2026_11_24_sonda_demografie_scitani",
+    date: "2026-11-24",
+    category: "analysis",
+    badge: "Demografická sonda (1869–1921)",
+    badgeEn: "Demographic Probe (1869–1921)",
+    badgeDe: "Demografische Sonde (1869–1921)",
+    title: "Demografická sonda ze sčítání: válečný propad porodnosti (−49,4 %), 11letý rozdíl generací a majetková pyramida 137 domů",
+    titleEn: "Census Demographic Probe: −49.4% WWI Birth Drop, 11-Year Generational Gap & 137-House Social Pyramid (1869–1921)",
+    titleDe: "Volkszählungs-Sonde: −49,4 % Kriegsgeburtenrückgang, 11 Jahre Altersabstand & 137-Häuser-Pyramide (1869–1921)",
+    summary: "Nová 6. záložka v sekci Demografie i studie docs/sonda_demografie_scitani_1869_1921.md těží ze všech 467 archových osob r. 1921, kompletního operátu 1910 (531 + 92 nepřítomných, 137 obydl. domů) a vzorku 1869: odhaluje válečný úbytek porodnosti 1915–1918 na polovinu, deficit mužů 30–44 let (67,4 M/100 Ž), 41 vdov vs. 14 vdovců, o 11 let mladší českou menšinu (26 vs. 37 let) v 26 domech, odchod 66,3 % migrantů mimo Předlitavsko i 330letou kontinuitu 9 z top 10 příjmení.",
+    summaryEn: "A new 6th tab in Demography and study docs/sonda_demografie_scitani_1869_1921.md analyze all 467 1921 residents, the complete 1910 census (531 present + 92 absentees, 137 inhabited houses) and the 1869 sample: −49.4% WWI birth collapse (only 2 surviving births from 1916), 30–44 combat-age male deficit (67.4 M/100 F), 41 widows vs. 14 widowers, an 11-year younger Czech median age (26 vs. 37) expanding from 11 to 26 houses, 66.3% cross-border emigration in 1910, and 330-year parish continuity in 9 of the top 10 surnames.",
+    summaryDe: "Ein neuer 6. Tab unter Demografie und die Studie docs/sonda_demografie_scitani_1869_1921.md werten alle 467 Personen von 1921, das vollständige Operat 1910 (531 + 92 Abwesende, 137 bewohnte Häuser) und die Stichprobe 1869 aus: −49,4 % Geburtenrückgang 1915–1918, Männerdefizit bei 30–44-Jährigen (67,4 M/100 F), 41 Witwen vs. 14 Witwer, ein um 11 Jahre jüngerer tschechischer Altersmedian (26 vs. 37 Jahre) in nun 26 Häusern sowie 330 Jahre Kontinuität bei 9 der Top-10-Familiennamen.",
+    links: [
+      { label: "Demografie: Sonda 1869–1921", labelEn: "Demography: 1869–1921 Probe", labelDe: "Demografie: Sonde 1869–1921", href: "demografie.html#sonda" },
+      { label: "Studie s tabulkami (.md)", labelEn: "Full Study (.md)", labelDe: "Studie öffnen (.md)", href: "docs/sonda_demografie_scitani_1869_1921.md" },
+      { label: "Příběh: Hloubkové sondy", labelEn: "Story: Deep Dives", labelDe: "Chronik: Tiefensonden", href: "pribeh.html#story-probes-container" }
+    ]
+  },
+  {
+    id: "news_2026_11_24_sonda_kuriozity_matriky",
+    date: "2026-11-24",
+    category: "analysis",
+    badge: "Badatelská sonda (1591–1944)",
+    badgeEn: "Microhistory Probe (1591–1944)",
+    badgeDe: "Mikrohistorische Sonde (1591–1944)",
+    title: "Archivní zajímavosti na webu: vojáci, celníci, 3 Josefové Šolcové i 21 stop Ahnenpassu (lit. dat 1939–1944)",
+    titleEn: "Archival Highlights Added to the Chronicle: Soldiers, Customs Officers & 21 WWII Ahnenpass Pencil Notes (1591–1944)",
+    titleDe: "Archiv-Funde online: Soldaten, Zöllner, 3 namensgleiche Josef Scholz & 21 Ahnenpass-Vermerke (1591–1944)",
+    summary: "Všech 6 hlavních mikrohistorických objevů z 2 659 zápisů předfarních matrik je nyní zpracováno jako 6 karet s přímými dotazy v Příběhu obce a v nové studii docs/sonda_predfarni_matriky_1591_1784.md: farář Egenhoffer (1621), chrám před r. 1734 (150+ zápisů), pluky Esterházyho a Colloreda, 3 současníci Josefové Šolcové, 21 válečných přípisů lit. dat i záhada kurzivy K/R (Kittner/Kytner).",
+    summaryEn: "All 6 microhistorical discoveries from 2,659 pre-parish register entries are now featured on the Story page with direct filtered links to the Parish Registers table and in docs/sonda_predfarni_matriky_1591_1784.md: pre-1622 married pastor Egenhoffer, pre-1734 church mentions (150+), imperial regiments, customs officers, 21 WWII lit. dat Ahnenpass notes, and the cursive K/R (Kittner/Kytner) finding.",
+    summaryDe: "Alle 6 mikrohistorischen Entdeckungen aus 2.659 Vor-Pfarr-Matrik-Einträgen sind nun mit Direktfiltern auf der Chronik-Seite und in docs/sonda_predfarni_matriky_1591_1784.md zugänglich: verheirateter Pfarrer Egenhoffer (1621), Vorgängerkirche ab 1655, Regimenter Esterházy/Colloredo, Zöllner, 21 NS-Ahnenpass-Notizen (1939–1944) und die K/R-Auflösung Kittner/Kytner.",
+    links: [
+      { label: "Příběh: Zajímavosti & Sondy", labelEn: "Story: Curiosities & Probes", labelDe: "Chronik: Kuriosa & Sonden", href: "pribeh.html#story-facts-container" },
+      { label: "Studie s citacemi (.md)", labelEn: "Deep-Dive Study (.md)", labelDe: "Sonde lesen (.md)", href: "docs/sonda_predfarni_matriky_1591_1784.md" },
+      { label: "Matriky 1591–1784", labelEn: "Parish Registers", labelDe: "Matriken öffnen", href: "obyvatele.html#parish" }
+    ]
+  },
+  {
     id: "news_2026_11_24_matriky_1591_1784_komplet",
     date: "2026-11-24",
     category: "census",

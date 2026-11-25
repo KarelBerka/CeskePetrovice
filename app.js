@@ -40,6 +40,9 @@ let currentParishType = "all";
 let showDisputedParish = true;
 let currentParishPage = 1;
 let parishPageSize = 50;
+let currentLinkedSearch = "";
+let currentLinkedFilter = "all";
+let currentLinkedLimit = 60;
 
 let currentDemographyTab = "dlouhodoby";
 let selectedDemographyPointIdx = null;
@@ -251,6 +254,7 @@ function openPersonModal(personId) {
     if (p.mother && p.mother !== "-") items.push(`<div><span class="text-slate-500">Matka:</span> <strong>${escHtml(p.mother)}</strong></div>`);
     if (p.spouse && p.spouse !== "-") items.push(`<div><span class="text-slate-500">Manžel/ka:</span> <strong>${escHtml(p.spouse)}</strong></div>`);
     if (Array.isArray(p.children) && p.children.length) items.push(`<div class="sm:col-span-2"><span class="text-slate-500">Děti:</span> <strong>${p.children.map(escHtml).join(", ")}</strong></div>`);
+    if (Array.isArray(p.matchReasons) && p.matchReasons.length) items.push(`<div class="sm:col-span-2"><span class="text-slate-500">Propojení [doc]:</span> <strong>${p.matchReasons.map(escHtml).join(" • ")}</strong></div>`);
     famEl.innerHTML = items.join("") || `<div class="text-slate-500 italic">Rodinné vazby rekonstruovány dle sčítacího archu čp. ${escHtml(p.houseNumber || "-")}.</div>`;
   }
 
@@ -269,6 +273,25 @@ function openPersonModal(personId) {
             <p class="text-[10px] text-slate-400 font-mono mt-0.5">${escHtml(ev.source || "")}</p>
           </div>
           ${ev.scanFile ? `<button type="button" onclick="openArchiveViewer('${escHtml(ev.scanFile)}', '${escHtml(ev.scanTitle || p.name)}', '${escHtml(ev.source || "Archiv")}')" class="px-2.5 py-1.5 rounded-lg bg-amber-800 hover:bg-amber-900 text-white text-xs font-bold shrink-0 cursor-pointer">📜 Scan</button>` : ""}
+        </div>
+      `);
+    });
+
+    (p.parishEvents || []).forEach(pe => {
+      cards.push(`
+        <div class="p-3 bg-white rounded-xl border border-amber-200 flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+          <div>
+            <div class="flex flex-wrap items-center gap-2">
+              <span class="px-2 py-0.5 rounded bg-amber-100 text-amber-950 font-mono text-[11px] font-bold">${escHtml(pe.date || pe.year)}</span>
+              <strong class="text-xs text-slate-900">${escHtml(pe.type || "Matrika")}${pe.place ? " • " + escHtml(pe.place) : ""}</strong>
+              ${pe.sign ? `<span class="font-mono text-[10px] text-slate-500">${escHtml(pe.sign)}${pe.scan ? ` • sn. ${pe.scan}` : ""}</span>` : ""}
+            </div>
+            <p class="text-xs text-slate-700 mt-1">${escHtml(pe.description)}</p>
+          </div>
+          <div class="flex items-center gap-1.5 shrink-0">
+            ${pe.aronUrl ? `<a href="${escHtml(pe.aronUrl)}" target="_blank" rel="noopener noreferrer" class="px-2.5 py-1.5 rounded-lg border border-amber-300 bg-white hover:bg-amber-100 text-amber-900 text-xs font-bold">ARON ↗</a>` : ""}
+            ${pe.scanFile ? `<button type="button" onclick="openArchiveViewer('${escHtml(pe.scanFile)}', '${escHtml(pe.scanTitle || p.name)}', '${escHtml(pe.type || "Matrika")}', '', '${escHtml(pe.aronUrl || "")}')" class="px-2.5 py-1.5 rounded-lg bg-amber-800 hover:bg-amber-900 text-white text-xs font-bold cursor-pointer">📜 Scan</button>` : ""}
+          </div>
         </div>
       `);
     });
@@ -374,10 +397,17 @@ function handleStoryAction(act) {
   if (act === "openMapSection") window.location.href = "mapa.html";
   else if (act === "openPeopleSection") window.location.href = "obyvatele.html";
   else if (act === "openDemographySection") window.location.href = "demografie.html";
+  else if (act === "openDemographySonda") window.location.href = "demografie.html#sonda";
   else if (act === "openReferencesSection") window.location.href = "reference.html";
   else if (act === "openGuideTab") window.location.href = "reference.html#pruvodce";
   else if (act === "openParishTab") window.location.href = "obyvatele.html#parish";
-  else if (act === "openClusterLink") window.location.href = "cluster.html";
+  else if (act.startsWith("openParishQuery_")) {
+    const pq = act.slice("openParishQuery_".length);
+    window.location.href = `obyvatele.html?tab=parish&pq=${encodeURIComponent(pq)}#parish`;
+  } else if (act.startsWith("openParishVol_")) {
+    const pvol = act.slice("openParishVol_".length);
+    window.location.href = `obyvatele.html?tab=parish&pvol=${encodeURIComponent(pvol)}#parish`;
+  } else if (act === "openClusterLink") window.location.href = "cluster.html";
   else if (act.startsWith("openHouse_")) {
     const hid = act.replace("openHouse_", "");
     window.location.href = `mapa.html#house=${encodeURIComponent(hid)}`;
@@ -507,7 +537,7 @@ function renderStorySection() {
           <h4 class="text-base font-extrabold font-heading text-slate-900 mt-2">${escHtml(d.title)}</h4>
           <p class="text-xs sm:text-sm text-slate-700 mt-1.5 leading-relaxed">${escHtml(d.summary)}</p>
         </div>
-        <a href="${escHtml(d.href)}" class="self-end px-3 py-1.5 rounded-lg bg-stone-900 hover:bg-amber-900 text-white text-xs font-bold">📄 Otevřít studii / složku →</a>
+        <a href="${escHtml(d.href)}" class="self-end px-3 py-1.5 rounded-lg bg-stone-900 hover:bg-amber-900 text-white text-xs font-bold">${escHtml(d.linkLabel || "📄 Otevřít studii / složku")} →</a>
       </div>
     `).join("");
   }
@@ -1310,24 +1340,73 @@ function renderRegistryTable() {
 
 function renderLinkedPeopleSection() {
   const container = document.getElementById("linked-people-grid");
+  const summaryEl = document.getElementById("linked-people-summary");
+  const pagEl = document.getElementById("linked-people-pagination");
   if (!container || typeof censusLinksData === "undefined") return;
-  const list = (censusLinksData.linkedPeople || []).slice(0, 60);
-  container.innerHTML = list.map(lp => `
-    <div onclick="openPersonModal('${escHtml(lp.id)}')" class="parchment-card p-4 rounded-xl border border-amber-200 hover:border-amber-500 cursor-pointer flex flex-col justify-between gap-2">
-      <div>
-        <div class="flex items-center justify-between text-[11px]">
-          <span class="px-2 py-0.5 rounded bg-amber-100 text-amber-950 font-bold">čp. ${escHtml(lp.houseNumber)}</span>
-          <span class="font-mono text-slate-600">${escHtml(lp.lifeSpan)}</span>
+
+  const st = censusLinksData.stats || {};
+  if (summaryEl) {
+    summaryEl.innerHTML = `
+      <span>
+        <strong>Propojení napříč lety 1591–1921:</strong>
+        Celkem <strong>${st.linkedPeopleCount ?? (censusLinksData.linkedPeople || []).length}</strong> sjednocených identit a rodů
+        (<strong>${st.linkedRecordsCount || 0}</strong> propojených záznamů,
+        <strong>${st.crossVolumeBridgesCount || 0}</strong> meziknižních mostů,
+        <strong>${st.houseBridges23_1Count || 0}</strong> přechodů do čp. 1771–1784)
+        a <strong>${st.probSuggestionsCount || 0}</strong> kandidátů k revizi.
+      </span>
+      <a href="cluster.html" class="underline font-bold text-amber-900 shrink-0">Laboratoř propojování osob →</a>
+    `;
+  }
+
+  const q = normSearch(currentLinkedSearch);
+  const all = censusLinksData.linkedPeople || [];
+  const filtered = all.filter(lp => {
+    if (currentLinkedFilter === "bridges" && !lp.isCrossVolumeBridge) return false;
+    if (currentLinkedFilter === "withcp" && !lp.houseNumber) return false;
+    if (currentLinkedFilter === "verified" && !lp.isVerifiedProfile) return false;
+    if (!q) return true;
+    const blob = normSearch([
+      lp.name, lp.houseNumber ? `cp ${lp.houseNumber}` : "",
+      lp.role, lp.spouse, (lp.children || []).join(" "),
+      (lp.sourcesUsed || []).join(" "), (lp.matchReasons || []).join(" ")
+    ].join(" "));
+    return blob.includes(q);
+  });
+
+  const shown = filtered.slice(0, currentLinkedLimit);
+  container.innerHTML = shown.map(lp => {
+    const locBadge = lp.houseNumber
+      ? `čp. ${escHtml(lp.houseNumber)}`
+      : escHtml((lp.sourcesUsed || []).join(", ") || "před 1770");
+    return `
+      <div onclick="openPersonModal('${escHtml(lp.id)}')" class="parchment-card p-4 rounded-xl border border-amber-200 hover:border-amber-500 cursor-pointer flex flex-col justify-between gap-2">
+        <div>
+          <div class="flex items-center justify-between gap-1 text-[11px]">
+            <div class="flex items-center gap-1 flex-wrap">
+              <span class="px-2 py-0.5 rounded bg-amber-100 text-amber-950 font-bold">${locBadge}</span>
+              ${lp.isCrossVolumeBridge ? `<span class="px-1.5 py-0.5 rounded bg-indigo-100 text-indigo-950 font-bold" title="Most přes více matrik / pramenů">🌉 Most</span>` : ""}
+              ${lp.isVerifiedProfile ? `<span title="Ověřený biografický profil">⭐</span>` : ""}
+            </div>
+            <span class="font-mono text-slate-600 shrink-0">${escHtml(lp.lifeSpan)}</span>
+          </div>
+          <h4 class="text-sm font-extrabold text-slate-900 mt-1.5">${escHtml(lp.name)}</h4>
+          <p class="text-xs text-slate-600 mt-0.5">${escHtml(lp.role || "-")}</p>
         </div>
-        <h4 class="text-sm font-extrabold text-slate-900 mt-1.5">${escHtml(lp.name)}</h4>
-        <p class="text-xs text-slate-600 mt-0.5">${escHtml(lp.role || "-")}</p>
+        <div class="pt-2 border-t border-amber-100 flex items-center justify-between text-[11px]">
+          <span class="text-emerald-800 font-bold">${lp.censusCount}× sčítání • ${lp.parishCount}× matrika</span>
+          <span class="text-amber-800 font-bold">Detail →</span>
+        </div>
       </div>
-      <div class="pt-2 border-t border-amber-100 flex items-center justify-between text-[11px]">
-        <span class="text-emerald-800 font-bold">${lp.censusCount}× sčítání • ${lp.parishCount}× matrika</span>
-        <span class="text-amber-800 font-bold">Detail →</span>
-      </div>
-    </div>
-  `).join("");
+    `;
+  }).join("") || `<div class="sm:col-span-2 lg:col-span-3 p-6 text-center text-xs text-slate-500 bg-white rounded-xl border border-amber-200">Žádná sjednocená identita nevyhovuje zvolenému filtru.</div>`;
+
+  if (pagEl) {
+    const rem = filtered.length - shown.length;
+    pagEl.innerHTML = rem > 0
+      ? `<button type="button" onclick="currentLinkedLimit += 60; renderLinkedPeopleSection();" class="px-4 py-2 rounded-xl bg-amber-800 hover:bg-amber-900 text-white text-xs font-bold cursor-pointer">+ Zobrazit dalších ${Math.min(60, rem)} (celkem ${shown.length} z ${filtered.length})</button>`
+      : (filtered.length ? `<span class="text-[11px] text-slate-500">Zobrazeno všech ${filtered.length} sjednocených identit.</span>` : "");
+  }
 }
 
 function renderPeopleProfiles() {
@@ -1528,6 +1607,18 @@ function initInhabitantsPage() {
     const hInput = document.getElementById("reg-house-filter");
     if (hInput) hInput.value = hq;
   }
+  const pq = params.get("pq");
+  if (pq) {
+    currentParishSearch = pq;
+    const pInput = document.getElementById("parish-search-input");
+    if (pInput) pInput.value = pq;
+  }
+  const pvol = params.get("pvol");
+  if (pvol) {
+    currentParishVol = pvol;
+    const pSel = document.getElementById("parish-vol-select");
+    if (pSel) pSel.value = pvol;
+  }
   renderRegistryTable();
   renderLinkedPeopleSection();
   renderPeopleProfiles();
@@ -1536,6 +1627,8 @@ function initInhabitantsPage() {
   const tabParam = params.get("tab");
   if (window.location.hash === "#parish" || tabParam === "parish") {
     switchInhabitantsTab("parish");
+  } else if (window.location.hash === "#linked" || tabParam === "linked") {
+    switchInhabitantsTab("linked");
   } else if (window.location.hash.startsWith("#person=")) {
     openPersonModal(decodeURIComponent(window.location.hash.slice(8)));
   }
@@ -1801,6 +1894,226 @@ function renderDemographySection() {
       </div>
     `).join("");
   }
+
+  renderDemographyCensusProbe();
+}
+
+function renderDemographyCensusProbe() {
+  const box = document.getElementById("demo-sonda-box");
+  const probe = typeof demographyData !== "undefined" ? demographyData.censusProbe : null;
+  if (!box || !probe) return;
+
+  const nat = probe.wwiNatality;
+  const maxNat = Math.max(1, ...nat.years.map(y => y.count));
+  const svgW = 540, svgH = 195, padL = 28, padR = 14, padT = 20, padB = 28;
+  const plotW = svgW - padL - padR, plotH = svgH - padT - padB;
+  const barStep = plotW / nat.years.length;
+  const barW = Math.max(20, barStep - 10);
+  const phaseColors = { pre: "#1e3a8a", war: "#be123c", post: "#059669" };
+
+  const wh = probe.widowhoodAndHeads;
+  const gg = probe.generationalGapAndFaith;
+  const ht = probe.houseTurnover;
+  const wv = probe.weavingShift1914_21;
+
+  const cpBadge = (cp, extraCls = "bg-amber-50 hover:bg-amber-100 text-amber-950 border-amber-300") =>
+    `<a href="mapa.html#house=cp${encodeURIComponent(cp)}" class="inline-block px-2 py-0.5 rounded border font-mono text-[11px] font-bold ${extraCls}">čp. ${escHtml(cp)}</a>`;
+
+  box.innerHTML = `
+    <div class="parchment-card p-5 rounded-2xl border border-amber-200 space-y-4">
+      <div class="flex flex-col md:flex-row md:items-center justify-between gap-3">
+        <div>
+          <span class="px-2.5 py-0.5 rounded-full bg-amber-100 text-amber-950 text-[11px] font-bold border border-amber-300">🔬 Mikrodemografická sonda [doc] • 1869, 1910 (PO/PZ) &amp; 1921 (467 os.)</span>
+          <h3 class="text-lg sm:text-xl font-extrabold font-heading text-slate-900 mt-1.5">Hlubinná analýza sčítacích operátů (1869–1921)</h3>
+          <p class="text-xs text-slate-600">Válečné ztráty mužů a porodnosti, generační zlom Čechů a Němců, přeshraniční odliv za hranice, majetková pyramida 137 domů i 330letá rodová kontinuita.</p>
+        </div>
+        <a href="${escHtml(probe.studyHref)}" target="_blank" class="shrink-0 px-3.5 py-2 rounded-xl bg-stone-900 hover:bg-amber-900 text-white text-xs font-bold text-center">📄 Celá studie s tabulkami (.md) ↗</a>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
+        ${probe.kpis.map(k => `
+          <div class="p-3.5 rounded-xl bg-white border border-amber-200">
+            <span class="text-[11px] font-bold uppercase text-amber-900">${escHtml(k.label)}</span>
+            <div class="text-xl font-extrabold text-slate-950 mt-0.5">${escHtml(k.value)}</div>
+            <p class="text-[11px] text-slate-600 mt-1">${escHtml(k.detail)}</p>
+          </div>
+        `).join("")}
+      </div>
+    </div>
+
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-5">
+      <div class="lg:col-span-6 parchment-card p-5 rounded-2xl border border-amber-200 space-y-3">
+        <div class="flex flex-wrap items-center justify-between gap-2">
+          <h4 class="text-base font-extrabold font-heading text-slate-900">🍼 Válečný propad porodnosti 1915–1918 (−49,4 %)</h4>
+          <span class="text-[11px] font-mono font-bold px-2 py-0.5 rounded bg-rose-100 text-rose-950">4,25 vs. 8,4 dětí/rok</span>
+        </div>
+        <p class="text-xs text-slate-600">Počet dětí z jednotlivých ročníků narození 1910–1920 dochovaných k 15. 2. 1921 [doc]. Rok 1916 spadl na pouhé 2 děti; poválečná léta 1919–1920 se ihned vrátila na ${nat.postAvg} dětí/rok.</p>
+        <svg viewBox="0 0 ${svgW} ${svgH}" class="w-full h-auto bg-white rounded-xl border border-amber-200">
+          ${[0, 3, 6, 9, 12].map(v => {
+            const y = (padT + plotH - (v / maxNat) * plotH).toFixed(1);
+            return `<line x1="${padL}" y1="${y}" x2="${svgW - padR}" y2="${y}" stroke="#f1f5f9" /><text x="${padL - 5}" y="${+y + 4}" text-anchor="end" font-size="10" fill="#64748b">${v}</text>`;
+          }).join("")}
+          ${nat.years.map((item, idx) => {
+            const bh = (item.count / maxNat) * plotH;
+            const x = (padL + idx * barStep + (barStep - barW) / 2).toFixed(1);
+            const y = (padT + plotH - bh).toFixed(1);
+            const cx = (padL + idx * barStep + barStep / 2).toFixed(1);
+            const fill = phaseColors[item.phase] || "#475569";
+            return `<rect x="${x}" y="${y}" width="${barW.toFixed(1)}" height="${bh.toFixed(1)}" rx="3" fill="${fill}" opacity="0.9"><title>${item.year}: ${item.count} dětí v r. 1921</title></rect>
+              <text x="${cx}" y="${Math.max(12, +y - 4)}" text-anchor="middle" font-size="10" font-weight="bold" fill="${fill}">${item.count}</text>
+              <text x="${cx}" y="${svgH - 9}" text-anchor="middle" font-size="10" fill="#334155">${String(item.year).slice(2)}</text>`;
+          }).join("")}
+        </svg>
+        <p class="text-[11px] text-slate-600 italic">👶 ${escHtml(nat.feb1921Note)}</p>
+      </div>
+
+      <div class="lg:col-span-6 parchment-card p-5 rounded-2xl border border-amber-200 space-y-3">
+        <div class="flex flex-wrap items-center justify-between gap-2">
+          <h4 class="text-base font-extrabold font-heading text-slate-900">⚔️ Kráter bojové generace &amp; vdovství (1921)</h4>
+          <span class="text-[11px] font-mono font-bold px-2 py-0.5 rounded bg-indigo-100 text-indigo-950">${wh.widows} vdov : ${wh.widowers} vdovců</span>
+        </div>
+        <div class="space-y-1.5 text-xs">
+          ${probe.sexCohorts1921.map(c => `
+            <div class="p-2 rounded-lg bg-white border ${c.label.includes("30–44") ? "border-rose-300 bg-rose-50/40" : "border-amber-100"}">
+              <div class="flex flex-wrap items-center justify-between gap-2">
+                <strong class="text-slate-900">${escHtml(c.label)}</strong>
+                <div class="flex items-center gap-1.5 font-mono text-[11px] font-bold">
+                  <span class="px-1.5 py-0.5 rounded bg-sky-100 text-sky-950">${c.m} M</span>
+                  <span class="px-1.5 py-0.5 rounded bg-rose-100 text-rose-950">${c.f} Ž</span>
+                  <span class="px-1.5 py-0.5 rounded bg-stone-100 text-slate-800">${escHtml(c.ratio)} M/100Ž</span>
+                </div>
+              </div>
+              <p class="text-[11px] text-slate-600 mt-0.5">${escHtml(c.note)}</p>
+            </div>
+          `).join("")}
+        </div>
+        <div class="p-3 rounded-xl bg-amber-50/80 border border-amber-200 text-xs space-y-1.5">
+          <div><strong>👩 Ženy v čele domácností:</strong> z ${wh.inhabitedHouses} obydlených domů stála žena v čele u <strong>${wh.femaleHeadHouses} domů (27,7 %)</strong>, z toho <strong>${wh.widowHeadHouses}</strong> vdov.</div>
+          <div><strong>🎂 Nejstarší:</strong> ${wh.oldest.map(o => `${escHtml(o.name)} (${cpBadge(o.cp)}, *${escHtml(o.birth)})`).join(" · ")}</div>
+          <div><strong>👶 Nejmladší:</strong> ${wh.youngest.map(y => `${escHtml(y.name)} (${cpBadge(y.cp)}, *${escHtml(y.birth)})`).join(" · ")}</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-5">
+      <div class="lg:col-span-5 parchment-card p-5 rounded-2xl border border-amber-200 space-y-3">
+        <h4 class="text-base font-extrabold font-heading text-slate-900">🇨🇿🇩🇪 Dvě generace &amp; konec 100% katolicismu</h4>
+        <div class="grid grid-cols-2 gap-2.5 text-xs">
+          <div class="p-3 rounded-xl bg-sky-50 border border-sky-200">
+            <span class="text-sky-900 font-bold block">Němci (1921, n=387)</span>
+            <strong class="text-lg text-sky-950">medián ${gg.deMedian} let</strong>
+            <span class="block text-[11px] text-slate-600">průměr ${gg.deMean} let · spíše stárnoucí populace</span>
+          </div>
+          <div class="p-3 rounded-xl bg-emerald-50 border border-emerald-200">
+            <span class="text-emerald-900 font-bold block">Češi (1921, n=68)</span>
+            <strong class="text-lg text-emerald-950">medián ${gg.csMedian} let</strong>
+            <span class="block text-[11px] text-slate-600">průměr ${gg.csMean} let · o 11 let mladší!</span>
+          </div>
+        </div>
+        <div class="p-3 rounded-xl bg-white border border-amber-200 text-xs space-y-1.5">
+          <div><strong>🏡 Šíření češtiny v domech (1910 → 1921):</strong> z <strong>${gg.csHouses1910} domů</strong> (${gg.csPure1910} čistě CS + ${gg.csMixed1910} smíš.) na <strong>${gg.csHouses1921} domů</strong> (${gg.csPure1921} čistě CS + ${gg.csMixed1921} smíš.).</div>
+          <div><strong>🧳 Poválečná vlna 1918–1921:</strong> <strong>${gg.csMigrants1918_21}</strong> doložených českých přistěhovalců (finanční stráž &amp; učitel J. Gruber ${cpBadge("160")}, truhlář J. Liebich ${cpBadge("141")}) vs. ${gg.deMigrants1918_21} německých.</div>
+          <div><strong>⛪ Vyznání 1910 → 1921:</strong> ${escHtml(gg.faith1910)} → ${escHtml(gg.faith1921)}.</div>
+        </div>
+      </div>
+
+      <div class="lg:col-span-7 parchment-card p-5 rounded-2xl border border-amber-200 space-y-3">
+        <h4 class="text-base font-extrabold font-heading text-slate-900">🐐 Majetková pyramida 137 domů (1910) &amp; ústup tkalců (1914→1921)</h4>
+        <div class="space-y-2 text-xs">
+          ${probe.livestockTiers1910.map(t => `
+            <div class="p-2.5 rounded-xl bg-white border border-amber-100 space-y-1">
+              <div class="flex justify-between font-bold text-slate-900">
+                <span>${escHtml(t.tier)}</span>
+                <span class="font-mono">${t.houses} domů (${t.pct} %)</span>
+              </div>
+              <div class="w-full h-2.5 bg-stone-100 rounded-full overflow-hidden"><div class="h-full rounded-full" style="width:${t.pct}%;background:${t.color}"></div></div>
+              <p class="text-[11px] text-slate-600">${escHtml(t.note)}</p>
+            </div>
+          `).join("")}
+        </div>
+        <div class="p-3 rounded-xl bg-amber-50/70 border border-amber-200 text-xs space-y-1">
+          <div><strong>🧵 Odliv z tkalcovství 1914 → 1921:</strong> Ze ${wv.with1914Data} osob s údajem r. 1914 pracovalo před válkou v textilu ${wv.from1914} – do r. 1921 jich <strong>${wv.left} (40 %)</strong> obor opustilo (${wv.stayed} zůstalo):</div>
+          <ul class="list-disc pl-4 text-[11px] text-slate-700 space-y-0.5">
+            ${wv.examples.map(ex => `<li>${escHtml(ex)}</li>`).join("")}
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-5">
+      <div class="lg:col-span-6 parchment-card p-5 rounded-2xl border border-amber-200 space-y-3">
+        <h4 class="text-base font-extrabold font-heading text-slate-900">🧭 Přeshraniční migrace (Hilfsausweis 1910 &amp; rodiště 1921)</h4>
+        <div class="space-y-2 text-xs">
+          <div class="font-bold text-amber-950">Kam odešlo 92 nepřítomných domovských příslušníků (1910):</div>
+          ${probe.migration1910Hilfsausweis.map(m => `
+            <div class="space-y-0.5">
+              <div class="flex justify-between"><span>${escHtml(m.label)}</span><strong class="font-mono">${m.total} os. (${m.permanent} trv. + ${m.temporary} doč. · ${m.pct} %)</strong></div>
+              <div class="w-full h-2.5 bg-stone-100 rounded-full overflow-hidden"><div class="h-full rounded-full" style="width:${m.pct}%;background:${m.color}"></div></div>
+            </div>
+          `).join("")}
+        </div>
+        <div class="pt-2 border-t border-amber-100 space-y-1.5 text-xs">
+          <div class="font-bold text-amber-950">Rodiště obyvatel r. 1921 (n=266 určených rodišť):</div>
+          ${probe.birthplaces1921.map(b => `
+            <div class="flex items-center justify-between gap-2 p-1.5 rounded bg-white border border-amber-100">
+              <span class="font-semibold text-slate-800">${escHtml(b.label)}</span>
+              <span class="font-mono text-[11px] font-bold text-slate-700">${b.total} (${b.pct} % · ${b.de} DE / ${b.cs} CS)</span>
+            </div>
+          `).join("")}
+          <p class="text-[11px] text-slate-600 italic">${escHtml(probe.foreigners1921Note)}</p>
+        </div>
+      </div>
+
+      <div class="lg:col-span-6 parchment-card p-5 rounded-2xl border border-amber-200 space-y-3">
+        <h4 class="text-base font-extrabold font-heading text-slate-900">🏚️ Proměny domů (1869–1921) &amp; panel 15 usedlostí</h4>
+        <div class="grid grid-cols-3 gap-2 text-xs">
+          ${ht.density.map(d => `
+            <div class="p-2.5 rounded-xl bg-white border border-amber-200 text-center">
+              <span class="font-mono text-[11px] font-bold text-amber-900">${escHtml(d.year)}</span>
+              <div class="text-lg font-extrabold text-slate-950">${escHtml(d.avgPerHouse)} <span class="text-[11px] font-normal">os./dům</span></div>
+              <span class="text-[10px] text-slate-500 block">${escHtml(d.note)}</span>
+            </div>
+          `).join("")}
+        </div>
+        <div class="p-3 rounded-xl bg-white border border-amber-200 text-xs space-y-2">
+          <div><strong>🧑 Samotáři (jednočlenné domy):</strong> z <strong>${ht.singlePersonHouses1910}</strong> (1910) na <strong>${ht.singlePersonHouses1921}</strong> (1921 · téměř 3× více!).</div>
+          <div><strong>🚪 Vyprázdněné 1910→1921 (${ht.emptied.length}):</strong> ${ht.emptied.map(cp => cpBadge(cp, "bg-rose-50 hover:bg-rose-100 text-rose-950 border-rose-200")).join(" ")}</div>
+          <div><strong>🔑 Znovu obsazené (${ht.reoccupied.length}):</strong> ${ht.reoccupied.map(cp => cpBadge(cp, "bg-emerald-50 hover:bg-emerald-100 text-emerald-950 border-emerald-200")).join(" ")} · <strong>Prázdné v obou:</strong> ${ht.bothEmpty.map(cp => cpBadge(cp)).join(" ")}</div>
+          <ul class="list-disc pl-4 text-[11px] text-slate-700 space-y-0.5 pt-1">
+            ${ht.highlights.map(h => `<li>${escHtml(h)}</li>`).join("")}
+          </ul>
+        </div>
+        <div class="p-3 rounded-xl bg-emerald-50/70 border border-emerald-200 text-xs">
+          <strong>📊 15domovní panel 1869 → 1910 → 1921:</strong> obyvatelstvo <strong>${ht.panel15.pop1869} → ${ht.panel15.pop1910} → ${ht.panel15.pop1921}</strong>, skot <strong>${ht.panel15.cattle1869} → ${ht.panel15.cattle1910} (+75 %)</strong>. <span class="text-slate-600">${escHtml(ht.panel15.note)}</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="parchment-card p-5 rounded-2xl border border-amber-200 space-y-3">
+      <div class="flex flex-wrap items-center justify-between gap-2">
+        <h4 class="text-base font-extrabold font-heading text-slate-900">🧬 Koncentrace příjmení roku 1921 a 330 let kontinuity (1591–1921)</h4>
+        <span class="text-[11px] font-mono font-bold px-2 py-0.5 rounded bg-amber-100 text-amber-950">Top 10 = 150 / 467 obyv. (32,1 %)</span>
+      </div>
+      <p class="text-xs text-slate-600">Devět z deseti uvedených nejpočetnějších rodů roku 1921 má přímou předbělohorskou či barokní kontinuitu v pěti předfarních matrikách 1591–1784 (na dělené 7.–11. příčce s 9 osobami stojí rovněž poválečný či mladší rod Houdek ve 2 domech) [doc]. Kliknutím přejdete na záznamy rodu před rokem 1784.</p>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-2.5 text-xs">
+        ${probe.topSurnames1921.map((s, idx) => `
+          <div class="p-3 rounded-xl bg-white border border-amber-200 flex flex-col justify-between gap-2">
+            <div>
+              <div class="flex items-center justify-between">
+                <strong class="text-sm text-slate-950">${idx + 1}. ${escHtml(s.surname)}</strong>
+                <span class="font-mono text-[11px] font-bold px-1.5 py-0.5 rounded bg-amber-100 text-amber-950">${s.people} os.</span>
+              </div>
+              <div class="text-[11px] text-slate-600 mt-1">${s.houses} domů r. 1921</div>
+              <div class="text-[11px] mt-0.5 ${s.earliestYear ? "text-emerald-900 font-semibold" : "text-slate-500 italic"}">
+                ${s.earliestYear ? `od r. ${s.earliestYear} (${s.pre1784Count}× do 1784)` : "až po r. 1784"}
+              </div>
+            </div>
+            ${s.parishQuery ? `<a href="obyvatele.html?tab=parish&pq=${encodeURIComponent(s.parishQuery)}#parish" class="text-[11px] font-bold text-amber-800 hover:underline">📜 Matriky 1591–1784 →</a>` : `<span class="text-[11px] text-slate-400">Bez zápisu do 1784</span>`}
+          </div>
+        `).join("")}
+      </div>
+    </div>
+  `;
 }
 
 // --------------------------------------------------------------------------
@@ -1999,6 +2312,12 @@ document.addEventListener("DOMContentLoaded", () => {
     initInhabitantsPage();
   } else if (page === "demography") {
     renderDemographySection();
+    const demoHash = (window.location.hash || "").replace(/^#/, "");
+    const demoParam = new URLSearchParams(window.location.search).get("tab");
+    const targetDemo = demoParam || demoHash;
+    if (["dlouhodoby", "struktura1921", "jazyk1910", "hospodarstvi", "krize", "sonda"].includes(targetDemo)) {
+      switchDemographyTab(targetDemo);
+    }
   } else if (page === "references") {
     renderReferencesSection();
     if (window.location.hash === "#pruvodce") switchReferenceTab("pruvodce");
